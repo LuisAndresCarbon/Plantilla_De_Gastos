@@ -137,9 +137,9 @@ Screen_Perfiles As screen:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            DisabledFill: =RGBA(87,17,72,3)
+            DisabledFill: =RGBA(0,148,110,87)
             DisplayMode: =DisplayMode.Disabled
-            Fill: =RGBA(87,17,72,3)
+            Fill: =RGBA(0,148,110,87)
             FocusedBorderThickness: =4
             Height: =92
             HoverFill: =RGBA(73, 130, 5, 1)
@@ -211,9 +211,9 @@ Screen_Perfiles As screen:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            DisabledFill: =RGBA(87,17,72,3)
+            DisabledFill: =RGBA(0,148,110,87)
             DisplayMode: =DisplayMode.Disabled
-            Fill: =RGBA(87,17,72,3)
+            Fill: =RGBA(0,148,110,87)
             FocusedBorderThickness: =4
             Height: =92
             HoverFill: =RGBA(73, 130, 5, 1)
