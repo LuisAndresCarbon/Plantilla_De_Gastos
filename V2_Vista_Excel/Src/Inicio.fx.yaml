@@ -275,7 +275,7 @@ Inicio As screen:
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
         OnSelect: |-
             =If(
-                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May", "Rosalba Diaz","Carlos Alfredo"],
+                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May", "Rosalba Diaz","Carlos Alfredo Avila Alfonso"],
                 Reset(Dropdown7);
                 Reset(Dropdown8);
                 Reset(TextInput19);

@@ -86,7 +86,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button5",
-      "ParentIndex": 14,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -295,38 +295,17 @@
         "HoverBorderColor",
         "BorderStyle",
         "FocusedBorderColor",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Color",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Color",
         "DisabledColor",
         "PressedColor",
         "HoverColor",
         "DisplayMode",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Fill",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Fill",
         "DisabledFill",
         "PressedFill",
         "HoverFill",
         "Font",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "FontWeight",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "FontWeight",
         "Align",
         "VerticalAlign",
         "X",
@@ -384,7 +363,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button5_3",
-      "ParentIndex": 4,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -588,26 +567,12 @@
         "HoverBorderColor",
         "BorderStyle",
         "FocusedBorderColor",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Color",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Color",
         "DisabledColor",
         "PressedColor",
         "HoverColor",
         "DisplayMode",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Fill",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Fill",
         "DisabledFill",
         "PressedFill",
         "HoverFill",
@@ -874,26 +839,12 @@
         "HoverBorderColor",
         "BorderStyle",
         "FocusedBorderColor",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Color",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Color",
         "DisabledColor",
         "PressedColor",
         "HoverColor",
         "DisplayMode",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Fill",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Fill",
         "DisabledFill",
         "PressedFill",
         "HoverFill",
@@ -956,7 +907,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button5_5",
-      "ParentIndex": 2,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1160,38 +1111,17 @@
         "HoverBorderColor",
         "BorderStyle",
         "FocusedBorderColor",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Color",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Color",
         "DisabledColor",
         "PressedColor",
         "HoverColor",
         "DisplayMode",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Fill",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Fill",
         "DisabledFill",
         "PressedFill",
         "HoverFill",
         "Font",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "FontWeight",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "FontWeight",
         "Align",
         "VerticalAlign",
         "X",
@@ -1249,7 +1179,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button5_6",
-      "ParentIndex": 8,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1453,26 +1383,12 @@
         "HoverBorderColor",
         "BorderStyle",
         "FocusedBorderColor",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Color",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Color",
         "DisabledColor",
         "PressedColor",
         "HoverColor",
         "DisplayMode",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Fill",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Fill",
         "DisabledFill",
         "PressedFill",
         "HoverFill",
@@ -1528,7 +1444,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button7",
-      "ParentIndex": 9,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1732,26 +1648,12 @@
         "HoverBorderColor",
         "BorderStyle",
         "FocusedBorderColor",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Color",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Color",
         "DisabledColor",
         "PressedColor",
         "HoverColor",
         "DisplayMode",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Fill",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Fill",
         "DisabledFill",
         "PressedFill",
         "HoverFill",
@@ -1815,7 +1717,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button7_1",
-      "ParentIndex": 13,
+      "ParentIndex": 15,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2101,7 +2003,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button7_2",
-      "ParentIndex": 15,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2513,23 +2415,9 @@
           "NameMapSourceSchema": "?"
         },
         "ImageRotation",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "X",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "X",
         "Y",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Width",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Width",
         "Height",
         "Fill",
         "DisabledFill",
@@ -2564,7 +2452,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image5",
-      "ParentIndex": 5,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2738,22 +2626,8 @@
         "ImageRotation",
         "X",
         "Y",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Width",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Height",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Width",
+        "Height",
         "Fill",
         "DisabledFill",
         "PressedFill",
@@ -2787,7 +2661,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image5_1",
-      "ParentIndex": 10,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2961,22 +2835,8 @@
         "ImageRotation",
         "X",
         "Y",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Width",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Height",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Width",
+        "Height",
         "Fill",
         "DisabledFill",
         "PressedFill",
@@ -3010,7 +2870,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image5_2",
-      "ParentIndex": 3,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3184,22 +3044,8 @@
         "ImageRotation",
         "X",
         "Y",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Width",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Height",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Width",
+        "Height",
         "Fill",
         "DisabledFill",
         "PressedFill",
@@ -3233,7 +3079,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image5_3",
-      "ParentIndex": 7,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3393,22 +3239,8 @@
         "ImageRotation",
         "X",
         "Y",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Width",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Height",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Width",
+        "Height",
         "Fill",
         "DisabledFill",
         "PressedFill",
@@ -3602,22 +3434,8 @@
         "ImageRotation",
         "X",
         "Y",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Width",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Height",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Width",
+        "Height",
         "Fill",
         "DisabledFill",
         "PressedFill",
@@ -3659,7 +3477,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image9",
-      "ParentIndex": 11,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3928,7 +3746,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle6",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
