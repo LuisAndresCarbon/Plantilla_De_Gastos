@@ -28,9 +28,9 @@ Screen_base_compaq As screen:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            DisabledFill: =RGBA(46, 82, 3, 1)
+            DisabledFill: =RGBA(0,148,110,87)
             DisplayMode: =DisplayMode.Disabled
-            Fill: =RGBA(46, 82, 3, 1)
+            Fill: =RGBA(0,148,110,87)
             FocusedBorderThickness: =4
             Height: =92
             HoverFill: =RGBA(73, 130, 5, 1)
@@ -855,9 +855,9 @@ Screen_base_compaq As screen:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            DisabledFill: =RGBA(46, 82, 3, 1)
+            DisabledFill: =RGBA(0,148,110,87)
             DisplayMode: =DisplayMode.Disabled
-            Fill: =RGBA(46, 82, 3, 1)
+            Fill: =RGBA(0,148,110,87)
             FocusedBorderThickness: =4
             Height: =66
             HoverFill: =RGBA(73, 130, 5, 1)
