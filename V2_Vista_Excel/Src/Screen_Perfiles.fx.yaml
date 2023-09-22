@@ -1,0 +1,719 @@
+Screen_Perfiles As screen:
+    Fill: =RGBA(227,240,234,1)
+    LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
+
+    Rectangle3_3 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(182, 205, 155, 1)
+        DisplayMode: =DisplayMode.Disabled
+        Fill: =RGBA(73, 130, 5, 1)
+        FocusedBorderThickness: =4
+        Height: =76
+        HoverFill: =RGBA(73, 130, 5, 1)
+        PressedFill: =RGBA(73, 130, 5, 1)
+        Width: =1366
+        Y: =82
+        ZIndex: =1
+
+    ComboBox1_5 As combobox:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        ChevronBackground: =RGBA(255, 255, 255, 1)
+        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+        ChevronFill: =RGBA(33, 33, 33, 1)
+        ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+        ChevronHoverFill: =RGBA(33, 33, 33, 1)
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayFields: =["Result"]
+        Font: =Font.'Segoe UI'
+        Height: =48
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(212, 212, 212, 1)
+        InputTextPlaceholder: ="Título"
+        Items: |
+            =Sort(ForAll(Distinct('Perfil entrega de facturas',Título), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
+        NoSelectionText: ="Título"
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(73, 130, 5, 1)
+        SearchFields: =["Result"]
+        SearchItems: |-
+            =Search(Sort(ForAll(Distinct('Perfil entrega de facturas',Título), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
+            ,ComboBox1_5.SearchText,"Result")
+        SelectionFill: =RGBA(73, 130, 5, 1)
+        SelectMultiple: =false
+        Size: =13
+        Width: =150
+        X: =12
+        Y: =100
+        ZIndex: =2
+
+    ComboBox1_6 As combobox:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        ChevronBackground: =RGBA(255, 255, 255, 1)
+        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+        ChevronFill: =RGBA(33, 33, 33, 1)
+        ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+        ChevronHoverFill: =RGBA(33, 33, 33, 1)
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayFields: =["Result"]
+        Font: =Font.'Segoe UI'
+        Height: =48
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(212, 212, 212, 1)
+        InputTextPlaceholder: ="Colaborador"
+        Items: |
+            =Sort(ForAll(Distinct('Perfil entrega de facturas',Colaborador.DisplayName), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(73, 130, 5, 1)
+        SearchFields: =["Result"]
+        SearchItems: |-
+            =Search(Sort(ForAll(Distinct('Perfil entrega de facturas',Colaborador.DisplayName), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
+            ,ComboBox1_6.SearchText,"Result")
+        SelectionFill: =RGBA(73, 130, 5, 1)
+        SelectMultiple: =false
+        Size: =13
+        Width: =150
+        X: =186
+        Y: =100
+        ZIndex: =3
+
+    ComboBox1_7 As combobox:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        ChevronBackground: =RGBA(255, 255, 255, 1)
+        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+        ChevronFill: =RGBA(33, 33, 33, 1)
+        ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+        ChevronHoverFill: =RGBA(33, 33, 33, 1)
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayFields: =["Result"]
+        Font: =Font.'Segoe UI'
+        Height: =48
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(212, 212, 212, 1)
+        InputTextPlaceholder: ="No. de Reembolso"
+        Items: |
+            =Sort(ForAll(Distinct('Perfil entrega de facturas','No. De Reembolso'), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(73, 130, 5, 1)
+        SearchFields: =["Result"]
+        SearchItems: |-
+            =Search(Sort(ForAll(Distinct('Perfil entrega de facturas','No. De Reembolso'), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
+            ,ComboBox1_7.SearchText,"Result")
+        SelectionFill: =RGBA(73, 130, 5, 1)
+        SelectMultiple: =false
+        Size: =13
+        Width: =150
+        X: =364
+        Y: =100
+        ZIndex: =4
+
+    Encabezado_6 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =6
+
+        Rectangle2_11 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(46, 82, 3, 1)
+            DisplayMode: =DisplayMode.Disabled
+            Fill: =RGBA(46, 82, 3, 1)
+            FocusedBorderThickness: =4
+            Height: =92
+            HoverFill: =RGBA(73, 130, 5, 1)
+            PressedFill: =RGBA(73, 130, 5, 1)
+            Width: =1366
+            ZIndex: =5
+
+        Image10_6 As image:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =92
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: ='Logo Horizontal Texto Blanco1'
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =322
+            X: =12
+            ZIndex: =6
+
+        Label15_6 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =36
+            Size: =13
+            Text: =User().FullName
+            Width: =188
+            X: =1061
+            Y: =28
+            ZIndex: =7
+
+        Image12_6 As image:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =76
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: =Persona
+            ImagePosition: =ImagePosition.Fill
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =101
+            X: =1249
+            Y: =8
+            ZIndex: =8
+
+    Final_5 As group:
+        Height: =5
+        Width: =5
+        X: =-26
+        Y: =40
+        ZIndex: =8
+
+        Rectangle2_12 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(46, 82, 3, 1)
+            DisplayMode: =DisplayMode.Disabled
+            Fill: =RGBA(46, 82, 3, 1)
+            FocusedBorderThickness: =4
+            Height: =92
+            HoverFill: =RGBA(73, 130, 5, 1)
+            PressedFill: =RGBA(73, 130, 5, 1)
+            Width: =1366
+            X: =
+            Y: =676
+            ZIndex: =9
+
+        Button3_5 As button:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+            OnSelect: =Navigate(Inicio,ScreenTransition.CoverRight)
+            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
+            Size: =15
+            Text: ="Regresar"
+            X: =26
+            Y: =702
+            ZIndex: =10
+
+    Gallery_perfiles As gallery.galleryVertical:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        DelayItemLoading: =true
+        Height: =518
+        Items: |-
+            =If(
+                Switch(
+                    true,
+                    VarAdmi = "Jefe",
+                    true,
+                    VarAdmi = "Programador",
+                    true,
+                    VarAdmi = "Contador",
+                    true,
+                    VarAdmi = "Vip",
+                    true
+                ),
+                Filter(
+                    'Perfil entrega de facturas',
+                    (Título = ComboBox1_5.Selected.Result || ComboBox1_5.Selected.Result = Blank()) &&
+                    (Colaborador.DisplayName = ComboBox1_6.Selected.Result || ComboBox1_6.Selected.Result = Blank()) &&
+                    ('No. De Reembolso' = ComboBox1_7.Selected.Result || ComboBox1_7.Selected.Result = Blank ()) &&
+                    (Mes.Value = ComboBox1_10.Selected.Result || ComboBox1_10.Selected.Result = Blank ()) &&
+                    (Año = ComboBox6.Selected.Result || ComboBox6.Selected.Result = Blank ())
+                ),
+                Filter(
+                    'Perfil entrega de facturas',
+                    (Título = ComboBox1_5.Selected.Result || ComboBox1_5.Selected.Result = Blank()) && (Colaborador.DisplayName = Label15_6.Text) && ('No. De Reembolso' = ComboBox1_7.Selected.Result || ComboBox1_7.Selected.Result = Blank ()) && (Mes.Value = ComboBox1_10.Selected.Result || ComboBox1_10.Selected.Result = Blank ()) && (Año = ComboBox6.Selected.Result || ComboBox6.Selected.Result = Blank ())
+                )
+            )
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateFill: |-
+            = If(ThisItem.IsSelected,RGBA(138,212,175,5), RGBA(0, 0, 0, 0))
+             //RGBA(0, 0, 0, 0)  RGBA(138,212,175,5)
+        TemplateSize: =104
+        Transition: =Transition.Pop
+        Width: =1366
+        Y: =158
+        ZIndex: =14
+
+        Label30 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            FontWeight: =FontWeight.Bold
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.Título
+            X: =88
+            Y: =8
+            ZIndex: =1
+
+        Label35 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.Colaborador.DisplayName
+            Width: =190
+            X: =88
+            Y: =48
+            ZIndex: =2
+
+        Image4 As image:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =75
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: =User
+            OnSelect: =Select(Parent)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =75
+            X: =13
+            Y: =13
+            ZIndex: =3
+
+        Rectangle5 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(166, 166, 166, 1)
+            Fill: =RGBA(73, 130, 5, 1)
+            FocusedBorderThickness: =4
+            Height: =8
+            HoverFill: =RGBA(73, 130, 5, 1)
+            OnSelect: =Select(Parent)
+            PressedFill: =RGBA(73, 130, 5, 1)
+            Width: =1356
+            Y: =96
+            ZIndex: =4
+
+        Label24_1 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            FontWeight: =FontWeight.Bold
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: ="No. De Reembolso"
+            X: =262
+            Y: =8
+            ZIndex: =5
+
+        Label36 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.'No. De Reembolso'
+            X: =262
+            Y: =48
+            ZIndex: =6
+
+        Icon5 As icon.OpenInNewWindow:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(73, 130, 5, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =45
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.DocumentWithContent
+            OnSelect: |
+                =Set(VarPerfil,ThisItem); //Variable para datos del perfil
+                Set(VarPID,ThisItem.ID);
+                NewForm(Form_PR);
+                
+                //Se inicia el proceso de limpiar el formulario
+                Reset(TextInput5);Reset(TextInput5_1);Reset(TextInput5_2);Reset(TextInput5_3);Reset(DatePicker1);Reset(DatePicker2);Reset(TextInput5_6);Reset(TextInput5_7);Reset(TextInput5_8);
+                
+                //Reset en Información Factura
+                Reset(Radio2);Reset(DatePicker3);Reset(TextInput5_10);Reset(TextInput5_11);Reset(TextInput5_12);Reset(TextInput5_13);Reset(TextInput5_14);Reset(TextInput5_15);Reset(TextInput5_16);Reset(TextInput5_17);Reset(TextInput5_18);Reset(TextInput5_19);Reset(Radio2);Set(Var_F,Blank());
+                
+                //Reset Información EJIDO
+                Reset(TextInput4);Reset(TextInput4_1);Reset(TextInput4_2);Reset(TextInput4_3);Set(Var_Erpa,Blank());Set(Var_sin_Erpa,Blank());
+                
+                //Reset EJIDO: CAPEX/OPEX
+                Reset(TextInput4_8);Reset(TextInput4_10);Reset(TextInput4_11);Set(Var_ECO,Blank());
+                
+                //Reset Gastos generales
+                Reset(TextInput4_18);Reset(TextInput4_19);Reset(TextInput4_20);Set(VarGG,Blank());
+                
+                //Detalles de gastos
+                Set(CV,Blank());Reset(TextInput4_12);
+                
+                //Prorrateo de Factura
+                Reset(TextInput4_13);Reset(TextInput4_14);Reset(TextInput4_15);Reset(TextInput4_16);Reset(TextInput4_17);Reset(Dropdown1);Set(Divisa,Blank());
+                
+                Navigate(Screen_Reembolso,ScreenTransition.Cover)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =45
+            X: =1276
+            Y: =15
+            ZIndex: =7
+
+        Label13 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.Mes.Value
+            X: =396
+            Y: =48
+            ZIndex: =8
+
+        Label39 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            FontWeight: =FontWeight.Bold
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: ="Mes"
+            X: =392
+            Y: =5
+            ZIndex: =10
+
+        Label99 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.'Periodo del Reembolso Del'
+            X: =645
+            Y: =48
+            ZIndex: =11
+
+        Label101 As label:
+            Align: =Align.Right
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.'Periodo del Reembolso Al'
+            X: =702
+            Y: =48
+            ZIndex: =12
+
+        Label102 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.Destino
+            Width: =200
+            X: =873
+            Y: =50
+            ZIndex: =13
+
+        Label111 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.Año
+            Width: =100
+            X: =520
+            Y: =48
+            ZIndex: =14
+
+        Label113 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            FontWeight: =FontWeight.Bold
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: ="Año"
+            X: =495
+            Y: =5
+            ZIndex: =15
+
+        Label114 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            FontWeight: =FontWeight.Bold
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: ="Periodo Del - Al"
+            X: =671
+            Y: =5
+            ZIndex: =16
+
+        Label115 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            FontWeight: =FontWeight.Bold
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: ="Destino"
+            X: =873
+            Y: =5
+            ZIndex: =17
+
+        Icon16 As icon.ChevronDown:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(73, 130, 5, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Trash
+            OnSelect: =Remove('Perfil entrega de facturas',ThisItem)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Visible: |-
+                =If(
+                    true,
+                    ThisItem.Colaborador.DisplayName = User().FullName,true,
+                    false
+                )
+            Width: =45
+            X: =1041
+            ZIndex: =18
+
+    ComboBox1_10 As combobox:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        ChevronBackground: =RGBA(255, 255, 255, 1)
+        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+        ChevronFill: =RGBA(33, 33, 33, 1)
+        ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+        ChevronHoverFill: =RGBA(33, 33, 33, 1)
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayFields: =["Result"]
+        Font: =Font.'Segoe UI'
+        Height: =48
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(212, 212, 212, 1)
+        InputTextPlaceholder: ="Mes"
+        Items: |
+            =Sort(ForAll(Distinct('Perfil entrega de facturas',Mes.Value), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(73, 130, 5, 1)
+        SearchFields: =["Result"]
+        SearchItems: |-
+            =Search(Sort(ForAll(Distinct('Perfil entrega de facturas',Mes.Value), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
+            ,ComboBox1_10.SearchText,"Result")
+        SelectionFill: =RGBA(73, 130, 5, 1)
+        SelectMultiple: =false
+        Size: =13
+        Width: =150
+        X: =548
+        Y: =101
+        ZIndex: =15
+
+    Button3_6 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        OnSelect: =NewForm(Form_Perfil);Navigate(Screen_perfil,ScreenTransition.Cover)
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =15
+        Text: ="Crear perfil nuevo"
+        Width: =180
+        X: =593
+        Y: =702
+        ZIndex: =17
+
+    ComboBox6 As combobox:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        ChevronBackground: =RGBA(255, 255, 255, 1)
+        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+        ChevronFill: =RGBA(33, 33, 33, 1)
+        ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+        ChevronHoverFill: =RGBA(33, 33, 33, 1)
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayFields: =["Result"]
+        Font: =Font.'Segoe UI'
+        Height: =48
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(212, 212, 212, 1)
+        InputTextPlaceholder: ="Año"
+        Items: |-
+            =Sort(ForAll(Distinct('Perfil entrega de facturas',Año), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(73, 130, 5, 1)
+        SearchFields: =["Result"]
+        SearchItems: |-
+            =Search(Sort(ForAll(Distinct('Perfil entrega de facturas',Año), {Result: ThisRecord.Value}),Result,SortOrder.Ascending),ComboBox6.SearchText,"Result")
+        SelectionFill: =RGBA(73, 130, 5, 1)
+        SelectMultiple: =false
+        Size: =13
+        Width: =150
+        X: =730
+        Y: =101
+        ZIndex: =18
+

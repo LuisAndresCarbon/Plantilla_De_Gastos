@@ -1,0 +1,245 @@
+{
+  "4722a878-8b3a-4df5-b407-58f188f8eeea": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Usuarios de Office 365",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/henryorsborn/partial-builds/asev3migrations-with-resourceTemplate/1.0.1653.3403/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "UsuariosdeOffice365"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "4722a878-8b3a-4df5-b407-58f188f8eeea"
+  },
+  "47748cf3-5532-4553-8157-731d2815006a": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Flujos lógicos",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1653/1.0.1653.3403/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "021f6668-2cf4-4973-85d2-d5489341c484"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "021f6668-2cf4-4973-85d2-d5489341c484"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "CompaqCSV"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "47748cf3-5532-4553-8157-731d2815006a"
+  },
+  "57d52939-9a64-4010-a06b-1ab326dcd68e": {
+    "appActions": [
+      "Run"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Flujos lógicos",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1653/1.0.1653.3403/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "5842646a-7122-4f2b-b896-c493c71d08f9": {
+          "value": "shared_onedriveforbusiness"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "f143ad5c-9a95-47c8-a5e0-c68d7da58896"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_onedriveforbusiness": {
+          "value": "5842646a-7122-4f2b-b896-c493c71d08f9"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "f143ad5c-9a95-47c8-a5e0-c68d7da58896"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "FlujoPG"
+    ],
+    "dependencies": {
+      "shared_onedriveforbusiness": "5842646a-7122-4f2b-b896-c493c71d08f9"
+    },
+    "dependents": [],
+    "id": "57d52939-9a64-4010-a06b-1ab326dcd68e"
+  },
+  "5842646a-7122-4f2b-b896-c493c71d08f9": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "OneDrive para la Empresa",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1647/1.0.1647.3361/onedriveforbusiness/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_onedriveforbusiness",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "57d52939-9a64-4010-a06b-1ab326dcd68e"
+    ],
+    "id": "5842646a-7122-4f2b-b896-c493c71d08f9"
+  },
+  "a1ee9a0c-7002-498b-8237-d664b1e9376f": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Flujos lógicos",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1653/1.0.1653.3403/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "c1cf0e28-3f89-430d-85ba-8d4cfd4955f6": {
+          "value": "shared_sharepointonline"
+        },
+        "ddac554f-e371-48ad-b8f8-c4962f8bffdf": {
+          "value": "shared_office365"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "eef22c7c-da22-47e9-be58-aff030073268"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_office365": {
+          "value": "ddac554f-e371-48ad-b8f8-c4962f8bffdf"
+        },
+        "shared_sharepointonline": {
+          "value": "c1cf0e28-3f89-430d-85ba-8d4cfd4955f6"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "eef22c7c-da22-47e9-be58-aff030073268"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "PrioridadNotify"
+    ],
+    "dependencies": {
+      "shared_office365": "ddac554f-e371-48ad-b8f8-c4962f8bffdf",
+      "shared_sharepointonline": "c1cf0e28-3f89-430d-85ba-8d4cfd4955f6"
+    },
+    "dependents": [],
+    "id": "a1ee9a0c-7002-498b-8237-d664b1e9376f"
+  },
+  "c1cf0e28-3f89-430d-85ba-8d4cfd4955f6": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1654/1.0.1654.3414/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://canopiacarbon918.sharepoint.com/sites/intranet": {
+        "dataSources": {
+          "Cuentas Capex y Opex": {
+            "tableName": "89a4d185-fba4-4f34-81ba-e7f37f00c83d"
+          },
+          "Cuentas de Gastos Generales": {
+            "tableName": "3a0a2442-eb88-4713-b58a-d207215f3a95"
+          },
+          "ERPA Activos Carlos": {
+            "tableName": "861ce617-3d32-4418-a51d-ed1646679b68"
+          },
+          "ERPA Activos Carlos_1": {
+            "tableName": "861ce617-3d32-4418-a51d-ed1646679b68"
+          },
+          "Formato Compaq": {
+            "tableName": "e1bcd251-19de-4a9b-bbc3-de9ae5c626d2"
+          },
+          "Perfil entrega de facturas": {
+            "tableName": "ea3c4f60-ff60-4de5-a365-2bd3b17dfbd6"
+          },
+          "Permisos": {
+            "tableName": "2a2c56f3-1b67-4e80-8540-68e620e117a3"
+          },
+          "Plantilla de Reembolsos de Gastos Final": {
+            "tableName": "df4f462c-f5f2-46a4-ab5a-d00b116404b3"
+          },
+          "Portafolio": {
+            "tableName": "11ace0fa-34af-4ce0-9edd-10edd0bc8026"
+          },
+          "Portafolio Users": {
+            "tableName": "ec7d48cc-f260-471a-bc44-c78470f805b3"
+          }
+        }
+      },
+      "https://canopiacarbon918.sharepoint.com/sites/Legal": {
+        "dataSources": {
+          "BdContratosLegal": {
+            "tableName": "4d71be22-bcfc-41bb-835c-cc28ccc2e862"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Permisos",
+      "Perfil entrega de facturas",
+      "Cuentas Capex y Opex",
+      "Plantilla de Reembolsos de Gastos Final",
+      "Cuentas de Gastos Generales",
+      "Portafolio",
+      "Formato Compaq",
+      "Portafolio Users",
+      "ERPA Activos Carlos_1",
+      "ERPA Activos Carlos",
+      "BdContratosLegal"
+    ],
+    "dependencies": {},
+    "dependents": [
+      "a1ee9a0c-7002-498b-8237-d664b1e9376f"
+    ],
+    "id": "c1cf0e28-3f89-430d-85ba-8d4cfd4955f6"
+  },
+  "ddac554f-e371-48ad-b8f8-c4962f8bffdf": {
+    "appActions": [
+      "SendEmailV2"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office\u00A0365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/henryorsborn/partial-builds/asev3migrations-with-resourceTemplate/1.0.1653.3403/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [
+      "a1ee9a0c-7002-498b-8237-d664b1e9376f"
+    ],
+    "id": "ddac554f-e371-48ad-b8f8-c4962f8bffdf"
+  }
+}
