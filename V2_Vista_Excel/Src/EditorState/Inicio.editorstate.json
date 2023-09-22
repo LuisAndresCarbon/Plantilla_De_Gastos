@@ -3186,7 +3186,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image9",
-      "ParentIndex": 8,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3885,7 +3885,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "textBd",
-      "ParentIndex": 18,
+      "ParentIndex": 19,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4450,7 +4450,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "textPagoDirecto",
-      "ParentIndex": 6,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5015,7 +5015,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "textRevisarForm",
-      "ParentIndex": 12,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5299,7 +5299,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "textSolicitud",
-      "ParentIndex": 7,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

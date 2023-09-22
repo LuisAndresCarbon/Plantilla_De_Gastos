@@ -74,7 +74,7 @@ Inicio As screen:
         Size: =15
         Text: |-
             ="
-            Revisar Formulario"
+            Estatus Comprobación"
         Width: =157
         X: =941
         Y: =317
@@ -487,7 +487,7 @@ Inicio As screen:
         Font: =Font.'Segoe UI'
         Height: =80
         Size: =13
-        Text: ="Datos"
+        Text: ="Reconocer los gastos de la siguiente salida a campo"
         Width: =299
         X: =31
         Y: =190
@@ -503,7 +503,7 @@ Inicio As screen:
         Font: =Font.'Segoe UI'
         Height: =91
         Size: =13
-        Text: ="Datos"
+        Text: ="Cargar los comprobantes una vez realizado el trabajo de campo"
         Width: =221
         X: =31
         Y: =317
@@ -519,7 +519,7 @@ Inicio As screen:
         Font: =Font.'Segoe UI'
         Height: =80
         Size: =13
-        Text: ="Datos"
+        Text: ="Gastos que realice a nombre de Canopia y/o Mercuria para continuidad de las operaciones"
         Width: =299
         X: =31
         Y: =455
@@ -535,7 +535,7 @@ Inicio As screen:
         Font: =Font.'Segoe UI'
         Height: =80
         Size: =13
-        Text: ="Datos"
+        Text: ="Pago sin intermediario adicional"
         Width: =299
         X: =1049
         Y: =190
@@ -551,7 +551,7 @@ Inicio As screen:
         Font: =Font.'Segoe UI'
         Height: =91
         Size: =13
-        Text: ="Datos"
+        Text: ="Revisión y Corrección de Comprobaciones Solicitadas "
         Width: =228
         X: =1120
         Y: =321
