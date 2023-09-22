@@ -16,7 +16,7 @@ Inicio As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =1061
-        X: =179
+        X: =159
         Y: =140
         ZIndex: =1
 
@@ -45,7 +45,7 @@ Inicio As screen:
         Text: ="Perfiles"
         Visible: =false
         Width: =150
-        X: =122
+        X: =102
         Y: =506
         ZIndex: =2
 
@@ -61,12 +61,12 @@ Inicio As screen:
         FontWeight: =FontWeight.Semibold
         Height: =85
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        HoverColor: =RGBA(3, 115, 105, 1)
+        HoverFill: =ColorFade(RGBA(0,0,0,0), -1%)
         OnSelect: =Navigate(Screen_base,ScreenTransition.Cover)
-        PressedBorderColor: =ColorFade(RGBA(33,182,168,82), -50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -5%)
+        PressedColor: =RGBA(61, 184, 123, 1)
+        PressedFill: =ColorFade(RGBA(0,0,0,0), -1%)
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
         RadiusTopLeft: =0
@@ -76,7 +76,7 @@ Inicio As screen:
             ="
             Revisar Formulario"
         Width: =157
-        X: =961
+        X: =941
         Y: =317
         ZIndex: =3
 
@@ -95,7 +95,7 @@ Inicio As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =60
-        X: =422
+        X: =402
         Y: =188
         ZIndex: =4
 
@@ -113,7 +113,7 @@ Inicio As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =50
-        X: =1019
+        X: =999
         Y: =291
         ZIndex: =5
 
@@ -156,7 +156,7 @@ Inicio As screen:
             false
             ) */ 
         Width: =150
-        X: =884
+        X: =864
         Y: =438
         ZIndex: =6
 
@@ -180,7 +180,7 @@ Inicio As screen:
             VarAdmi = "Contador", true
             )
         Width: =50
-        X: =929
+        X: =909
         Y: =414
         ZIndex: =7
 
@@ -194,7 +194,7 @@ Inicio As screen:
         HoverFill: =RGBA(73, 130, 5, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         Visible: =
-        X: =40
+        X: =10
         Y: =40
         ZIndex: =8
 
@@ -210,8 +210,8 @@ Inicio As screen:
         FontWeight: =FontWeight.Semibold
         Height: =68
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        HoverColor: =RGBA(3, 115, 105, 1)
+        HoverFill: =ColorFade(RGBA(0,0,0,0), -1%)
         OnSelect: |-
             =If(
                 User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May"],
@@ -242,9 +242,9 @@ Inicio As screen:
             Reset(Dropdown2_1);Reset(TextInput4_26);Reset(TextInput2_1);
             Set(varSM,0);Navigate(Screen_Anticipo,ScreenTransition.Cover)
             )
-        PressedBorderColor: =ColorFade(RGBA(33,182,168,82), -50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -5%)
+        PressedColor: =RGBA(61, 184, 123, 1)
+        PressedFill: =ColorFade(RGBA(0,0,0,0), -1%)
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
         RadiusTopLeft: =0
@@ -252,7 +252,7 @@ Inicio As screen:
         Size: =15
         Text: ="Solicitud de Anticipo"
         Width: =143
-        X: =388
+        X: =369
         Y: =230
         ZIndex: =9
 
@@ -268,8 +268,8 @@ Inicio As screen:
         FontWeight: =FontWeight.Semibold
         Height: =101
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        HoverColor: =RGBA(3, 115, 105, 1)
+        HoverFill: =ColorFade(RGBA(0,0,0,0), -1%)
         OnSelect: |-
             =If(
                 User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May","Carlos Alfredo Avila Alfonso"],
@@ -304,9 +304,9 @@ Inicio As screen:
             Set(varSM,0);
             Navigate(Screen_Reembolso,ScreenTransition.Cover)
             )
-        PressedBorderColor: =ColorFade(RGBA(33,182,168,82), -50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -5%)
+        PressedColor: =RGBA(61, 184, 123, 1)
+        PressedFill: =ColorFade(RGBA(0,0,0,0), -1%)
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
         RadiusTopLeft: =0
@@ -316,7 +316,7 @@ Inicio As screen:
             ="
             Solicitud de Reembolso"
         Width: =153
-        X: =378
+        X: =358
         Y: =441
         ZIndex: =10
 
@@ -332,8 +332,8 @@ Inicio As screen:
         FontWeight: =FontWeight.Semibold
         Height: =129
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        HoverColor: =RGBA(3, 115, 105, 1)
+        HoverFill: =ColorFade(RGBA(0,0,0,0), -1%)
         OnSelect: |-
             =If(
                 User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May"],
@@ -362,9 +362,9 @@ Inicio As screen:
             
             Set(varSM,0); Navigate(Screen_Directo,ScreenTransition.Cover)
             )
-        PressedBorderColor: =ColorFade(RGBA(33,182,168,82), -50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -5%)
+        PressedColor: =RGBA(61, 184, 123, 1)
+        PressedFill: =ColorFade(RGBA(0,0,0,0), -1%)
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
         RadiusTopLeft: =0
@@ -375,7 +375,7 @@ Inicio As screen:
             
             Solicitud Pago Directo a Proveedor"
         Width: =155
-        X: =879
+        X: =859
         Y: =150
         ZIndex: =11
 
@@ -394,7 +394,7 @@ Inicio As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =60
-        X: =422
+        X: =402
         Y: =420
         ZIndex: =12
 
@@ -413,7 +413,7 @@ Inicio As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =50
-        X: =929
+        X: =909
         Y: =161
         ZIndex: =13
 
@@ -432,7 +432,7 @@ Inicio As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Width: =60
-        X: =344
+        X: =324
         Y: =293
         ZIndex: =14
 
@@ -448,8 +448,8 @@ Inicio As screen:
         FontWeight: =FontWeight.Semibold
         Height: =66
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        HoverColor: =RGBA(3, 115, 105, 1)
+        HoverFill: =ColorFade(RGBA(0,0,0,0), -1%)
         OnSelect: |
             =If(
                 User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May"],
@@ -463,9 +463,9 @@ Inicio As screen:
                 Navigate(Screen_Comprobación_Excel,ScreenTransition.Cover),
             Set(varSM,0);Navigate(Screen_base_Anticipo,ScreenTransition.Cover)
             )
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -1%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -5%)
+        PressedColor: =RGBA(61, 184, 123, 1)
+        PressedFill: =ColorFade(RGBA(0,0,0,0), -1%)
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
         RadiusTopLeft: =0
@@ -473,7 +473,103 @@ Inicio As screen:
         Size: =15
         Text: ="Comprobación de Anticipo"
         Width: =153
-        X: =299
+        X: =279
         Y: =351
         ZIndex: =15
+
+    textSolicitud As label:
+        BorderColor: =RGBA(61,184,123,71)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =80
+        Size: =13
+        Text: ="Datos"
+        Width: =299
+        X: =31
+        Y: =190
+        ZIndex: =17
+
+    textComprobacion As label:
+        BorderColor: =RGBA(61,184,123,71)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =91
+        Size: =13
+        Text: ="Datos"
+        Width: =221
+        X: =31
+        Y: =317
+        ZIndex: =18
+
+    textRembolso As label:
+        BorderColor: =RGBA(61,184,123,71)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =80
+        Size: =13
+        Text: ="Datos"
+        Width: =299
+        X: =31
+        Y: =455
+        ZIndex: =19
+
+    textSolicitud_1 As label:
+        BorderColor: =RGBA(61,184,123,71)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =80
+        Size: =13
+        Text: ="Datos"
+        Width: =299
+        X: =1049
+        Y: =190
+        ZIndex: =20
+
+    textSolicitud_2 As label:
+        BorderColor: =RGBA(61,184,123,71)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =91
+        Size: =13
+        Text: ="Datos"
+        Width: =228
+        X: =1120
+        Y: =310
+        ZIndex: =21
+
+    textSolicitud_3 As label:
+        BorderColor: =RGBA(61,184,123,71)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =80
+        Size: =13
+        Text: ="Datos"
+        Width: =299
+        X: =1049
+        Y: =451
+        ZIndex: =22
 
