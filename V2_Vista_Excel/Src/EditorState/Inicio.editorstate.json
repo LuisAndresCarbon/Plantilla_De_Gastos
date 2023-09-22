@@ -2200,7 +2200,7 @@
       "StyleName": "defaultButtonStyle",
       "Type": "ControlInfo"
     },
-    "Image10": {
+    "Image1": {
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Image",
@@ -2242,8 +2242,8 @@
       "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
-      "Name": "Image10",
-      "ParentIndex": 0,
+      "Name": "Image1",
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
