@@ -116,9 +116,9 @@ Screen_Pago_Directo_Excel As screen:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            DisabledFill: =RGBA(46, 82, 3, 1)
+            DisabledFill: =RGBA(87,17,72,3)
             DisplayMode: =DisplayMode.Disabled
-            Fill: =RGBA(46, 82, 3, 1)
+            Fill: =RGBA(87,17,72,3)
             FocusedBorderThickness: =4
             Height: =92
             HoverFill: =RGBA(73, 130, 5, 1)
@@ -7788,9 +7788,9 @@ Screen_Pago_Directo_Excel As screen:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
-            DisabledFill: =RGBA(46, 82, 3, 1)
+            DisabledFill: =RGBA(87,17,72,3)
             DisplayMode: =DisplayMode.Disabled
-            Fill: =RGBA(46, 82, 3, 1)
+            Fill: =RGBA(87,17,72,3)
             FocusedBorderThickness: =4
             Height: =60
             HoverFill: =RGBA(73, 130, 5, 1)
