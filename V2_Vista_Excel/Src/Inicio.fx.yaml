@@ -208,7 +208,7 @@ Inicio As screen:
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
-        Height: =125
+        Height: =68
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(3, 115, 105, 1)
         HoverFill: =ColorFade(RGBA(0,0,0,0), -1%)
@@ -250,13 +250,10 @@ Inicio As screen:
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Size: =15
-        Text: |-
-            ="
-            
-            Solicitud de Anticipo"
+        Text: ="Solicitud de Anticipo"
         Width: =143
         X: =369
-        Y: =168
+        Y: =230
         ZIndex: =9
 
     Button5_4 As button:
@@ -449,7 +446,7 @@ Inicio As screen:
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
-        Height: =98
+        Height: =66
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(3, 115, 105, 1)
         HoverFill: =ColorFade(RGBA(0,0,0,0), -1%)
@@ -474,43 +471,11 @@ Inicio As screen:
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Size: =15
-        Text: |-
-            ="
-            
-            Comprobación de Anticipo"
+        Text: ="Comprobación de Anticipo"
         Width: =153
         X: =279
-        Y: =309
+        Y: =351
         ZIndex: =15
-
-    Button7_2 As button:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(73, 130, 5, 1)
-        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Semibold
-        Height: =85
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(0,0,0,0), -10%)
-        OnSelect: =Navigate(Screen_Reembolso_Excel,ScreenTransition.Cover)
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        Size: =15
-        Text: ="Prueba"
-        Visible: =false
-        Width: =150
-        X: =954
-        Y: =620
-        ZIndex: =16
 
     textSolicitud As label:
         BorderColor: =RGBA(61,184,123,71)
