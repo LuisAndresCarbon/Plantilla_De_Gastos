@@ -2,6 +2,24 @@ Inicio As screen:
     Fill: =RGBA(227,240,234,1)
     LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
 
+    Image1 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =469
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: =Index_Plantilla
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =1061
+        X: =179
+        Y: =140
+        ZIndex: =1
+
     Button5 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -28,15 +46,16 @@ Inicio As screen:
         Visible: =false
         Width: =150
         X: =122
-        Y: =610
-        ZIndex: =5
+        Y: =506
+        ZIndex: =2
 
     Button7 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(0, 0, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(73, 130, 5, 1)
+        Fill: =RGBA(0, 0, 0, 0)
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
@@ -53,11 +72,13 @@ Inicio As screen:
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Size: =15
-        Text: ="Revisar Formulario"
-        Width: =150
-        X: =817
-        Y: =621
-        ZIndex: =7
+        Text: |-
+            ="
+            Revisar Formulario"
+        Width: =157
+        X: =961
+        Y: =317
+        ZIndex: =3
 
     Image5 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -66,15 +87,17 @@ Inicio As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
+        Height: =48
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
         Image: ='Anticipo-removebg-preview'
         ImagePosition: =ImagePosition.Fill
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
-        X: =117
-        Y: =492
-        ZIndex: =8
+        Width: =60
+        X: =422
+        Y: =188
+        ZIndex: =4
 
     Image6 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -83,21 +106,24 @@ Inicio As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
+        Height: =50
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
         Image: =Formualrio
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
-        X: =854
-        Y: =492
-        ZIndex: =9
+        Width: =50
+        X: =1019
+        Y: =291
+        ZIndex: =5
 
     Button7_1 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(0, 0, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(73, 130, 5, 1)
+        Fill: =RGBA(0, 0, 0, 0)
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
@@ -114,7 +140,9 @@ Inicio As screen:
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Size: =15
-        Text: ="Editar Base de Datos"
+        Text: |-
+            ="
+            Editar Base de Datos"
         Visible: |-
             =Switch(true,
             VarAdmi = "Jefe", true,
@@ -128,9 +156,9 @@ Inicio As screen:
             false
             ) */ 
         Width: =150
-        X: =1152
-        Y: =621
-        ZIndex: =10
+        X: =884
+        Y: =438
+        ZIndex: =6
 
     Image9 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -139,6 +167,7 @@ Inicio As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
+        Height: =50
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
         Image: ='Base_de_datos-removebg-preview'
@@ -150,27 +179,10 @@ Inicio As screen:
             VarAdmi = "Programador", true,
             VarAdmi = "Contador", true
             )
-        X: =1177
-        Y: =492
-        ZIndex: =12
-
-    Image10 As image:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =474
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Image: ='Asset 1'
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =790
-        X: =317
-        Y: =18
-        ZIndex: =13
+        Width: =50
+        X: =929
+        Y: =414
+        ZIndex: =7
 
     Rectangle6 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -184,18 +196,19 @@ Inicio As screen:
         Visible: =
         X: =40
         Y: =40
-        ZIndex: =14
+        ZIndex: =8
 
     Button5_3 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(0, 0, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(73, 130, 5, 1)
+        Fill: =RGBA(0, 0, 0, 0)
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
-        Height: =85
+        Height: =125
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
@@ -237,22 +250,26 @@ Inicio As screen:
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Size: =15
-        Text: ="Solicitud de Anticipo"
-        Width: =150
-        X: =92
-        Y: =621
-        ZIndex: =15
+        Text: |-
+            ="
+            
+            Solicitud de Anticipo"
+        Width: =143
+        X: =389
+        Y: =168
+        ZIndex: =9
 
     Button5_4 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(0, 0, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(73, 130, 5, 1)
+        Fill: =RGBA(0, 0, 0, 0)
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
-        Height: =85
+        Height: =101
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
@@ -298,22 +315,25 @@ Inicio As screen:
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Size: =15
-        Text: ="Solicitud de Reembolso"
-        Width: =150
-        X: =453
-        Y: =621
-        ZIndex: =16
+        Text: |-
+            ="
+            Solicitud de Reembolso"
+        Width: =153
+        X: =378
+        Y: =441
+        ZIndex: =10
 
     Button5_5 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(0, 0, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(73, 130, 5, 1)
+        Fill: =RGBA(0, 0, 0, 0)
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
-        Height: =85
+        Height: =129
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
@@ -353,11 +373,14 @@ Inicio As screen:
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Size: =15
-        Text: ="Solicitud Pago Directo a Proveedor"
-        Width: =150
-        X: =637
-        Y: =621
-        ZIndex: =17
+        Text: |-
+            ="
+            
+            Solicitud Pago Directo a Proveedor"
+        Width: =155
+        X: =879
+        Y: =150
+        ZIndex: =11
 
     Image5_1 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -366,15 +389,17 @@ Inicio As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
+        Height: =60
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
         Image: =Reembolso2
         ImagePosition: =ImagePosition.Fill
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
-        X: =478
-        Y: =492
-        ZIndex: =18
+        Width: =60
+        X: =422
+        Y: =420
+        ZIndex: =12
 
     Image5_2 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -383,15 +408,17 @@ Inicio As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
+        Height: =50
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
         Image: ='Pago-removebg-preview'
         ImagePosition: =ImagePosition.Fill
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
-        X: =660
-        Y: =492
-        ZIndex: =19
+        Width: =50
+        X: =929
+        Y: =161
+        ZIndex: =13
 
     Image5_3 As image:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -400,26 +427,29 @@ Inicio As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
+        Height: =60
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverFill: =RGBA(0, 0, 0, 0)
         Image: =Comprobación
         ImagePosition: =ImagePosition.Fill
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
-        X: =297
-        Y: =492
-        ZIndex: =20
+        Width: =60
+        X: =344
+        Y: =293
+        ZIndex: =14
 
     Button5_6 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(0, 0, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(73, 130, 5, 1)
+        Fill: =RGBA(0, 0, 0, 0)
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
-        Height: =85
+        Height: =98
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
@@ -444,11 +474,14 @@ Inicio As screen:
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Size: =15
-        Text: ="Comprobación de Anticipo"
-        Width: =150
-        X: =272
-        Y: =621
-        ZIndex: =21
+        Text: |-
+            ="
+            
+            Comprobación de Anticipo"
+        Width: =153
+        X: =299
+        Y: =309
+        ZIndex: =15
 
     Button7_2 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -477,5 +510,5 @@ Inicio As screen:
         Width: =150
         X: =984
         Y: =620
-        ZIndex: =22
+        ZIndex: =16
 
