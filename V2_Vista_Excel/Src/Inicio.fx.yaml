@@ -214,7 +214,7 @@ Inicio As screen:
         HoverFill: =ColorFade(RGBA(0,0,0,0), -1%)
         OnSelect: |-
             =If(
-                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May", "Rosalba Diaz"],
+                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May"],
                 Reset(TextInput19_1);
                 Reset(TextInput18_1);
                 Reset(Dropdown8_1);
@@ -272,7 +272,7 @@ Inicio As screen:
         HoverFill: =ColorFade(RGBA(0,0,0,0), -1%)
         OnSelect: |-
             =If(
-                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May", "Rosalba Diaz","Carlos Alfredo Avila Alfonso"],
+                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May","Carlos Alfredo Avila Alfonso"],
                 Reset(Dropdown7);
                 Reset(Dropdown8);
                 Reset(TextInput19);
@@ -336,7 +336,7 @@ Inicio As screen:
         HoverFill: =ColorFade(RGBA(0,0,0,0), -1%)
         OnSelect: |-
             =If(
-                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May", "Rosalba Diaz"],
+                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May"],
                 Reset(Dropdown7_4);
                 Reset(Dropdown8_4);
                 Reset(TextInput19_4);
@@ -452,7 +452,7 @@ Inicio As screen:
         HoverFill: =ColorFade(RGBA(0,0,0,0), -1%)
         OnSelect: |
             =If(
-                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May", "Rosalba Diaz"],
+                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May"],
                 Reset(Dropdown7_3);
                 Reset(Dropdown8_3);
                 Reset(TextInput19_3);
@@ -488,6 +488,7 @@ Inicio As screen:
         Height: =80
         Size: =13
         Text: ="Datos"
+        Visible: =false
         Width: =299
         X: =31
         Y: =190
@@ -504,6 +505,7 @@ Inicio As screen:
         Height: =91
         Size: =13
         Text: ="Datos"
+        Visible: =false
         Width: =221
         X: =31
         Y: =317
@@ -520,6 +522,7 @@ Inicio As screen:
         Height: =80
         Size: =13
         Text: ="Datos"
+        Visible: =false
         Width: =299
         X: =31
         Y: =455
