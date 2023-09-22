@@ -64,7 +64,7 @@ Inicio As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
         OnSelect: =Navigate(Screen_base,ScreenTransition.Cover)
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedBorderColor: =ColorFade(RGBA(33,182,168,82), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         RadiusBottomLeft: =0
@@ -129,12 +129,12 @@ Inicio As screen:
         FontWeight: =FontWeight.Semibold
         Height: =85
         HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =RGBA(255, 255, 255, 1)
-        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        HoverColor: =RGBA(3, 115, 105, 1)
+        HoverFill: =
         OnSelect: =Navigate(Screen_info,ScreenTransition.Cover)
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -5%)
+        PressedColor: =RGBA(61, 184, 123, 1)
+        PressedFill: =ColorFade(RGBA(227, 240,234,5),5%)
         RadiusBottomLeft: =0
         RadiusBottomRight: =0
         RadiusTopLeft: =0
@@ -242,7 +242,7 @@ Inicio As screen:
             Reset(Dropdown2_1);Reset(TextInput4_26);Reset(TextInput2_1);
             Set(varSM,0);Navigate(Screen_Anticipo,ScreenTransition.Cover)
             )
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedBorderColor: =ColorFade(RGBA(33,182,168,82), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -50%)
         RadiusBottomLeft: =0
@@ -304,7 +304,7 @@ Inicio As screen:
             Set(varSM,0);
             Navigate(Screen_Reembolso,ScreenTransition.Cover)
             )
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedBorderColor: =ColorFade(RGBA(33,182,168,82), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         RadiusBottomLeft: =0
@@ -362,7 +362,7 @@ Inicio As screen:
             
             Set(varSM,0); Navigate(Screen_Directo,ScreenTransition.Cover)
             )
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedBorderColor: =ColorFade(RGBA(33,182,168,82), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         RadiusBottomLeft: =0
