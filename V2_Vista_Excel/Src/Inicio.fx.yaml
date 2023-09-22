@@ -22,10 +22,11 @@ Inicio As screen:
 
     Button5 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(0, 0, 0, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(73, 130, 5, 1)
+        Fill: =RGBA(0, 0, 0, 0)
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
@@ -34,7 +35,7 @@ Inicio As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
         OnSelect: =Navigate(Screen_Perfiles,ScreenTransition.Cover)
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+       PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         RadiusBottomLeft: =0
@@ -270,7 +271,7 @@ Inicio As screen:
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
         Height: =101
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
+       HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
         OnSelect: |-
@@ -334,7 +335,7 @@ Inicio As screen:
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
         Height: =129
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
+       HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
         OnSelect: |-
@@ -488,12 +489,12 @@ Inicio As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        Fill: =RGBA(73, 130, 5, 1)
+        Fill: =RGBA(0, 0, 0, 0)
         FocusedBorderColor: =ColorFade(Self.Fill, -75%)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
         Height: =85
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
+       HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
         OnSelect: =Navigate(Screen_Reembolso_Excel,ScreenTransition.Cover)
