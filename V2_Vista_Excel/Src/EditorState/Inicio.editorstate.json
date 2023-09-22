@@ -1633,7 +1633,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button7",
-      "ParentIndex": 12,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4138,7 +4138,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "textComprobacion",
-      "ParentIndex": 11,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5242,7 +5242,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "textSolicitud_2",
-      "ParentIndex": 13,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
