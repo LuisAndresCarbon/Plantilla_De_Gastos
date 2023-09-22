@@ -5911,12 +5911,33 @@ Screen_Comprobación_Excel As screen:
                 Y: =10
                 ZIndex: =1
 
+            Icon21 As icon.Calculator:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(220, 220, 220, 1)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                Height: =35
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =ColorFade(RGBA(90, 86, 106, 1), -30%)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Icon: =Icon.Calculator
+                OnSelect: =Set(Calcular_Porrateo,true)
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                Width: =35
+                X: =700
+                Y: =13.5
+                ZIndex: =2
+
         DataCard52_5 As typedDataCard.blankCard:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
             DisplayMode: =DisplayMode.Edit
             Fill: =RGBA(0, 0, 0, 0)
             Height: =97
+            Visible: =Calcular_Porrateo
             Width: =372
             X: =0
             Y: =22
@@ -5990,10 +6011,11 @@ Screen_Comprobación_Excel As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'],DataSourceInfo.DisplayName,"Importe_x0028_ProrrateoFactura_x")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =97
+            Height: =50
             MaxLength: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'], DataSourceInfo.MaxLength, "Importe_x0028_ProrrateoFactura_x")
             Required: =false
             Update: =DataCardValue227_5.Text
+            Visible: =Calcular_Porrateo
             Width: =372
             X: =1
             Y: =22
@@ -6111,6 +6133,7 @@ Screen_Comprobación_Excel As screen:
             MaxLength: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'], DataSourceInfo.MaxLength, "IVA_x0028_ProrrateoFactura_x0029")
             Required: =false
             Update: =DataCardValue228_5.Text
+            Visible: =Calcular_Porrateo
             Width: =372
             X: =2
             Y: =22
@@ -6226,6 +6249,7 @@ Screen_Comprobación_Excel As screen:
             MaxLength: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'], DataSourceInfo.MaxLength, "ISH_x0028_ProrrateoFactura_x0029")
             Required: =false
             Update: =DataCardValue229_5.Text
+            Visible: =Calcular_Porrateo
             Width: =372
             X: =0
             Y: =23
@@ -6341,6 +6365,7 @@ Screen_Comprobación_Excel As screen:
             MaxLength: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'], DataSourceInfo.MaxLength, "RetISR_x0028_ProrrateoFactura_x0")
             Required: =false
             Update: =DataCardValue230_5.Text
+            Visible: =Calcular_Porrateo
             Width: =372
             X: =1
             Y: =23
@@ -6456,6 +6481,7 @@ Screen_Comprobación_Excel As screen:
             MaxLength: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'], DataSourceInfo.MaxLength, "ImporteProrrateoFactura")
             Required: =false
             Update: =DataCardValue231_5.Text
+            Visible: =Calcular_Porrateo
             Width: =372
             X: =2
             Y: =23
@@ -6720,8 +6746,44 @@ Screen_Comprobación_Excel As screen:
                 Size: =15
                 Text: ="Guardar datos"
                 X: =108
-                Y: =66
+                Y: =196
                 ZIndex: =1
+
+            Button11_5 As button:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =60
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =ColorFade(RGBA(135, 132, 150, 1), -10%)
+                OnSelect: |
+                    =SubmitForm(Form1_3);
+                    Set(Var_sin_Erpa3,Blank());
+                    Notify(
+                        "Datos creados",
+                        NotificationType.Success,
+                        4000
+                    );
+                PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =ColorFade(RGBA(135, 132, 150, 1), -10%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =15
+                Text: ="Prorratear otro EJIDO"
+                Visible: =Calcular_Porrateo
+                X: =108
+                Y: =60
+                ZIndex: =2
 
     Container1_3 As groupContainer.manualLayoutContainer:
         BorderThickness: =1
