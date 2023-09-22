@@ -1,0 +1,481 @@
+Inicio As screen:
+    Fill: =RGBA(227,240,234,1)
+    LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
+
+    Button5 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(73, 130, 5, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =85
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        OnSelect: =Navigate(Screen_Perfiles,ScreenTransition.Cover)
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =15
+        Text: ="Perfiles"
+        Visible: =false
+        Width: =150
+        X: =122
+        Y: =610
+        ZIndex: =5
+
+    Button7 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(73, 130, 5, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =85
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        OnSelect: =Navigate(Screen_base,ScreenTransition.Cover)
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =15
+        Text: ="Revisar Formulario"
+        Width: =150
+        X: =817
+        Y: =621
+        ZIndex: =7
+
+    Image5 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: ='Anticipo-removebg-preview'
+        ImagePosition: =ImagePosition.Fill
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        X: =117
+        Y: =492
+        ZIndex: =8
+
+    Image6 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: =Formualrio
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        X: =854
+        Y: =492
+        ZIndex: =9
+
+    Button7_1 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(73, 130, 5, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =85
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        OnSelect: =Navigate(Screen_info,ScreenTransition.Cover)
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =15
+        Text: ="Editar Base de Datos"
+        Visible: |-
+            =Switch(true,
+            VarAdmi = "Jefe", true,
+            VarAdmi = "Programador", true,
+            VarAdmi = "Contador", true
+            )
+            /*Switch(true,
+            VarUsuario = "SOEL", true,
+            VarUsuario = "STA", true,
+            VarUsuario = "General Intern", true,
+            false
+            ) */ 
+        Width: =150
+        X: =1152
+        Y: =621
+        ZIndex: =10
+
+    Image9 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: ='Base_de_datos-removebg-preview'
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Visible: |-
+            =Switch(true,
+            VarAdmi = "Jefe", true,
+            VarAdmi = "Programador", true,
+            VarAdmi = "Contador", true
+            )
+        X: =1177
+        Y: =492
+        ZIndex: =12
+
+    Image10 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =474
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: ='Asset 1'
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =790
+        X: =317
+        Y: =18
+        ZIndex: =13
+
+    Rectangle6 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(73, 130, 5, 1)
+        FocusedBorderThickness: =4
+        HoverFill: =RGBA(73, 130, 5, 1)
+        PressedFill: =RGBA(73, 130, 5, 1)
+        Visible: =
+        X: =40
+        Y: =40
+        ZIndex: =14
+
+    Button5_3 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(73, 130, 5, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =85
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        OnSelect: |-
+            =If(
+                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May", "Rosalba Diaz"],
+                Reset(TextInput19_1);
+                Reset(TextInput18_1);
+                Reset(Dropdown8_1);
+                Reset(Dropdown7_1);
+                Reset(ComboBox21_1);
+                Set(Ver_Nuevo,Blank());
+                Set(Var_FCM,Blank());
+                Navigate(Screen_Anticipo_Excel,ScreenTransition.Cover),
+            //Pj
+            Reset(ComboBox23_1); Reset(ComboBox20);Reset(DatePicker1_1);Reset(DatePicker2_1);Reset(ComboBox22);Reset(TextInput5_24);Reset(TextInput5_25);
+            
+            //IF
+            Reset(DatePicker3_1);Reset(TextInput5_20);Reset(TextInput5_21);Reset(Radio2_1);Reset(TextInput5_26);Reset(TextInput5_27);Reset(TextInput5_28);Reset(TextInput9_1);Reset(TextInput5_29);Reset(TextInput5_30);Reset(TextInput5_32);Reset(Dropdown1_1);
+            
+            // IE
+            Set(Var_Erpa,Blank());Set(Var_sin_Erpa,Blank());
+            
+            //E:C/O
+            Set(Var_ECO,Blank());
+            
+            //GG
+            Set(Var_GG,Blank());
+            
+            //Gastos y Prorrateo
+            Reset(Dropdown2_1);Reset(TextInput4_26);Reset(TextInput2_1);
+            Set(varSM,0);Navigate(Screen_Anticipo,ScreenTransition.Cover)
+            )
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =15
+        Text: ="Solicitud de Anticipo"
+        Width: =150
+        X: =92
+        Y: =621
+        ZIndex: =15
+
+    Button5_4 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(73, 130, 5, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =85
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        OnSelect: |-
+            =If(
+                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May", "Rosalba Diaz","Carlos Alfredo"],
+                Reset(Dropdown7);
+                Reset(Dropdown8);
+                Reset(TextInput19);
+                Reset(TextInput18);
+                Reset(ComboBox21);
+                Set(Ver_Nuevo,Blank());
+                Set(Var_FCM,Blank());
+                Navigate(Screen_Reembolso_Excel,ScreenTransition.Cover),
+            //Pj
+            Reset(ComboBox23_2); Reset(ComboBox20_2);Reset(DatePicker1);Reset(DatePicker2);Reset(ComboBox22_2);Reset(TextInput5_7);Reset(TextInput5_8);
+            //If - Comprobante
+            Reset(TextInput5_10);Reset(TextInput5_11);Reset(Radio2);
+            //Detalles de la Factura
+            Reset(TextInput5_12);Reset(TextInput5_13);Reset(TextInput5_14);Reset(TextInput9);Reset(TextInput5_15);Reset(TextInput5_16);Reset(TextInput5_18);Reset(Dropdown1);
+            
+            //IE 
+            Set(Var_Erpa,Blank());
+            Set(Var_sin_Erpa,Blank());
+            
+            //E:C/O
+            Set(Var_ECO,Blank());
+            
+            //GG
+            Set(Var_GG,Blank());
+            
+            //Gastos Generales y Proorrateo
+            Reset(Dropdown2);Reset(TextInput4_12);Reset(TextInput2);
+            
+            Set(varSM,0);
+            Navigate(Screen_Reembolso,ScreenTransition.Cover)
+            )
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =15
+        Text: ="Solicitud de Reembolso"
+        Width: =150
+        X: =453
+        Y: =621
+        ZIndex: =16
+
+    Button5_5 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(73, 130, 5, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =85
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        OnSelect: |-
+            =If(
+                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May", "Rosalba Diaz"],
+                Reset(Dropdown7_4);
+                Reset(Dropdown8_4);
+                Reset(TextInput19_4);
+                Reset(TextInput18_4);
+                Reset(ComboBox21_4);
+                Set(Ver_Nuevo,Blank());
+                Set(Var_FCM,Blank());
+                Navigate(Screen_Pago_Directo_Excel),
+            //Pj
+            Reset(ComboBox23_3);Reset(ComboBox20_1);Reset(DatePicker1_2);Reset(DatePicker2_2);Reset(ComboBox22_1);Reset(TextInput5_41);Reset(TextInput5_42);
+            
+            //IF
+            Reset(DatePicker3_2);Reset(TextInput5_37);Reset(TextInput5_38);Reset(Radio2_2);Reset(TextInput5_43);Reset(TextInput5_44);Reset(TextInput5_45);Reset(TextInput9_2);Reset(TextInput5_46);Reset(TextInput5_47);Reset(TextInput5_49);Reset(Dropdown1_2);
+            
+            //IE
+            Set(Var_Erpa,Blank());Set(Var_sin_Erpa,Blank());
+            
+            //E:C/O
+            Set(Var_ECO,Blank());Set(Var_GG,Blank());
+            
+            //Gastos y Prorrateo
+            Reset(Dropdown2_2);Reset(TextInput4_41);Reset(TextInput2_2);
+            
+            Set(varSM,0); Navigate(Screen_Directo,ScreenTransition.Cover)
+            )
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =15
+        Text: ="Solicitud Pago Directo a Proveedor"
+        Width: =150
+        X: =637
+        Y: =621
+        ZIndex: =17
+
+    Image5_1 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: =Reembolso2
+        ImagePosition: =ImagePosition.Fill
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        X: =478
+        Y: =492
+        ZIndex: =18
+
+    Image5_2 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: ='Pago-removebg-preview'
+        ImagePosition: =ImagePosition.Fill
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        X: =660
+        Y: =492
+        ZIndex: =19
+
+    Image5_3 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: =Comprobación
+        ImagePosition: =ImagePosition.Fill
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        X: =297
+        Y: =492
+        ZIndex: =20
+
+    Button5_6 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(73, 130, 5, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =85
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        OnSelect: |
+            =If(
+                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May", "Rosalba Diaz"],
+                Reset(Dropdown7_3);
+                Reset(Dropdown8_3);
+                Reset(TextInput19_3);
+                Reset(TextInput18_3);
+                Reset(ComboBox21_3);
+                Set(Ver_Nuevo,Blank());
+                Set(Var_FCM,Blank());
+                Navigate(Screen_Comprobación_Excel,ScreenTransition.Cover),
+            Set(varSM,0);Navigate(Screen_base_Anticipo,ScreenTransition.Cover)
+            )
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =15
+        Text: ="Comprobación de Anticipo"
+        Width: =150
+        X: =272
+        Y: =621
+        ZIndex: =21
+
+    Button7_2 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(73, 130, 5, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =85
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        OnSelect: =Navigate(Screen_Reembolso_Excel,ScreenTransition.Cover)
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =15
+        Text: ="Prueba"
+        Visible: =false
+        Width: =150
+        X: =984
+        Y: =620
+        ZIndex: =22
+

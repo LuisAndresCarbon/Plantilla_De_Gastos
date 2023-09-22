@@ -1,0 +1,1481 @@
+Screen_base_Excel As screen:
+    Fill: =RGBA(227,240,234,1)
+    LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
+
+    Gallery7 As gallery.galleryVertical:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        DelayItemLoading: =true
+        Height: =286
+        Items: |-
+            =Filter(
+                'Plantilla de Reembolsos de Gastos Final',
+                (Título = TextInput11.Text) &&
+                (Mes = TextInput11_1.Text) &&
+                ('No. De Reembolso' = TextInput11_2.Text) &&
+                ('Nombre del Colaborador' = TextInput11_3.Text)
+            )
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =45
+        Width: =1366
+        Y: =422
+        ZIndex: =1
+
+        Label128 As label:
+            BorderColor: =RGBA(146, 180, 105, 1)
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: |-
+                =ThisItem.'No. De Factura / CFDI: Folio Fiscal'
+            ZIndex: =3
+
+        Label126 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(146, 180, 105, 1)
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: |-
+                ="$ " & Text(
+                    ThisItem.'Importe (Prorrateo Factura)',
+                    "[$-en-US]0,0.00"
+                )
+            Width: =100
+            X: =150
+            ZIndex: =4
+
+        Label131 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(146, 180, 105, 1)
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: |-
+                ="$ " & Text(
+                    ThisItem.'IVA (Prorrateo Factura)',
+                    "[$-en-US]0,0.00"
+                )
+            Width: =100
+            X: =250
+            ZIndex: =5
+
+        Label132 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(146, 180, 105, 1)
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: |-
+                ="$ " & Text(
+                    ThisItem.'ISH (Prorrateo Factura)',
+                    "[$-en-US]0,0.00"
+                )
+            Width: =100
+            X: =350
+            ZIndex: =6
+
+        Label133 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(146, 180, 105, 1)
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: |-
+                ="$ " & Text(
+                    ThisItem.'Ret ISR (Prorrateo Factura)',
+                    "[$-en-US]0,0.00"
+                )
+            Width: =100
+            X: =450
+            ZIndex: =7
+
+        Label134 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(146, 180, 105, 1)
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.Divisa
+            Width: =100
+            X: =550
+            ZIndex: =8
+
+        Label135 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(146, 180, 105, 1)
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: |-
+                ="$ " & Text(
+                    ThisItem.'Importe (Detalle Monto Factura)',
+                    "[$-en-US]0,0.00"
+                )
+            Width: =100
+            X: =650
+            ZIndex: =9
+
+        Label136 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(146, 180, 105, 1)
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: |-
+                ="$ " & Text(
+                    ThisItem.'IVA (Detalle Monto Factura)',
+                    "[$-en-US]0,0.00"
+                )
+            Width: =100
+            X: =750
+            ZIndex: =10
+
+        Label137 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(146, 180, 105, 1)
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: |-
+                ="$ " & Text(
+                    ThisItem.'ISH (Detalle Monto Factura)',
+                    "[$-en-US]0,0.00"
+                )
+            Width: =100
+            X: =850
+            ZIndex: =11
+
+        Label138 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(146, 180, 105, 1)
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: |-
+                ="$ " & Text(
+                    ThisItem.IEPS,
+                    "[$-en-US]0,0.00"
+                )
+            Width: =100
+            X: =950
+            ZIndex: =12
+
+        Label139 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(146, 180, 105, 1)
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: |-
+                ="$ " & Text(
+                    ThisItem.'Ret IVA (Detalle Monto Factura)',
+                    "[$-en-US]0,0.00"
+                )
+            Width: =100
+            X: =1050
+            ZIndex: =13
+
+        Label140 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(146, 180, 105, 1)
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: |-
+                ="$ " & Text(
+                    ThisItem.'Ret. ISR (Detalle Monto Factura)',
+                    "[$-en-US]0,0.00"
+                )
+            Width: =100
+            X: =1150
+            ZIndex: =14
+
+        Label141 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(146, 180, 105, 1)
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: |-
+                ="$ " & Text(
+                    ThisItem.'Total (MXN)',
+                    "[$-en-US]0,0.00"
+                )
+            Width: =100
+            X: =1250
+            ZIndex: =15
+
+    Encabezado_4 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =20
+        ZIndex: =9
+
+        Rectangle2_8 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(46, 82, 3, 1)
+            DisplayMode: =DisplayMode.Disabled
+            Fill: =RGBA(46, 82, 3, 1)
+            FocusedBorderThickness: =4
+            Height: =92
+            HoverFill: =RGBA(73, 130, 5, 1)
+            PressedFill: =RGBA(73, 130, 5, 1)
+            Width: =1366
+            ZIndex: =7
+
+        Image10_4 As image:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =92
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: ='Logo Horizontal Texto Blanco1'
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =322
+            X: =12
+            ZIndex: =8
+
+        Label15_4 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Height: =36
+            Size: =13
+            Text: =User().FullName
+            Width: =188
+            X: =1061
+            Y: =28
+            ZIndex: =9
+
+        Image12_4 As image:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =76
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: =Persona
+            ImagePosition: =ImagePosition.Fill
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =101
+            X: =1249
+            Y: =8
+            ZIndex: =10
+
+    Label16 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =64
+        Size: =15
+        Text: |-
+            ="No. De Factura / CFDI: Folio Fiscal"
+        Y: =348
+        ZIndex: =11
+
+    Label130 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Size: =15
+        Text: ="Importe"
+        Width: =100
+        X: =155
+        Y: =368
+        ZIndex: =12
+
+    Label15 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Size: =15
+        Text: ="IVA"
+        Width: =100
+        X: =245
+        Y: =368
+        ZIndex: =13
+
+    Label129 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Size: =15
+        Text: ="ISH"
+        Width: =100
+        X: =350
+        Y: =368
+        ZIndex: =14
+
+    Menu As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =14
+
+        Rectangle3_8 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(182, 205, 155, 1)
+            DisplayMode: =DisplayMode.Disabled
+            Fill: =RGBA(73, 130, 5, 1)
+            FocusedBorderThickness: =4
+            Height: =76
+            HoverFill: =RGBA(73, 130, 5, 1)
+            PressedFill: =RGBA(73, 130, 5, 1)
+            Width: =1366
+            Y: =82
+            ZIndex: =3
+
+        Icon8_5 As icon.ChevronDown:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(73, 130, 5, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Home
+            OnSelect: =Navigate(Inicio,ScreenTransition.CoverRight)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            X: =1287
+            Y: =90
+            ZIndex: =4
+
+        Image3_1 As image:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: =User
+            OnSelect: =Navigate(Screen_Perfiles,ScreenTransition.Cover)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            X: =1123
+            Y: =72
+            ZIndex: =5
+
+        Icon3_1 As icon.ChevronDown:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(73, 130, 5, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Database
+            OnSelect: =Navigate(Screen_base_compaq,ScreenTransition.Cover)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Visible: |-
+                =Switch(true,
+                VarAdmi = "Jefe", true,
+                VarAdmi = "Programador", true,
+                VarAdmi = "Contador", true
+                )
+            X: =1213
+            Y: =90
+            ZIndex: =6
+
+    Label142 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Size: =15
+        Text: ="Ret. ISR"
+        Width: =100
+        X: =455
+        Y: =368
+        ZIndex: =15
+
+    Label143 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Size: =15
+        Text: ="Divisa"
+        Width: =100
+        X: =555
+        Y: =368
+        ZIndex: =16
+
+    Label144 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Size: =15
+        Text: ="Importe"
+        Width: =100
+        X: =655
+        Y: =368
+        ZIndex: =17
+
+    Label145 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Size: =15
+        Text: ="IVA"
+        Width: =100
+        X: =755
+        Y: =368
+        ZIndex: =18
+
+    Label146 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Size: =15
+        Text: ="ISH"
+        Width: =100
+        X: =855
+        Y: =368
+        ZIndex: =19
+
+    Label147 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Size: =15
+        Text: ="IEPS"
+        Width: =100
+        X: =955
+        Y: =368
+        ZIndex: =20
+
+    Label148 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Size: =15
+        Text: ="Ret. IVA"
+        Width: =100
+        X: =1055
+        Y: =368
+        ZIndex: =21
+
+    Label149 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Size: =15
+        Text: ="Ret. ISR"
+        Width: =100
+        X: =1151
+        Y: =368
+        ZIndex: =22
+
+    Label150 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Size: =15
+        Text: ="Total"
+        Width: =100
+        X: =1251
+        Y: =368
+        ZIndex: =23
+
+    Label151 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(146, 180, 105, 1)
+        BorderStyle: =BorderStyle.Dotted
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: ="Prorrateo Factura"
+        Width: =400
+        X: =155
+        Y: =328
+        ZIndex: =25
+
+    Label152 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(146, 180, 105, 1)
+        BorderStyle: =BorderStyle.Dotted
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Bold
+        Size: =15
+        Text: ="Detalle Monto Factura"
+        Width: =600
+        X: =655
+        Y: =328
+        ZIndex: =26
+
+    Rectangle2_24 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(46, 82, 3, 1)
+        DisplayMode: =DisplayMode.Disabled
+        Fill: =RGBA(46, 82, 3, 1)
+        FocusedBorderThickness: =4
+        Height: =60
+        HoverFill: =RGBA(73, 130, 5, 1)
+        PressedFill: =RGBA(73, 130, 5, 1)
+        Width: =1366
+        X: =
+        Y: =708
+        ZIndex: =31
+
+    Button3_12 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =35
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        OnSelect: =Navigate(Screen_base,ScreenTransition.CoverRight)
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =15
+        Text: ="Regresar"
+        X: =14
+        Y: =720
+        ZIndex: =32
+
+    TextInput11 As text:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        Default: =Var_Revisión.Título
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.View
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =48
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =RGBA(73, 130, 5, 1)
+        PressedColor: =RGBA(51, 51, 51, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =13
+        Visible: =false
+        Width: =150
+        X: =14
+        Y: =100
+        ZIndex: =33
+
+    TextInput11_1 As text:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        Default: =Var_Revisión.Mes
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.View
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =48
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =RGBA(73, 130, 5, 1)
+        PressedColor: =RGBA(51, 51, 51, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =13
+        Visible: =false
+        Width: =150
+        X: =174
+        Y: =100
+        ZIndex: =34
+
+    TextInput11_2 As text:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        Default: =Var_Revisión.'No. De Reembolso'
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.View
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =48
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =RGBA(73, 130, 5, 1)
+        PressedColor: =RGBA(51, 51, 51, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =13
+        Visible: =false
+        Width: =150
+        X: =337
+        Y: =100
+        ZIndex: =35
+
+    TextInput11_3 As text:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        Default: =Var_Revisión.'Nombre del Colaborador'
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.View
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =48
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =RGBA(73, 130, 5, 1)
+        PressedColor: =RGBA(51, 51, 51, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =13
+        Visible: =false
+        Width: =150
+        X: =498
+        Y: =100
+        ZIndex: =36
+
+    Rectangle8 As rectangle:
+        BorderColor: =RGBA(51, 91, 4, 1)
+        BorderStyle: =BorderStyle.Dashed
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =158
+        HoverFill: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(73, 130, 5, 1)
+        Width: =854
+        Y: =159
+        ZIndex: =37
+
+    Label157 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Size: =15
+        Text: |-
+            ="Título:"
+        Width: =80
+        X: =12
+        Y: =163
+        ZIndex: =38
+
+    Label159 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Size: =15
+        Text: |-
+            ="No. De Reembolso:"
+        Width: =125
+        X: =14
+        Y: =205
+        ZIndex: =39
+
+    Label160 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Size: =15
+        Text: |-
+            ="Nombre del Colaborador:"
+        X: =14
+        Y: =255
+        ZIndex: =40
+
+    Label161 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Size: =13
+        Text: |-
+            =If(
+                IsBlank(Var_Revisión.Título),
+                LookUp(Col_Notificar,true).Título,
+                Var_Revisión.Título
+            )
+        X: =93
+        Y: =163
+        ZIndex: =41
+
+    Label162 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Size: =13
+        Text: |-
+            =If(
+                IsBlank(Var_Revisión.'No. De Reembolso'),
+                LookUp(Col_Notificar,true).Reembolso,
+                Var_Revisión.'No. De Reembolso'
+            )
+        X: =139
+        Y: =210
+        ZIndex: =42
+
+    Label163 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Size: =13
+        Text: |-
+            =If(
+                IsBlank(Var_Revisión.'Nombre del Colaborador'),
+                Text(LookUp(Col_Notificar,true).Nombre),
+                Var_Revisión.'Nombre del Colaborador'
+            )
+        X: =155
+        Y: =270
+        ZIndex: =43
+
+    Label164 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Size: =15
+        Text: ="Perido del Reembolso"
+        Width: =210
+        X: =309
+        Y: =165
+        ZIndex: =44
+
+    Label165 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Size: =13
+        Text: |-
+            =If(
+                IsBlank(Var_Revisión.'Periodo del Reembolso Del'),
+                Text(LookUp(Col_Notificar,true).Del),
+                Var_Revisión.'Periodo del Reembolso Del'
+            )
+        Width: =105
+        X: =305
+        Y: =210
+        ZIndex: =45
+
+    Label166 As label:
+        Align: =Align.Right
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Size: =13
+        Text: |-
+            =If(
+                IsBlank(Var_Revisión.'Periodo del Reembolso Al'),
+                Text(LookUp(Col_Notificar,true).Al),
+                Var_Revisión.'Periodo del Reembolso Al'
+            )
+        Width: =105
+        X: =410
+        Y: =210
+        ZIndex: =46
+
+    Label167 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Size: =13
+        Text: |-
+            =If(
+                IsBlank(Var_Revisión.Mes),
+                LookUp(Col_Notificar,true).Mes,
+                Var_Revisión.Mes
+            )
+        X: =337
+        Y: =245
+        ZIndex: =47
+
+    Label168 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Size: =15
+        Text: |-
+            ="Proposito:"
+        X: =525
+        Y: =180
+        ZIndex: =48
+
+    TextInput14 As text:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        Default: |-
+            =If(
+                IsBlank(Var_Revisión.Propósito),
+                Text(LookUp(Col_Notificar,true).Proposito),
+                Var_Revisión.Propósito
+            )
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =60
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        Mode: =TextMode.MultiLine
+        PressedBorderColor: =RGBA(73, 130, 5, 1)
+        PressedColor: =RGBA(51, 51, 51, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =13
+        Width: =200
+        X: =638
+        Y: =170
+        ZIndex: =49
+
+    Label169 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =34
+        Size: =15
+        Text: |-
+            ="Destino:"
+        X: =290
+        Y: =276
+        ZIndex: =50
+
+    TextInput15 As text:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        Default: |-
+            =If(
+                IsBlank(Var_Revisión.Destino),
+                LookUp(Col_Notificar,true).Destino,
+                Var_Revisión.Destino
+            )
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =34
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        Mode: =TextMode.MultiLine
+        PressedBorderColor: =RGBA(73, 130, 5, 1)
+        PressedColor: =RGBA(51, 51, 51, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =13
+        Width: =125
+        X: =386
+        Y: =276
+        ZIndex: =51
+
+    HtmlText1_1 As htmlViewer:
+        Height: =209
+        HtmlText: |-
+            =Concatenate("Estoy solicitando un </font></b>","<b><font color=blue>", Label161,"</font></b><br>","<b>No. Reembolso: </b>",Label162,"<br><b>Mes:</b> ",Label167,"<br><b>Destino:</b> ",TextInput15,"<br><b>Proposito:</b> ",TextInput14,"<br><b>Anticipo:</b> ",Label153,"<br><b>Cantidad:</b> ","$ ",Text(Value(Text(Label56_3)),"[$-en-US]0,0.00"),"<br><b>Solicitado por:</b> ",Label163)
+        Visible: =false
+        Width: =442
+        X: =855
+        Y: =160
+        ZIndex: =52
+
+    Label9_2 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =34
+        Size: =15
+        Text: |-
+            ="Gasto Total: " & "$" & 
+            Text(Sum(
+                Filter(Gallery7.AllItems,true),
+                If(
+                    Or(
+                        IsBlank('Importe Prorrateo Factura'),
+                        Value('Importe Prorrateo Factura') = 0),
+                Value('Total (MXN)'),
+                Value('Importe Prorrateo Factura')
+                )
+            ),"[$-en-US]0,0.00")
+        Width: =289
+        X: =659
+        Y: =92
+        ZIndex: =53
+
+    Label125 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Size: =15
+        Text: |-
+            ="Anticipo:"
+        X: =525
+        Y: =255
+        ZIndex: =55
+
+    Label153 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Size: =13
+        Text: |-
+            ="$ " &
+            If(
+                IsBlank(Text(Value(Var_Revisión.Anticipo),"[$-en-US]0,0.00")),
+                Text(LookUp(Col_Notificar,true).Anticipo),
+                Text(Value(Var_Revisión.Anticipo),"[$-en-US]0,0.00")
+            )
+        X: =638
+        Y: =255
+        ZIndex: =56
+
+    Label9_3 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =33
+        Size: =15
+        Text: |-
+            ="Anticipo: " & "$ " & Text(Value(Var_Revisión.Anticipo),"[$-en-US]0,0.00")
+        Width: =290
+        X: =659
+        Y: =118
+        ZIndex: =57
+
+    Label110_1 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Bold
+        Height: =64
+        Size: =15
+        Text: |-
+            ="Devolución: $" & Text(Sum(Label56_2 - Label56_3),"[$-en-US]0,0.00")
+        Width: =158
+        X: =954
+        Y: =90
+        ZIndex: =58
+
+    Label56_3 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Size: =13
+        Text: |-
+            =//Suma prorrateo y total forma numerica
+            Sum(
+                Filter(Gallery7.AllItems,true),
+                If(
+                    Or(
+                        IsBlank('Importe Prorrateo Factura'),
+                        Value('Importe Prorrateo Factura') = 0),
+                Value('Total (MXN)'),
+                Value('Importe Prorrateo Factura')
+                )
+            )
+        Visible: =false
+        X: =515
+        ZIndex: =60
+
+    Label56_2 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Size: =13
+        Text: =Var_Revisión.Anticipo
+        Visible: =false
+        X: =688
+        ZIndex: =61
+
+    Button4 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
+        OnSelect: |-
+            =If(
+                VarAdmi = "Desarrollo",
+                Office365Outlook.SendEmailV2(
+                    "lourdes@canopiacarbon.com",
+                    User().FullName & " Mando su Plantilla para revisión",
+                    HtmlText1_1.HtmlText,
+                    {Importance: "High"}
+                ),
+                If(
+                    VarAdmi = "Legal",
+                    Office365Outlook.SendEmailV2(
+                        "lizette@canopiacarbon.com",
+                        User().FullName & " Mando su Plantilla para revisión",
+                        HtmlText1_1.HtmlText,
+                        {Importance: "High"}
+                    )
+                ),
+                If(
+                    VarAdmi = "MRV",
+                    Office365Outlook.SendEmailV2(
+                        "gerencia.mrv@canopiacarbon.com",
+                        User().FullName & " Mando su Plantilla para revisión",
+                        HtmlText1_1.HtmlText,
+                        {Importance: "High"}
+                    )
+                ),
+                If(
+                    VarAdmi = "Originacion",
+                    Office365Outlook.SendEmailV2(
+                        "roberto@canopiacarbon.com",
+                        User().FullName & " Mando su Plantilla para revisión",
+                        HtmlText1_1.HtmlText,
+                        {Importance: "High"}
+                    )
+                ),
+                If(
+                    VarAdmi = "Salvaguarda",
+                    Office365Outlook.SendEmailV2(
+                        "carolina@canopiacarbon.com",
+                        User().FullName & " Mando su Plantilla para revisión",
+                        HtmlText1_1.HtmlText,
+                        {Importance: "High"}
+                    )
+                )
+            );
+            Office365Outlook.SendEmailV2(
+                "uriel@canopiacarbon.com",
+                User().FullName & " Mando su Plantilla para revisión",
+                HtmlText1_1.HtmlText,
+                {Importance: "High"}
+            );
+            Office365Outlook.SendEmailV2(
+                "orlando@canopiacarbon.com",
+                User().FullName & " Mando su Plantilla para revisión",
+                HtmlText1_1.HtmlText,
+                {Importance: "High"}
+            );
+            Office365Outlook.SendEmailV2(
+                "miguelp@canopiacarbon.com",
+                User().FullName & " Mando su Plantilla para revisión",
+                HtmlText1_1.HtmlText,
+                {Importance: "High"}
+            );
+            Office365Outlook.SendEmailV2(
+                "carlos@canopiacarbon.com",
+                User().FullName & " Mando su Plantilla para revisión",
+                HtmlText1_1.HtmlText,
+                {Importance: "High"}
+            );
+            Notify(
+                "Gracias por mandar tus facturas, se revisaran lo antes posible",
+                NotificationType.Success,
+                4000
+            )
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =15
+        Text: ="Mandar para revisión"
+        Width: =225
+        X: =580
+        Y: =720
+        ZIndex: =62
+
+    ComboBox24 As combobox:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        ChevronBackground: =RGBA(255, 255, 255, 1)
+        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+        ChevronFill: =RGBA(33, 33, 33, 1)
+        ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+        ChevronHoverFill: =RGBA(33, 33, 33, 1)
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayFields: =["Value"]
+        Font: =Font.'Segoe UI'
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(212, 212, 212, 1)
+        InputTextPlaceholder: ="Autorización Gerente"
+        Items: =["Autorizo","No Autorizo","Corregir"]
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(73, 130, 5, 1)
+        SearchFields: =["Value"]
+        SearchItems: =Search(["Autorizo","No Autorizo","Corregir"],ComboBox24.SearchText,"Value")
+        SelectionFill: =RGBA(73, 130, 5, 1)
+        SelectMultiple: =false
+        Size: =13
+        Visible: =false
+        X: =873
+        Y: =172
+        ZIndex: =65
+
+    Icon18 As icon.ChevronDown:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(73, 130, 5, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =55
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.CheckBadge
+        OnSelect: |
+            =ForAll(
+                Gallery7,
+                Patch(
+                    'Plantilla de Reembolsos de Gastos Final',
+                    First(Filter(
+            /*ForAll(
+                GaleriaComprobaciones.AllItems,
+                Patch(
+                    TablaComprobaciones,
+                    First(Filter(TablaComprobaciones, ID = ThisItem.ID)),
+                    { Validada: true }  // Cambia esto según el nombre del campo en tu tabla
+                )
+            )
+            */
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Visible: =false
+        Width: =55
+        X: =1262
+        Y: =195
+        ZIndex: =66
+
+    Label155 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Size: =13
+        Text: =LookUp(Col_Notificar,true).Anticipo
+        X: =116
+        Y: =104
+        ZIndex: =67
+
