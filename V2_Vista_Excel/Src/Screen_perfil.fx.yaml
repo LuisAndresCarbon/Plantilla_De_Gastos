@@ -137,7 +137,7 @@ Screen_perfil As screen:
                 PaddingLeft: =12
                 PaddingRight: =5
                 PaddingTop: =5
-                PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(73, 130, 5, 1)
                 SelectionFill: =RGBA(73, 130, 5, 1)
@@ -205,7 +205,7 @@ Screen_perfil As screen:
                 HoverFill: =RGBA(212, 212, 212, 1)
                 Items: =Choices([@'Perfil entrega de facturas'].Mes)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(73, 130, 5, 1)
                 SearchFields: =["Value"]
@@ -769,7 +769,7 @@ Screen_perfil As screen:
                 HoverFill: =RGBA(212, 212, 212, 1)
                 Items: =Choices([@'Perfil entrega de facturas'].Colaborador)
                 PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(73, 130, 5, 1)
                 SearchFields: =["DisplayName"]

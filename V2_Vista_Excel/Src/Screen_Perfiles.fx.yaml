@@ -39,7 +39,7 @@ Screen_Perfiles As screen:
         Items: |
             =Sort(ForAll(Distinct('Perfil entrega de facturas',Título), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
         NoSelectionText: ="Título"
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Result"]
@@ -75,7 +75,7 @@ Screen_Perfiles As screen:
         InputTextPlaceholder: ="Colaborador"
         Items: |
             =Sort(ForAll(Distinct('Perfil entrega de facturas',Colaborador.DisplayName), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Result"]
@@ -111,7 +111,7 @@ Screen_Perfiles As screen:
         InputTextPlaceholder: ="No. de Reembolso"
         Items: |
             =Sort(ForAll(Distinct('Perfil entrega de facturas','No. De Reembolso'), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Result"]
@@ -639,7 +639,7 @@ Screen_Perfiles As screen:
         InputTextPlaceholder: ="Mes"
         Items: |
             =Sort(ForAll(Distinct('Perfil entrega de facturas',Mes.Value), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Result"]
@@ -703,7 +703,7 @@ Screen_Perfiles As screen:
         InputTextPlaceholder: ="Año"
         Items: |-
             =Sort(ForAll(Distinct('Perfil entrega de facturas',Año), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Result"]

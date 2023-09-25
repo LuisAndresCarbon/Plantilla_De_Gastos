@@ -1128,7 +1128,7 @@ Screen_Reembolso_Excel As screen:
             PaddingLeft: =12
             PaddingRight: =5
             PaddingTop: =5
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(73, 130, 5, 1)
             SelectionFill: =RGBA(73, 130, 5, 1)
@@ -1159,7 +1159,7 @@ Screen_Reembolso_Excel As screen:
             PaddingLeft: =12
             PaddingRight: =5
             PaddingTop: =5
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(73, 130, 5, 1)
             SelectionFill: =RGBA(73, 130, 5, 1)
@@ -1190,7 +1190,7 @@ Screen_Reembolso_Excel As screen:
             Items: |-
                 =["Aguascalientes","Baja California","Baja California Sur","Campeche","Chiapas","Chihuahua","Ciudad de México","Coahuila","Colima","Durango","Guanajuato","Guerrero","Hidalgo","Jalisco","México","Michoacán","Morelos","Nayarit","Nuevo León","Oaxaca","Puebla","Querétaro","Quintana Roo","San Luis Potosí","Sinaloa","Sonora","Tabasco","Tamaulipas","Tlaxcala","Veracruz","Yucatán","Zacatecas"
                 ]
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(73, 130, 5, 1)
             SearchFields: =["Value"]
@@ -4398,7 +4398,7 @@ Screen_Reembolso_Excel As screen:
                 PaddingLeft: =12
                 PaddingRight: =5
                 PaddingTop: =5
-                PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(73, 130, 5, 1)
                 SelectionFill: =RGBA(73, 130, 5, 1)
@@ -5865,7 +5865,7 @@ Screen_Reembolso_Excel As screen:
                 PaddingLeft: =12
                 PaddingRight: =5
                 PaddingTop: =5
-                PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(73, 130, 5, 1)
                 SelectionFill: =RGBA(73, 130, 5, 1)
@@ -6797,7 +6797,7 @@ Screen_Reembolso_Excel As screen:
             InputTextPlaceholder: ="Buscar Tipo"
             Items: |-
                 =Sort(ForAll(Distinct('Cuentas Capex y Opex',Cta), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(73, 130, 5, 1)
             SearchFields: =["Result"]
@@ -6829,7 +6829,7 @@ Screen_Reembolso_Excel As screen:
             InputTextPlaceholder: ="Buscar Concepto"
             Items: |-
                 =Sort(ForAll(Distinct('Cuentas Capex y Opex',Concepto), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(73, 130, 5, 1)
             SearchFields: =["Result"]
@@ -7080,7 +7080,7 @@ Screen_Reembolso_Excel As screen:
             InputTextPlaceholder: ="Buscar Tipo"
             Items: |-
                 =Sort(ForAll(Distinct('Cuentas de Gastos Generales',Titulo), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(73, 130, 5, 1)
             SearchFields: =["Result"]
@@ -7112,7 +7112,7 @@ Screen_Reembolso_Excel As screen:
             InputTextPlaceholder: ="Buscar Concepto"
             Items: |-
                 =Sort(ForAll(Distinct('Cuentas de Gastos Generales',Concepto), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(73, 130, 5, 1)
             SearchFields: =["Result"]
@@ -7315,7 +7315,7 @@ Screen_Reembolso_Excel As screen:
             InputTextPlaceholder: ="Project ID"
             Items: |-
                 =Sort(ForAll(Distinct(Portafolio,'Project ID'), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(73, 130, 5, 1)
             SearchFields: =["Result"]
@@ -7348,7 +7348,7 @@ Screen_Reembolso_Excel As screen:
             InputTextPlaceholder: ="Project Name"
             Items: |-
                 =Sort(ForAll(Distinct(Portafolio,'Project Name'), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(73, 130, 5, 1)
             SearchFields: =["Result"]
@@ -7558,7 +7558,7 @@ Screen_Reembolso_Excel As screen:
             InputTextPlaceholder: ="Project ID"
             Items: |-
                 =Sort(ForAll(Distinct('ERPA Activos Carlos','Project ID'), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(73, 130, 5, 1)
             SearchFields: =["Result"]
@@ -7591,7 +7591,7 @@ Screen_Reembolso_Excel As screen:
             InputTextPlaceholder: ="Project Name"
             Items: |-
                 =Sort(ForAll(Distinct('ERPA Activos Carlos','Project Name'), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(73, 130, 5, 1)
             SearchFields: =["Result"]

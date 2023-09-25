@@ -712,7 +712,7 @@ Screen_base_compaq As screen:
         InputTextPlaceholder: ="Colaborador"
         Items: |-
             =Sort(ForAll(Distinct('Formato Compaq','Nombre del Colaborador'), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Result"]
@@ -747,7 +747,7 @@ Screen_base_compaq As screen:
         InputTextPlaceholder: ="Mes"
         Items: |-
             =Sort(ForAll(Distinct('Formato Compaq',Mes), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Result"]
@@ -830,7 +830,7 @@ Screen_base_compaq As screen:
         InputTextPlaceholder: ="No. de Reembolso"
         Items: |-
             =Sort(ForAll(Distinct('Formato Compaq','No. De Reembolso'), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Result"]

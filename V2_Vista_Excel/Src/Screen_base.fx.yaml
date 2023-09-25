@@ -39,7 +39,7 @@ Screen_base As screen:
         Items: |
             =Sort(ForAll(Distinct('Plantilla de Reembolsos de Gastos Final',Título), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
         NoSelectionText: ="Título"
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Result"]
@@ -1122,7 +1122,7 @@ Screen_base As screen:
         InputTextPlaceholder: ="Mes"
         Items: |-
             =Sort(ForAll(Distinct('Plantilla de Reembolsos de Gastos Final',Mes), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Result"]
@@ -1313,7 +1313,7 @@ Screen_base As screen:
         InputTextPlaceholder: ="No. De Reembolso"
         Items: |-
             =Sort(ForAll(Distinct('Plantilla de Reembolsos de Gastos Final','No. De Reembolso'), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Result"]
@@ -1347,7 +1347,7 @@ Screen_base As screen:
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Colaborador"
         Items: =["Cesar Gonzalez", "Egle May", "Andres Sierra", "Montserrat Ramos", "Mario Ubaldo", "Adrian Morales","Lourdes Maldonado"]
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Value"]
@@ -1383,7 +1383,7 @@ Screen_base As screen:
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Colaborador"
         Items: =["Daniel Garcia","Luisa Ortiz","Roberto May","Daniel Matias Sosa","Lizette Hernandez"]
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Value"]
@@ -1419,7 +1419,7 @@ Screen_base As screen:
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Colaborador"
         Items: =["Leonardo Sanchez","Lorena Salas","Othón Morgado","Gerencia MRV"]
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Value"]
@@ -1456,7 +1456,7 @@ Screen_base As screen:
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Colaborador"
         Items: =["Roberto Vallejo","Rosalba Diaz","Miguel Angel Garcia","Carolina Martinez","Alejandra Aguillon","Cristina Pech"]
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Value"]
@@ -1493,7 +1493,7 @@ Screen_base As screen:
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Colaborador"
         Items: =["Alejandra Aguillon","Cristina Pech","Carolina Martinez"]
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Value"]
@@ -1530,7 +1530,7 @@ Screen_base As screen:
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Colaborador"
         Items: =["Monica Barcenas","Santiago Mora"]
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Value"]
@@ -1567,7 +1567,7 @@ Screen_base As screen:
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Colaborador"
         Items: =["Yenisey Reyes","Ana Ruth","Adolfo Mendez","Ivan", "Carlos Alfredo","Miguel Pichardo","Uriel Zavala Huerta","Jesus Manuel García Celaya","Luis Morales","Orlando Rojas Santoyo"]
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Value"]
@@ -1604,7 +1604,7 @@ Screen_base As screen:
         InputTextPlaceholder: ="Colaborador"
         Items: |-
             =Sort(ForAll(Distinct('Plantilla de Reembolsos de Gastos Final','Nombre del Colaborador'),{Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Result"]

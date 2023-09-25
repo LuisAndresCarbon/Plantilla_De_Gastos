@@ -507,7 +507,7 @@ Screen_info As screen:
         InputTextPlaceholder: ="Cta"
         Items: |-
             =Sort(ForAll(Distinct('Cuentas Capex y Opex',Cta), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Result"]
@@ -542,7 +542,7 @@ Screen_info As screen:
         InputTextPlaceholder: ="Concepto"
         Items: |-
             =Sort(ForAll(Distinct('Cuentas Capex y Opex',Concepto), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Result"]
@@ -577,7 +577,7 @@ Screen_info As screen:
         InputTextPlaceholder: ="Concepto"
         Items: |-
             =Sort(ForAll(Distinct('Cuentas de Gastos Generales',Titulo), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Result"]
@@ -612,7 +612,7 @@ Screen_info As screen:
         InputTextPlaceholder: ="Cta"
         Items: |-
             =Sort(ForAll(Distinct('Cuentas de Gastos Generales',Cta), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Result"]
