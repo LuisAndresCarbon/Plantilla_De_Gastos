@@ -140,9 +140,7 @@ Inicio As screen:
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Size: =15
-        Text: |-
-            ="
-            Editar Base de Datos"
+        Text: ="Base de Datos"
         Visible: |-
             =Switch(true,
             VarAdmi = "Jefe", true,
