@@ -565,7 +565,7 @@ Inicio As screen:
         Font: =Font.'Segoe UI'
         Height: =80
         Size: =13
-        Text: ="Datos"
+        Text: ="Carga y edición de todas las bases de datos de la plantilla (EJIDOS con ERPA, Cuentas Capex/Opex y Cuentas Gastos Generales)"
         Width: =299
         X: =1049
         Y: =451
