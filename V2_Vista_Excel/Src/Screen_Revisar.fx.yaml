@@ -5736,7 +5736,7 @@ Screen_Revisar As screen:
                 true,
                 User().Email = "carlos@canopiacarbon918.onmicrosoft.com",
                 true,
-                User().FullName = "Carlos Alfredo",
+                User().FullName = "Carlos Alfredo Avila Alfonso",
                 true,
                 User().Email = "miguelp@canopiacarbon918.onmicrosoft.com",
                 true,
