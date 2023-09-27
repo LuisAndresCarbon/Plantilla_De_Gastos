@@ -8385,6 +8385,8 @@ Screen_Excel_Rev As screen:
                 PressedBorderColor: =RGBA(0, 0, 0, 0)
                 PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                 PressedFill: =RGBA(0, 0, 0, 0)
+                Visible: |
+                    =If(Label163_3.Text = Label15_23.Text,true,false)
                 Width: =55
                 ZIndex: =1
 
