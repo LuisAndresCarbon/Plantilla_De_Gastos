@@ -118,7 +118,7 @@ Screen_Comprobación_Excel As screen:
             BorderThickness: =2
             DisabledFill: =RGBA(0,148,110,87)
             DisplayMode: =DisplayMode.Disabled
-            Fill: =RGBA(0,148,110,87)
+            Fill: =RGBA(0, 148, 110, 0.55)
             FocusedBorderThickness: =4
             Height: =92
             HoverFill: =RGBA(73, 130, 5, 1)

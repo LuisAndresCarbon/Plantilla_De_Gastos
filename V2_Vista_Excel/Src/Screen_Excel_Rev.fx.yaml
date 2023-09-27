@@ -105,107 +105,6 @@ Screen_Excel_Rev As screen:
             Width: =4
             ZIndex: =5
 
-    Icon8_9 As icon.ChevronDown:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        Color: =RGBA(73, 130, 5, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(220, 220, 220, 1)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Icon: =Icon.Home
-        OnSelect: =Navigate(Inicio,ScreenTransition.CoverRight)
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        X: =1287
-        Y: =90
-        ZIndex: =2
-
-    Icon3_5 As icon.ChevronDown:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        Color: =RGBA(73, 130, 5, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(220, 220, 220, 1)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Icon: =Icon.Database
-        OnSelect: =Navigate(Screen_base_compaq,ScreenTransition.Cover)
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Visible: |-
-            =Switch(true,
-            VarAdmi = "Jefe", true,
-            VarAdmi = "Programador", true,
-            VarAdmi = "Contador", true
-            )
-        X: =1213
-        Y: =90
-        ZIndex: =3
-
-    Encabezado_19 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =20
-        ZIndex: =9
-
-        Rectangle2_38 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledFill: =RGBA(0,148,110,87)
-            DisplayMode: =DisplayMode.Disabled
-            Fill: =RGBA(0,148,110,87)
-            FocusedBorderThickness: =4
-            Height: =92
-            HoverFill: =RGBA(73, 130, 5, 1)
-            PressedFill: =RGBA(73, 130, 5, 1)
-            Width: =1366
-            ZIndex: =4
-
-        Label15_23 As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(255, 255, 255, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Height: =36
-            Size: =13
-            Text: =User().FullName
-            Width: =188
-            X: =1061
-            Y: =28
-            ZIndex: =6
-
-        Image12_19 As image:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            Height: =76
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Image: =Persona
-            ImagePosition: =ImagePosition.Fill
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Width: =101
-            X: =1249
-            Y: =8
-            ZIndex: =7
-
     HtmlText1_4 As htmlViewer:
         Height: =209
         HtmlText: |-
@@ -282,11 +181,11 @@ Screen_Excel_Rev As screen:
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Normal
         HeadingColor: =RGBA(255, 255, 255, 1)
-        HeadingFill: =RGBA(73, 130, 5, 1)
+        HeadingFill: =RGBA(0, 148, 110, 1)
         HeadingFont: =Font.'Segoe UI'
         HeadingFontWeight: =FontWeight.Normal
         HeadingSize: =13
-        Height: =328
+        Height: =408
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =RGBA(73, 130, 5, 1)
         InputFill: =RGBA(255, 255, 255, 1)
@@ -319,7 +218,7 @@ Screen_Excel_Rev As screen:
         Visible: =true
         Width: =1366
         X: =0
-        Y: =376
+        Y: =296
         ZIndex: =19
 
         "'Fecha Doc._Columna1_2' As dataTableColumn.textualColumn":
@@ -874,7 +773,7 @@ Screen_Excel_Rev As screen:
         RadiusTopLeft: =4
         RadiusTopRight: =4
         Width: =924
-        Y: =160
+        Y: =92
         ZIndex: =20
 
         Label157_3 As label:
@@ -987,7 +886,7 @@ Screen_Excel_Rev As screen:
             Text: |-
                 ="Proposito:"
             X: =573
-            Y: =11
+            Y: =21
             ZIndex: =7
 
         Label169_3 As label:
@@ -1020,7 +919,7 @@ Screen_Excel_Rev As screen:
             Text: |-
                 ="Anticipo:"
             X: =573
-            Y: =80
+            Y: =90
             ZIndex: =9
 
         TextInput18_2 As text:
@@ -1047,7 +946,7 @@ Screen_Excel_Rev As screen:
             Size: =13
             Width: =150
             X: =696
-            Y: =80
+            Y: =90
             ZIndex: =13
 
         TextInput19_2 As text:
@@ -1076,6 +975,7 @@ Screen_Excel_Rev As screen:
             Size: =13
             Width: =200
             X: =696
+            Y: =10
             ZIndex: =14
 
         Label179_2 As label:
@@ -6584,27 +6484,6 @@ Screen_Excel_Rev As screen:
                 Y: =66
                 ZIndex: =1
 
-    Icon23 As icon.ChevronDown:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(220, 220, 220, 1)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =55
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Icon: =Icon.View
-        OnSelect: =Set(Ver_Revisar,true)
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Width: =55
-        X: =1167
-        Y: =713
-        ZIndex: =23
-
     Container5_5 As groupContainer.manualLayoutContainer:
         BorderThickness: =1
         DropShadow: =DropShadow.Light
@@ -8090,200 +7969,15 @@ Screen_Excel_Rev As screen:
                 Y: =DataCardKey199.Y
                 ZIndex: =4
 
-    "'Pie de pagina_2' As group":
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =28
-
-        Rectangle2_39 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledFill: =RGBA(0,148,110,87)
-            DisplayMode: =DisplayMode.Disabled
-            Fill: =RGBA(0,148,110,87)
-            FocusedBorderThickness: =4
-            Height: =60
-            HoverFill: =RGBA(73, 130, 5, 1)
-            PressedFill: =RGBA(73, 130, 5, 1)
-            Width: =1366
-            X: =
-            Y: =708
-            ZIndex: =8
-
-        Button3_18 As button:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(255, 255, 255, 1)
-            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Semibold
-            Height: =35
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-            OnSelect: =Navigate(Screen_base,ScreenTransition.CoverRight)
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
-            PressedColor: =RGBA(255, 255, 255, 1)
-            PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
-            Size: =15
-            Text: ="Regresar"
-            X: =14
-            Y: =720
-            ZIndex: =9
-
-        Button4_3 As button:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(255, 255, 255, 1)
-            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Semibold
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-            OnSelect: |-
-                =If(
-                    VarAdmi = "Desarrollo",
-                    Office365Outlook.SendEmailV2(
-                        "lourdes@canopiacarbon.com",
-                        User().FullName & " Mando su Plantilla para revisión",
-                        HtmlText1_4.HtmlText,
-                        {Importance: "High"}
-                    ),
-                    If(
-                        VarAdmi = "Legal",
-                        Office365Outlook.SendEmailV2(
-                            "lizette@canopiacarbon.com",
-                            User().FullName & " Mando su Plantilla para revisión",
-                            HtmlText1_4.HtmlText,
-                            {Importance: "High"}
-                        )
-                    ),
-                    If(
-                        VarAdmi = "MRV",
-                        Office365Outlook.SendEmailV2(
-                            "gerencia.mrv@canopiacarbon.com",
-                            User().FullName & " Mando su Plantilla para revisión",
-                            HtmlText1_4.HtmlText,
-                            {Importance: "High"}
-                        )
-                    ),
-                    If(
-                        VarAdmi = "Originacion",
-                        Office365Outlook.SendEmailV2(
-                            "roberto@canopiacarbon.com",
-                            User().FullName & " Mando su Plantilla para revisión",
-                            HtmlText1_4.HtmlText,
-                            {Importance: "High"}
-                        )
-                    ),
-                    If(
-                        VarAdmi = "Salvaguarda",
-                        Office365Outlook.SendEmailV2(
-                            "carolina@canopiacarbon.com",
-                            User().FullName & " Mando su Plantilla para revisión",
-                            HtmlText1_4.HtmlText,
-                            {Importance: "High"}
-                        )
-                    )
-                );
-                Office365Outlook.SendEmailV2(
-                    "uriel@canopiacarbon.com",
-                    User().FullName & " Mando su Plantilla para revisión",
-                    HtmlText1_4.HtmlText,
-                    {Importance: "High"}
-                );
-                Office365Outlook.SendEmailV2(
-                    "orlando@canopiacarbon.com",
-                    User().FullName & " Mando su Plantilla para revisión",
-                    HtmlText1_4.HtmlText,
-                    {Importance: "High"}
-                );
-                Office365Outlook.SendEmailV2(
-                    "miguelp@canopiacarbon.com",
-                    User().FullName & " Mando su Plantilla para revisión",
-                    HtmlText1_4.HtmlText,
-                    {Importance: "High"}
-                );Office365Outlook.SendEmailV2(
-                    "jaqueline@canopiacarbon.com",
-                    User().FullName & " Mando su Plantilla para revisión",
-                    HtmlText1_4.HtmlText,
-                    {Importance: "High"}
-                );
-                Office365Outlook.SendEmailV2(
-                    "carlos@canopiacarbon.com",
-                    User().FullName & " Mando su Plantilla para revisión",
-                    HtmlText1_4.HtmlText,
-                    {Importance: "High"}
-                );
-                Notify(
-                    "Gracias por mandar tus facturas, se revisaran lo antes posible",
-                    NotificationType.Success,
-                    4000
-                )
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
-            PressedColor: =RGBA(255, 255, 255, 1)
-            PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
-            Size: =15
-            Text: ="Mandar para revisión"
-            Width: =225
-            X: =580
-            Y: =720
-            ZIndex: =16
-
-        Icon20_14 As icon.ChevronDown:
-            Color: =RGBA(255, 255, 255, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            Height: =55
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.Add
-            OnSelect: |-
-                =NewForm(Form1_2);Set(Ver_Nuevo,true)
-                /*SubmitForm(Form1);NewForm(Form1);
-                Notify(
-                    "Datos creados",
-                    NotificationType.Success,
-                    4000
-                );Refresh('Plantilla de Reembolsos de Gastos Final')*/
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Width: =55
-            X: =1286
-            Y: =713
-            ZIndex: =18
-
     Container8 As groupContainer.manualLayoutContainer:
-        Height: =211
+        Height: =193
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
         Width: =442
         X: =924
-        Y: =158
+        Y: =92
         ZIndex: =29
 
         Container9 As groupContainer.manualLayoutContainer:
@@ -8367,14 +8061,13 @@ Screen_Excel_Rev As screen:
 
     Container13 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Light
-        Fill: =RGBA(0, 148, 110, 0.5)
+        Fill: =RGBA(0, 148, 110, 0.55)
         Height: =92
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
         Width: =1366
-        Y: =84
         ZIndex: =30
 
         Container14 As groupContainer.manualLayoutContainer:
@@ -8386,6 +8079,7 @@ Screen_Excel_Rev As screen:
             RadiusTopLeft: =4
             RadiusTopRight: =4
             Width: =322
+            X: =10
             ZIndex: =1
 
             Image10_19 As image:
@@ -8402,5 +8096,295 @@ Screen_Excel_Rev As screen:
                 PressedBorderColor: =RGBA(0, 0, 0, 0)
                 PressedFill: =RGBA(0, 0, 0, 0)
                 Width: =322
+                ZIndex: =1
+
+        Container11 As groupContainer.manualLayoutContainer:
+            Height: =40
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =188
+            X: =1008
+            Y: =26
+            ZIndex: =2
+
+            Label15_23 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Height: =36
+                Size: =13
+                Text: =User().FullName
+                Width: =188
+                Y: =4
+                ZIndex: =1
+
+        Container15 As groupContainer.manualLayoutContainer:
+            Height: =65
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =65
+            X: =1280
+            Y: =13
+            ZIndex: =3
+
+            Icon8_9 As icon.ChevronDown:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(220, 220, 220, 1)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =ColorFade(RGBA(178, 228, 200, 1), -0%)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Icon: =Icon.Home
+                OnSelect: =Navigate(Inicio,ScreenTransition.CoverRight)
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                X: =1
+                Y: =1
+                ZIndex: =1
+
+    Container16 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Fill: =RGBA(0, 148, 110, 0.55)
+        Height: =60
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1366
+        Y: =708
+        ZIndex: =31
+
+        Container17 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =35
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =160
+            X: =15
+            Y: =12
+            ZIndex: =1
+
+            Button3_18 As button:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =35
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =ColorFade(RGBA(178, 228, 200, 1), -0%)
+                OnSelect: =Navigate(Screen_base,ScreenTransition.CoverRight)
+                PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =15
+                Text: ="Regresar"
+                ZIndex: =1
+
+        Container18 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =40
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =225
+            X: =580
+            Y: =12
+            ZIndex: =2
+
+            Button4_3 As button:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =ColorFade(RGBA(178, 228, 200, 1), -0%)
+                OnSelect: |-
+                    =If(
+                        VarAdmi = "Desarrollo",
+                        Office365Outlook.SendEmailV2(
+                            "lourdes@canopiacarbon.com",
+                            User().FullName & " Mando su Plantilla para revisión",
+                            HtmlText1_4.HtmlText,
+                            {Importance: "High"}
+                        ),
+                        If(
+                            VarAdmi = "Legal",
+                            Office365Outlook.SendEmailV2(
+                                "lizette@canopiacarbon.com",
+                                User().FullName & " Mando su Plantilla para revisión",
+                                HtmlText1_4.HtmlText,
+                                {Importance: "High"}
+                            )
+                        ),
+                        If(
+                            VarAdmi = "MRV",
+                            Office365Outlook.SendEmailV2(
+                                "gerencia.mrv@canopiacarbon.com",
+                                User().FullName & " Mando su Plantilla para revisión",
+                                HtmlText1_4.HtmlText,
+                                {Importance: "High"}
+                            )
+                        ),
+                        If(
+                            VarAdmi = "Originacion",
+                            Office365Outlook.SendEmailV2(
+                                "roberto@canopiacarbon.com",
+                                User().FullName & " Mando su Plantilla para revisión",
+                                HtmlText1_4.HtmlText,
+                                {Importance: "High"}
+                            )
+                        ),
+                        If(
+                            VarAdmi = "Salvaguarda",
+                            Office365Outlook.SendEmailV2(
+                                "carolina@canopiacarbon.com",
+                                User().FullName & " Mando su Plantilla para revisión",
+                                HtmlText1_4.HtmlText,
+                                {Importance: "High"}
+                            )
+                        )
+                    );
+                    Office365Outlook.SendEmailV2(
+                        "uriel@canopiacarbon.com",
+                        User().FullName & " Mando su Plantilla para revisión",
+                        HtmlText1_4.HtmlText,
+                        {Importance: "High"}
+                    );
+                    Office365Outlook.SendEmailV2(
+                        "orlando@canopiacarbon.com",
+                        User().FullName & " Mando su Plantilla para revisión",
+                        HtmlText1_4.HtmlText,
+                        {Importance: "High"}
+                    );
+                    Office365Outlook.SendEmailV2(
+                        "miguelp@canopiacarbon.com",
+                        User().FullName & " Mando su Plantilla para revisión",
+                        HtmlText1_4.HtmlText,
+                        {Importance: "High"}
+                    );Office365Outlook.SendEmailV2(
+                        "jaqueline@canopiacarbon.com",
+                        User().FullName & " Mando su Plantilla para revisión",
+                        HtmlText1_4.HtmlText,
+                        {Importance: "High"}
+                    );
+                    Office365Outlook.SendEmailV2(
+                        "carlos@canopiacarbon.com",
+                        User().FullName & " Mando su Plantilla para revisión",
+                        HtmlText1_4.HtmlText,
+                        {Importance: "High"}
+                    );
+                    Notify(
+                        "Gracias por mandar tus facturas, se revisaran lo antes posible",
+                        NotificationType.Success,
+                        4000
+                    )
+                PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =15
+                Text: ="Mandar para revisión"
+                Width: =225
+                ZIndex: =1
+
+        Container19 As groupContainer.manualLayoutContainer:
+            Height: =55
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =55
+            X: =1170
+            Y: =2
+            ZIndex: =3
+
+            Icon23 As icon.ChevronDown:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(220, 220, 220, 1)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                Height: =55
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =ColorFade(RGBA(178, 228, 200, 1), -0%)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Icon: =Icon.View
+                OnSelect: =Set(Ver_Revisar,true)
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                Width: =55
+                ZIndex: =1
+
+        Container20 As groupContainer.manualLayoutContainer:
+            Height: =55
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =55
+            X: =1266
+            Y: =2
+            ZIndex: =4
+
+            Icon20_14 As icon.ChevronDown:
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(220, 220, 220, 1)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                Height: =55
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =ColorFade(RGBA(178, 228, 200, 1), -0%)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Icon: =Icon.Add
+                OnSelect: |-
+                    =NewForm(Form1_2);Set(Ver_Nuevo,true)
+                    /*SubmitForm(Form1);NewForm(Form1);
+                    Notify(
+                        "Datos creados",
+                        NotificationType.Success,
+                        4000
+                    );Refresh('Plantilla de Reembolsos de Gastos Final')*/
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                Width: =55
                 ZIndex: =1
 
