@@ -566,6 +566,12 @@ Inicio As screen:
         Height: =80
         Size: =13
         Text: ="Carga y edición de todas las bases de datos de la plantilla (EJIDOS con ERPA, Cuentas Capex/Opex y Cuentas Gastos Generales)"
+        Visible: |-
+            =Switch(true,
+            VarAdmi = "Jefe", true,
+            VarAdmi = "Programador", true,
+            VarAdmi = "Contador", true
+            )
         Width: =299
         X: =1049
         Y: =451
