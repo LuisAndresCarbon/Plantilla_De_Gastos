@@ -3,7 +3,7 @@
     "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
     "CdpRevision": {
       "BaseUrl": "/",
-      "LastChangedTimeString": "2023-06-06T16:32:57.6470000Z",
+      "LastChangedTimeString": "2023-09-25T18:17:57.4430000Z",
       "RevisionNumber": 1
     },
     "ConnectedDataSourceInfoNameMapping": {
@@ -204,6 +204,7 @@
       "NotesLegalTeam": "Notes Legal Team",
       "NotesOriginationTeam": "Notes Origination Team",
       "NotesSafeguardsTeam": "Notes Safeguards Team",
+      "NucleoAgrario": "Nucleo Agrario",
       "numero": "numero",
       "OData__ColorTag": "Etiqueta de color",
       "OMCostUSD": "O&M Cost USD",

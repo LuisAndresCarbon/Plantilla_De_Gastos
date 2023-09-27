@@ -3,7 +3,7 @@
     "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
     "CdpRevision": {
       "BaseUrl": "/",
-      "LastChangedTimeString": "2023-06-06T16:32:57.6470000Z",
+      "LastChangedTimeString": "2023-09-25T18:17:57.4430000Z",
       "RevisionNumber": 1
     },
     "ConnectedDataSourceInfoNameMapping": {
@@ -36,6 +36,7 @@
       "Facturadoa_x003a_": "Facturado a:",
       "Fecha": "Fecha",
       "Folio": "Folio",
+      "Formato": "Formato",
       "Guid0": "Guid",
       "ID": "ID",
       "IdCuenta": "IdCuenta",
