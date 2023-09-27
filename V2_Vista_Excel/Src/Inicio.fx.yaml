@@ -155,7 +155,7 @@ Inicio As screen:
             ) */ 
         Width: =150
         X: =864
-        Y: =438
+        Y: =458
         ZIndex: =6
 
     Image9 As image:
@@ -179,7 +179,7 @@ Inicio As screen:
             )
         Width: =50
         X: =909
-        Y: =414
+        Y: =434
         ZIndex: =7
 
     Rectangle6 As rectangle:
