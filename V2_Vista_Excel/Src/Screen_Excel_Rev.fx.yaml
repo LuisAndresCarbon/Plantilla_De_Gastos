@@ -8349,6 +8349,61 @@ Screen_Excel_Rev As screen:
                 PressedBorderColor: =RGBA(0, 0, 0, 0)
                 PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                 PressedFill: =RGBA(0, 0, 0, 0)
+                Visible: |-
+                    =Switch(
+                        true,
+                        // Equipo programación (por correo electrónico)
+                        User().Email = "adolfo@canopiacarbon918.onmicrosoft.com",
+                        true,
+                        User().Email = "ivan@canopiacarbon918.onmicrosoft.com",
+                        true,
+                        User().Email = "uriel@CanopiaCarbon918.onmicrosoft.com",
+                        true,
+                        User().Email = "luis@canopiacarbon918.onmicrosoft.com",
+                        true,
+                        // Jefe (por correo electrónico)
+                        User().Email = "joseluiscastronegrete@canopiacarbon918.onmicrosoft.com",
+                        true,
+                        // Contadores (por correo electrónico)
+                        User().Email = "carlos@canopiacarbon918.onmicrosoft.com",
+                        true,
+                        User().Email = "miguelp@canopiacarbon918.onmicrosoft.com",
+                        true,
+                        User().Email = "jaqueline@canopiacarbon918.onmicrosoft.com",
+                        true,
+                        // Lideres o Supervisores (por correo electrónico)
+                        User().Email = "orlando@canopiacarbon918.onmicrosoft.com",
+                        true,
+                        User().Email = "miguel@canopiacarbon918.onmicrosoft.com",
+                        true,
+                        User().Email = "lourdes@CanopiaCarbon918.onmicrosoft.com",
+                        true,
+                        User().Email = "lizette@canopiacarbon918.onmicrosoft.com",
+                        true,
+                        User().Email = "dinosca@canopiacarbon918.onmicrosoft.com",
+                        true,
+                        User().Email = "gerencia.mrv@canopiacarbon918.onmicrosoft.com",
+                        true,
+                        User().Email = "carolina@canopiacarbon918.onmicrosoft.com",
+                        true,
+                        User().Email = "santiago@canopiacarbon918.onmicrosoft.com",
+                        true,
+                        // Verificar también por nombre de usuario específico (por ejemplo, "usuario1")
+                        User().FullName = "Carlos Alfredo Avila Alfonso",
+                        true,
+                        User().FullName = "Miguel Pichardo",
+                        true,
+                        User().FullName = "Lourdes Maldonado",
+                        true,
+                        User().FullName = "Roberto Vallejo",
+                        true,
+                        User().FullName = "Lizette Hernandez",
+                        true,
+                        User().FullName = "Jaqueline Reyes Garcia",
+                        true,
+                        // Si no hay coincidencias, devuelve falso (es decir, el usuario no tendrá acceso)
+                        false
+                    )
                 Width: =55
                 ZIndex: =1
 
