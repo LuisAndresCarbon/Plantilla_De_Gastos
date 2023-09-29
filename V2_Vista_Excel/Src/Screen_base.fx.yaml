@@ -1637,7 +1637,7 @@ Screen_base As screen:
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(212, 212, 212, 1)
-        InputTextPlaceholder: ="Me"
+        InputTextPlaceholder: ="Mes"
         Items: =["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"]
         PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         PressedColor: =RGBA(255, 255, 255, 1)
