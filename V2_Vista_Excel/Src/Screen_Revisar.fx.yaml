@@ -3250,7 +3250,7 @@ Screen_Revisar As screen:
                 FontWeight: =FontWeight.Bold
                 Size: =15
                 Text: |-
-                    ="EJIDO: CAPEX / OPEX)"
+                    ="EJIDO: CAPEX / OPEX"
                 Width: =711
                 Y: =20
                 ZIndex: =1

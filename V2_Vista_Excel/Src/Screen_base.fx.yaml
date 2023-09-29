@@ -1038,7 +1038,7 @@ Screen_base As screen:
             OnSelect: |-
                 =ClearCollect(Col_Notificar,{});
                 If(
-                    User().Email in ["miguelp@canopiacarbon918.onmicrosoft.com","uriel@CanopiaCarbon918.onmicrosoft.com","jaqueline@canopiacarbon918.onmicrosoft.com","carlos@canopiacarbon918.onmicrosoft.com",],
+                    User().Email in ["miguelp@canopiacarbon918.onmicrosoft.com","uriel@CanopiaCarbon918.onmicrosoft.com","jaqueline@canopiacarbon918.onmicrosoft.com","carlos@canopiacarbon918.onmicrosoft.com","carolina@canopiacarbon918.onmicrosoft.com"],
                     Set(Var_Revisión,ThisItem);Navigate(Screen_Excel_Rev,ScreenTransition.Cover),
                 Set(Var_Revisión,ThisItem);Navigate(Screen_base_Excel)
                 )
