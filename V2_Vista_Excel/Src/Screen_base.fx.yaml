@@ -104,7 +104,7 @@ Screen_base As screen:
                     Filter(
                         'Plantilla de Reembolsos de Gastos Final',
                         (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
-                        (Mes = ComboBox3.Selected.Result || ComboBox3.Selected.Result = Blank()) &&
+                        (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                         ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
                         ('Nombre del Colaborador' = Operaciones.Selected.Value || Operaciones.Selected.Value = Blank())
                     )
@@ -117,7 +117,7 @@ Screen_base As screen:
                         Filter(
                             'Plantilla de Reembolsos de Gastos Final',
                             (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
-                            (Mes = ComboBox3.Selected.Result || ComboBox3.Selected.Result = Blank()) &&
+                            (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                             ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
                             ('Nombre del Colaborador' = SIG.Selected.Value || SIG.Selected.Value = Blank())
                         )
@@ -130,7 +130,7 @@ Screen_base As screen:
                             Filter(
                                 'Plantilla de Reembolsos de Gastos Final',
                                 (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
-                                (Mes = ComboBox3.Selected.Result || ComboBox3.Selected.Result = Blank()) &&
+                                (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                                 ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
                                 ('Nombre del Colaborador' = Salvaguarda.Selected.Value || Salvaguarda.Selected.Value = Blank())
                             )
@@ -143,7 +143,7 @@ Screen_base As screen:
                                 Filter(
                                     'Plantilla de Reembolsos de Gastos Final',
                                     (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
-                                    (Mes = ComboBox3.Selected.Result || ComboBox3.Selected.Result = Blank()) &&
+                                    (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                                     ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
                                     ('Nombre del Colaborador' = Originacion.Selected.Value || Originacion.Selected.Value = Blank())
                                 )
@@ -156,7 +156,7 @@ Screen_base As screen:
                                     Filter(
                                         'Plantilla de Reembolsos de Gastos Final',
                                         (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
-                                        (Mes = ComboBox3.Selected.Result || ComboBox3.Selected.Result = Blank()) &&
+                                        (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                                         ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
                                         ('Nombre del Colaborador' = MRV.Selected.Value || MRV.Selected.Value = Blank())
                                     )
@@ -169,7 +169,7 @@ Screen_base As screen:
                                         Filter(
                                             'Plantilla de Reembolsos de Gastos Final',
                                             (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
-                                            (Mes = ComboBox3.Selected.Result || ComboBox3.Selected.Result = Blank()) &&
+                                            (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                                             ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
                                             ('Nombre del Colaborador' = Legal.Selected.Value)
                                         )
@@ -182,7 +182,7 @@ Screen_base As screen:
                                             Filter(
                                                 'Plantilla de Reembolsos de Gastos Final',
                                                 (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
-                                                (Mes = ComboBox3.Selected.Result || ComboBox3.Selected.Result = Blank()) &&
+                                                (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                                                 ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
                                                 ('Nombre del Colaborador' = Desarrollo.Selected.Value || Desarrollo.Selected.Value = Blank())
                                             )
@@ -200,14 +200,14 @@ Screen_base As screen:
                                             Filter(
                                                 'Plantilla de Reembolsos de Gastos Final',
                                                 (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
-                                                (Mes = ComboBox3.Selected.Result || ComboBox3.Selected.Result = Blank()) &&
+                                                (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                                                 ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
                                                 ('Nombre del Colaborador' = ComboBox1_3.Selected.Result || ComboBox1_3.Selected.Result = Blank())
                                             ),
                                             Filter(
                                                 'Plantilla de Reembolsos de Gastos Final',
                                                 (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
-                                                (Mes = ComboBox3.Selected.Result || ComboBox3.Selected.Result = Blank()) &&
+                                                (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                                                 ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
                                                 ('Nombre del Colaborador' = Label15_1.Text)
                                             )
@@ -1128,41 +1128,6 @@ Screen_base As screen:
             Y: =8
             ZIndex: =5
 
-    ComboBox3 As combobox:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        ChevronBackground: =RGBA(255, 255, 255, 1)
-        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-        ChevronFill: =RGBA(33, 33, 33, 1)
-        ChevronHoverBackground: =RGBA(212, 212, 212, 1)
-        ChevronHoverFill: =RGBA(33, 33, 33, 1)
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayFields: =["Result"]
-        Font: =Font.'Segoe UI'
-        Height: =48
-        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        HoverColor: =RGBA(51, 51, 51, 1)
-        HoverFill: =RGBA(212, 212, 212, 1)
-        InputTextPlaceholder: ="Mes"
-        Items: |-
-            =Sort(ForAll(Distinct('Plantilla de Reembolsos de Gastos Final',Mes), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
-        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =RGBA(73, 130, 5, 1)
-        SearchFields: =["Result"]
-        SearchItems: |-
-            =Search(Sort(ForAll(Distinct('Plantilla de Reembolsos de Gastos Final',Mes), {Result: ThisRecord.Value}),Result,SortOrder.Ascending),ComboBox3.SearchText,"Result")
-        SelectionFill: =RGBA(73, 130, 5, 1)
-        SelectMultiple: =false
-        Size: =13
-        Width: =150
-        X: =174
-        Y: =100
-        ZIndex: =10
-
     Icon3 As icon.ChevronDown:
         BorderColor: =RGBA(166, 166, 166, 1)
         Color: =RGBA(73, 130, 5, 1)
@@ -1651,4 +1616,37 @@ Screen_base As screen:
         X: =500
         Y: =100
         ZIndex: =25
+
+    ComboBox29 As combobox:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        ChevronBackground: =RGBA(255, 255, 255, 1)
+        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+        ChevronFill: =RGBA(33, 33, 33, 1)
+        ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+        ChevronHoverFill: =RGBA(33, 33, 33, 1)
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayFields: =["Value"]
+        Font: =Font.'Segoe UI'
+        Height: =48
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(212, 212, 212, 1)
+        InputTextPlaceholder: ="Me"
+        Items: =["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"]
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(73, 130, 5, 1)
+        SearchFields: =["Value"]
+        SearchItems: =Search(["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"],ComboBox29.SearchText,"Value")
+        SelectionFill: =RGBA(73, 130, 5, 1)
+        SelectMultiple: =false
+        Size: =13
+        Width: =150
+        X: =177
+        Y: =100
+        ZIndex: =27
 
