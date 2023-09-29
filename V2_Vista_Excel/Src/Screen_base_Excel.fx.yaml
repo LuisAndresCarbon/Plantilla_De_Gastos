@@ -1372,6 +1372,12 @@ Screen_base_Excel As screen:
                 {Importance: "High"}
             );
             Office365Outlook.SendEmailV2(
+                "jaqueline@canopiacarbon.com",
+                User().FullName & " Mando su Plantilla para revisión",
+                HtmlText1_1.HtmlText,
+                {Importance: "High"}
+            );
+            Office365Outlook.SendEmailV2(
                 "carlos@canopiacarbon.com",
                 User().FullName & " Mando su Plantilla para revisión",
                 HtmlText1_1.HtmlText,
@@ -1427,42 +1433,6 @@ Screen_base_Excel As screen:
         X: =873
         Y: =172
         ZIndex: =65
-
-    Icon18 As icon.ChevronDown:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        Color: =RGBA(73, 130, 5, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(220, 220, 220, 1)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        Height: =55
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Icon: =Icon.CheckBadge
-        OnSelect: |
-            =ForAll(
-                Gallery7,
-                Patch(
-                    'Plantilla de Reembolsos de Gastos Final',
-                    First(Filter(
-            /*ForAll(
-                GaleriaComprobaciones.AllItems,
-                Patch(
-                    TablaComprobaciones,
-                    First(Filter(TablaComprobaciones, ID = ThisItem.ID)),
-                    { Validada: true }  // Cambia esto según el nombre del campo en tu tabla
-                )
-            )
-            */
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Visible: =false
-        Width: =55
-        X: =1262
-        Y: =195
-        ZIndex: =66
 
     Label155 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
