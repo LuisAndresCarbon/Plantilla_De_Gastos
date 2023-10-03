@@ -2,6 +2,109 @@ Screen_Excel_Rev As screen:
     Fill: =RGBA(227,240,234,1)
     LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
 
+    "Gallery15 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
+        BorderColor: =RGBA(166, 166, 166, 1)
+        DelayItemLoading: =true
+        Height: =415
+        Items: |-
+            =Filter(
+                'Plantilla de Reembolsos de Gastos Final',
+                (Título = Label161_3.Text)&&
+                ('No. De Reembolso' = Label182.Text) &&
+                (Mes = Label183.Text) &&
+                ('Nombre del Colaborador' = Label163_3.Text)
+            )
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =90
+        Visible: =false
+        Width: =1366
+        Y: =353
+        ZIndex: =1
+
+        Title3 As label:
+            Color: =RGBA(50, 49, 48, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.'Total (MXN)'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 86
+            X: =16
+            Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle3.Size * 1.8)) / 2
+            ZIndex: =1
+
+        Subtitle3 As label:
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =12
+            Text: =ThisItem.'Importe Prorrateo Factura'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title3.Width
+            X: =Title3.X
+            Y: =Title3.Y + Title3.Height
+            ZIndex: =2
+
+        NextArrow3 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(166, 166, 166, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =50
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =16
+            PaddingLeft: =16
+            PaddingRight: =16
+            PaddingTop: =16
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: ="Ver los detalles del elemento"
+            Width: =50
+            X: =Parent.TemplateWidth - Self.Width - 12
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =3
+
+        Separator3 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =8
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - Self.Height
+            ZIndex: =4
+
+        Rectangle18 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Fill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            Height: =Parent.TemplateHeight - Separator3.Height
+            OnSelect: =Select(Parent)
+            Visible: =ThisItem.IsSelected
+            Width: =4
+            ZIndex: =5
+
     Encabezado As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Light
         Fill: =RGBA(0, 148, 110, 0.55)
@@ -11,7 +114,7 @@ Screen_Excel_Rev As screen:
         RadiusTopLeft: =4
         RadiusTopRight: =4
         Width: =1366
-        ZIndex: =1
+        ZIndex: =2
 
         Container14 As groupContainer.manualLayoutContainer:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -108,9 +211,9 @@ Screen_Excel_Rev As screen:
         RadiusTopRight: =4
         Width: =1366
         Y: =708
-        ZIndex: =2
+        ZIndex: =3
 
-        Container17 As groupContainer.manualLayoutContainer:
+        Regresar As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.Light
             Height: =35
             RadiusBottomLeft: =4
@@ -148,7 +251,7 @@ Screen_Excel_Rev As screen:
                 Text: ="Regresar"
                 ZIndex: =1
 
-        Container18 As groupContainer.manualLayoutContainer:
+        Notificar As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.Light
             Height: =40
             RadiusBottomLeft: =4
@@ -265,7 +368,7 @@ Screen_Excel_Rev As screen:
                 Width: =225
                 ZIndex: =1
 
-        Container19 As groupContainer.manualLayoutContainer:
+        Revisar As groupContainer.manualLayoutContainer:
             Height: =55
             RadiusBottomLeft: =4
             RadiusBottomRight: =4
@@ -350,7 +453,7 @@ Screen_Excel_Rev As screen:
                 Width: =55
                 ZIndex: =1
 
-        Container20 As groupContainer.manualLayoutContainer:
+        Agregar As groupContainer.manualLayoutContainer:
             Height: =55
             RadiusBottomLeft: =4
             RadiusBottomRight: =4
@@ -388,108 +491,42 @@ Screen_Excel_Rev As screen:
                 Width: =55
                 ZIndex: =1
 
-    "Gallery15 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
-        BorderColor: =RGBA(166, 166, 166, 1)
-        DelayItemLoading: =true
-        Height: =415
-        Items: |-
-            =Filter(
-                'Plantilla de Reembolsos de Gastos Final',
-                (Título = Label161_3.Text)&&
-                ('No. De Reembolso' = Label182.Text) &&
-                (Mes = Label183.Text) &&
-                ('Nombre del Colaborador' = Label163_3.Text)
-            )
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplatePadding: =0
-        TemplateSize: =90
-        Visible: =false
-        Width: =1366
-        Y: =353
-        ZIndex: =3
-
-        Title3 As label:
-            Color: =RGBA(50, 49, 48, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.'Total (MXN)'
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 86
-            X: =16
-            Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle3.Size * 1.8)) / 2
-            ZIndex: =1
-
-        Subtitle3 As label:
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =12
-            Text: =ThisItem.'Importe Prorrateo Factura'
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title3.Width
-            X: =Title3.X
-            Y: =Title3.Y + Title3.Height
-            ZIndex: =2
-
-        NextArrow3 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(166, 166, 166, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            Height: =50
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
-            PaddingBottom: =16
-            PaddingLeft: =16
-            PaddingRight: =16
-            PaddingTop: =16
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Tooltip: ="Ver los detalles del elemento"
-            Width: =50
-            X: =Parent.TemplateWidth - Self.Width - 12
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =3
-
-        Separator3 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Fill: =RGBA(255, 255, 255, 1)
-            Height: =8
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - Self.Height
-            ZIndex: =4
-
-        Rectangle18 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Fill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            Height: =Parent.TemplateHeight - Separator3.Height
-            OnSelect: =Select(Parent)
-            Visible: =ThisItem.IsSelected
-            Width: =4
+        Container22 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =40
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =160
+            X: =819
+            Y: =12
             ZIndex: =5
+
+            Button12 As button:
+                BorderColor: =RGBA(255, 255, 255, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =ColorFade(RGBA(178, 228, 200, 1), -0%)
+                OnSelect: =Set(Agregar_Factura,true)
+                PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =15
+                Text: ="Agregar Factura"
+                ZIndex: =1
 
     HtmlText1_4 As htmlViewer:
         Height: =209
@@ -6946,14 +6983,208 @@ Screen_Excel_Rev As screen:
                 ZIndex: =1
 
     Facturas As groupContainer.manualLayoutContainer:
+        BorderThickness: =1
         DropShadow: =DropShadow.Light
+        Fill: =RGBA(204, 204, 204, 1)
+        Height: =332
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
+        Visible: =Agregar_Factura
         X: =484
         Y: =296
         ZIndex: =11
+
+        Form3 As form:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            DataSource: ='Plantilla de Reembolsos de Gastos Final'
+            Height: =332
+            Item: =DataTable1_2.Selected
+            NumberOfColumns: =1
+            Width: =500
+            ZIndex: =1
+
+            DataCard41 As typedDataCard.blankCard:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                BorderStyle: =BorderStyle.Solid
+                DisplayMode: =DisplayMode.Edit
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =45
+                Width: =500
+                X: =0
+                Y: =0
+                ZIndex: =1
+
+                Label185 As label:
+                    Align: =Align.Center
+                    BorderThickness: =1
+                    Color: =RGBA(0, 0, 0, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    Fill: =RGBA(255, 255, 255, 1)
+                    FocusedBorderThickness: =4
+                    FontWeight: =FontWeight.Bold
+                    Size: =13
+                    Text: ="Agregar Factura"
+                    Width: =500
+                    ZIndex: =1
+
+                Icon21_3 As icon.CancelBadge:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(220, 220, 220, 1)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =35
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Icon: =Icon.CancelBadge
+                    OnSelect: =Set(Agregar_Factura,false)
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =35
+                    X: =445
+                    Y: =2
+                    ZIndex: =2
+
+                Icon21_4 As icon.CancelBadge:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(220, 220, 220, 1)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =35
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Icon: =Icon.CheckBadge
+                    OnSelect: =SubmitForm(Form3);
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =35
+                    X: =382
+                    Y: =2
+                    ZIndex: =3
+
+            "'Datos adjuntos_DataCard5' As typedDataCard.attachmentsEditCard":
+                BorderColor: =RGBA(166, 166, 166, 1)
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="{Attachments}"
+                Default: =ThisItem.'Datos adjuntos'
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'],DataSourceInfo.DisplayName,"{Attachments}")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =50
+                Required: =false
+                Update: =DataCardValue194.Attachments
+                Width: =500
+                X: =0
+                Y: =1
+                ZIndex: =1
+
+                DataCardKey194 As label:
+                    AutoHeight: =true
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =34
+                    PaddingLeft: =0
+                    Size: =13
+                    Text: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    Wrap: =false
+                    X: =30
+                    Y: =10
+                    ZIndex: =1
+
+                DataCardValue194 As attachments:
+                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    DisplayMode: =Parent.DisplayMode
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    HoverColor: =RGBA(51, 51, 51, 1)
+                    HoverFill: =RGBA(212, 212, 212, 1)
+                    IsInDataCard: =true
+                    ItemColor: =RGBA(0, 0, 0, 1)
+                    ItemFill: =RGBA(73, 130, 5, 1)
+                    ItemHoverColor: =RGBA(51, 51, 51, 1)
+                    ItemHoverFill: =RGBA(212, 212, 212, 1)
+                    Items: =Parent.Default
+                    ItemSpacing: =12
+                    NoAttachmentsColor: =RGBA(166, 166, 166, 1)
+                    PaddingBottom: =5
+                    PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                    PaddingRight: =5
+                    PaddingTop: =5
+                    PressedColor: =RGBA(255, 255, 255, 1)
+                    PressedFill: =RGBA(73, 130, 5, 1)
+                    Tooltip: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardKey194.Y + DataCardKey194.Height + 5
+                    ZIndex: =2
+
+                ErrorMessage193 As label:
+                    AutoHeight: =true
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(168, 0, 0, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(168, 0, 0, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =10
+                    Live: =Live.Assertive
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =13
+                    Text: =Parent.Error
+                    Visible: =Parent.DisplayMode=DisplayMode.Edit
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardValue194.Y + DataCardValue194.Height
+                    ZIndex: =3
+
+                StarVisible193 As label:
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =DataCardKey194.Height
+                    PaddingLeft: =0
+                    Size: =13
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    Wrap: =false
+                    Y: =DataCardKey194.Y
+                    ZIndex: =4
 
     Form5 As form:
         BorderThickness: =1
