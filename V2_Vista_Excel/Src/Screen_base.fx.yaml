@@ -1020,7 +1020,7 @@ Screen_base As screen:
                 )
             Width: =45
             X: =1296
-            Y: =198
+            Y: =218
             ZIndex: =35
 
         Icon17 As icon.ChevronDown:
@@ -1053,7 +1053,7 @@ Screen_base As screen:
                 )
             Width: =45
             X: =1296
-            Y: =150
+            Y: =140
             ZIndex: =36
 
     Encabezado_1 As group:
