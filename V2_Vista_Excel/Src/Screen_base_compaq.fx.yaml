@@ -691,6 +691,37 @@ Screen_base_compaq As screen:
             Y: =246
             ZIndex: =39
 
+        Label186 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: =ThisItem.'Nombre del Colaborador'
+            X: =12
+            Y: =253
+            ZIndex: =40
+
+        Label187 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            FontWeight: =FontWeight.Bold
+            OnSelect: =Select(Parent)
+            Size: =13
+            Text: ="Nombre Colaborador"
+            X: =12
+            Y: =208
+            ZIndex: =41
+
     ComboBox10 As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
         ChevronBackground: =RGBA(255, 255, 255, 1)
@@ -788,7 +819,8 @@ Screen_base_compaq As screen:
                     IdSegNeg: ThisRecord.IdSegNeg,
                     Guid: ThisRecord.Guid,
                     TipoMovto: ThisRecord.TipoMovto,
-                    Facturado: ThisRecord.'Facturado a:'
+                    Facturado: ThisRecord.'Facturado a:',
+                    Colaborador:ThisRecord.'Nombre del Colaborador'
                 }
                 )
             );
