@@ -150,8 +150,8 @@ Screen_Excel_Rev As screen:
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
-            Width: =250
-            X: =1018
+            Width: =300
+            X: =968
             Y: =5
             ZIndex: =2
 
@@ -167,7 +167,7 @@ Screen_Excel_Rev As screen:
                 Height: =45
                 Size: =13
                 Text: =User().FullName
-                Width: =188
+                Width: =300
                 ZIndex: =1
 
         Container15 As groupContainer.manualLayoutContainer:
@@ -594,7 +594,7 @@ Screen_Excel_Rev As screen:
         HeadingFont: =Font.'Segoe UI'
         HeadingFontWeight: =FontWeight.Normal
         HeadingSize: =13
-        Height: =408
+        Height: =452
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =RGBA(73, 130, 5, 1)
         InputFill: =RGBA(255, 255, 255, 1)
@@ -627,7 +627,7 @@ Screen_Excel_Rev As screen:
         Visible: =true
         Width: =1366
         X: =0
-        Y: =296
+        Y: =252
         ZIndex: =7
 
         "'Fecha Doc._Columna1_2' As dataTableColumn.textualColumn":
@@ -1182,7 +1182,7 @@ Screen_Excel_Rev As screen:
         RadiusTopLeft: =4
         RadiusTopRight: =4
         Width: =924
-        Y: =92
+        Y: =55
         ZIndex: =8
 
         Label157_3 As label:
@@ -1529,7 +1529,7 @@ Screen_Excel_Rev As screen:
         RadiusTopRight: =4
         Width: =442
         X: =924
-        Y: =92
+        Y: =55
         ZIndex: =9
 
         Container9 As groupContainer.manualLayoutContainer:
