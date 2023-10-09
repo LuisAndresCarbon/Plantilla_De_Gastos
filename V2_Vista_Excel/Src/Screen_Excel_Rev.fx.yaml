@@ -108,7 +108,7 @@ Screen_Excel_Rev As screen:
     Encabezado As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Light
         Fill: =RGBA(0, 148, 110, 0.55)
-        Height: =76
+        Height: =55
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
         RadiusTopLeft: =4
@@ -119,14 +119,13 @@ Screen_Excel_Rev As screen:
         Container14 As groupContainer.manualLayoutContainer:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
-            Height: =60
+            Height: =45
             RadiusBottomLeft: =4
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
             Width: =322
-            X: =10
-            Y: =10
+            Y: =5
             ZIndex: =1
 
             Image10_19 As image:
@@ -136,28 +135,28 @@ Screen_Excel_Rev As screen:
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledFill: =RGBA(0, 0, 0, 0)
                 FocusedBorderThickness: =4
-                Height: =60
+                Height: =45
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverFill: =RGBA(0, 0, 0, 0)
                 Image: ='Logo Horizontal Texto Blanco1'
                 PressedBorderColor: =RGBA(0, 0, 0, 0)
                 PressedFill: =RGBA(0, 0, 0, 0)
-                Width: =322
+                Width: =250
                 ZIndex: =1
 
         Container11 As groupContainer.manualLayoutContainer:
-            Height: =40
+            Height: =45
             RadiusBottomLeft: =4
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
-            Width: =188
-            X: =1074
-            Y: =20
+            Width: =250
+            X: =1018
+            Y: =5
             ZIndex: =2
 
             Label15_23 As label:
-                Align: =Align.Center
+                Align: =Align.Right
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
@@ -165,21 +164,21 @@ Screen_Excel_Rev As screen:
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
-                Height: =36
+                Height: =45
                 Size: =13
                 Text: =User().FullName
                 Width: =188
                 ZIndex: =1
 
         Container15 As groupContainer.manualLayoutContainer:
-            Height: =65
+            Height: =45
             RadiusBottomLeft: =4
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
-            Width: =65
+            Width: =45
             X: =1292
-            Y: =8
+            Y: =5
             ZIndex: =3
 
             Icon8_9 As icon.ChevronDown:
@@ -189,6 +188,7 @@ Screen_Excel_Rev As screen:
                 DisabledColor: =RGBA(220, 220, 220, 1)
                 DisabledFill: =RGBA(0, 0, 0, 0)
                 FocusedBorderThickness: =4
+                Height: =45
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverColor: =ColorFade(RGBA(178, 228, 200, 1), -0%)
                 HoverFill: =RGBA(0, 0, 0, 0)
@@ -197,6 +197,7 @@ Screen_Excel_Rev As screen:
                 PressedBorderColor: =RGBA(0, 0, 0, 0)
                 PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                 PressedFill: =RGBA(0, 0, 0, 0)
+                Width: =45
                 X: =1
                 Y: =1
                 ZIndex: =1
