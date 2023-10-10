@@ -732,6 +732,7 @@ Screen_base As screen:
                 Reset(TextInput7_5);
                 Reset(TextInput7_6);
                 Reset(TextInput7_7);
+                Reset(TextInput10);
                 ClearCollect(
                     Prorrateo,
                     {}

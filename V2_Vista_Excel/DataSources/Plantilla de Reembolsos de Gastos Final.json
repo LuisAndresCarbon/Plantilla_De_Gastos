@@ -3,7 +3,7 @@
     "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
     "CdpRevision": {
       "BaseUrl": "/",
-      "LastChangedTimeString": "2023-09-06T21:41:53.3610000Z",
+      "LastChangedTimeString": "2023-09-25T18:17:57.4430000Z",
       "RevisionNumber": 1
     },
     "ConnectedDataSourceInfoNameMapping": {
@@ -71,6 +71,7 @@
       "ProjectID": "Project ID",
       "ProjectName": "Project Name",
       "Prop_x00f3_sito": "Propósito",
+      "Prorrateoutilizado": "Prorrateo utilizado",
       "RegistroFormatoCompaq": "Registro Formato Compaq",
       "RegistroFormatoCompaq#Id": "Registro Formato Compaq Id",
       "Ret_x002e_ISR_x0028_DetalleMonto": "Ret. ISR (Detalle Monto Factura)",
