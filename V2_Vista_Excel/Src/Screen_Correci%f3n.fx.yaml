@@ -5858,7 +5858,7 @@ Screen_Correción As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
         OnSelect: |-
-            =Reset(TextInput1);Navigate(Screen_base,ScreenTransition.CoverRight);SubmitForm(Form_Edición);NewForm(Form_revisión);
+            =Navigate(Screen_base,ScreenTransition.CoverRight);SubmitForm(Form_Edición);NewForm(Form_revisión);Reset(TextInput1);
             
             Notify("Gracias por revisar la factura",NotificationType.Success,4000)
         PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)

@@ -454,7 +454,7 @@ Screen_Excel_Rev As screen:
                 Width: =55
                 ZIndex: =1
 
-        Agregar As groupContainer.manualLayoutContainer:
+        Nuevo As groupContainer.manualLayoutContainer:
             Height: =55
             RadiusBottomLeft: =4
             RadiusBottomRight: =4
@@ -492,7 +492,7 @@ Screen_Excel_Rev As screen:
                 Width: =55
                 ZIndex: =1
 
-        Container22 As groupContainer.manualLayoutContainer:
+        Factura As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.Light
             Height: =40
             RadiusBottomLeft: =4
@@ -528,6 +528,16 @@ Screen_Excel_Rev As screen:
                 Size: =15
                 Text: ="Agregar Factura"
                 ZIndex: =1
+
+        Container8 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =60
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            X: =40
+            ZIndex: =6
 
     HtmlText1_4 As htmlViewer:
         Height: =209

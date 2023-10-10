@@ -8476,7 +8476,7 @@ Screen_Comprobación As screen:
             Text: ="Ret ISR"
             Visible: =If(varSM= 5,true,false)
             Width: =274
-            X: =242
+            X: =622
             Y: =418
             ZIndex: =87
 
@@ -8503,7 +8503,7 @@ Screen_Comprobación As screen:
             RadiusTopRight: =0
             Size: =13
             Visible: =If(varSM= 5,true,false)
-            X: =242
+            X: =622
             Y: =463
             ZIndex: =88
 
@@ -8521,7 +8521,7 @@ Screen_Comprobación As screen:
             Text: ="Importe Prorrateo Factura"
             Visible: =If(varSM= 5,true,false)
             Width: =274
-            X: =631
+            X: =1011
             Y: =418
             ZIndex: =89
 
@@ -8548,7 +8548,7 @@ Screen_Comprobación As screen:
             RadiusTopRight: =0
             Size: =13
             Visible: =If(varSM= 5,true,false)
-            X: =631
+            X: =1011
             Y: =463
             ZIndex: =90
 
@@ -8702,4 +8702,49 @@ Screen_Comprobación As screen:
         X: =1005
         Y: =176
         ZIndex: =152
+
+    Label52_90 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =37
+        Size: =13
+        Text: ="IEPS"
+        Visible: =If(varSM= 5,true,false)
+        Width: =274
+        X: =246
+        Y: =418
+        ZIndex: =153
+
+    TextInput4_80 As text:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        Default: =Text(Value(TextInput9_4.Text) * Label50_51)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.View
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =RGBA(73, 130, 5, 1)
+        PressedColor: =RGBA(51, 51, 51, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =13
+        Visible: =If(varSM= 5,true,false)
+        X: =246
+        Y: =463
+        ZIndex: =154
 
