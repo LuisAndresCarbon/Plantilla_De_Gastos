@@ -1276,6 +1276,236 @@ Screen_Reembolso As screen:
         Y: =88
         ZIndex: =108
 
+        "'IESP (Prorrateo Factura)_DataCard2' As typedDataCard.textualEditCard":
+            BorderColor: =RGBA(166, 166, 166, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="IESP_x0028_ProrrateoFactura_x002"
+            Default: =ThisItem.'IESP (Prorrateo Factura)'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'],DataSourceInfo.DisplayName,"IESP_x0028_ProrrateoFactura_x002")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'], DataSourceInfo.MaxLength, "IESP_x0028_ProrrateoFactura_x002")
+            Required: =false
+            Update: =DataCardValue200.Text
+            Width: =381
+            X: =1
+            Y: =22
+            ZIndex: =1
+
+            DataCardKey200 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =34
+                PaddingLeft: =0
+                Size: =13
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue200 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                Default: =TextInput4_81.Text
+                DelayOutput: =true
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =DisplayMode.View
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                HoverColor: =RGBA(51, 51, 51, 1)
+                HoverFill: =RGBA(255, 255, 255, 1)
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                PressedBorderColor: =RGBA(73, 130, 5, 1)
+                PressedColor: =RGBA(51, 51, 51, 1)
+                PressedFill: =RGBA(255, 255, 255, 1)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =13
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey200.Y + DataCardKey200.Height + 5
+                ZIndex: =2
+
+            ErrorMessage199 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(168, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(168, 0, 0, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =13
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue200.Y + DataCardValue200.Height
+                ZIndex: =3
+
+            StarVisible199 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =DataCardKey200.Height
+                PaddingLeft: =0
+                Size: =13
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey200.Y
+                ZIndex: =4
+
+        "'Prorrateo utilizado_DataCard2' As typedDataCard.textualEditCard":
+            BorderColor: =RGBA(166, 166, 166, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Prorrateoutilizado"
+            Default: =ThisItem.'Prorrateo utilizado'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'],DataSourceInfo.DisplayName,"Prorrateoutilizado")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'], DataSourceInfo.MaxLength, "Prorrateoutilizado")
+            Required: =false
+            Update: =DataCardValue201.Text
+            Width: =381
+            X: =0
+            Y: =21
+            ZIndex: =1
+
+            DataCardKey201 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =34
+                PaddingLeft: =0
+                Size: =13
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue201 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                Default: =TextInput2.Text & "%"
+                DelayOutput: =true
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =DisplayMode.View
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                HoverColor: =RGBA(51, 51, 51, 1)
+                HoverFill: =RGBA(255, 255, 255, 1)
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                PressedBorderColor: =RGBA(73, 130, 5, 1)
+                PressedColor: =RGBA(51, 51, 51, 1)
+                PressedFill: =RGBA(255, 255, 255, 1)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =13
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey201.Y + DataCardKey201.Height + 5
+                ZIndex: =2
+
+            ErrorMessage200 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(168, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(168, 0, 0, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =13
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue201.Y + DataCardValue201.Height
+                ZIndex: =3
+
+            StarVisible200 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =DataCardKey201.Height
+                PaddingLeft: =0
+                Size: =13
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey201.Y
+                ZIndex: =4
+
         DataCard10 As typedDataCard.blankCard:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
@@ -1776,8 +2006,8 @@ Screen_Reembolso As screen:
             Required: =false
             Update: =DataCardValue7.Text
             Width: =381
-            X: =2
-            Y: =22
+            X: =1
+            Y: =23
             ZIndex: =1
 
             DataCardKey7 As label:
@@ -5562,7 +5792,7 @@ Screen_Reembolso As screen:
             Required: =false
             Update: =DataCardValue111.Text
             Width: =381
-            X: =0
+            X: =1
             Y: =21
             ZIndex: =165
 
@@ -5677,7 +5907,7 @@ Screen_Reembolso As screen:
             Required: =false
             Update: =DataCardValue112.Text
             Width: =381
-            X: =1
+            X: =2
             Y: =21
             ZIndex: =165
 
@@ -5792,8 +6022,8 @@ Screen_Reembolso As screen:
             Required: =false
             Update: =DataCardValue113.Text
             Width: =381
-            X: =2
-            Y: =21
+            X: =0
+            Y: =22
             ZIndex: =165
 
             DataCardKey113 As label:
@@ -5902,12 +6132,12 @@ Screen_Reembolso As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'],DataSourceInfo.DisplayName,"RetISR_x0028_ProrrateoFactura_x0")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
+            Height: =97
             MaxLength: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'], DataSourceInfo.MaxLength, "RetISR_x0028_ProrrateoFactura_x0")
             Required: =false
             Update: =DataCardValue115.Text
             Width: =381
-            X: =0
+            X: =2
             Y: =22
             ZIndex: =165
 
@@ -6017,13 +6247,14 @@ Screen_Reembolso As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'],DataSourceInfo.DisplayName,"ImporteProrrateoFactura")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =TextInput4_17
+            Height: |
+                =97
             MaxLength: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'], DataSourceInfo.MaxLength, "ImporteProrrateoFactura")
             Required: =false
             Update: =DataCardValue116.Text
             Width: =381
-            X: =1
-            Y: =22
+            X: =0
+            Y: =23
             ZIndex: =165
 
             DataCardKey116 As label:
@@ -6136,7 +6367,7 @@ Screen_Reembolso As screen:
             Required: =false
             Update: =DataCardValue133.Attachments
             Width: =381
-            X: =0
+            X: =2
             Y: =23
             ZIndex: =165
 
@@ -8441,7 +8672,7 @@ Screen_Reembolso As screen:
             Text: ="Ret ISR"
             Visible: =If(varSM= 5,true,false)
             Width: =274
-            X: =242
+            X: =632
             Y: =418
             ZIndex: =87
 
@@ -8468,7 +8699,7 @@ Screen_Reembolso As screen:
             RadiusTopRight: =0
             Size: =13
             Visible: =If(varSM= 5,true,false)
-            X: =242
+            X: =632
             Y: =463
             ZIndex: =88
 
@@ -8486,7 +8717,7 @@ Screen_Reembolso As screen:
             Text: ="Importe Prorrateo Factura"
             Visible: =If(varSM= 5,true,false)
             Width: =274
-            X: =631
+            X: =1021
             Y: =418
             ZIndex: =89
 
@@ -8513,7 +8744,7 @@ Screen_Reembolso As screen:
             RadiusTopRight: =0
             Size: =13
             Visible: =If(varSM= 5,true,false)
-            X: =631
+            X: =1021
             Y: =463
             ZIndex: =90
 
@@ -8667,4 +8898,49 @@ Screen_Reembolso As screen:
         X: =1005
         Y: =176
         ZIndex: =151
+
+    Label52_91 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =37
+        Size: =13
+        Text: ="IEPS"
+        Visible: =If(varSM= 5,true,false)
+        Width: =274
+        X: =246
+        Y: =418
+        ZIndex: =152
+
+    TextInput4_81 As text:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        Default: =Text(Value(TextInput9.Text) * Label50)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =DisplayMode.View
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =RGBA(73, 130, 5, 1)
+        PressedColor: =RGBA(51, 51, 51, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =13
+        Visible: =If(varSM= 5,true,false)
+        X: =246
+        Y: =463
+        ZIndex: =153
 

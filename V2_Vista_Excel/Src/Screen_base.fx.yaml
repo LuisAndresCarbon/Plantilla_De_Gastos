@@ -704,6 +704,8 @@ Screen_base As screen:
             Icon: =Icon.Edit
             OnSelect: |-
                 =UpdateContext({Calcular: false});
+                UpdateContext({Gg: false});
+                UpdateContext({C_O: false});
                 Set(
                     V_TD,
                     Blank()
@@ -724,7 +726,12 @@ Screen_base As screen:
                     Var_TE,
                     Blank()
                 );
+                Set(
+                    Calcular,
+                    Blank()
+                );
                 Reset(TextInput7);
+                Reset(TextInput1);
                 Reset(TextInput7_1);
                 Reset(TextInput7_2);
                 Reset(TextInput7_3);
@@ -747,6 +754,18 @@ Screen_base As screen:
                 );
                 Set(
                     Var_ECO,
+                    Blank()
+                );
+                Set(
+                    C_O,
+                    Blank()
+                );
+                Set(
+                    Gg,
+                    Blank()
+                );
+                Set(
+                    Calculadora,
                     Blank()
                 );
                 EditForm(Form_Edición);

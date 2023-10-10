@@ -51,6 +51,7 @@
       "FechaDoc_x002e_": "Fecha Doc.",
       "ID": "ID",
       "IEPS": "IEPS",
+      "IESP_x0028_ProrrateoFactura_x002": "IESP (Prorrateo Factura)",
       "Importe_x0028_DetalleMontoFactur": "Importe (Detalle Monto Factura)",
       "Importe_x0028_ProrrateoFactura_x": "Importe (Prorrateo Factura)",
       "ImporteProrrateoFactura": "Importe Prorrateo Factura",
