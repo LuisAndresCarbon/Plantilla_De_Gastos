@@ -843,6 +843,8 @@ Screen_base As screen:
                     true,
                     User().FullName = "Miguel Pichardo",
                     true,
+                    User().FullName = "Dinosca Rondon",
+                    true,
                     User().FullName = "Lourdes Maldonado",
                     true,
                     User().FullName = "Roberto Vallejo",
