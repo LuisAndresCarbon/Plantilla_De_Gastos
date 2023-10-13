@@ -8959,26 +8959,6 @@ Screen_Excel_Rev As screen:
                     Y: =3
                     ZIndex: =2
 
-                Icon21_6 As icon.CancelBadge:
-                    BorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(220, 220, 220, 1)
-                    DisabledFill: =RGBA(0, 0, 0, 0)
-                    FocusedBorderThickness: =4
-                    Height: =35
-                    HoverBorderColor: =RGBA(0, 0, 0, 0)
-                    HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-                    HoverFill: =RGBA(0, 0, 0, 0)
-                    Icon: =Icon.CheckBadge
-                    OnSelect: =SubmitForm(Editar_Formulario);
-                    PressedBorderColor: =RGBA(0, 0, 0, 0)
-                    PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-                    PressedFill: =RGBA(0, 0, 0, 0)
-                    Width: =35
-                    X: =564
-                    Y: =3
-                    ZIndex: =3
-
             "'Nombre del Colaborador_DataCard5' As typedDataCard.textualEditCard":
                 BorderColor: =RGBA(166, 166, 166, 1)
                 BorderStyle: =BorderStyle.Solid
@@ -10073,7 +10053,7 @@ Screen_Excel_Rev As screen:
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
-                    DisplayMode: =Parent.DisplayMode
+                    DisplayMode: =DisplayMode.View
                     FocusedBorderThickness: =4
                     Font: =Font.'Segoe UI'
                     HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
@@ -10188,7 +10168,7 @@ Screen_Excel_Rev As screen:
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
-                    DisplayMode: =Parent.DisplayMode
+                    DisplayMode: =DisplayMode.View
                     FocusedBorderThickness: =4
                     Font: =Font.'Segoe UI'
                     HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
@@ -10304,7 +10284,7 @@ Screen_Excel_Rev As screen:
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
-                    DisplayMode: =Parent.DisplayMode
+                    DisplayMode: =DisplayMode.View
                     FocusedBorderThickness: =4
                     Font: =Font.'Segoe UI'
                     HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
@@ -10420,7 +10400,7 @@ Screen_Excel_Rev As screen:
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
-                    DisplayMode: =Parent.DisplayMode
+                    DisplayMode: =DisplayMode.View
                     FocusedBorderThickness: =4
                     Font: =Font.'Segoe UI'
                     HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
@@ -10561,7 +10541,7 @@ Screen_Excel_Rev As screen:
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
-                    DisplayMode: =Parent.DisplayMode
+                    DisplayMode: =DisplayMode.View
                     FocusedBorderThickness: =4
                     Font: =Font.'Segoe UI'
                     HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
@@ -10676,7 +10656,7 @@ Screen_Excel_Rev As screen:
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
-                    DisplayMode: =Parent.DisplayMode
+                    DisplayMode: =DisplayMode.View
                     FocusedBorderThickness: =4
                     Font: =Font.'Segoe UI'
                     HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
@@ -10791,7 +10771,7 @@ Screen_Excel_Rev As screen:
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
-                    DisplayMode: =Parent.DisplayMode
+                    DisplayMode: =DisplayMode.View
                     FocusedBorderThickness: =4
                     Font: =Font.'Segoe UI'
                     HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
@@ -10906,7 +10886,7 @@ Screen_Excel_Rev As screen:
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
                     DisabledFill: =RGBA(244, 244, 244, 1)
-                    DisplayMode: =Parent.DisplayMode
+                    DisplayMode: =DisplayMode.View
                     FocusedBorderThickness: =4
                     Font: =Font.'Segoe UI'
                     HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
