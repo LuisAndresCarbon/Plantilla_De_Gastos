@@ -219,7 +219,7 @@ Screen_Anticipo_Excel As screen:
         Height: =33
         Size: =15
         Text: |-
-            ="Anticipo: " & "$ " & Text(Value(Var_Revisión.Anticipo),"[$-en-US]0,0.00")
+            ="Anticipo: " & "$ " & Text(Value(TextInput18_1.Text),"[$-en-US]0,0.00")
         Width: =290
         X: =659
         Y: =118
@@ -238,7 +238,7 @@ Screen_Anticipo_Excel As screen:
         Height: =64
         Size: =15
         Text: |-
-            ="Devolución: $" & Text(Sum(Label56_9 - Label56_8),"[$-en-US]0,0.00")
+            ="Devolución: $" & Text(Sum(TextInput18_1.Text - Label56_8),"[$-en-US]0,0.00")
         Width: =158
         X: =954
         Y: =90
