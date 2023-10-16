@@ -602,7 +602,7 @@ Screen_Excel_Rev As screen:
         HeadingFont: =Font.'Segoe UI'
         HeadingFontWeight: =FontWeight.Normal
         HeadingSize: =13
-        Height: =370
+        Height: =382
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =RGBA(73, 130, 5, 1)
         InputFill: =RGBA(255, 255, 255, 1)
@@ -635,7 +635,7 @@ Screen_Excel_Rev As screen:
         Visible: =true
         Width: =1366
         X: =0
-        Y: =334
+        Y: =322
         ZIndex: =7
 
         "'Fecha Doc._Columna1_2' As dataTableColumn.textualColumn":
@@ -1170,7 +1170,7 @@ Screen_Excel_Rev As screen:
         BorderColor: =RGBA(146, 180, 105, 1)
         BorderStyle: =BorderStyle.Dotted
         DropShadow: =DropShadow.Light
-        Height: =279
+        Height: =263
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
         RadiusTopLeft: =4
@@ -1178,39 +1178,6 @@ Screen_Excel_Rev As screen:
         Width: =1060
         Y: =55
         ZIndex: =8
-
-        Label159_3 As label:
-            BorderColor: =RGBA(0, 148, 110, 0.45)
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Semibold
-            Height: =47
-            Size: =13
-            Text: |-
-                ="No. De Reembolso:" 
-            Width: =240
-            X: =12
-            Y: =71
-            ZIndex: =2
-
-        Label160_3 As label:
-            BorderColor: =RGBA(0, 148, 110, 0.46)
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Semibold
-            Size: =13
-            Text: |-
-                ="Solicitante:"
-            Width: =240
-            X: =12
-            Y: =132
-            ZIndex: =3
 
         Label161_3 As label:
             Align: =Align.Center
@@ -1229,40 +1196,6 @@ Screen_Excel_Rev As screen:
             Width: =179
             X: =12
             ZIndex: =4
-
-        Label163_3 As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            Size: =13
-            Text: =Var_Revisión.'Nombre del Colaborador'
-            X: =116
-            Y: =132
-            ZIndex: =5
-
-        Label164_3 As label:
-            Align: =Align.Justify
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Semibold
-            Height: =53
-            Size: =18
-            Text: ="Perido del Reembolso"
-            Width: =312
-            X: =262
-            Y: =45
-            ZIndex: =6
 
         Label168_3 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -1297,49 +1230,6 @@ Screen_Excel_Rev As screen:
             Y: =127
             ZIndex: =8
 
-        Label125_3 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Semibold
-            Size: =15
-            Text: |-
-                ="Anticipo:"
-            X: =609
-            Y: =58
-            ZIndex: =9
-
-        TextInput18_2 As text:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            Default: =Var_Revisión.Anticipo
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            DisplayMode: =DisplayMode.View
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            HoverColor: =RGBA(51, 51, 51, 1)
-            HoverFill: =RGBA(255, 255, 255, 1)
-            PressedBorderColor: =RGBA(73, 130, 5, 1)
-            PressedColor: =RGBA(51, 51, 51, 1)
-            PressedFill: =RGBA(255, 255, 255, 1)
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
-            Size: =13
-            Width: =150
-            X: =732
-            Y: =58
-            ZIndex: =13
-
         TextInput19_2 As text:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderThickness: =2
@@ -1369,88 +1259,6 @@ Screen_Excel_Rev As screen:
             Y: =172
             ZIndex: =14
 
-        Label179_2 As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Semibold
-            Size: =15
-            Text: ="Mes"
-            X: =266
-            Y: =190
-            ZIndex: =15
-
-        Label180_2 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Semibold
-            Size: =13
-            Text: ="Del"
-            Width: =140
-            X: =266
-            Y: =90
-            ZIndex: =18
-
-        Label181_2 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Semibold
-            Size: =13
-            Text: ="Al"
-            Width: =140
-            X: =429
-            Y: =92
-            ZIndex: =19
-
-        Label182 As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            Size: =13
-            Text: =Var_Revisión.'No. De Reembolso'
-            Width: =50
-            X: =179
-            Y: =74
-            ZIndex: =20
-
-        Label183 As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            Size: =13
-            Text: =Var_Revisión.Mes
-            X: =424
-            Y: =190
-            ZIndex: =21
-
         Label184 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
@@ -1466,45 +1274,283 @@ Screen_Excel_Rev As screen:
             Y: =121
             ZIndex: =22
 
-        DatePicker6 As datepicker:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            CalendarHeaderFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            Color: =RGBA(51, 51, 51, 1)
-            DefaultDate: =Var_Revisión.'Periodo del Reembolso Del'
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            DisplayMode: =DisplayMode.View
-            Font: =Font.'Segoe UI'
-            HoverDateFill: =RGBA(200, 200, 200, 1)
-            IconBackground: =RGBA(73, 130, 5, 1)
-            PaddingTop: =5
-            SelectedDateFill: =RGBA(73, 130, 5, 1)
-            Size: =13
-            Width: =140
-            X: =266
-            Y: =130
-            ZIndex: =23
+        Fechas As groupContainer.manualLayoutContainer:
+            BorderColor: =RGBA(0, 148, 110, 0.46)
+            BorderThickness: =2
+            Height: =170
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =320
+            X: =259
+            Y: =71
+            ZIndex: =25
 
-        DatePicker7 As datepicker:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            CalendarHeaderFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            Color: =RGBA(51, 51, 51, 1)
-            DefaultDate: =Var_Revisión.'Periodo del Reembolso Al'
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            DisplayMode: =DisplayMode.View
-            Font: =Font.'Segoe UI'
-            HoverDateFill: =RGBA(200, 200, 200, 1)
-            IconBackground: =RGBA(73, 130, 5, 1)
-            PaddingTop: =5
-            SelectedDateFill: =RGBA(73, 130, 5, 1)
-            Size: =13
-            Width: =140
-            X: =429
-            Y: =130
-            ZIndex: =24
+            Label164_3 As label:
+                Align: =Align.Justify
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Semibold
+                Height: =53
+                Size: =18
+                Text: ="Perido del Reembolso"
+                Width: =312
+                X: =8
+                Y: =2
+                ZIndex: =1
+
+            Label180_2 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Size: =13
+                Text: ="Del"
+                Width: =140
+                X: =12
+                Y: =47
+                ZIndex: =2
+
+            Label181_2 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Semibold
+                Size: =13
+                Text: ="Al"
+                Width: =140
+                X: =175
+                Y: =49
+                ZIndex: =3
+
+            DatePicker6 As datepicker:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                CalendarHeaderFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                Color: =RGBA(51, 51, 51, 1)
+                DefaultDate: =Var_Revisión.'Periodo del Reembolso Del'
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =DisplayMode.View
+                Font: =Font.'Segoe UI'
+                HoverDateFill: =RGBA(200, 200, 200, 1)
+                IconBackground: =RGBA(73, 130, 5, 1)
+                PaddingTop: =5
+                SelectedDateFill: =RGBA(73, 130, 5, 1)
+                Size: =13
+                Width: =140
+                X: =12
+                Y: =87
+                ZIndex: =4
+
+            DatePicker7 As datepicker:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                CalendarHeaderFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                Color: =RGBA(51, 51, 51, 1)
+                DefaultDate: =Var_Revisión.'Periodo del Reembolso Al'
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =DisplayMode.View
+                Font: =Font.'Segoe UI'
+                HoverDateFill: =RGBA(200, 200, 200, 1)
+                IconBackground: =RGBA(73, 130, 5, 1)
+                PaddingTop: =5
+                SelectedDateFill: =RGBA(73, 130, 5, 1)
+                Size: =13
+                Width: =140
+                X: =175
+                Y: =87
+                ZIndex: =5
+
+            Label179_2 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Semibold
+                Size: =15
+                Text: ="Mes"
+                X: =2
+                Y: =127
+                ZIndex: =6
+
+            Label183 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Size: =13
+                Text: =Var_Revisión.Mes
+                X: =170
+                Y: =127
+                ZIndex: =7
+
+        "'# Reembolso' As groupContainer.manualLayoutContainer":
+            BorderColor: =RGBA(0, 148, 110, 0.46)
+            BorderThickness: =2
+            Height: =47
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =240
+            X: =12
+            Y: =71
+            ZIndex: =26
+
+            Label159_3 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Semibold
+                Height: =47
+                Size: =13
+                Text: |-
+                    ="No. De Reembolso:" 
+                Width: =240
+                ZIndex: =1
+
+            Label182 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =47
+                Size: =13
+                Text: =Var_Revisión.'No. De Reembolso'
+                Width: =50
+                X: =190
+                ZIndex: =2
+
+        Solicitante As groupContainer.manualLayoutContainer:
+            BorderColor: =RGBA(0, 148, 110, 0.46)
+            BorderThickness: =2
+            Height: =40
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =240
+            X: =12
+            Y: =132
+            ZIndex: =27
+
+            Label160_3 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Semibold
+                Size: =13
+                Text: |-
+                    ="Solicitante:"
+                Width: =240
+                ZIndex: =1
+
+            Label163_3 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Size: =13
+                Text: =Var_Revisión.'Nombre del Colaborador'
+                X: =90
+                ZIndex: =2
+
+        Container20 As groupContainer.manualLayoutContainer:
+            BorderColor: =RGBA(0, 148, 110, 0.46)
+            BorderThickness: =2
+            Height: =40
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =200
+            X: =600
+            Y: =71
+            ZIndex: =28
+
+            Label125_3 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Semibold
+                Size: =15
+                Text: |-
+                    ="Anticipo:"
+                Width: =100
+                ZIndex: =1
+
+            TextInput18_2 As text:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                Default: =Var_Revisión.Anticipo
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                HoverColor: =RGBA(51, 51, 51, 1)
+                HoverFill: =RGBA(255, 255, 255, 1)
+                PressedBorderColor: =RGBA(73, 130, 5, 1)
+                PressedColor: =RGBA(51, 51, 51, 1)
+                PressedFill: =RGBA(255, 255, 255, 1)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =13
+                Width: =100
+                X: =100
+                ZIndex: =2
 
     Gastos As groupContainer.manualLayoutContainer:
         Height: =193
