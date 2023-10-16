@@ -45259,6 +45259,546 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Importe (Detalle Monto Factura)_DataCard2'.DataCardValue230.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Importe (Detalle Monto Factura)_DataCard2'.DataCardValue230.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Excel_Rev",
+                "type": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Importe (Detalle Monto Factura)_DataCard2'.DataCardValue230"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'IVA (Detalle Monto Factura)_DataCard2'.DataCardValue231.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'IVA (Detalle Monto Factura)_DataCard2'.DataCardValue231.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Excel_Rev",
+                "type": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'IVA (Detalle Monto Factura)_DataCard2'.DataCardValue231"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'ISH (Detalle Monto Factura)_DataCard2'.DataCardValue232.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'ISH (Detalle Monto Factura)_DataCard2'.DataCardValue232.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Excel_Rev",
+                "type": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'ISH (Detalle Monto Factura)_DataCard2'.DataCardValue232"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.IEPS_DataCard4.DataCardValue233.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.IEPS_DataCard4.DataCardValue233.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Excel_Rev",
+                "type": "Screen_Excel_Rev.Editar_F.Editar_Formulario.IEPS_DataCard4.DataCardValue233"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Ret IVA (Detalle Monto Factura)_DataCard2'.DataCardValue234.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Ret IVA (Detalle Monto Factura)_DataCard2'.DataCardValue234.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Excel_Rev",
+                "type": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Ret IVA (Detalle Monto Factura)_DataCard2'.DataCardValue234"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Ret. ISR (Detalle Monto Factura)_DataCard2'.DataCardValue235.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Ret. ISR (Detalle Monto Factura)_DataCard2'.DataCardValue235.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Excel_Rev",
+                "type": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Ret. ISR (Detalle Monto Factura)_DataCard2'.DataCardValue235"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Total (Detalle Monto Factura)_DataCard2'.DataCardValue236.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Total (Detalle Monto Factura)_DataCard2'.DataCardValue236.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Excel_Rev",
+                "type": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Total (Detalle Monto Factura)_DataCard2'.DataCardValue236"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Tipo  de cambio_DataCard2'.DataCardValue237.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Tipo  de cambio_DataCard2'.DataCardValue237.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Excel_Rev",
+                "type": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Tipo  de cambio_DataCard2'.DataCardValue237"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Total (MXN)_DataCard2'.DataCardValue238.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Total (MXN)_DataCard2'.DataCardValue238.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Excel_Rev",
+                "type": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Total (MXN)_DataCard2'.DataCardValue238"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.Divisa_DataCard2.DataCardValue239.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.Divisa_DataCard2.DataCardValue239.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Excel_Rev",
+                "type": "Screen_Excel_Rev.Editar_F.Editar_Formulario.Divisa_DataCard2.DataCardValue239"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Prorrateo utilizado_DataCard4'.DataCardValue240.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Prorrateo utilizado_DataCard4'.DataCardValue240.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Excel_Rev",
+                "type": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Prorrateo utilizado_DataCard4'.DataCardValue240"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Importe (Prorrateo Factura)_DataCard4'.DataCardValue241.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Importe (Prorrateo Factura)_DataCard4'.DataCardValue241.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Excel_Rev",
+                "type": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Importe (Prorrateo Factura)_DataCard4'.DataCardValue241"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'IVA (Prorrateo Factura)_DataCard4'.DataCardValue242.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'IVA (Prorrateo Factura)_DataCard4'.DataCardValue242.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Excel_Rev",
+                "type": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'IVA (Prorrateo Factura)_DataCard4'.DataCardValue242"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'ISH (Prorrateo Factura)_DataCard4'.DataCardValue243.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'ISH (Prorrateo Factura)_DataCard4'.DataCardValue243.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Excel_Rev",
+                "type": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'ISH (Prorrateo Factura)_DataCard4'.DataCardValue243"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'IESP (Prorrateo Factura)_DataCard4'.DataCardValue244.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'IESP (Prorrateo Factura)_DataCard4'.DataCardValue244.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Excel_Rev",
+                "type": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'IESP (Prorrateo Factura)_DataCard4'.DataCardValue244"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Ret ISR (Prorrateo Factura)_DataCard4'.DataCardValue245.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Ret ISR (Prorrateo Factura)_DataCard4'.DataCardValue245.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Excel_Rev",
+                "type": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Ret ISR (Prorrateo Factura)_DataCard4'.DataCardValue245"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Importe Prorrateo Factura_DataCard2'.DataCardValue246.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Importe Prorrateo Factura_DataCard2'.DataCardValue246.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Excel_Rev",
+                "type": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Importe Prorrateo Factura_DataCard2'.DataCardValue246"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Datos adjuntos_DataCard6'.DataCardValue247.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Datos adjuntos_DataCard6'.DataCardValue247.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Excel_Rev",
+                "type": "Screen_Excel_Rev.Editar_F.Editar_Formulario.'Datos adjuntos_DataCard6'.DataCardValue247"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.VarGG"
                 }
               ],
