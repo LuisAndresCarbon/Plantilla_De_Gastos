@@ -1260,12 +1260,12 @@ Screen_base_Anticipo As screen:
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Colaborador"
-        Items: =["Leonardo Sanchez","Lorena Salas","Othón Morgado","Gerencia MRV"]
+        Items: =["Leonardo Sanchez","Lorena Salas","Othón Morgado","Dinosca Rondon","Gerencia MRV"]
         PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Value"]
-        SearchItems: =Search(["Leonardo Sanchez","Lorena Salas","Othón Morgado","Gerencia MRV"],MRV_1.SearchText,"Value")
+        SearchItems: =Search(["Leonardo Sanchez","Lorena Salas","Othón Morgado","Dinosca Rondon","Gerencia MRV"],MRV_1.SearchText,"Value")
         SelectionFill: =RGBA(73, 130, 5, 1)
         SelectMultiple: =false
         Size: =13
