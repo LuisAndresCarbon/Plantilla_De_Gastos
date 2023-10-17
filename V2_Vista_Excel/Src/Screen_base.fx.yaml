@@ -230,7 +230,6 @@ Screen_base As screen:
         ZIndex: =9
 
         Label58 As label:
-            Align: =Align.Center
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -240,9 +239,9 @@ Screen_base As screen:
             FocusedBorderThickness: =4
             FontWeight: =FontWeight.Bold
             OnSelect: =Select(Parent)
-            Size: =20
+            Size: =18
             Text: =ThisItem.Título
-            Width: =214
+            Width: =350
             ZIndex: =1
 
         Label66 As label:
