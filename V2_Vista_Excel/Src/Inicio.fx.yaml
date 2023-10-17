@@ -212,7 +212,7 @@ Inicio As screen:
         HoverFill: =ColorFade(RGBA(0,0,0,0), -1%)
         OnSelect: |-
             =If(
-                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May","Miguel Pichardo","Miguel Angel Garcia","Cesar Gonzalez"],
+                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May","Miguel Pichardo","Miguel Angel Garcia","Cesar Gonzalez","Alejandra Aguillon"],
                 Reset(TextInput19_1);
                 Reset(TextInput18_1);
                 Reset(Dropdown8_1);
@@ -270,7 +270,7 @@ Inicio As screen:
         HoverFill: =ColorFade(RGBA(0,0,0,0), -1%)
         OnSelect: |-
             =If(
-                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May","Carlos Alfredo Avila Alfonso","Miguel Pichardo","Miguel Angel Garcia","Cesar Gonzalez"],
+                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May","Carlos Alfredo Avila Alfonso","Miguel Pichardo","Miguel Angel Garcia","Cesar Gonzalez","Alejandra Aguillon"],
                 Reset(Dropdown7);
                 Reset(Dropdown8);
                 Reset(TextInput19);
@@ -334,7 +334,7 @@ Inicio As screen:
         HoverFill: =ColorFade(RGBA(0,0,0,0), -1%)
         OnSelect: |-
             =If(
-                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May","Miguel Pichardo","Miguel Angel Garcia","Cesar Gonzalez"],
+                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May","Miguel Pichardo","Miguel Angel Garcia","Cesar Gonzalez","Alejandra Aguillon"],
                 Reset(Dropdown7_4);
                 Reset(Dropdown8_4);
                 Reset(TextInput19_4);
