@@ -845,23 +845,6 @@ Screen_Anticipo_Excel As screen:
             X: =12
             ZIndex: =4
 
-        Label164_2 As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Semibold
-            Size: =15
-            Text: ="Perido del Reembolso"
-            Width: =210
-            X: =285
-            Y: =80
-            ZIndex: =6
-
         Label168_2 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
@@ -874,134 +857,9 @@ Screen_Anticipo_Excel As screen:
             Size: =15
             Text: |-
                 ="Proposito:"
-            X: =696
-            Y: =214
+            X: =677
+            Y: =198
             ZIndex: =7
-
-        Label169_2 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Semibold
-            Height: =34
-            Size: =15
-            Text: |-
-                ="Destino:"
-            X: =677
-            Y: =46
-            ZIndex: =8
-
-        Label125_2 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Semibold
-            Size: =15
-            Text: |-
-                ="Anticipo:"
-            X: =677
-            Y: =93
-            ZIndex: =9
-
-        Dropdown8_1 As dropdown:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            ChevronBackground: =RGBA(255, 255, 255, 1)
-            ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-            ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-            ChevronFill: =RGBA(33, 33, 33, 1)
-            ChevronHoverBackground: =RGBA(212, 212, 212, 1)
-            ChevronHoverFill: =RGBA(33, 33, 33, 1)
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Font: =Font.'Segoe UI'
-            HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            HoverColor: =RGBA(51, 51, 51, 1)
-            HoverFill: =RGBA(212, 212, 212, 1)
-            Items: =["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"]
-            PaddingBottom: =5
-            PaddingLeft: =12
-            PaddingRight: =5
-            PaddingTop: =5
-            PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
-            PressedColor: =RGBA(255, 255, 255, 1)
-            PressedFill: =RGBA(73, 130, 5, 1)
-            SelectionFill: =RGBA(73, 130, 5, 1)
-            Size: =13
-            Width: =200
-            X: =280
-            Y: =216
-            ZIndex: =11
-
-        ComboBox21_1 As combobox:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            ChevronBackground: =RGBA(255, 255, 255, 1)
-            ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-            ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-            ChevronFill: =RGBA(33, 33, 33, 1)
-            ChevronHoverBackground: =RGBA(212, 212, 212, 1)
-            ChevronHoverFill: =RGBA(33, 33, 33, 1)
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            DisplayFields: =["Value"]
-            Font: =Font.'Segoe UI'
-            HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            HoverColor: =RGBA(51, 51, 51, 1)
-            HoverFill: =RGBA(212, 212, 212, 1)
-            InputTextPlaceholder: ="Selecciona Destino"
-            Items: |-
-                =["Aguascalientes","Baja California","Baja California Sur","Campeche","Chiapas","Chihuahua","Ciudad de México","Coahuila","Colima","Durango","Guanajuato","Guerrero","Hidalgo","Jalisco","México","Michoacán","Morelos","Nayarit","Nuevo León","Oaxaca","Puebla","Querétaro","Quintana Roo","San Luis Potosí","Sinaloa","Sonora","Tabasco","Tamaulipas","Tlaxcala","Veracruz","Yucatán","Zacatecas"
-                ]
-            PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
-            PressedColor: =RGBA(255, 255, 255, 1)
-            PressedFill: =RGBA(73, 130, 5, 1)
-            SearchFields: =["Value"]
-            SearchItems: |-
-                =Search(["Aguascalientes","Baja California","Baja California Sur","Campeche","Chiapas","Chihuahua","Ciudad de México","Coahuila","Colima","Durango","Guanajuato","Guerrero","Hidalgo","Jalisco","México","Michoacán","Morelos","Nayarit","Nuevo León","Oaxaca","Puebla","Querétaro","Quintana Roo","San Luis Potosí","Sinaloa","Sonora","Tabasco","Tamaulipas","Tlaxcala","Veracruz","Yucatán","Zacatecas"
-                ],ComboBox21_1.SearchText,"Value")
-            SelectionFill: =RGBA(73, 130, 5, 1)
-            Size: =13
-            Width: =200
-            X: =800
-            Y: =40
-            ZIndex: =12
-
-        TextInput18_1 As text:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            Default: =
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            HoverColor: =RGBA(51, 51, 51, 1)
-            HoverFill: =RGBA(255, 255, 255, 1)
-            PressedBorderColor: =RGBA(73, 130, 5, 1)
-            PressedColor: =RGBA(51, 51, 51, 1)
-            PressedFill: =RGBA(255, 255, 255, 1)
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
-            Size: =13
-            Width: =150
-            X: =800
-            Y: =93
-            ZIndex: =13
 
         TextInput19_1 As text:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -1027,93 +885,9 @@ Screen_Anticipo_Excel As screen:
             RadiusTopRight: =0
             Size: =13
             Width: =200
-            X: =819
-            Y: =203
+            X: =800
+            Y: =188
             ZIndex: =14
-
-        Label179_1 As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Semibold
-            Size: =15
-            Text: ="Mes"
-            X: =305
-            Y: =176
-            ZIndex: =15
-
-        DatePicker4_1 As datepicker:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            CalendarHeaderFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Font: =Font.'Segoe UI'
-            HoverDateFill: =RGBA(200, 200, 200, 1)
-            IconBackground: =RGBA(73, 130, 5, 1)
-            PaddingTop: =5
-            SelectedDateFill: =RGBA(73, 130, 5, 1)
-            Size: =13
-            Width: =140
-            X: =254
-            Y: =149
-            ZIndex: =16
-
-        DatePicker5_1 As datepicker:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            CalendarHeaderFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Font: =Font.'Segoe UI'
-            HoverDateFill: =RGBA(200, 200, 200, 1)
-            IconBackground: =RGBA(73, 130, 5, 1)
-            PaddingTop: =5
-            SelectedDateFill: =RGBA(73, 130, 5, 1)
-            Size: =13
-            Width: =140
-            X: =408
-            Y: =149
-            ZIndex: =17
-
-        Label180_1 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Semibold
-            Size: =13
-            Text: ="Del"
-            X: =254
-            Y: =109
-            ZIndex: =18
-
-        Label181_1 As label:
-            Align: =Align.Right
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Semibold
-            Size: =13
-            Text: ="Al"
-            X: =398
-            Y: =109
-            ZIndex: =19
 
         "'# Anticipo' As groupContainer.manualLayoutContainer":
             BorderColor: =RGBA(0, 148, 110, 0.46)
@@ -1146,22 +920,21 @@ Screen_Anticipo_Excel As screen:
 
             Dropdown7_1 As dropdown:
                 BorderColor: =RGBA(0, 0, 0, 0)
-                ChevronBackground: =RGBA(227, 240, 234, 1)
+                ChevronBackground: =RGBA(255, 255, 255, 1)
                 ChevronDisabledBackground: =RGBA(0, 0, 0, 0)
                 ChevronDisabledFill: =RGBA(0, 148, 110, 1)
                 ChevronFill: =RGBA(33, 33, 33, 1)
-                ChevronHoverBackground: =RGBA(0, 148, 110, 1)
+                ChevronHoverBackground: =RGBA(212, 212, 212, 1)
                 ChevronHoverFill: =RGBA(33, 33, 33, 1)
                 Color: =RGBA(51, 51, 51, 1)
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(255, 255, 255, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
-                Fill: =RGBA(227, 240, 234, 1)
                 Font: =Font.'Segoe UI'
                 Height: =47
                 HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                 HoverColor: =RGBA(51, 51, 51, 1)
-                HoverFill: =RGBA(0, 148, 110, 0.5)
+                HoverFill: =RGBA(212, 212, 212, 1)
                 Items: =["1","2","3","4","5"]
                 PaddingBottom: =5
                 PaddingLeft: =12
@@ -1170,7 +943,7 @@ Screen_Anticipo_Excel As screen:
                 PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(73, 130, 5, 1)
-                SelectionFill: =RGBA(0, 148, 110, 1)
+                SelectionFill: =RGBA(73, 130, 5, 1)
                 Size: =13
                 Width: =100
                 X: =142
@@ -1179,7 +952,6 @@ Screen_Anticipo_Excel As screen:
         D_Soliciante_Anticipo As groupContainer.manualLayoutContainer:
             BorderColor: =RGBA(0, 148, 110, 0.46)
             BorderThickness: =2
-            DropShadow: =DropShadow.Light
             Height: =40
             RadiusBottomLeft: =4
             RadiusBottomRight: =4
@@ -1206,6 +978,7 @@ Screen_Anticipo_Excel As screen:
                 ZIndex: =1
 
             Label163_2 As label:
+                Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
@@ -1219,6 +992,290 @@ Screen_Anticipo_Excel As screen:
                 Width: =136
                 X: =104
                 ZIndex: =2
+
+        D_Fechas_Anticipo As groupContainer.manualLayoutContainer:
+            BorderColor: =RGBA(0, 148, 110, 0.46)
+            BorderThickness: =2
+            Height: =97
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =375
+            X: =269
+            Y: =71
+            ZIndex: =22
+
+            Label164_2 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Semibold
+                Size: =15
+                Text: ="Perido del Reembolso"
+                Width: =Parent.Width
+                ZIndex: =1
+
+            DatePicker4_1 As datepicker:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                CalendarHeaderFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Font: =Font.'Segoe UI'
+                HoverDateFill: =RGBA(200, 200, 200, 1)
+                IconBackground: =RGBA(73, 130, 5, 1)
+                PaddingTop: =5
+                SelectedDateFill: =RGBA(73, 130, 5, 1)
+                Size: =13
+                Width: =140
+                X: =40
+                Y: =40
+                ZIndex: =2
+
+            DatePicker5_1 As datepicker:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                CalendarHeaderFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Font: =Font.'Segoe UI'
+                HoverDateFill: =RGBA(200, 200, 200, 1)
+                IconBackground: =RGBA(73, 130, 5, 1)
+                PaddingTop: =5
+                SelectedDateFill: =RGBA(73, 130, 5, 1)
+                Size: =13
+                Width: =140
+                X: =225
+                Y: =40
+                ZIndex: =3
+
+            Label180_1 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Size: =13
+                Text: |-
+                    ="Del:"
+                Width: =50
+                Y: =40
+                ZIndex: =4
+
+            Label181_1 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Semibold
+                Size: =13
+                Text: |-
+                    ="Al:"
+                Width: =40
+                X: =185
+                Y: =40
+                ZIndex: =5
+
+        D_Mes_Anticipo As groupContainer.manualLayoutContainer:
+            BorderColor: =RGBA(0, 148, 110, 0.46)
+            BorderThickness: =2
+            Height: =84
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =375
+            X: =269
+            Y: =176
+            ZIndex: =23
+
+            Dropdown8_1 As dropdown:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                ChevronBackground: =RGBA(255, 255, 255, 1)
+                ChevronDisabledBackground: =RGBA(255, 255, 255, 1)
+                ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+                ChevronFill: =RGBA(33, 33, 33, 1)
+                ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+                ChevronHoverFill: =RGBA(33, 33, 33, 1)
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(255, 255, 255, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Font: =Font.'Segoe UI'
+                HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                HoverColor: =RGBA(51, 51, 51, 1)
+                HoverFill: =RGBA(212, 212, 212, 1)
+                Items: =["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"]
+                PaddingBottom: =5
+                PaddingLeft: =12
+                PaddingRight: =5
+                PaddingTop: =5
+                PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(73, 130, 5, 1)
+                SelectionFill: =RGBA(73, 130, 5, 1)
+                Size: =13
+                Width: =200
+                X: =87
+                Y: =44
+                ZIndex: =1
+
+            Label179_1 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Semibold
+                Size: =15
+                Text: ="Mes"
+                Width: =Parent.Width
+                ZIndex: =2
+
+        D_Destino_Anticipo As groupContainer.manualLayoutContainer:
+            BorderColor: =RGBA(0, 148, 110, 1)
+            BorderThickness: =2
+            DropShadow: =DropShadow.Light
+            Height: =40
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =290
+            X: =658
+            Y: =72
+            ZIndex: =24
+
+            Label169_2 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Semibold
+                Size: =15
+                Text: |-
+                    ="Destino:"
+                Width: =90
+                ZIndex: =1
+
+            ComboBox21_1 As combobox:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                ChevronBackground: =RGBA(255, 255, 255, 1)
+                ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+                ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+                ChevronFill: =RGBA(33, 33, 33, 1)
+                ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+                ChevronHoverFill: =RGBA(33, 33, 33, 1)
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayFields: =["Value"]
+                Font: =Font.'Segoe UI'
+                HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                HoverColor: =RGBA(51, 51, 51, 1)
+                HoverFill: =RGBA(212, 212, 212, 1)
+                InputTextPlaceholder: ="Selecciona Destino"
+                Items: |-
+                    =["Aguascalientes","Baja California","Baja California Sur","Campeche","Chiapas","Chihuahua","Ciudad de México","Coahuila","Colima","Durango","Guanajuato","Guerrero","Hidalgo","Jalisco","México","Michoacán","Morelos","Nayarit","Nuevo León","Oaxaca","Puebla","Querétaro","Quintana Roo","San Luis Potosí","Sinaloa","Sonora","Tabasco","Tamaulipas","Tlaxcala","Veracruz","Yucatán","Zacatecas"
+                    ]
+                PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(73, 130, 5, 1)
+                SearchFields: =["Value"]
+                SearchItems: |-
+                    =Search(["Aguascalientes","Baja California","Baja California Sur","Campeche","Chiapas","Chihuahua","Ciudad de México","Coahuila","Colima","Durango","Guanajuato","Guerrero","Hidalgo","Jalisco","México","Michoacán","Morelos","Nayarit","Nuevo León","Oaxaca","Puebla","Querétaro","Quintana Roo","San Luis Potosí","Sinaloa","Sonora","Tabasco","Tamaulipas","Tlaxcala","Veracruz","Yucatán","Zacatecas"
+                    ],ComboBox21_1.SearchText,"Value")
+                SelectionFill: =RGBA(73, 130, 5, 1)
+                SelectMultiple: =false
+                Size: =13
+                Width: =200
+                X: =90
+                ZIndex: =2
+
+        D_Anticipo_Anticipo As groupContainer.manualLayoutContainer:
+            BorderColor: =RGBA(0, 148, 110, 1)
+            BorderThickness: =2
+            Height: =40
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =290
+            X: =658
+            Y: =128
+            ZIndex: =25
+
+            Label125_2 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Semibold
+                Size: =15
+                Text: |-
+                    ="Anticipo:"
+                Width: =95
+                ZIndex: =1
+
+            TextInput18_1 As text:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                Default: =
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                HoverColor: =RGBA(51, 51, 51, 1)
+                HoverFill: =RGBA(255, 255, 255, 1)
+                PressedBorderColor: =RGBA(73, 130, 5, 1)
+                PressedColor: =RGBA(51, 51, 51, 1)
+                PressedFill: =RGBA(255, 255, 255, 1)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =13
+                Width: =195
+                X: =95
+                ZIndex: =2
+
+        Container20 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            X: =560
+            Y: =63
+            ZIndex: =26
 
     Form1_1 As form:
         AcceptsFocus: =false

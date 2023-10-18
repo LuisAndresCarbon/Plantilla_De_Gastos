@@ -1209,7 +1209,7 @@ Screen_Excel_Rev As screen:
             ZIndex: =25
 
             Label164_3 As label:
-                Align: =Align.Justify
+                Align: =Align.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 BorderThickness: =2
@@ -1221,7 +1221,7 @@ Screen_Excel_Rev As screen:
                 Height: =53
                 Size: =18
                 Text: ="Perido del Reembolso"
-                Width: =312
+                Width: =Parent.Width
                 X: =8
                 Y: =2
                 ZIndex: =1
