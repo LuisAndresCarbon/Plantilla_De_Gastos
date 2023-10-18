@@ -1545,7 +1545,7 @@ Screen_Excel_Rev As screen:
                 RadiusTopRight: =0
                 Size: =13
                 Width: =285
-                X: =116
+                X: =125
                 ZIndex: =2
 
         D_Mes As groupContainer.manualLayoutContainer:
