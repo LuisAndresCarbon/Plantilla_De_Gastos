@@ -1196,92 +1196,15 @@ Screen_Excel_Rev As screen:
             X: =12
             ZIndex: =4
 
-        Label168_3 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Semibold
-            Size: =15
-            Text: |-
-                ="Proposito:"
-            X: =609
-            Y: =197
-            ZIndex: =7
-
-        Label169_3 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Semibold
-            Height: =34
-            Size: =15
-            Text: |-
-                ="Destino:"
-            X: =609
-            Y: =127
-            ZIndex: =8
-
-        TextInput19_2 As text:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            Default: =Var_Revisión.Propósito
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            DisplayMode: =DisplayMode.View
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            Height: =76
-            HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            HoverColor: =RGBA(51, 51, 51, 1)
-            HoverFill: =RGBA(255, 255, 255, 1)
-            Mode: =TextMode.MultiLine
-            PressedBorderColor: =RGBA(73, 130, 5, 1)
-            PressedColor: =RGBA(51, 51, 51, 1)
-            PressedFill: =RGBA(255, 255, 255, 1)
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
-            Size: =13
-            Width: =326
-            X: =732
-            Y: =172
-            ZIndex: =14
-
-        Label184 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            Size: =13
-            Text: ="Destino"
-            X: =732
-            Y: =121
-            ZIndex: =22
-
         Fechas As groupContainer.manualLayoutContainer:
             BorderColor: =RGBA(0, 148, 110, 0.46)
             BorderThickness: =2
-            Height: =170
+            Height: =101
             RadiusBottomLeft: =4
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
-            Width: =320
+            Width: =375
             X: =259
             Y: =71
             ZIndex: =25
@@ -1315,10 +1238,11 @@ Screen_Excel_Rev As screen:
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
                 Size: =13
-                Text: ="Del"
-                Width: =140
-                X: =12
-                Y: =47
+                Text: |-
+                    ="Del:"
+                Width: =43
+                X: =8
+                Y: =55
                 ZIndex: =2
 
             Label181_2 As label:
@@ -1331,10 +1255,11 @@ Screen_Excel_Rev As screen:
                 FocusedBorderThickness: =4
                 FontWeight: =FontWeight.Semibold
                 Size: =13
-                Text: ="Al"
-                Width: =140
-                X: =175
-                Y: =49
+                Text: |-
+                    ="Al:"
+                Width: =43
+                X: =185
+                Y: =59
                 ZIndex: =3
 
             DatePicker6 As datepicker:
@@ -1346,6 +1271,7 @@ Screen_Excel_Rev As screen:
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =DisplayMode.View
+                Fill: =RGBA(0, 0, 0, 0)
                 Font: =Font.'Segoe UI'
                 HoverDateFill: =RGBA(200, 200, 200, 1)
                 IconBackground: =RGBA(73, 130, 5, 1)
@@ -1353,8 +1279,8 @@ Screen_Excel_Rev As screen:
                 SelectedDateFill: =RGBA(73, 130, 5, 1)
                 Size: =13
                 Width: =140
-                X: =12
-                Y: =87
+                X: =45
+                Y: =55
                 ZIndex: =4
 
             DatePicker7 As datepicker:
@@ -1366,6 +1292,7 @@ Screen_Excel_Rev As screen:
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 DisabledFill: =RGBA(244, 244, 244, 1)
                 DisplayMode: =DisplayMode.View
+                Fill: =RGBA(0, 0, 0, 0)
                 Font: =Font.'Segoe UI'
                 HoverDateFill: =RGBA(200, 200, 200, 1)
                 IconBackground: =RGBA(73, 130, 5, 1)
@@ -1373,41 +1300,9 @@ Screen_Excel_Rev As screen:
                 SelectedDateFill: =RGBA(73, 130, 5, 1)
                 Size: =13
                 Width: =140
-                X: =175
-                Y: =87
+                X: =219
+                Y: =55
                 ZIndex: =5
-
-            Label179_2 As label:
-                Align: =Align.Center
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                FontWeight: =FontWeight.Semibold
-                Size: =15
-                Text: ="Mes"
-                X: =2
-                Y: =127
-                ZIndex: =6
-
-            Label183 As label:
-                Align: =Align.Center
-                BorderColor: =RGBA(0, 0, 0, 0)
-                BorderStyle: =BorderStyle.None
-                BorderThickness: =2
-                Color: =RGBA(51, 51, 51, 1)
-                DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                DisabledColor: =RGBA(166, 166, 166, 1)
-                FocusedBorderThickness: =4
-                Font: =Font.'Segoe UI'
-                Size: =13
-                Text: =Var_Revisión.Mes
-                X: =170
-                Y: =127
-                ZIndex: =7
 
         "'# Reembolso' As groupContainer.manualLayoutContainer":
             BorderColor: =RGBA(0, 148, 110, 0.46)
@@ -1496,7 +1391,7 @@ Screen_Excel_Rev As screen:
                 X: =90
                 ZIndex: =2
 
-        Container20 As groupContainer.manualLayoutContainer:
+        D_Anticipo As groupContainer.manualLayoutContainer:
             BorderColor: =RGBA(0, 148, 110, 0.46)
             BorderThickness: =2
             Height: =40
@@ -1505,8 +1400,8 @@ Screen_Excel_Rev As screen:
             RadiusTopLeft: =4
             RadiusTopRight: =4
             Width: =200
-            X: =600
-            Y: =71
+            X: =852
+            Y: =69
             ZIndex: =28
 
             Label125_3 As label:
@@ -1551,15 +1446,163 @@ Screen_Excel_Rev As screen:
                 X: =100
                 ZIndex: =2
 
+        D_Destino As groupContainer.manualLayoutContainer:
+            BorderColor: =RGBA(0, 148, 110, 0.46)
+            BorderThickness: =2
+            Height: =40
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =200
+            X: =642
+            Y: =69
+            ZIndex: =29
+
+            Label169_3 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Semibold
+                Size: =15
+                Text: |-
+                    ="Destino:"
+                Width: =90
+                ZIndex: =1
+
+            Label184 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Size: =13
+                Text: ="Destino"
+                Width: =110
+                X: =90
+                ZIndex: =2
+
+        D_Proposito As groupContainer.manualLayoutContainer:
+            BorderColor: =RGBA(0, 148, 110, 0.46)
+            BorderThickness: =2
+            Height: =113
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =410
+            X: =642
+            Y: =132
+            ZIndex: =30
+
+            Label168_3 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Semibold
+                Height: =44
+                Size: =15
+                Text: |-
+                    ="Proposito:"
+                Width: =110
+                X: =6
+                Y: =34
+                ZIndex: =1
+
+            TextInput19_2 As text:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                Default: =Var_Revisión.Propósito
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =113
+                HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                HoverColor: =RGBA(51, 51, 51, 1)
+                HoverFill: =RGBA(255, 255, 255, 1)
+                Mode: =TextMode.MultiLine
+                PressedBorderColor: =RGBA(73, 130, 5, 1)
+                PressedColor: =RGBA(51, 51, 51, 1)
+                PressedFill: =RGBA(255, 255, 255, 1)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =13
+                Width: =285
+                X: =116
+                ZIndex: =2
+
+        D_Mes As groupContainer.manualLayoutContainer:
+            BorderColor: =RGBA(0, 148, 110, 0.46)
+            BorderThickness: =2
+            Height: =61
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =375
+            X: =259
+            Y: =184
+            ZIndex: =31
+
+            Label179_2 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Semibold
+                Size: =15
+                Text: |-
+                    ="Mes:"
+                Width: =56
+                Y: =10
+                ZIndex: =1
+
+            Label183 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Height: =60
+                Size: =13
+                Text: =Var_Revisión.Mes
+                Width: =319
+                X: =56
+                ZIndex: =2
+
     Gastos As groupContainer.manualLayoutContainer:
-        Height: =193
+        Height: =224
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
-        Width: =236
-        X: =1130
-        Y: =55
+        Width: =270
+        X: =1072
+        Y: =72
         ZIndex: =9
 
         Container9 As groupContainer.manualLayoutContainer:
@@ -1568,8 +1611,8 @@ Screen_Excel_Rev As screen:
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
-            Width: =289
-            Y: =18
+            Width: =270
+            Y: =79
             ZIndex: =1
 
             Label9_10 As label:
@@ -1581,11 +1624,12 @@ Screen_Excel_Rev As screen:
                 DisabledColor: =RGBA(166, 166, 166, 1)
                 FocusedBorderThickness: =4
                 FontWeight: =FontWeight.Semibold
-                Height: =34
+                Height: =28
                 Size: =15
                 Text: |-
                     ="Gasto Total: $" & Text(Value(Label56_10.Text),"[$-en-US]0,0.00")
-                Width: =289
+                Width: =270
+                Y: =6
                 ZIndex: =1
 
         Container10 As groupContainer.manualLayoutContainer:
@@ -1594,8 +1638,7 @@ Screen_Excel_Rev As screen:
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
-            Width: =289
-            Y: =52
+            Width: =270
             ZIndex: =2
 
             Label9_11 As label:
@@ -1611,8 +1654,7 @@ Screen_Excel_Rev As screen:
                 Size: =15
                 Text: |-
                     ="Anticipo: " & "$ " & Text(Value(Var_Revisión.Anticipo),"[$-en-US]0,0.00")
-                Width: =289
-                Y: =1
+                Width: =270
                 ZIndex: =1
 
         Container12 As groupContainer.manualLayoutContainer:
@@ -1621,8 +1663,8 @@ Screen_Excel_Rev As screen:
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
-            Width: =289
-            Y: =86
+            Width: =270
+            Y: =159
             ZIndex: =3
 
             Label110_5 As label:
@@ -1638,7 +1680,7 @@ Screen_Excel_Rev As screen:
                 Size: =15
                 Text: |-
                     ="Devolución: $" & Text(Sum(Label56_11 - Label56_10),"[$-en-US]0,0.00")
-                Width: =289
+                Width: =270
                 ZIndex: =1
 
     Form1_2 As form:
