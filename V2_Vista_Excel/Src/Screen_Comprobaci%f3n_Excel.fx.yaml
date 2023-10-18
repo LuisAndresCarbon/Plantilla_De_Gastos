@@ -2,6 +2,101 @@ Screen_Comprobación_Excel As screen:
     Fill: =RGBA(227,240,234,1)
     LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
 
+    Encabezado_19 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.Light
+        Fill: =RGBA(0, 148, 110, 0.55)
+        Height: =55
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1366
+        ZIndex: =1
+
+        Container14_2 As groupContainer.manualLayoutContainer:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            Height: =45
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =322
+            Y: =5
+            ZIndex: =1
+
+            Image10_20 As image:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                Height: =45
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Image: ='Logo Horizontal Texto Blanco1'
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                Width: =250
+                ZIndex: =1
+
+        Container11_2 As groupContainer.manualLayoutContainer:
+            Height: =45
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =300
+            X: =968
+            Y: =5
+            ZIndex: =2
+
+            Label15_24 As label:
+                Align: =Align.Right
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Height: =45
+                Size: =13
+                Text: =User().FullName
+                Width: =300
+                ZIndex: =1
+
+        Container15_2 As groupContainer.manualLayoutContainer:
+            Height: =45
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =45
+            X: =1292
+            Y: =5
+            ZIndex: =3
+
+            Icon8_13 As icon.ChevronDown:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(220, 220, 220, 1)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                Height: =45
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =ColorFade(RGBA(178, 228, 200, 1), -0%)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Icon: =Icon.Home
+                OnSelect: =Navigate(Inicio,ScreenTransition.CoverRight)
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                Width: =45
+                ZIndex: =1
+
     "Gallery15_2 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
         BorderColor: =RGBA(166, 166, 166, 1)
         DelayItemLoading: =true
@@ -21,7 +116,7 @@ Screen_Comprobación_Excel As screen:
         Visible: =false
         Width: =1366
         Y: =353
-        ZIndex: =1
+        ZIndex: =2
 
         Title3_2 As label:
             Color: =RGBA(50, 49, 48, 1)
@@ -105,80 +200,6 @@ Screen_Comprobación_Excel As screen:
             Width: =4
             ZIndex: =5
 
-    Encabezado_20 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =20
-        ZIndex: =9
-
-        Rectangle2_40 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledFill: =RGBA(0,148,110,87)
-            DisplayMode: =DisplayMode.Disabled
-            Fill: =RGBA(0, 148, 110, 0.55)
-            FocusedBorderThickness: =4
-            Height: =92
-            HoverFill: =RGBA(73, 130, 5, 1)
-            PressedFill: =RGBA(73, 130, 5, 1)
-            Width: =1366
-            ZIndex: =5
-
-        Image10_20 As image:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            Height: =92
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Image: ='Logo Horizontal Texto Blanco1'
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Width: =322
-            X: =12
-            ZIndex: =6
-
-        Label15_24 As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(255, 255, 255, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Height: =36
-            Size: =13
-            Text: =User().FullName
-            Width: =188
-            X: =1061
-            Y: =28
-            ZIndex: =7
-
-        Image12_20 As image:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            Height: =76
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Image: =Persona
-            ImagePosition: =ImagePosition.Fill
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Width: =101
-            X: =1249
-            Y: =8
-            ZIndex: =8
-
     HtmlText1_5 As htmlViewer:
         Height: =209
         HtmlText: |-
@@ -187,7 +208,7 @@ Screen_Comprobación_Excel As screen:
         Width: =442
         X: =924
         Y: =160
-        ZIndex: =11
+        ZIndex: =8
 
     Label9_12 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -205,7 +226,7 @@ Screen_Comprobación_Excel As screen:
         Width: =289
         X: =659
         Y: =92
-        ZIndex: =12
+        ZIndex: =9
 
     Label9_13 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -223,7 +244,7 @@ Screen_Comprobación_Excel As screen:
         Width: =290
         X: =659
         Y: =118
-        ZIndex: =13
+        ZIndex: =10
 
     Label110_6 As label:
         Align: =Align.Center
@@ -242,73 +263,7 @@ Screen_Comprobación_Excel As screen:
         Width: =158
         X: =954
         Y: =90
-        ZIndex: =14
-
-    Menu_4 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =14
-
-        Rectangle3_16 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledFill: =RGBA(182, 205, 155, 1)
-            DisplayMode: =DisplayMode.Disabled
-            Fill: =RGBA(73, 130, 5, 1)
-            FocusedBorderThickness: =4
-            Height: =76
-            HoverFill: =RGBA(73, 130, 5, 1)
-            PressedFill: =RGBA(73, 130, 5, 1)
-            Width: =1366
-            Y: =82
-            ZIndex: =2
-
-        Icon8_10 As icon.ChevronDown:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(73, 130, 5, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.Home
-            OnSelect: =Navigate(Inicio,ScreenTransition.CoverRight)
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            X: =1287
-            Y: =90
-            ZIndex: =3
-
-        Icon3_6 As icon.ChevronDown:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(73, 130, 5, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.Database
-            OnSelect: =Navigate(Screen_base_compaq,ScreenTransition.Cover)
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Visible: |-
-                =Switch(true,
-                VarAdmi = "Jefe", true,
-                VarAdmi = "Programador", true,
-                VarAdmi = "Contador", true
-                )
-            X: =1213
-            Y: =90
-            ZIndex: =4
+        ZIndex: =11
 
     Label56_12 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -334,7 +289,7 @@ Screen_Comprobación_Excel As screen:
             )
         Visible: =false
         X: =515
-        ZIndex: =15
+        ZIndex: =12
 
     Label56_13 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -349,7 +304,73 @@ Screen_Comprobación_Excel As screen:
         Text: =Var_Revisión.Anticipo
         Visible: =false
         X: =688
-        ZIndex: =16
+        ZIndex: =13
+
+    Menu_4 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =14
+
+        Rectangle3_16 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledFill: =RGBA(182, 205, 155, 1)
+            DisplayMode: =DisplayMode.Disabled
+            Fill: =RGBA(73, 130, 5, 1)
+            FocusedBorderThickness: =4
+            Height: =76
+            HoverFill: =RGBA(73, 130, 5, 1)
+            PressedFill: =RGBA(73, 130, 5, 1)
+            Width: =1366
+            Y: =82
+            ZIndex: =3
+
+        Icon8_10 As icon.ChevronDown:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(73, 130, 5, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Home
+            OnSelect: =Navigate(Inicio,ScreenTransition.CoverRight)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            X: =1287
+            Y: =90
+            ZIndex: =4
+
+        Icon3_6 As icon.ChevronDown:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(73, 130, 5, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Database
+            OnSelect: =Navigate(Screen_base_compaq,ScreenTransition.Cover)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Visible: |-
+                =Switch(true,
+                VarAdmi = "Jefe", true,
+                VarAdmi = "Programador", true,
+                VarAdmi = "Contador", true
+                )
+            X: =1213
+            Y: =90
+            ZIndex: =5
 
     Label155_4 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -364,7 +385,7 @@ Screen_Comprobación_Excel As screen:
         Text: =LookUp(Col_Notificar,true).Anticipo
         X: =116
         Y: =104
-        ZIndex: =18
+        ZIndex: =15
 
     DataTable1_3 As dataTable.datatable:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -414,7 +435,7 @@ Screen_Comprobación_Excel As screen:
         Width: =1366
         X: =0
         Y: =376
-        ZIndex: =20
+        ZIndex: =17
 
         "'Fecha Doc._Columna1_3' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
@@ -969,7 +990,7 @@ Screen_Comprobación_Excel As screen:
         RadiusTopRight: =4
         Width: =924
         Y: =160
-        ZIndex: =21
+        ZIndex: =18
 
         Label157_4 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -1362,7 +1383,7 @@ Screen_Comprobación_Excel As screen:
         Width: =1118
         X: =160
         Y: =167
-        ZIndex: =22
+        ZIndex: =19
 
         Título_DataCard7_5 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -6798,7 +6819,7 @@ Screen_Comprobación_Excel As screen:
         Width: =717
         X: =542
         Y: =353
-        ZIndex: =23
+        ZIndex: =20
 
         ComboBox26_6 As combobox:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -7042,7 +7063,7 @@ Screen_Comprobación_Excel As screen:
         Width: =717
         X: =542
         Y: =353
-        ZIndex: =24
+        ZIndex: =21
 
         ComboBox26_7 As combobox:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -7285,7 +7306,7 @@ Screen_Comprobación_Excel As screen:
         Width: =708
         X: =569
         Y: =376
-        ZIndex: =25
+        ZIndex: =22
 
         Container6_6 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.Light
@@ -7569,7 +7590,7 @@ Screen_Comprobación_Excel As screen:
         Width: =708
         X: =569
         Y: =376
-        ZIndex: =26
+        ZIndex: =23
 
         Container6_7 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.Light
@@ -7860,7 +7881,7 @@ Screen_Comprobación_Excel As screen:
             Width: =1366
             X: =
             Y: =708
-            ZIndex: =9
+            ZIndex: =6
 
         Button3_19 As button:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -7888,7 +7909,7 @@ Screen_Comprobación_Excel As screen:
             Text: ="Regresar"
             X: =14
             Y: =720
-            ZIndex: =10
+            ZIndex: =7
 
         Button4_4 As button:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -7995,7 +8016,7 @@ Screen_Comprobación_Excel As screen:
             Width: =225
             X: =580
             Y: =720
-            ZIndex: =17
+            ZIndex: =14
 
         Icon20_19 As icon.ChevronDown:
             Color: =RGBA(255, 255, 255, 1)
@@ -8016,5 +8037,5 @@ Screen_Comprobación_Excel As screen:
             Width: =55
             X: =1286
             Y: =713
-            ZIndex: =19
+            ZIndex: =16
 

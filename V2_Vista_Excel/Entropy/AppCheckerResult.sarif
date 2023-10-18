@@ -14269,49 +14269,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen_Anticipo_Excel.Icon3_4.AccessibleLabel"
+                  "fullyQualifiedName": "Screen_Comprobación_Excel.Encabezado_19.Container15_2.Icon8_13.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen_Anticipo_Excel.Icon3_4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Screen_Anticipo_Excel",
-                "type": "Screen_Anticipo_Excel.Icon3_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen_Anticipo_Excel.Icon3_4.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen_Anticipo_Excel.Icon3_4.TabIndex",
+                  "fullyQualifiedName": "Screen_Comprobación_Excel.Encabezado_19.Container15_2.Icon8_13.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Screen_Anticipo_Excel",
-                "type": "Screen_Anticipo_Excel.Icon3_4"
+                "module": "Screen_Comprobación_Excel",
+                "type": "Screen_Comprobación_Excel.Encabezado_19.Container15_2.Icon8_13"
               }
             }
           ],
@@ -14329,19 +14299,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen_Anticipo_Excel.Icon8_8.AccessibleLabel"
+                  "fullyQualifiedName": "Screen_Comprobación_Excel.Encabezado_19.Container15_2.Icon8_13.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen_Anticipo_Excel.Icon8_8.AccessibleLabel",
+                  "fullyQualifiedName": "Screen_Comprobación_Excel.Encabezado_19.Container15_2.Icon8_13.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Screen_Anticipo_Excel",
-                "type": "Screen_Anticipo_Excel.Icon8_8"
+                "module": "Screen_Comprobación_Excel",
+                "type": "Screen_Comprobación_Excel.Encabezado_19.Container15_2.Icon8_13"
               }
             }
           ],
@@ -14359,19 +14329,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen_Anticipo_Excel.Icon8_8.TabIndex"
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Encabezado_17.Container15_3.Icon8_14.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen_Anticipo_Excel.Icon8_8.TabIndex",
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Encabezado_17.Container15_3.Icon8_14.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Screen_Anticipo_Excel",
-                "type": "Screen_Anticipo_Excel.Icon8_8"
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Encabezado_17.Container15_3.Icon8_14"
               }
             }
           ],
@@ -14383,6 +14353,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Encabezado_17.Container15_3.Icon8_14.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Encabezado_17.Container15_3.Icon8_14.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Encabezado_17.Container15_3.Icon8_14"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -45842,6 +45842,66 @@
                 "member": "TabIndex",
                 "module": "Screen_Anticipo_Excel",
                 "type": "Screen_Anticipo_Excel.Encabezado_18.Container15_1.Icon8_12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Encabezado_20.Container15_4.Icon8_15.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Encabezado_20.Container15_4.Icon8_15.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Encabezado_20.Container15_4.Icon8_15"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Encabezado_20.Container15_4.Icon8_15.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Encabezado_20.Container15_4.Icon8_15.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Encabezado_20.Container15_4.Icon8_15"
               }
             }
           ],
