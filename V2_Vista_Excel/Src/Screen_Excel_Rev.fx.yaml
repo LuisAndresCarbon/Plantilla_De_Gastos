@@ -1187,7 +1187,6 @@ Screen_Excel_Rev As screen:
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Bold
             Height: =60
             Size: =23
