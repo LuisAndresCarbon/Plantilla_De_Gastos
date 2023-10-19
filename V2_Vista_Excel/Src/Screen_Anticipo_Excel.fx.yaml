@@ -2,6 +2,64 @@ Screen_Anticipo_Excel As screen:
     Fill: =RGBA(227,240,234,1)
     LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
 
+    D_Gastos As groupContainer.manualLayoutContainer:
+        Height: =224
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =270
+        X: =1082
+        Y: =75
+        ZIndex: =1
+
+        Label9_8 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            FontWeight: =FontWeight.Semibold
+            Size: =15
+            Text: |-
+                ="Gasto Total: $" & Text(Value(Label56_8.Text),"[$-en-US]0,0.00")
+            Width: =Parent.Width
+            Y: =76
+            ZIndex: =1
+
+        Label9_9 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            FontWeight: =FontWeight.Semibold
+            Size: =15
+            Text: |-
+                ="Anticipo: " & "$ " & Text(Value(TextInput18_1.Text),"[$-en-US]0,0.00")
+            Width: =Parent.Width
+            ZIndex: =2
+
+        Label110_4 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            FontWeight: =FontWeight.Bold
+            Size: =15
+            Text: |-
+                ="Devolución: $" & Text(Sum(TextInput18_1.Text - Label56_8),"[$-en-US]0,0.00")
+            Width: =Parent.Width
+            Y: =153
+            ZIndex: =3
+
     Encabezado_18 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Light
         Fill: =RGBA(0, 148, 110, 0.55)
@@ -11,7 +69,7 @@ Screen_Anticipo_Excel As screen:
         RadiusTopLeft: =4
         RadiusTopRight: =4
         Width: =1366
-        ZIndex: =1
+        ZIndex: =2
 
         Container14_1 As groupContainer.manualLayoutContainer:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -116,7 +174,7 @@ Screen_Anticipo_Excel As screen:
         Visible: =false
         Width: =1366
         Y: =353
-        ZIndex: =2
+        ZIndex: =3
 
         Title3_1 As label:
             Color: =RGBA(50, 49, 48, 1)
@@ -208,7 +266,7 @@ Screen_Anticipo_Excel As screen:
         Width: =442
         X: =924
         Y: =160
-        ZIndex: =8
+        ZIndex: =6
 
     Label56_8 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -234,7 +292,7 @@ Screen_Anticipo_Excel As screen:
             )
         Visible: =false
         X: =515
-        ZIndex: =12
+        ZIndex: =7
 
     Label56_9 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -249,7 +307,7 @@ Screen_Anticipo_Excel As screen:
         Text: =Var_Revisión.Anticipo
         Visible: =false
         X: =688
-        ZIndex: =13
+        ZIndex: =8
 
     Label155_2 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -264,7 +322,7 @@ Screen_Anticipo_Excel As screen:
         Text: =LookUp(Col_Notificar,true).Anticipo
         X: =116
         Y: =104
-        ZIndex: =15
+        ZIndex: =10
 
     DataTable1_1 As dataTable.datatable:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -314,7 +372,7 @@ Screen_Anticipo_Excel As screen:
         Width: =1366
         X: =0
         Y: =320
-        ZIndex: =17
+        ZIndex: =12
 
         "'Fecha Doc._Columna1_1' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
@@ -827,7 +885,7 @@ Screen_Anticipo_Excel As screen:
         RadiusTopRight: =4
         Width: =1060
         Y: =55
-        ZIndex: =18
+        ZIndex: =13
 
         Label161_2 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -1295,7 +1353,7 @@ Screen_Anticipo_Excel As screen:
         Width: =1118
         X: =160
         Y: =167
-        ZIndex: =19
+        ZIndex: =14
 
         Título_DataCard7_3 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -6669,7 +6727,7 @@ Screen_Anticipo_Excel As screen:
         Width: =717
         X: =542
         Y: =353
-        ZIndex: =20
+        ZIndex: =15
 
         ComboBox26_2 As combobox:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -6913,7 +6971,7 @@ Screen_Anticipo_Excel As screen:
         Width: =717
         X: =542
         Y: =353
-        ZIndex: =21
+        ZIndex: =16
 
         ComboBox26_3 As combobox:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -7156,7 +7214,7 @@ Screen_Anticipo_Excel As screen:
         Width: =708
         X: =569
         Y: =376
-        ZIndex: =22
+        ZIndex: =17
 
         Container6_2 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.Light
@@ -7440,7 +7498,7 @@ Screen_Anticipo_Excel As screen:
         Width: =708
         X: =569
         Y: =376
-        ZIndex: =23
+        ZIndex: =18
 
         Container6_3 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.Light
@@ -7710,64 +7768,6 @@ Screen_Anticipo_Excel As screen:
                     Y: =21
                     ZIndex: =7
 
-    D_Gastos As groupContainer.manualLayoutContainer:
-        Height: =224
-        RadiusBottomLeft: =4
-        RadiusBottomRight: =4
-        RadiusTopLeft: =4
-        RadiusTopRight: =4
-        Width: =270
-        X: =1082
-        Y: =75
-        ZIndex: =24
-
-        Label9_8 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Semibold
-            Size: =15
-            Text: |-
-                ="Gasto Total: $" & Text(Value(Label56_8.Text),"[$-en-US]0,0.00")
-            Width: =Parent.Width
-            Y: =76
-            ZIndex: =1
-
-        Label9_9 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Semibold
-            Size: =15
-            Text: |-
-                ="Anticipo: " & "$ " & Text(Value(TextInput18_1.Text),"[$-en-US]0,0.00")
-            Width: =Parent.Width
-            ZIndex: =2
-
-        Label110_4 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Bold
-            Size: =15
-            Text: |-
-                ="Devolución: $" & Text(Sum(TextInput18_1.Text - Label56_8),"[$-en-US]0,0.00")
-            Width: =Parent.Width
-            Y: =153
-            ZIndex: =3
-
     "'Pie de pagina_1' As group":
         Height: =5
         Width: =5
@@ -7789,7 +7789,7 @@ Screen_Anticipo_Excel As screen:
             Width: =1366
             X: =
             Y: =708
-            ZIndex: =6
+            ZIndex: =4
 
         Button3_17 As button:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -7817,7 +7817,7 @@ Screen_Anticipo_Excel As screen:
             Text: ="Regresar"
             X: =14
             Y: =720
-            ZIndex: =7
+            ZIndex: =5
 
         Button4_2 As button:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -7833,7 +7833,8 @@ Screen_Anticipo_Excel As screen:
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
             OnSelect: |-
-                =If(
+                =SubmitForm(Form1_1);
+                If(
                     VarAdmi = "Desarrollo",
                     Office365Outlook.SendEmailV2(
                         "lourdes@canopiacarbon.com",
@@ -7908,7 +7909,7 @@ Screen_Anticipo_Excel As screen:
                     {Importance: "High"}
                 );
                 Notify(
-                    "Gracias por mandar tus facturas, se revisaran lo antes posible",
+                    "Gracias por mandar tu solicitd, se revisaran lo antes posible",
                     NotificationType.Success,
                     4000
                 )
@@ -7924,7 +7925,7 @@ Screen_Anticipo_Excel As screen:
             Width: =225
             X: =580
             Y: =720
-            ZIndex: =14
+            ZIndex: =9
 
         Icon20_9 As icon.ChevronDown:
             Color: =RGBA(255, 255, 255, 1)
@@ -7951,5 +7952,5 @@ Screen_Anticipo_Excel As screen:
             Width: =55
             X: =1286
             Y: =713
-            ZIndex: =16
+            ZIndex: =11
 
