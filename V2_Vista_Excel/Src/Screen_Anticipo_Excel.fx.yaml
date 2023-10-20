@@ -1049,7 +1049,7 @@ Screen_Anticipo_Excel As screen:
                 SelectedDateFill: =RGBA(73, 130, 5, 1)
                 Size: =13
                 Width: =140
-                X: =96
+                X: =95
                 Y: =40
                 ZIndex: =2
 
@@ -1067,7 +1067,7 @@ Screen_Anticipo_Excel As screen:
                 SelectedDateFill: =RGBA(73, 130, 5, 1)
                 Size: =13
                 Width: =140
-                X: =369
+                X: =366
                 Y: =40
                 ZIndex: =3
 
@@ -1161,7 +1161,8 @@ Screen_Anticipo_Excel As screen:
                 FontWeight: =FontWeight.Semibold
                 Height: =Parent.Height
                 Size: =15
-                Text: ="Mes"
+                Text: |-
+                    ="Mes:"
                 Width: =87
                 ZIndex: =2
 

@@ -959,8 +959,8 @@ Screen_Comprobación_Excel As screen:
             Size: =15
             Text: |-
                 ="Proposito:"
-            X: =573
-            Y: =81
+            X: =661
+            Y: =139
             ZIndex: =7
 
         Label169_4 As label:
@@ -976,8 +976,8 @@ Screen_Comprobación_Excel As screen:
             Size: =15
             Text: |-
                 ="Destino:"
-            X: =573
-            Y: =219
+            X: =737
+            Y: =79
             ZIndex: =8
 
         Label125_4 As label:
@@ -992,40 +992,9 @@ Screen_Comprobación_Excel As screen:
             Size: =15
             Text: |-
                 ="Anticipo:"
-            X: =573
-            Y: =150
+            X: =737
+            Y: =10
             ZIndex: =9
-
-        Dropdown8_3 As dropdown:
-            BorderColor: =RGBA(166, 166, 166, 1)
-            ChevronBackground: =RGBA(255, 255, 255, 1)
-            ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-            ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-            ChevronFill: =RGBA(33, 33, 33, 1)
-            ChevronHoverBackground: =RGBA(212, 212, 212, 1)
-            ChevronHoverFill: =RGBA(33, 33, 33, 1)
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Font: =Font.'Segoe UI'
-            HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            HoverColor: =RGBA(51, 51, 51, 1)
-            HoverFill: =RGBA(212, 212, 212, 1)
-            Items: =["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"]
-            PaddingBottom: =5
-            PaddingLeft: =12
-            PaddingRight: =5
-            PaddingTop: =5
-            PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
-            PressedColor: =RGBA(255, 255, 255, 1)
-            PressedFill: =RGBA(73, 130, 5, 1)
-            SelectionFill: =RGBA(73, 130, 5, 1)
-            Size: =13
-            Width: =200
-            X: =858
-            Y: =41
-            ZIndex: =11
 
         ComboBox21_3 As combobox:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -1058,8 +1027,8 @@ Screen_Comprobación_Excel As screen:
             SelectionFill: =RGBA(73, 130, 5, 1)
             Size: =13
             Width: =200
-            X: =696
-            Y: =213
+            X: =860
+            Y: =73
             ZIndex: =12
 
         TextInput18_3 As text:
@@ -1084,8 +1053,8 @@ Screen_Comprobación_Excel As screen:
             RadiusTopRight: =0
             Size: =13
             Width: =150
-            X: =696
-            Y: =150
+            X: =860
+            Y: =10
             ZIndex: =13
 
         TextInput19_3 As text:
@@ -1112,25 +1081,9 @@ Screen_Comprobación_Excel As screen:
             RadiusTopRight: =0
             Size: =13
             Width: =200
-            X: =696
-            Y: =70
+            X: =784
+            Y: =128
             ZIndex: =14
-
-        Label179_3 As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            FontWeight: =FontWeight.Semibold
-            Size: =15
-            Text: ="Mes"
-            X: =883
-            Y: =11
-            ZIndex: =15
 
         Solicitante_Comprobación As groupContainer.manualLayoutContainer:
             BorderColor: =RGBA(0, 148, 110, 0.46)
@@ -1140,7 +1093,7 @@ Screen_Comprobación_Excel As screen:
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
-            Width: =325
+            Width: =314
             X: =322
             Y: =10
             ZIndex: =20
@@ -1236,7 +1189,7 @@ Screen_Comprobación_Excel As screen:
                 X: =200
                 ZIndex: =2
 
-        Container20 As groupContainer.manualLayoutContainer:
+        Fecha_Comprobación As groupContainer.manualLayoutContainer:
             BorderColor: =RGBA(0, 148, 110, 0.46)
             BorderThickness: =2
             Height: =113
@@ -1278,8 +1231,8 @@ Screen_Comprobación_Excel As screen:
                 SelectedDateFill: =RGBA(73, 130, 5, 1)
                 Size: =13
                 Width: =140
-                X: =90
-                Y: =33
+                X: =95
+                Y: =40
                 ZIndex: =2
 
             DatePicker5_6 As datepicker:
@@ -1296,8 +1249,8 @@ Screen_Comprobación_Excel As screen:
                 SelectedDateFill: =RGBA(73, 130, 5, 1)
                 Size: =13
                 Width: =140
-                X: =194
-                Y: =73
+                X: =405
+                Y: =40
                 ZIndex: =3
 
             Label180_3 As label:
@@ -1314,8 +1267,8 @@ Screen_Comprobación_Excel As screen:
                 Text: |-
                     ="Del:"
                 Width: =50
-                X: =40
-                Y: =33
+                X: =30
+                Y: =40
                 ZIndex: =4
 
             Label181_3 As label:
@@ -1331,9 +1284,69 @@ Screen_Comprobación_Excel As screen:
                 Text: |-
                     ="Al:"
                 Width: =50
-                X: =384
+                X: =340
                 Y: =40
                 ZIndex: =5
+
+        Mes_Comprobación As groupContainer.manualLayoutContainer:
+            BorderColor: =RGBA(0, 148, 110, 0.46)
+            BorderThickness: =2
+            Height: =40
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =314
+            X: =322
+            Y: =69
+            ZIndex: =23
+
+            Label179_3 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Semibold
+                Height: =Parent.Height
+                Size: =15
+                Text: |-
+                    ="Mes:"
+                Width: =87
+                ZIndex: =1
+
+            Dropdown8_3 As dropdown:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                ChevronBackground: =RGBA(255, 255, 255, 1)
+                ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+                ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+                ChevronFill: =RGBA(33, 33, 33, 1)
+                ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+                ChevronHoverFill: =RGBA(33, 33, 33, 1)
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Font: =Font.'Segoe UI'
+                HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                HoverColor: =RGBA(51, 51, 51, 1)
+                HoverFill: =RGBA(212, 212, 212, 1)
+                Items: =["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"]
+                PaddingBottom: =5
+                PaddingLeft: =12
+                PaddingRight: =5
+                PaddingTop: =5
+                PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(73, 130, 5, 1)
+                SelectionFill: =RGBA(73, 130, 5, 1)
+                Size: =13
+                Width: =217
+                X: =97
+                ZIndex: =2
 
     Form1_3 As form:
         AcceptsFocus: =false
