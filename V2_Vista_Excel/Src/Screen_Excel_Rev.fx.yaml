@@ -353,7 +353,7 @@ Screen_Excel_Rev As screen:
                         {Importance: "High"}
                     );
                     Notify(
-                        "Gracias por mandar tus facturas, se revisaran lo antes posible",
+                        "Gracias por finalizar tu proceso, se revisara lo antes posible",
                         NotificationType.Success,
                         4000
                     )
