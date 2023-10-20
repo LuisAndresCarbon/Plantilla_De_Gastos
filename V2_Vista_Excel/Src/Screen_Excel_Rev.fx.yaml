@@ -260,7 +260,7 @@ Screen_Excel_Rev As screen:
             RadiusTopLeft: =4
             RadiusTopRight: =4
             Width: =225
-            X: =580
+            X: =1124
             Y: =12
             ZIndex: =2
 
@@ -369,15 +369,15 @@ Screen_Excel_Rev As screen:
                 Width: =225
                 ZIndex: =1
 
-        Factura As groupContainer.manualLayoutContainer:
+        Agregar_Documento As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.Light
             Height: =40
             RadiusBottomLeft: =4
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
-            Width: =160
-            X: =820
+            Width: =216
+            X: =543
             Y: =12
             ZIndex: =5
 
@@ -403,7 +403,9 @@ Screen_Excel_Rev As screen:
                 RadiusTopLeft: =0
                 RadiusTopRight: =0
                 Size: =15
-                Text: ="Agregar Factura"
+                Text: ="Adjuntar Documentos"
+                Width: =214
+                X: =2
                 ZIndex: =1
 
         Editar As groupContainer.manualLayoutContainer:
@@ -414,7 +416,7 @@ Screen_Excel_Rev As screen:
             RadiusTopLeft: =4
             RadiusTopRight: =4
             Width: =160
-            X: =995
+            X: =774
             Y: =12
             ZIndex: =6
 
@@ -443,7 +445,7 @@ Screen_Excel_Rev As screen:
                 Text: ="Editar"
                 ZIndex: =1
 
-        Container13 As groupContainer.manualLayoutContainer:
+        Autorización As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.Light
             Height: =40
             RadiusBottomLeft: =4
@@ -451,7 +453,7 @@ Screen_Excel_Rev As screen:
             RadiusTopLeft: =4
             RadiusTopRight: =4
             Width: =160
-            X: =1170
+            X: =949
             Y: =12
             ZIndex: =7
 
@@ -535,6 +537,45 @@ Screen_Excel_Rev As screen:
                         // Si no hay coincidencias, devuelve falso (es decir, el usuario no tendrá acceso)
                         false
                     )
+                ZIndex: =1
+
+        Agregar_Gastos As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =40
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =150
+            X: =378
+            Y: =12
+            ZIndex: =8
+
+            Button12_3 As button:
+                BorderColor: =RGBA(255, 255, 255, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =Parent.Height
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =ColorFade(RGBA(178, 228, 200, 1), -0%)
+                OnSelect: =Set(Ver_Nuevo,true)
+                PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =15
+                Text: ="Agregar Gastos"
+                Width: =Parent.Width
                 ZIndex: =1
 
     HtmlText1_4 As htmlViewer:
@@ -2817,7 +2858,7 @@ Screen_Excel_Rev As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =TextInput18_2
+                Default: =
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -7362,8 +7403,6 @@ Screen_Excel_Rev As screen:
                     // Jefe (por correo electrónico)
                     User().Email = "joseluiscastronegrete@canopiacarbon918.onmicrosoft.com",
                     true,
-                    // Contadores (por correo electrónico)
-                
                     // Lideres o Supervisores (por correo electrónico)
                     User().Email = "orlando@canopiacarbon918.onmicrosoft.com",
                     true,
@@ -7387,7 +7426,7 @@ Screen_Excel_Rev As screen:
                     true,
                     User().FullName = "Roberto Vallejo",
                     true,
-                        User().FullName = "Dinosca Rondon",
+                    User().FullName = "Dinosca Rondon",
                     true,
                     User().FullName = "Lizette Hernandez",
                     true,
@@ -7515,10 +7554,36 @@ Screen_Excel_Rev As screen:
             Required: =false
             Update: =DataCardValue198.Selected
             Visible: |-
-                =Switch(true,
-                VarAdmi = "Jefe", true,
-                VarAdmi = "Programador", true,
-                VarAdmi = "Contador", true
+                =Switch(
+                    true,
+                    // Equipo programación (por correo electrónico)
+                    User().Email = "adolfo@canopiacarbon918.onmicrosoft.com",
+                    true,
+                    User().Email = "ivan@canopiacarbon918.onmicrosoft.com",
+                    true,
+                    User().Email = "uriel@CanopiaCarbon918.onmicrosoft.com",
+                    true,
+                    User().Email = "luis@canopiacarbon918.onmicrosoft.com",
+                    true,
+                    // Jefe (por correo electrónico)
+                    User().Email = "joseluiscastronegrete@canopiacarbon918.onmicrosoft.com",
+                    true,
+                    // Contadores (por correo electrónico)
+                    User().Email = "carlos@canopiacarbon918.onmicrosoft.com",
+                    true,
+                    User().Email = "miguelp@canopiacarbon918.onmicrosoft.com",
+                    true,
+                    User().Email = "jaqueline@canopiacarbon918.onmicrosoft.com",
+                    true,
+                    // Verificar también por nombre de usuario específico (por ejemplo, "usuario1")
+                    User().FullName = "Carlos Alfredo Avila Alfonso",
+                    true,
+                    User().FullName = "Miguel Pichardo",
+                    true,
+                    User().FullName = "Jaqueline Reyes Garcia",
+                    true,
+                    // Si no hay coincidencias, devuelve falso (es decir, el usuario no tendrá acceso)
+                    false
                 )
             Width: =281
             X: =1
@@ -7640,10 +7705,36 @@ Screen_Excel_Rev As screen:
             Required: =false
             Update: =DataCardValue199.Text
             Visible: |-
-                =Switch(true,
-                VarAdmi = "Jefe", true,
-                VarAdmi = "Programador", true,
-                VarAdmi = "Contador", true
+                =Switch(
+                    true,
+                    // Equipo programación (por correo electrónico)
+                    User().Email = "adolfo@canopiacarbon918.onmicrosoft.com",
+                    true,
+                    User().Email = "ivan@canopiacarbon918.onmicrosoft.com",
+                    true,
+                    User().Email = "uriel@CanopiaCarbon918.onmicrosoft.com",
+                    true,
+                    User().Email = "luis@canopiacarbon918.onmicrosoft.com",
+                    true,
+                    // Jefe (por correo electrónico)
+                    User().Email = "joseluiscastronegrete@canopiacarbon918.onmicrosoft.com",
+                    true,
+                    // Contadores (por correo electrónico)
+                    User().Email = "carlos@canopiacarbon918.onmicrosoft.com",
+                    true,
+                    User().Email = "miguelp@canopiacarbon918.onmicrosoft.com",
+                    true,
+                    User().Email = "jaqueline@canopiacarbon918.onmicrosoft.com",
+                    true,
+                    // Verificar también por nombre de usuario específico (por ejemplo, "usuario1")
+                    User().FullName = "Carlos Alfredo Avila Alfonso",
+                    true,
+                    User().FullName = "Miguel Pichardo",
+                    true,
+                    User().FullName = "Jaqueline Reyes Garcia",
+                    true,
+                    // Si no hay coincidencias, devuelve falso (es decir, el usuario no tendrá acceso)
+                    false
                 )
             Width: =281
             X: =2
@@ -7803,8 +7894,6 @@ Screen_Excel_Rev As screen:
                     User().FullName = "Dinosca Rondon",
                     true,
                     User().FullName = "Lizette Hernandez",
-                    true,
-                    User().FullName = "Jaqueline Reyes Garcia",
                     true,
                     // Si no hay coincidencias, devuelve falso (es decir, el usuario no tendrá acceso)
                     false
