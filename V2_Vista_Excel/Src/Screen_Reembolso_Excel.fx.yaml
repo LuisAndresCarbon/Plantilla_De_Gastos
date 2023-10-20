@@ -276,7 +276,7 @@ Screen_Reembolso_Excel As screen:
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Normal
         HeadingColor: =RGBA(255, 255, 255, 1)
-        HeadingFill: =RGBA(73, 130, 5, 1)
+        HeadingFill: =RGBA(0, 148, 110, 1)
         HeadingFont: =Font.'Segoe UI'
         HeadingFontWeight: =FontWeight.Normal
         HeadingSize: =13
@@ -852,13 +852,13 @@ Screen_Reembolso_Excel As screen:
         BorderColor: =RGBA(146, 180, 105, 1)
         BorderStyle: =BorderStyle.Dotted
         DropShadow: =DropShadow.Light
-        Height: =193
+        Height: =263
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
         RadiusTopLeft: =4
         RadiusTopRight: =4
-        Width: =924
-        Y: =160
+        Width: =1060
+        Y: =55
         ZIndex: =18
 
         Label157_1 As label:
@@ -7668,7 +7668,6 @@ Screen_Reembolso_Excel As screen:
                     ZIndex: =6
 
     Container16 As groupContainer.manualLayoutContainer:
-        DropShadow: =DropShadow.Light
         Height: =224
         RadiusBottomLeft: =4
         RadiusBottomRight: =4

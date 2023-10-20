@@ -38899,19 +38899,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen_Comprobación_Excel.Datos_Comprobación.TextInput19_3.AccessibleLabel"
+                  "fullyQualifiedName": "Screen_Comprobación_Excel.Datos_Comprobación.Proposito_Comprobación.TextInput19_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen_Comprobación_Excel.Datos_Comprobación.TextInput19_3.AccessibleLabel",
+                  "fullyQualifiedName": "Screen_Comprobación_Excel.Datos_Comprobación.Proposito_Comprobación.TextInput19_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen_Comprobación_Excel",
-                "type": "Screen_Comprobación_Excel.Datos_Comprobación.TextInput19_3"
+                "type": "Screen_Comprobación_Excel.Datos_Comprobación.Proposito_Comprobación.TextInput19_3"
               }
             }
           ],
@@ -39019,19 +39019,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen_Comprobación_Excel.Datos_Comprobación.TextInput18_3.AccessibleLabel"
+                  "fullyQualifiedName": "Screen_Comprobación_Excel.Datos_Comprobación.Container24.TextInput18_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen_Comprobación_Excel.Datos_Comprobación.TextInput18_3.AccessibleLabel",
+                  "fullyQualifiedName": "Screen_Comprobación_Excel.Datos_Comprobación.Container24.TextInput18_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen_Comprobación_Excel",
-                "type": "Screen_Comprobación_Excel.Datos_Comprobación.TextInput18_3"
+                "type": "Screen_Comprobación_Excel.Datos_Comprobación.Container24.TextInput18_3"
               }
             }
           ],
@@ -39079,19 +39079,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen_Comprobación_Excel.Datos_Comprobación.ComboBox21_3.AccessibleLabel"
+                  "fullyQualifiedName": "Screen_Comprobación_Excel.Datos_Comprobación.Destino_Comprobación.ComboBox21_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen_Comprobación_Excel.Datos_Comprobación.ComboBox21_3.AccessibleLabel",
+                  "fullyQualifiedName": "Screen_Comprobación_Excel.Datos_Comprobación.Destino_Comprobación.ComboBox21_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen_Comprobación_Excel",
-                "type": "Screen_Comprobación_Excel.Datos_Comprobación.ComboBox21_3"
+                "type": "Screen_Comprobación_Excel.Datos_Comprobación.Destino_Comprobación.ComboBox21_3"
               }
             }
           ],

@@ -1010,7 +1010,7 @@ Screen_Anticipo_Excel As screen:
         D_Fechas_Anticipo As groupContainer.manualLayoutContainer:
             BorderColor: =RGBA(0, 148, 110, 0.46)
             BorderThickness: =2
-            Height: =113
+            Height: =132
             RadiusBottomLeft: =4
             RadiusBottomRight: =4
             RadiusTopLeft: =4
