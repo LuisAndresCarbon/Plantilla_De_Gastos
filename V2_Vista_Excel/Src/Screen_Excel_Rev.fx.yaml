@@ -1230,9 +1230,9 @@ Screen_Excel_Rev As screen:
             FocusedBorderThickness: =4
             FontWeight: =FontWeight.Bold
             Height: =60
-            Size: =23
+            Size: =30
             Text: =Var_Revisión.Título
-            Width: =400
+            Width: =538
             X: =12
             ZIndex: =4
 

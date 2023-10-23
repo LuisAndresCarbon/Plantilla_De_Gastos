@@ -1049,8 +1049,8 @@ Screen_Anticipo_Excel As screen:
                 SelectedDateFill: =RGBA(73, 130, 5, 1)
                 Size: =13
                 Width: =140
-                X: =95
-                Y: =40
+                X: =80
+                Y: =65
                 ZIndex: =2
 
             DatePicker5_1 As datepicker:
@@ -1067,8 +1067,8 @@ Screen_Anticipo_Excel As screen:
                 SelectedDateFill: =RGBA(73, 130, 5, 1)
                 Size: =13
                 Width: =140
-                X: =366
-                Y: =40
+                X: =351
+                Y: =65
                 ZIndex: =3
 
             Label180_1 As label:
@@ -1086,7 +1086,7 @@ Screen_Anticipo_Excel As screen:
                     ="Del:"
                 Width: =50
                 X: =30
-                Y: =40
+                Y: =65
                 ZIndex: =4
 
             Label181_1 As label:
@@ -1103,7 +1103,7 @@ Screen_Anticipo_Excel As screen:
                     ="Al:"
                 Width: =40
                 X: =311
-                Y: =40
+                Y: =65
                 ZIndex: =5
 
         D_Mes_Anticipo As groupContainer.manualLayoutContainer:

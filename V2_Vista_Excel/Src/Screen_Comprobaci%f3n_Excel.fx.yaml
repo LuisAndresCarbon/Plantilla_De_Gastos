@@ -1093,8 +1093,8 @@ Screen_Comprobación_Excel As screen:
                 SelectedDateFill: =RGBA(73, 130, 5, 1)
                 Size: =13
                 Width: =140
-                X: =95
-                Y: =40
+                X: =83
+                Y: =65
                 ZIndex: =2
 
             DatePicker5_6 As datepicker:
@@ -1111,8 +1111,8 @@ Screen_Comprobación_Excel As screen:
                 SelectedDateFill: =RGBA(73, 130, 5, 1)
                 Size: =13
                 Width: =140
-                X: =405
-                Y: =40
+                X: =393
+                Y: =65
                 ZIndex: =3
 
             Label180_3 As label:
@@ -1129,8 +1129,8 @@ Screen_Comprobación_Excel As screen:
                 Text: |-
                     ="Del:"
                 Width: =50
-                X: =30
-                Y: =40
+                X: =33
+                Y: =65
                 ZIndex: =4
 
             Label181_3 As label:
@@ -1146,8 +1146,8 @@ Screen_Comprobación_Excel As screen:
                 Text: |-
                     ="Al:"
                 Width: =50
-                X: =340
-                Y: =40
+                X: =343
+                Y: =65
                 ZIndex: =5
 
         Mes_Comprobación As groupContainer.manualLayoutContainer:
@@ -1331,7 +1331,7 @@ Screen_Comprobación_Excel As screen:
                 X: =110
                 ZIndex: =2
 
-        Container24 As groupContainer.manualLayoutContainer:
+        Anticipo_Comprobación As groupContainer.manualLayoutContainer:
             BorderColor: =RGBA(0, 148, 110, 0.46)
             BorderThickness: =2
             Height: =40
