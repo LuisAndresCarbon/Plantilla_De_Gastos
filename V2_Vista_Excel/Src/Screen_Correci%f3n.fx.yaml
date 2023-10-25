@@ -162,7 +162,7 @@ Screen_Correción As screen:
                 Width: =777
                 ZIndex: =1
 
-        Título_DataCard1 As typedDataCard.textualEditCard:
+        Título_DataCard8 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
@@ -173,13 +173,13 @@ Screen_Correción As screen:
             Height: =50
             MaxLength: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'], DataSourceInfo.MaxLength, "Title")
             Required: =true
-            Update: =DataCardValue1.Text
+            Update: =DataCardValue249.Text
             Width: =259
             X: =0
             Y: =1
             ZIndex: =1
 
-            DataCardKey1 As label:
+            DataCardKey249 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -200,7 +200,7 @@ Screen_Correción As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue1 As text:
+            DataCardValue249 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
@@ -228,7 +228,7 @@ Screen_Correción As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey1.Y + DataCardKey1.Height + 5
+                Y: =DataCardKey249.Y + DataCardKey249.Height + 5
                 ZIndex: =2
 
             ErrorMessage1 As label:
@@ -253,7 +253,7 @@ Screen_Correción As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue1.Y + DataCardValue1.Height
+                Y: =DataCardValue249.Y + DataCardValue249.Height
                 ZIndex: =3
 
             StarVisible1 As label:
@@ -267,17 +267,17 @@ Screen_Correción As screen:
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
-                Height: =DataCardKey1.Height
+                Height: =DataCardKey249.Height
                 PaddingLeft: =0
                 Size: =13
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey1.Y
+                Y: =DataCardKey249.Y
                 ZIndex: =4
 
-        "'Nombre del Colaborador_DataCard1' As typedDataCard.textualEditCard":
+        "'Nombre del Colaborador_DataCard7' As typedDataCard.textualEditCard":
             BorderColor: =RGBA(166, 166, 166, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="NombredelColaborador"
@@ -288,13 +288,13 @@ Screen_Correción As screen:
             Height: =50
             MaxLength: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'], DataSourceInfo.MaxLength, "NombredelColaborador")
             Required: =false
-            Update: =DataCardValue2.Text
+            Update: =DataCardValue250.Text
             Width: =259
             X: =1
             Y: =1
             ZIndex: =1
 
-            DataCardKey2 As label:
+            DataCardKey250 As label:
                 AutoHeight: =true
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
@@ -315,7 +315,7 @@ Screen_Correción As screen:
                 Y: =10
                 ZIndex: =1
 
-            DataCardValue2 As text:
+            DataCardValue250 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
@@ -343,7 +343,7 @@ Screen_Correción As screen:
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey2.Y + DataCardKey2.Height + 5
+                Y: =DataCardKey250.Y + DataCardKey250.Height + 5
                 ZIndex: =2
 
             ErrorMessage2 As label:
@@ -368,7 +368,7 @@ Screen_Correción As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue2.Y + DataCardValue2.Height
+                Y: =DataCardValue250.Y + DataCardValue250.Height
                 ZIndex: =3
 
             StarVisible2 As label:
@@ -382,14 +382,14 @@ Screen_Correción As screen:
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Semibold
-                Height: =DataCardKey2.Height
+                Height: =DataCardKey250.Height
                 PaddingLeft: =0
                 Size: =13
                 Text: ="*"
                 Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
                 Width: =30
                 Wrap: =false
-                Y: =DataCardKey2.Y
+                Y: =DataCardKey250.Y
                 ZIndex: =4
 
         "'No. De Reembolso_DataCard1' As typedDataCard.textualEditCard":

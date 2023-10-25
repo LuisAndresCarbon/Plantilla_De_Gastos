@@ -28789,19 +28789,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen_Correción.Form_Edición.Título_DataCard1.DataCardValue1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen_Correción.Form_Edición.'Nombre del Colaborador_DataCard7'.DataCardValue250.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen_Correción.Form_Edición.Título_DataCard1.DataCardValue1.AccessibleLabel",
+                  "fullyQualifiedName": "Screen_Correción.Form_Edición.'Nombre del Colaborador_DataCard7'.DataCardValue250.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen_Correción",
-                "type": "Screen_Correción.Form_Edición.Título_DataCard1.DataCardValue1"
+                "type": "Screen_Correción.Form_Edición.'Nombre del Colaborador_DataCard7'.DataCardValue250"
               }
             }
           ],
@@ -28819,19 +28819,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen_Correción.Form_Edición.'Nombre del Colaborador_DataCard1'.DataCardValue2.AccessibleLabel"
+                  "fullyQualifiedName": "Screen_Correción.Form_Edición.Título_DataCard8.DataCardValue249.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen_Correción.Form_Edición.'Nombre del Colaborador_DataCard1'.DataCardValue2.AccessibleLabel",
+                  "fullyQualifiedName": "Screen_Correción.Form_Edición.Título_DataCard8.DataCardValue249.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen_Correción",
-                "type": "Screen_Correción.Form_Edición.'Nombre del Colaborador_DataCard1'.DataCardValue2"
+                "type": "Screen_Correción.Form_Edición.Título_DataCard8.DataCardValue249"
               }
             }
           ],
@@ -45572,6 +45572,66 @@
                 "member": "AccessibleLabel",
                 "module": "Screen_Reembolso",
                 "type": "Screen_Reembolso.TextInput2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_4.'Facturado a:_DataCard15'.DataCardValue251.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_4.'Facturado a:_DataCard15'.DataCardValue251.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_4.'Facturado a:_DataCard15'.DataCardValue251"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1.'Facturado a:_DataCard16'.DataCardValue252.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1.'Facturado a:_DataCard16'.DataCardValue252.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1.'Facturado a:_DataCard16'.DataCardValue252"
               }
             }
           ],
