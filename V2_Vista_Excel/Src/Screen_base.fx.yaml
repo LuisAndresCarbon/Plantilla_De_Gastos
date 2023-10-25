@@ -202,7 +202,7 @@ Screen_base As screen:
                                                 (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
                                                 (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                                                 ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
-                                                ('Nombre del Colaborador' = ComboBox1_3.Selected.Result || ComboBox1_3.Selected.Result = Blank())
+                                                ('Nombre del Colaborador' = ComboBox1_3.Selected.Value || ComboBox1_3.Selected.Value = Blank())
                                             ),
                                             Filter(
                                                 'Plantilla de Reembolsos de Gastos Final',
@@ -1610,21 +1610,19 @@ Screen_base As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayFields: =["Result"]
+        DisplayFields: =["Value"]
         Font: =Font.'Segoe UI'
         Height: =48
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Colaborador"
-        Items: |-
-            =Sort(ForAll(Distinct('Plantilla de Reembolsos de Gastos Final','Nombre del Colaborador'),{Result: ThisRecord.Value}),Result,SortOrder.Ascending)
+        Items: =["Adolfo Mendez", "Adrian Morales", "Alejandra Aguillon", "Ana Ruth", "Andres Sierra", "Carlos Alfredo Avila Alfonso","Carolina Martinez","Cesar Gonzalez", "Cristina Pech","Daniel Garcia", "Daniel Matias Sosa", "Dinosca Rondon", "Egle May", "Ivan", "Jaqueline  Reyes Garcia", "Jesus Manuel García Celaya", "Jose Luis Castro Negrete", "Leonardo Sanchez", "Lizette Hernandez", "Lorena Salas", "Lourdes Maldonado", "Luis Morales", "Luisa Ortiz", "Mario Ubaldo", "Miguel Angel Garcia", "Miguel Pichardo", "Monica Barcenas", "Montserrat Ramos", "Orlando Rojas Santoyo", "Othón Morgado", "Roberto May","Roberto Vallejo", "Rosalba Diaz","Santiago Mora", "Uriel Zavala Huerta", "Yenisey Reyes"]
         PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
-        SearchFields: =["Result"]
-        SearchItems: |-
-            =Search(Sort(ForAll(Distinct('Plantilla de Reembolsos de Gastos Final','Nombre del Colaborador'),{Result: ThisRecord.Value}),Result,SortOrder.Ascending),ComboBox1_3.SearchText,"Result")
+        SearchFields: =["Value"]
+        SearchItems: =Search(["Adolfo Mendez", "Adrian Morales", "Alejandra Aguillon", "Ana Ruth", "Andres Sierra", "Carlos Alfredo Avila Alfonso","Carolina Martinez","Cesar Gonzalez", "Cristina Pech","Daniel Garcia", "Daniel Matias Sosa", "Dinosca Rondon", "Egle May", "Ivan", "Jaqueline  Reyes Garcia", "Jesus Manuel García Celaya", "Jose Luis Castro Negrete", "Leonardo Sanchez", "Lizette Hernandez", "Lorena Salas", "Lourdes Maldonado", "Luis Morales", "Luisa Ortiz", "Mario Ubaldo", "Miguel Angel Garcia", "Miguel Pichardo", "Monica Barcenas", "Montserrat Ramos", "Orlando Rojas Santoyo", "Othón Morgado", "Roberto May","Roberto Vallejo", "Rosalba Diaz","Santiago Mora", "Uriel Zavala Huerta", "Yenisey Reyes"],ComboBox1_3.SearchText,"Value")
         SelectionFill: =RGBA(73, 130, 5, 1)
         SelectMultiple: =false
         Size: =13
