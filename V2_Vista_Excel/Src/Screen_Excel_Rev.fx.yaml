@@ -8490,25 +8490,26 @@ Screen_Excel_Rev As screen:
         Editar_Formulario As form:
             BorderColor: =RGBA(166, 166, 166, 1)
             DataSource: ='Plantilla de Reembolsos de Gastos Final'
-            Height: =653
+            Height: =Parent.Height-40
             Item: =DataTable1_2.Selected
             Width: =691
+            Y: =40
             ZIndex: =1
 
-            DataCard43 As typedDataCard.blankCard:
+            DataCard42 As typedDataCard.blankCard:
                 BorderColor: =RGBA(166, 166, 166, 1)
                 BorderStyle: =BorderStyle.Solid
                 DisplayMode: =DisplayMode.Edit
                 Fill: =RGBA(0, 0, 0, 0)
-                Height: =45
-                Width: =691
+                Height: =40
+                Width: =690
                 X: =0
                 Y: =0
                 ZIndex: =1
 
-                Label189 As label:
+                Label192 As label:
                     Align: =Align.Center
-                    BorderThickness: =1
+                    BorderThickness: =2
                     Color: =RGBA(51, 51, 51, 1)
                     DisabledBorderColor: =RGBA(0, 0, 0, 0)
                     DisabledColor: =RGBA(166, 166, 166, 1)
@@ -8519,26 +8520,6 @@ Screen_Excel_Rev As screen:
                     Text: ="Project Info"
                     Width: =Parent.Width
                     ZIndex: =1
-
-                Icon21_5 As icon.CancelBadge:
-                    BorderColor: =RGBA(166, 166, 166, 1)
-                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
-                    DisabledColor: =RGBA(220, 220, 220, 1)
-                    DisabledFill: =RGBA(0, 0, 0, 0)
-                    FocusedBorderThickness: =4
-                    Height: =35
-                    HoverBorderColor: =RGBA(0, 0, 0, 0)
-                    HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-                    HoverFill: =RGBA(0, 0, 0, 0)
-                    Icon: =Icon.CancelBadge
-                    OnSelect: =Set(Editar_Facturacion,false)
-                    PressedBorderColor: =RGBA(0, 0, 0, 0)
-                    PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-                    PressedFill: =RGBA(0, 0, 0, 0)
-                    Width: =35
-                    X: =627
-                    Y: =3
-                    ZIndex: =2
 
             "'Nombre del Colaborador_DataCard5' As typedDataCard.textualEditCard":
                 BorderColor: =RGBA(166, 166, 166, 1)
@@ -13567,8 +13548,8 @@ Screen_Excel_Rev As screen:
                 Required: =false
                 Update: =DataCardValue247.Attachments
                 Width: =230
-                X: =2
-                Y: =24
+                X: =0
+                Y: =25
                 ZIndex: =1
 
                 DataCardKey247 As label:
@@ -13670,6 +13651,51 @@ Screen_Excel_Rev As screen:
                     Wrap: =false
                     Y: =DataCardKey247.Y
                     ZIndex: =4
+
+        Container13 As groupContainer.manualLayoutContainer:
+            Height: =40
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =Parent.Width
+            ZIndex: =2
+
+            Label193 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Bold
+                Size: =15
+                Text: ="Editor"
+                Width: =690
+                ZIndex: =1
+
+            Icon21_8 As icon.CancelBadge:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(220, 220, 220, 1)
+                DisabledFill: =RGBA(0, 0, 0, 0)
+                FocusedBorderThickness: =4
+                Height: =35
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Icon: =Icon.CancelBadge
+                OnSelect: =Set(Editar_Facturacion,false)
+                PressedBorderColor: =RGBA(0, 0, 0, 0)
+                PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                PressedFill: =RGBA(0, 0, 0, 0)
+                Width: =35
+                X: =627
+                Y: =3
+                ZIndex: =2
 
     Autorización_Rev As groupContainer.manualLayoutContainer:
         BorderThickness: =2
