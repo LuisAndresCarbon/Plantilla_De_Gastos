@@ -143,7 +143,7 @@ Screen_Anticipo_Excel As screen:
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =ColorFade(RGBA(178, 228, 200, 1), -0%)
-                OnSelect: =Navigate(Screen_base,ScreenTransition.CoverRight)
+                OnSelect: =Navigate(Inicio,ScreenTransition.CoverRight)
                 PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
@@ -299,7 +299,28 @@ Screen_Anticipo_Excel As screen:
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =ColorFade(RGBA(178, 228, 200, 1), -0%)
-                OnSelect: =NewForm(Form1_1);Set(Ver_Nuevo,true)
+                OnSelect: |-
+                    =Set(
+                        'CAPEX/OPEX',
+                        Blank()
+                    );
+                    Set(
+                        Var_GG_Excel,
+                        Blank()
+                    );
+                    Set(
+                        ERPA,
+                        Blank()
+                    );
+                    Set(
+                        Var_sin_Erpa3,
+                        Blank()
+                    );
+                    NewForm(Form1_1);
+                    Set(
+                        Ver_Nuevo,
+                        true
+                    )
                 PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)

@@ -3379,49 +3379,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Icon20_24.AccessibleLabel"
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_4.DataCard51_6.Icon21_7.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Icon20_24.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Screen_Pago_Directo_Excel",
-                "type": "Screen_Pago_Directo_Excel.Icon20_24"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Icon20_24.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Icon20_24.TabIndex",
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_4.DataCard51_6.Icon21_7.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Screen_Pago_Directo_Excel",
-                "type": "Screen_Pago_Directo_Excel.Icon20_24"
+                "type": "Screen_Pago_Directo_Excel.Form1_4.DataCard51_6.Icon21_7"
               }
             }
           ],
@@ -3433,6 +3403,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_4.DataCard51_6.Icon21_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_4.DataCard51_6.Icon21_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_4.DataCard51_6.Icon21_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -6553,6 +6553,66 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_4.'IESP (Prorrateo Factura)_DataCard6'.DataCardValue254.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_4.'IESP (Prorrateo Factura)_DataCard6'.DataCardValue254.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_4.'IESP (Prorrateo Factura)_DataCard6'.DataCardValue254"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Comprobación_Excel.Form1_3.'IESP (Prorrateo Factura)_DataCard5'.DataCardValue253.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Comprobación_Excel.Form1_3.'IESP (Prorrateo Factura)_DataCard5'.DataCardValue253.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Comprobación_Excel",
+                "type": "Screen_Comprobación_Excel.Form1_3.'IESP (Prorrateo Factura)_DataCard5'.DataCardValue253"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -41179,49 +41239,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen_Reembolso_Excel.Icon20_1.AccessibleLabel"
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1.DataCard51_2.Icon21_6.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen_Reembolso_Excel.Icon20_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Screen_Reembolso_Excel",
-                "type": "Screen_Reembolso_Excel.Icon20_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen_Reembolso_Excel.Icon20_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen_Reembolso_Excel.Icon20_1.TabIndex",
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1.DataCard51_2.Icon21_6.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Screen_Reembolso_Excel",
-                "type": "Screen_Reembolso_Excel.Icon20_1"
+                "type": "Screen_Reembolso_Excel.Form1.DataCard51_2.Icon21_6"
               }
             }
           ],
@@ -41233,6 +41263,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1.DataCard51_2.Icon21_6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1.DataCard51_2.Icon21_6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1.DataCard51_2.Icon21_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -45978,6 +46038,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_4.'IESP (Prorrateo Factura)_DataCard6'.DataCardValue254.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_4.'IESP (Prorrateo Factura)_DataCard6'.DataCardValue254.Default",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_4.'IESP (Prorrateo Factura)_DataCard6'.DataCardValue254"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Screen_Comprobación_Excel"
                 }
               ],
@@ -46506,7 +46596,7 @@
                 ],
                 "level": "Medium",
                 "primaryCategory": "performance",
-                "whyFix": "Los controles consumen recursos y, si una pantalla tiene demasiados controles, la aplicación puede dejar de responder o ralentizarse. La complejidad estimada de \"Screen_Pago_Directo_Excel\" es 549, que es superior al umbral máximo recomendado (300)."
+                "whyFix": "Los controles consumen recursos y, si una pantalla tiene demasiados controles, la aplicación puede dejar de responder o ralentizarse. La complejidad estimada de \"Screen_Pago_Directo_Excel\" es 557, que es superior al umbral máximo recomendado (300)."
               }
             },
             {
