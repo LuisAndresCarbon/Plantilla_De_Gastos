@@ -2,6 +2,315 @@ Screen_Comprobación_Excel As screen:
     Fill: =RGBA(227,240,234,1)
     LoadingSpinnerColor: =RGBA(73, 130, 5, 1)
 
+    "Gallery15_2 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
+        BorderColor: =RGBA(166, 166, 166, 1)
+        DelayItemLoading: =true
+        Height: =415
+        Items: |-
+            =Filter(
+                'Plantilla de Reembolsos de Gastos Final',
+                (Título = Label161_4.Text)&&
+                ('No. De Reembolso' = Dropdown7_3.Selected.Value) &&
+                (Mes = Dropdown8_3.Selected.Value) &&
+                ('Nombre del Colaborador' = Label163_4.Text)
+            )
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =90
+        Visible: =false
+        Width: =1366
+        Y: =353
+        ZIndex: =1
+
+        Title3_2 As label:
+            Color: =RGBA(50, 49, 48, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.'Total (MXN)'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 86
+            X: =16
+            Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle3_2.Size * 1.8)) / 2
+            ZIndex: =1
+
+        Subtitle3_2 As label:
+            Color: =RGBA(51, 51, 51, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =12
+            Text: =ThisItem.'Importe Prorrateo Factura'
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title3_2.Width
+            X: =Title3_2.X
+            Y: =Title3_2.Y + Title3_2.Height
+            ZIndex: =2
+
+        NextArrow3_2 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            BorderColor: =RGBA(166, 166, 166, 1)
+            Color: =RGBA(166, 166, 166, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =50
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =16
+            PaddingLeft: =16
+            PaddingRight: =16
+            PaddingTop: =16
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: ="Ver los detalles del elemento"
+            Width: =50
+            X: =Parent.TemplateWidth - Self.Width - 12
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =3
+
+        Separator3_2 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =8
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - Self.Height
+            ZIndex: =4
+
+        Rectangle18_2 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Fill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+            Height: =Parent.TemplateHeight - Separator3_2.Height
+            OnSelect: =Select(Parent)
+            Visible: =ThisItem.IsSelected
+            Width: =4
+            ZIndex: =5
+
+    "'P de pagina_2' As groupContainer.manualLayoutContainer":
+        DropShadow: =DropShadow.Light
+        Fill: =RGBA(0, 148, 110, 0.55)
+        Height: =60
+        RadiusBottomLeft: =4
+        RadiusBottomRight: =4
+        RadiusTopLeft: =4
+        RadiusTopRight: =4
+        Width: =1366
+        Y: =708
+        ZIndex: =2
+
+        Regresar_2 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =35
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =160
+            X: =15
+            Y: =12
+            ZIndex: =1
+
+            Button3_22 As button:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =35
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =ColorFade(RGBA(178, 228, 200, 1), -0%)
+                OnSelect: =Navigate(Screen_base,ScreenTransition.CoverRight)
+                PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =15
+                Text: ="Regresar"
+                ZIndex: =1
+
+        Notificar_2 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =40
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =225
+            X: =1124
+            Y: =12
+            ZIndex: =2
+
+            Button4_7 As button:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =ColorFade(RGBA(178, 228, 200, 1), -0%)
+                OnSelect: |-
+                    =If(
+                        VarAdmi = "Desarrollo",
+                        Office365Outlook.SendEmailV2(
+                            "lourdes@canopiacarbon.com",
+                            User().FullName & " Mando su Plantilla para revisión",
+                            HtmlText1_5.HtmlText,
+                            {Importance: "High"}
+                        ),
+                        If(
+                            VarAdmi = "Legal",
+                            Office365Outlook.SendEmailV2(
+                                "lizette@canopiacarbon.com",
+                                User().FullName & " Mando su Plantilla para revisión",
+                                HtmlText1_5.HtmlText,
+                                {Importance: "High"}
+                            )
+                        ),
+                        If(
+                            VarAdmi = "MRV",
+                            Office365Outlook.SendEmailV2(
+                                "gerencia.mrv@canopiacarbon.com",
+                                User().FullName & " Mando su Plantilla para revisión",
+                                HtmlText1_5.HtmlText,
+                                {Importance: "High"}
+                            )
+                        ),
+                        If(
+                            VarAdmi = "Originacion",
+                            Office365Outlook.SendEmailV2(
+                                "roberto@canopiacarbon.com",
+                                User().FullName & " Mando su Plantilla para revisión",
+                                HtmlText1_5.HtmlText,
+                                {Importance: "High"}
+                            )
+                        ),
+                        If(
+                            VarAdmi = "Salvaguarda",
+                            Office365Outlook.SendEmailV2(
+                                "carolina@canopiacarbon.com",
+                                User().FullName & " Mando su Plantilla para revisión",
+                                HtmlText1_5.HtmlText,
+                                {Importance: "High"}
+                            )
+                        )
+                    );
+                    Office365Outlook.SendEmailV2(
+                        "uriel@canopiacarbon.com",
+                        User().FullName & " Mando su Plantilla para revisión",
+                        HtmlText1_5.HtmlText,
+                        {Importance: "High"}
+                    );
+                    Office365Outlook.SendEmailV2(
+                        "orlando@canopiacarbon.com",
+                        User().FullName & " Mando su Plantilla para revisión",
+                        HtmlText1_5.HtmlText,
+                        {Importance: "High"}
+                    );
+                    Office365Outlook.SendEmailV2(
+                        "miguelp@canopiacarbon.com",
+                        User().FullName & " Mando su Plantilla para revisión",
+                        HtmlText1_5.HtmlText,
+                        {Importance: "High"}
+                    );Office365Outlook.SendEmailV2(
+                        "jaqueline@canopiacarbon.com",
+                        User().FullName & " Mando su Plantilla para revisión",
+                        HtmlText1_5.HtmlText,
+                        {Importance: "High"}
+                    );
+                    Office365Outlook.SendEmailV2(
+                        "carlos@canopiacarbon.com",
+                        User().FullName & " Mando su Plantilla para revisión",
+                        HtmlText1_5.HtmlText,
+                        {Importance: "High"}
+                    );
+                    Notify(
+                        "Gracias por mandar tus facturas, se revisaran lo antes posible",
+                        NotificationType.Success,
+                        4000
+                    )
+                PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =15
+                Text: ="Finalizar comprobación"
+                Width: =225
+                ZIndex: =1
+
+        Agregar_Gastos_2 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.Light
+            Height: =40
+            RadiusBottomLeft: =4
+            RadiusBottomRight: =4
+            RadiusTopLeft: =4
+            RadiusTopRight: =4
+            Width: =150
+            X: =952
+            Y: =12
+            ZIndex: =8
+
+            Button12_5 As button:
+                BorderColor: =RGBA(255, 255, 255, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                FocusedBorderColor: =ColorFade(Self.Fill, -75%)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =Parent.Height
+                HoverBorderColor: =RGBA(0, 0, 0, 0)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =ColorFade(RGBA(178, 228, 200, 1), -0%)
+                OnSelect: =NewForm(Form1_3);Set(Ver_Nuevo,true);Set(Calcular_Porrateo,false)
+                PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =15
+                Text: ="Agregar Gastos"
+                Width: =Parent.Width
+                ZIndex: =1
+
     Encabezado_19 As groupContainer.manualLayoutContainer:
         DropShadow: =DropShadow.Light
         Fill: =RGBA(0, 148, 110, 0.55)
@@ -11,7 +320,7 @@ Screen_Comprobación_Excel As screen:
         RadiusTopLeft: =4
         RadiusTopRight: =4
         Width: =1366
-        ZIndex: =1
+        ZIndex: =3
 
         Container14_2 As groupContainer.manualLayoutContainer:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -105,7 +414,7 @@ Screen_Comprobación_Excel As screen:
         Width: =442
         X: =924
         Y: =160
-        ZIndex: =6
+        ZIndex: =4
 
     D_Gastos_Comprobación As groupContainer.manualLayoutContainer:
         Height: =224
@@ -116,7 +425,7 @@ Screen_Comprobación_Excel As screen:
         Width: =270
         X: =1082
         Y: =75
-        ZIndex: =7
+        ZIndex: =5
 
         Label9_13 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -167,109 +476,6 @@ Screen_Comprobación_Excel As screen:
             Y: =184
             ZIndex: =3
 
-    "Gallery15_2 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
-        BorderColor: =RGBA(166, 166, 166, 1)
-        DelayItemLoading: =true
-        Height: =415
-        Items: |-
-            =Filter(
-                'Plantilla de Reembolsos de Gastos Final',
-                (Título = Label161_4.Text)&&
-                ('No. De Reembolso' = Dropdown7_3.Selected.Value) &&
-                (Mes = Dropdown8_3.Selected.Value) &&
-                ('Nombre del Colaborador' = Label163_4.Text)
-            )
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplatePadding: =0
-        TemplateSize: =90
-        Visible: =false
-        Width: =1366
-        Y: =353
-        ZIndex: =8
-
-        Title3_2 As label:
-            Color: =RGBA(50, 49, 48, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.'Total (MXN)'
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 86
-            X: =16
-            Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle3_2.Size * 1.8)) / 2
-            ZIndex: =1
-
-        Subtitle3_2 As label:
-            Color: =RGBA(51, 51, 51, 1)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            Font: =Font.'Segoe UI'
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =12
-            Text: =ThisItem.'Importe Prorrateo Factura'
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title3_2.Width
-            X: =Title3_2.X
-            Y: =Title3_2.Y + Title3_2.Height
-            ZIndex: =2
-
-        NextArrow3_2 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            BorderColor: =RGBA(166, 166, 166, 1)
-            Color: =RGBA(166, 166, 166, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            Height: =50
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
-            PaddingBottom: =16
-            PaddingLeft: =16
-            PaddingRight: =16
-            PaddingTop: =16
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Tooltip: ="Ver los detalles del elemento"
-            Width: =50
-            X: =Parent.TemplateWidth - Self.Width - 12
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =3
-
-        Separator3_2 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Fill: =RGBA(255, 255, 255, 1)
-            Height: =8
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - Self.Height
-            ZIndex: =4
-
-        Rectangle18_2 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Fill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            Height: =Parent.TemplateHeight - Separator3_2.Height
-            OnSelect: =Select(Parent)
-            Visible: =ThisItem.IsSelected
-            Width: =4
-            ZIndex: =5
-
     Label56_12 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -294,7 +500,7 @@ Screen_Comprobación_Excel As screen:
             )
         Visible: =false
         X: =515
-        ZIndex: =9
+        ZIndex: =6
 
     Label56_13 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -309,7 +515,7 @@ Screen_Comprobación_Excel As screen:
         Text: =Var_Revisión.Anticipo
         Visible: =false
         X: =688
-        ZIndex: =10
+        ZIndex: =7
 
     Label155_4 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -324,7 +530,7 @@ Screen_Comprobación_Excel As screen:
         Text: =LookUp(Col_Notificar,true).Anticipo
         X: =116
         Y: =104
-        ZIndex: =11
+        ZIndex: =8
 
     DataTable1_3 As dataTable.datatable:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -374,7 +580,7 @@ Screen_Comprobación_Excel As screen:
         Width: =1366
         X: =0
         Y: =322
-        ZIndex: =12
+        ZIndex: =9
 
         "'Fecha Doc._Columna1_3' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
@@ -383,7 +589,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =7
+            Order: =8
             Text: =ThisItem.'Fecha Doc.'
             Width: =100
             X: =0
@@ -397,7 +603,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =8
+            Order: =9
             Text: =ThisItem.'No. Consecutivo de Recibo'
             Width: =100
             X: =0
@@ -412,7 +618,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =9
+            Order: =10
             Text: |-
                 =ThisItem.'No. De Factura / CFDI: Folio Fiscal'
             Width: =100
@@ -427,7 +633,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =10
+            Order: =11
             Text: =ThisItem.'Project ID'
             Width: =100
             X: =0
@@ -441,7 +647,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =11
+            Order: =12
             Text: =ThisItem.'Aggregation ID'
             Width: =100
             X: =0
@@ -455,7 +661,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =12
+            Order: =13
             Text: =ThisItem.'Mercuria Cycle'
             Width: =100
             X: =0
@@ -469,7 +675,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =13
+            Order: =14
             Text: =ThisItem.'Project Name'
             Width: =100
             X: =0
@@ -484,7 +690,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =14
+            Order: =15
             Text: |-
                 =ThisItem.'Concepto (Ejido: CAPEX / OPEX)'
             Width: =100
@@ -500,7 +706,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =15
+            Order: =16
             Text: |-
                 =ThisItem.'Cta (Ejido: CAPEX/ OPEX)'
             Width: =100
@@ -515,7 +721,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =16
+            Order: =18
             Text: =ThisItem.'Concepto (gastos generales)'
             Width: =100
             X: =0
@@ -529,7 +735,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =17
+            Order: =19
             Text: =ThisItem.'Cta (gastos generales)'
             Width: =100
             X: =0
@@ -543,7 +749,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =18
+            Order: =20
             Text: =ThisItem.'CtaCompaq (gastos generales)'
             Width: =100
             X: =0
@@ -557,7 +763,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =19
+            Order: =21
             Text: =ThisItem.'Clasificación Viáticos'
             Width: =100
             X: =0
@@ -571,7 +777,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =20
+            Order: =22
             Text: =ThisItem.'Detalle de gastos'
             Width: =100
             X: =0
@@ -585,7 +791,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =21
+            Order: =23
             Text: =ThisItem.'Importe (Prorrateo Factura)'
             Width: =100
             X: =0
@@ -599,7 +805,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =22
+            Order: =24
             Text: =ThisItem.'IVA (Prorrateo Factura)'
             Width: =100
             X: =0
@@ -613,7 +819,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =23
+            Order: =25
             Text: =ThisItem.'ISH (Prorrateo Factura)'
             Width: =100
             X: =0
@@ -627,7 +833,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =24
+            Order: =27
             Text: =ThisItem.'Ret ISR (Prorrateo Factura)'
             Width: =100
             X: =0
@@ -641,7 +847,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =25
+            Order: =28
             Text: =ThisItem.'Importe Prorrateo Factura'
             Width: =100
             X: =0
@@ -655,7 +861,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =26
+            Order: =29
             Text: =ThisItem.Divisa
             Width: =100
             X: =0
@@ -669,7 +875,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =27
+            Order: =30
             Text: =ThisItem.'Importe (Detalle Monto Factura)'
             Width: =100
             X: =0
@@ -683,7 +889,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =28
+            Order: =31
             Text: =ThisItem.'IVA (Detalle Monto Factura)'
             Width: =100
             X: =0
@@ -697,7 +903,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =29
+            Order: =32
             Text: =ThisItem.'ISH (Detalle Monto Factura)'
             Width: =100
             X: =0
@@ -711,7 +917,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =30
+            Order: =34
             Text: =ThisItem.'Ret IVA (Detalle Monto Factura)'
             Width: =100
             X: =0
@@ -725,7 +931,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =31
+            Order: =35
             Text: =ThisItem.'Ret. ISR (Detalle Monto Factura)'
             Width: =100
             X: =0
@@ -739,7 +945,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =32
+            Order: =36
             Text: =ThisItem.'Total (Detalle Monto Factura)'
             Width: =100
             X: =0
@@ -753,7 +959,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =33
+            Order: =37
             Text: =ThisItem.'Tipo  de cambio'
             Width: =100
             X: =0
@@ -767,7 +973,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =34
+            Order: =38
             Text: =ThisItem.'Total (MXN)'
             Width: =100
             X: =0
@@ -781,7 +987,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =35
+            Order: =42
             Text: =ThisItem.Comentarios
             Width: =100
             X: =0
@@ -795,7 +1001,7 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =36
+            Order: =39
             Text: =ThisItem.'Autorización Gerente'.Value
             Width: =100
             X: =0
@@ -809,26 +1015,12 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =37
+            Order: =41
             Text: =ThisItem.'Autorización Finanzas'.Value
             Width: =100
             X: =0
             Y: =0
             ZIndex: =52
-
-        "'No. De Reembolso_Columna1_3' As dataTableColumn.textualColumn":
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="No. De Reembolso"
-            FieldName: ="No_x002e_DeReembolso"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =38
-            Text: =ThisItem.'No. De Reembolso'
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =53
 
         "'Cta. Contpaq (Ejido: CAPEX / OPEX)_Columna1_3' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
@@ -838,41 +1030,13 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =39
+            Order: =17
             Text: |-
                 =ThisItem.'Cta. Contpaq (Ejido: CAPEX / OPEX)'
             Width: =100
             X: =0
             Y: =0
             ZIndex: =54
-
-        "'Nombre del Colaborador_Columna1_3' As dataTableColumn.textualColumn":
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Nombre del Colaborador"
-            FieldName: ="NombredelColaborador"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =40
-            Text: =ThisItem.'Nombre del Colaborador'
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =55
-
-        Mes_Columna1_3 As dataTableColumn.textualColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Mes"
-            FieldName: ="Mes"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =41
-            Text: =ThisItem.Mes
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =56
 
         "'Facturado a:_Columna1_3' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
@@ -882,27 +1046,13 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =42
+            Order: =7
             Text: |-
                 =ThisItem.'Facturado a:'
             Width: =100
             X: =0
             Y: =0
             ZIndex: =57
-
-        "'Registro Formato Compaq_Columna1_3' As dataTableColumn.textualColumn":
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Registro Formato Compaq"
-            FieldName: ="RegistroFormatoCompaq"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =43
-            Text: =ThisItem.'Registro Formato Compaq'.Value
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =58
 
         IEPS_Columna1_3 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
@@ -911,12 +1061,40 @@ Screen_Comprobación_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =44
+            Order: =33
             Text: =ThisItem.IEPS
             Width: =100
             X: =0
             Y: =0
             ZIndex: =59
+
+        "'Comentario Gerente_Columna3' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Comentario Gerente"
+            FieldName: ="Comentario_x0020_Gerente"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =40
+            Text: =ThisItem.'Comentario Gerente'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =60
+
+        "'IESP (Prorrateo Factura)_Columna3' As dataTableColumn.textualColumn":
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="IESP (Prorrateo Factura)"
+            FieldName: ="IESP_x0028_ProrrateoFactura_x002"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =26
+            Text: =ThisItem.'IESP (Prorrateo Factura)'
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =61
 
     Datos_Comprobación As groupContainer.manualLayoutContainer:
         BorderColor: =RGBA(146, 180, 105, 1)
@@ -929,7 +1107,7 @@ Screen_Comprobación_Excel As screen:
         RadiusTopRight: =4
         Width: =1060
         Y: =55
-        ZIndex: =13
+        ZIndex: =10
 
         Label161_4 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -1399,7 +1577,7 @@ Screen_Comprobación_Excel As screen:
         Width: =1118
         X: =160
         Y: =167
-        ZIndex: =14
+        ZIndex: =11
 
         Título_DataCard7_5 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -6822,6 +7000,123 @@ Screen_Comprobación_Excel As screen:
                 Y: =60
                 ZIndex: =2
 
+        "'Facturado a:_DataCard18' As typedDataCard.textualEditCard":
+            BorderColor: =RGBA(166, 166, 166, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Facturadoa_x003a_"
+            Default: |-
+                =ThisItem.'Facturado a:'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'],DataSourceInfo.DisplayName,"Facturadoa_x003a_")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'], DataSourceInfo.MaxLength, "Facturadoa_x003a_")
+            Required: =false
+            Update: =DataCardValue2.Text
+            Visible: =false
+            Width: =372
+            X: =2
+            Y: =24
+            ZIndex: =1
+
+            DataCardKey2 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =34
+                PaddingLeft: =0
+                Size: =13
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue2 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                Default: =Radio3_5.Selected.Value
+                DelayOutput: =true
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =Parent.DisplayMode
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                HoverColor: =RGBA(51, 51, 51, 1)
+                HoverFill: =RGBA(255, 255, 255, 1)
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                PressedBorderColor: =RGBA(73, 130, 5, 1)
+                PressedColor: =RGBA(51, 51, 51, 1)
+                PressedFill: =RGBA(255, 255, 255, 1)
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =13
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey2.Y + DataCardKey2.Height + 5
+                ZIndex: =2
+
+            ErrorMessage251 As label:
+                AutoHeight: =true
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(168, 0, 0, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(168, 0, 0, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =13
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue2.Y + DataCardValue2.Height
+                ZIndex: =3
+
+            StarVisible251 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(51, 51, 51, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =DataCardKey2.Height
+                PaddingLeft: =0
+                Size: =13
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey2.Y
+                ZIndex: =4
+
     Container1_3 As groupContainer.manualLayoutContainer:
         BorderThickness: =1
         DropShadow: =DropShadow.Light
@@ -6835,7 +7130,7 @@ Screen_Comprobación_Excel As screen:
         Width: =717
         X: =542
         Y: =353
-        ZIndex: =15
+        ZIndex: =12
 
         ComboBox26_6 As combobox:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -7079,7 +7374,7 @@ Screen_Comprobación_Excel As screen:
         Width: =717
         X: =542
         Y: =353
-        ZIndex: =16
+        ZIndex: =13
 
         ComboBox26_7 As combobox:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -7322,7 +7617,7 @@ Screen_Comprobación_Excel As screen:
         Width: =708
         X: =569
         Y: =376
-        ZIndex: =17
+        ZIndex: =14
 
         Container6_6 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.Light
@@ -7606,7 +7901,7 @@ Screen_Comprobación_Excel As screen:
         Width: =708
         X: =569
         Y: =376
-        ZIndex: =18
+        ZIndex: =15
 
         Container6_7 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.Light
@@ -7875,183 +8170,4 @@ Screen_Comprobación_Excel As screen:
                     X: =518
                     Y: =21
                     ZIndex: =7
-
-    "'Pie de pagina_3' As group":
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =28
-
-        Rectangle2_41 As rectangle:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            DisabledFill: =RGBA(0,148,110,87)
-            DisplayMode: =DisplayMode.Disabled
-            Fill: =RGBA(0,148,110,87)
-            FocusedBorderThickness: =4
-            Height: =60
-            HoverFill: =RGBA(73, 130, 5, 1)
-            PressedFill: =RGBA(73, 130, 5, 1)
-            Width: =1366
-            X: =
-            Y: =708
-            ZIndex: =2
-
-        Button3_19 As button:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(255, 255, 255, 1)
-            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Semibold
-            Height: =35
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-            OnSelect: =Navigate(Inicio,ScreenTransition.CoverRight)
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
-            PressedColor: =RGBA(255, 255, 255, 1)
-            PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
-            Size: =15
-            Text: ="Regresar"
-            X: =14
-            Y: =720
-            ZIndex: =3
-
-        Button4_4 As button:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(255, 255, 255, 1)
-            FocusedBorderColor: =ColorFade(Self.Fill, -75%)
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Semibold
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =RGBA(255, 255, 255, 1)
-            HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-            OnSelect: |-
-                =If(
-                    VarAdmi = "Desarrollo",
-                    Office365Outlook.SendEmailV2(
-                        "lourdes@canopiacarbon.com",
-                        User().FullName & " Mando su Plantilla para revisión",
-                        HtmlText1_5.HtmlText,
-                        {Importance: "High"}
-                    ),
-                    If(
-                        VarAdmi = "Legal",
-                        Office365Outlook.SendEmailV2(
-                            "lizette@canopiacarbon.com",
-                            User().FullName & " Mando su Plantilla para revisión",
-                            HtmlText1_5.HtmlText,
-                            {Importance: "High"}
-                        )
-                    ),
-                    If(
-                        VarAdmi = "MRV",
-                        Office365Outlook.SendEmailV2(
-                            "gerencia.mrv@canopiacarbon.com",
-                            User().FullName & " Mando su Plantilla para revisión",
-                            HtmlText1_5.HtmlText,
-                            {Importance: "High"}
-                        )
-                    ),
-                    If(
-                        VarAdmi = "Originacion",
-                        Office365Outlook.SendEmailV2(
-                            "roberto@canopiacarbon.com",
-                            User().FullName & " Mando su Plantilla para revisión",
-                            HtmlText1_5.HtmlText,
-                            {Importance: "High"}
-                        )
-                    ),
-                    If(
-                        VarAdmi = "Salvaguarda",
-                        Office365Outlook.SendEmailV2(
-                            "carolina@canopiacarbon.com",
-                            User().FullName & " Mando su Plantilla para revisión",
-                            HtmlText1_5.HtmlText,
-                            {Importance: "High"}
-                        )
-                    )
-                );
-                Office365Outlook.SendEmailV2(
-                    "uriel@canopiacarbon.com",
-                    User().FullName & " Mando su Plantilla para revisión",
-                    HtmlText1_5.HtmlText,
-                    {Importance: "High"}
-                );
-                Office365Outlook.SendEmailV2(
-                    "orlando@canopiacarbon.com",
-                    User().FullName & " Mando su Plantilla para revisión",
-                    HtmlText1_5.HtmlText,
-                    {Importance: "High"}
-                );
-                Office365Outlook.SendEmailV2(
-                    "miguelp@canopiacarbon.com",
-                    User().FullName & " Mando su Plantilla para revisión",
-                    HtmlText1_5.HtmlText,
-                    {Importance: "High"}
-                );Office365Outlook.SendEmailV2(
-                    "jaqueline@canopiacarbon.com",
-                    User().FullName & " Mando su Plantilla para revisión",
-                    HtmlText1_5.HtmlText,
-                    {Importance: "High"}
-                );
-                Office365Outlook.SendEmailV2(
-                    "carlos@canopiacarbon.com",
-                    User().FullName & " Mando su Plantilla para revisión",
-                    HtmlText1_5.HtmlText,
-                    {Importance: "High"}
-                );
-                Notify(
-                    "Gracias por mandar tus facturas, se revisaran lo antes posible",
-                    NotificationType.Success,
-                    4000
-                )
-            PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
-            PressedColor: =RGBA(255, 255, 255, 1)
-            PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
-            Size: =15
-            Text: ="Mandar para revisión"
-            Width: =225
-            X: =580
-            Y: =720
-            ZIndex: =4
-
-        Icon20_19 As icon.ChevronDown:
-            Color: =RGBA(255, 255, 255, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(220, 220, 220, 1)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            Height: =55
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.Add
-            OnSelect: |
-                =NewForm(Form1_3);Set(Ver_Nuevo,true)
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Width: =55
-            X: =1286
-            Y: =713
-            ZIndex: =5
 
