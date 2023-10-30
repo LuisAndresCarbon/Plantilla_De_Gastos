@@ -60,6 +60,7 @@
       "Persona": "Persona",
       "Persona#Id": "Persona Id",
       "PoderRepresentanteLegal": "PoderRepresentanteLegal",
+      "Solicitante": "Solicitante",
       "StatusContrato": "StatusContrato",
       "StatusContrato#Id": "StatusContrato Id",
       "Title": "Título"
