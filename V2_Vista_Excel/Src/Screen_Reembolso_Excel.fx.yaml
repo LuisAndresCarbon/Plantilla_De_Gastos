@@ -3212,7 +3212,7 @@ Screen_Reembolso_Excel As screen:
                 HoverColor: =ColorFade(RGBA(90, 86, 106, 1), -30%)
                 HoverFill: =RGBA(0, 0, 0, 0)
                 Icon: =Icon.Search
-                OnSelect: =Set(Var_buscar_ERPA,true)
+                OnSelect: =Set(Var_buscar_sinERPA,true);Set(Var_sin_Erpa3,Blank())
                 PressedBorderColor: =RGBA(0, 0, 0, 0)
                 PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                 PressedFill: =RGBA(0, 0, 0, 0)
@@ -3263,7 +3263,7 @@ Screen_Reembolso_Excel As screen:
                 HoverColor: =ColorFade(RGBA(90, 86, 106, 1), -30%)
                 HoverFill: =RGBA(0, 0, 0, 0)
                 Icon: =Icon.Search
-                OnSelect: =Set(Var_buscar_sinERPA,true);Set(ERPA,Blank());Set(Var_sin_Erpa3,Blank())
+                OnSelect: =Set(Var_buscar_ERPA,true);Set(ERPA,Blank());
                 PressedBorderColor: =RGBA(0, 0, 0, 0)
                 PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                 PressedFill: =RGBA(0, 0, 0, 0)
