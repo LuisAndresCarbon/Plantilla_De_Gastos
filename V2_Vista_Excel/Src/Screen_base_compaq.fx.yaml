@@ -116,7 +116,7 @@ Screen_base_compaq As screen:
         Height: =546
         Items: |-
             =Filter('Formato Compaq',
-            (Mes = ComboBox15.Selected.Result || ComboBox15.Selected.Result = Blank()) &&
+            (Mes = ComboBox15.Selected.Value || ComboBox15.Selected.Value = Blank()) &&
             ('Nombre del Colaborador' = ComboBox10.Selected.Value || ComboBox10.Selected.Value = Blank()) &&
             ('No. De Reembolso' = ComboBox15_1.Selected.Result || ComboBox15_1.Selected.Result = Blank())
             )
@@ -767,21 +767,19 @@ Screen_base_compaq As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayFields: =["Result"]
+        DisplayFields: =["Value"]
         Font: =Font.'Segoe UI'
         Height: =48
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Mes"
-        Items: |-
-            =Sort(ForAll(Distinct('Formato Compaq',Mes), {Result: ThisRecord.Value}),Result,SortOrder.Ascending)
+        Items: =["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"]
         PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
-        SearchFields: =["Result"]
-        SearchItems: |-
-            =Search(Sort(ForAll(Distinct('Formato Compaq',Mes), {Result: ThisRecord.Value}),Result,SortOrder.Ascending),ComboBox15.SearchText,"Result")
+        SearchFields: =["Value"]
+        SearchItems: =Search(["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"],ComboBox15.SearchText,"Value")
         SelectionFill: =RGBA(73, 130, 5, 1)
         SelectMultiple: =false
         Size: =13
