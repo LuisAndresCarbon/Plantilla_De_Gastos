@@ -5,7 +5,7 @@ Screen_Anticipo_Excel As screen:
     "Gallery15_1 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
         BorderColor: =RGBA(166, 166, 166, 1)
         DelayItemLoading: =true
-        Height: =415
+        Height: =371
         Items: |-
             =Filter(
                 'Plantilla de Reembolsos de Gastos Final',
@@ -20,7 +20,7 @@ Screen_Anticipo_Excel As screen:
         TemplateSize: =90
         Visible: =false
         Width: =1366
-        Y: =353
+        Y: =397
         ZIndex: =1
 
         Title3_1 As label:
@@ -539,7 +539,7 @@ Screen_Anticipo_Excel As screen:
                 Filter(Gallery15_1.AllItems,true),
                 If(
                     Or(
-                        IsBlank('Importe Prorrateo Factura'),
+                        IsBlank('Total (MXN)'),
                         Value('Importe Prorrateo Factura') = 0),
                 Value('Total (MXN)'),
                 Value('Importe Prorrateo Factura')
