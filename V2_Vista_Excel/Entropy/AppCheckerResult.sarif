@@ -45499,6 +45499,3516 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.Título_DataCard7_7.DataCardValue196_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.Título_DataCard7_7.DataCardValue196_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.Título_DataCard7_7.DataCardValue196_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'No. De Reembolso_DataCard15_7'.DataCardValue197_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'No. De Reembolso_DataCard15_7'.DataCardValue197_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'No. De Reembolso_DataCard15_7'.DataCardValue197_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Nombre del Colaborador_DataCard6_7'.DataCardValue198_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Nombre del Colaborador_DataCard6_7'.DataCardValue198_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Nombre del Colaborador_DataCard6_7'.DataCardValue198_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Fecha Doc._DataCard5_7'.DataCardValue208_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Fecha Doc._DataCard5_7'.DataCardValue208_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Fecha Doc._DataCard5_7'.DataCardValue208_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard40_10.Icon22_25.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard40_10.Icon22_25.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.DataCard40_10.Icon22_25"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard40_10.Icon22_25.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard40_10.Icon22_25.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.DataCard40_10.Icon22_25"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Periodo del Reembolso Del_DataCard5_7'.DataCardValue199_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Periodo del Reembolso Del_DataCard5_7'.DataCardValue199_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Periodo del Reembolso Del_DataCard5_7'.DataCardValue199_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Periodo del Reembolso Al_DataCard5_7'.DataCardValue200_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Periodo del Reembolso Al_DataCard5_7'.DataCardValue200_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Periodo del Reembolso Al_DataCard5_7'.DataCardValue200_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.Mes_DataCard14_7.DataCardValue201_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.Mes_DataCard14_7.DataCardValue201_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.Mes_DataCard14_7.DataCardValue201_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.Destino_DataCard5_7.DataCardValue202_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.Destino_DataCard5_7.DataCardValue202_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.Destino_DataCard5_7.DataCardValue202_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.Propósito_DataCard4_7.DataCardValue203_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.Propósito_DataCard4_7.DataCardValue203_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.Propósito_DataCard4_7.DataCardValue203_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.Anticipo_DataCard4_7.DataCardValue204_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.Anticipo_DataCard4_7.DataCardValue204_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.Anticipo_DataCard4_7.DataCardValue204_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard41_7.DatePicker5_4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard41_7.DatePicker5_4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.DataCard41_7.DatePicker5_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'No. Consecutivo de Recibo_DataCard5_7'.DataCardValue209_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'No. Consecutivo de Recibo_DataCard5_7'.DataCardValue209_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'No. Consecutivo de Recibo_DataCard5_7'.DataCardValue209_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'No. De Factura / CFDI: Folio Fiscal_DataCard5_7'.DataCardValue210_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'No. De Factura / CFDI: Folio Fiscal_DataCard5_7'.DataCardValue210_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'No. De Factura / CFDI: Folio Fiscal_DataCard5_7'.DataCardValue210_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard43_7.Radio3_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard43_7.Radio3_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.DataCard43_7.Radio3_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard44_7.Icon20_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard44_7.Icon20_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.DataCard44_7.Icon20_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard44_7.Icon20_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard44_7.Icon20_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.DataCard44_7.Icon20_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard53_5.Icon20_9.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard53_5.Icon20_9.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.DataCard53_5.Icon20_9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard53_5.Icon20_9.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard53_5.Icon20_9.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.DataCard53_5.Icon20_9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Project ID_DataCard4_7'.DataCardValue211_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Project ID_DataCard4_7'.DataCardValue211_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Project ID_DataCard4_7'.DataCardValue211_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Mercuria Cycle_DataCard4_7'.DataCardValue212_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Mercuria Cycle_DataCard4_7'.DataCardValue212_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Mercuria Cycle_DataCard4_7'.DataCardValue212_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Project Name_DataCard4_7'.DataCardValue213_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Project Name_DataCard4_7'.DataCardValue213_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Project Name_DataCard4_7'.DataCardValue213_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Aggregation ID_DataCard4_7'.DataCardValue214_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Aggregation ID_DataCard4_7'.DataCardValue214_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Aggregation ID_DataCard4_7'.DataCardValue214_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard45_7.Icon20_14.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard45_7.Icon20_14.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.DataCard45_7.Icon20_14"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard45_7.Icon20_14.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard45_7.Icon20_14.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.DataCard45_7.Icon20_14"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Concepto (Ejido: CAPEX / OPEX)_DataCard4_7'.DataCardValue17_10.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Concepto (Ejido: CAPEX / OPEX)_DataCard4_7'.DataCardValue17_10.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Concepto (Ejido: CAPEX / OPEX)_DataCard4_7'.DataCardValue17_10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Cta (Ejido: CAPEX/ OPEX)_DataCard4_7'.DataCardValue194_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Cta (Ejido: CAPEX/ OPEX)_DataCard4_7'.DataCardValue194_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Cta (Ejido: CAPEX/ OPEX)_DataCard4_7'.DataCardValue194_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Cta. Contpaq (Ejido: CAPEX / OPEX)_DataCard4_7'.DataCardValue195_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Cta. Contpaq (Ejido: CAPEX / OPEX)_DataCard4_7'.DataCardValue195_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Cta. Contpaq (Ejido: CAPEX / OPEX)_DataCard4_7'.DataCardValue195_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard46_7.Icon20_19.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard46_7.Icon20_19.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.DataCard46_7.Icon20_19"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard46_7.Icon20_19.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard46_7.Icon20_19.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.DataCard46_7.Icon20_19"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Concepto (gastos generales)_DataCard4_7'.DataCardValue205_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Concepto (gastos generales)_DataCard4_7'.DataCardValue205_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Concepto (gastos generales)_DataCard4_7'.DataCardValue205_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Cta (gastos generales)_DataCard4_7'.DataCardValue206_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Cta (gastos generales)_DataCard4_7'.DataCardValue206_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Cta (gastos generales)_DataCard4_7'.DataCardValue206_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'CtaCompaq (gastos generales)_DataCard4_7'.DataCardValue207_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'CtaCompaq (gastos generales)_DataCard4_7'.DataCardValue207_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'CtaCompaq (gastos generales)_DataCard4_7'.DataCardValue207_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard49_7.Dropdown5_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard49_7.Dropdown5_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.DataCard49_7.Dropdown5_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Clasificación Viáticos_DataCard4_7'.DataCardValue215_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Clasificación Viáticos_DataCard4_7'.DataCardValue215_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Clasificación Viáticos_DataCard4_7'.DataCardValue215_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Detalle de gastos_DataCard4_7'.DataCardValue216_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Detalle de gastos_DataCard4_7'.DataCardValue216_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Detalle de gastos_DataCard4_7'.DataCardValue216_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Importe (Detalle Monto Factura)_DataCard2_7'.DataCardValue217_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Importe (Detalle Monto Factura)_DataCard2_7'.DataCardValue217_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Importe (Detalle Monto Factura)_DataCard2_7'.DataCardValue217_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'IVA (Detalle Monto Factura)_DataCard2_7'.DataCardValue218_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'IVA (Detalle Monto Factura)_DataCard2_7'.DataCardValue218_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'IVA (Detalle Monto Factura)_DataCard2_7'.DataCardValue218_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'ISH (Detalle Monto Factura)_DataCard2_7'.DataCardValue219_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'ISH (Detalle Monto Factura)_DataCard2_7'.DataCardValue219_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'ISH (Detalle Monto Factura)_DataCard2_7'.DataCardValue219_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.IEPS_DataCard4_7.DataCardValue225_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.IEPS_DataCard4_7.DataCardValue225_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.IEPS_DataCard4_7.DataCardValue225_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Ret IVA (Detalle Monto Factura)_DataCard2_7'.DataCardValue220_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Ret IVA (Detalle Monto Factura)_DataCard2_7'.DataCardValue220_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Ret IVA (Detalle Monto Factura)_DataCard2_7'.DataCardValue220_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Ret. ISR (Detalle Monto Factura)_DataCard2_7'.DataCardValue221_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Ret. ISR (Detalle Monto Factura)_DataCard2_7'.DataCardValue221_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Ret. ISR (Detalle Monto Factura)_DataCard2_7'.DataCardValue221_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Total (Detalle Monto Factura)_DataCard2_7'.DataCardValue222_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Total (Detalle Monto Factura)_DataCard2_7'.DataCardValue222_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Total (Detalle Monto Factura)_DataCard2_7'.DataCardValue222_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Tipo  de cambio_DataCard2_7'.DataCardValue223_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Tipo  de cambio_DataCard2_7'.DataCardValue223_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Tipo  de cambio_DataCard2_7'.DataCardValue223_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Total (MXN)_DataCard2_7'.DataCardValue224_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Total (MXN)_DataCard2_7'.DataCardValue224_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Total (MXN)_DataCard2_7'.DataCardValue224_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.Divisa_DataCard2_7.DataCardValue226_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.Divisa_DataCard2_7.DataCardValue226_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.Divisa_DataCard2_7.DataCardValue226_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard50_7.Dropdown6_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard50_7.Dropdown6_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.DataCard50_7.Dropdown6_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard51_7.Icon21_9.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard51_7.Icon21_9.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.DataCard51_7.Icon21_9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard51_7.Icon21_9.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard51_7.Icon21_9.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.DataCard51_7.Icon21_9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard52_7.TextInput17_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.DataCard52_7.TextInput17_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.DataCard52_7.TextInput17_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Importe (Prorrateo Factura)_DataCard4_7'.DataCardValue227_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Importe (Prorrateo Factura)_DataCard4_7'.DataCardValue227_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Importe (Prorrateo Factura)_DataCard4_7'.DataCardValue227_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'IVA (Prorrateo Factura)_DataCard4_7'.DataCardValue228_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'IVA (Prorrateo Factura)_DataCard4_7'.DataCardValue228_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'IVA (Prorrateo Factura)_DataCard4_7'.DataCardValue228_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'ISH (Prorrateo Factura)_DataCard4_7'.DataCardValue229_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'ISH (Prorrateo Factura)_DataCard4_7'.DataCardValue229_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'ISH (Prorrateo Factura)_DataCard4_7'.DataCardValue229_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Ret ISR (Prorrateo Factura)_DataCard4_7'.DataCardValue230_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Ret ISR (Prorrateo Factura)_DataCard4_7'.DataCardValue230_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Ret ISR (Prorrateo Factura)_DataCard4_7'.DataCardValue230_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Importe Prorrateo Factura_DataCard2_7'.DataCardValue231_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Importe Prorrateo Factura_DataCard2_7'.DataCardValue231_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Importe Prorrateo Factura_DataCard2_7'.DataCardValue231_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Datos adjuntos_DataCard4_5'.DataCardValue17_11.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Datos adjuntos_DataCard4_5'.DataCardValue17_11.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Datos adjuntos_DataCard4_5'.DataCardValue17_11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Facturado a:_DataCard16_1'.DataCardValue252_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'Facturado a:_DataCard16_1'.DataCardValue252_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'Facturado a:_DataCard16_1'.DataCardValue252_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.Título_DataCard7_8.DataCardValue196_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.Título_DataCard7_8.DataCardValue196_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.Título_DataCard7_8.DataCardValue196_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'No. De Reembolso_DataCard15_8'.DataCardValue197_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'No. De Reembolso_DataCard15_8'.DataCardValue197_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'No. De Reembolso_DataCard15_8'.DataCardValue197_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Nombre del Colaborador_DataCard6_8'.DataCardValue198_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Nombre del Colaborador_DataCard6_8'.DataCardValue198_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Nombre del Colaborador_DataCard6_8'.DataCardValue198_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Fecha Doc._DataCard5_8'.DataCardValue208_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Fecha Doc._DataCard5_8'.DataCardValue208_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Fecha Doc._DataCard5_8'.DataCardValue208_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard40_12.Icon22_26.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard40_12.Icon22_26.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.DataCard40_12.Icon22_26"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard40_12.Icon22_26.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard40_12.Icon22_26.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.DataCard40_12.Icon22_26"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Periodo del Reembolso Del_DataCard5_8'.DataCardValue199_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Periodo del Reembolso Del_DataCard5_8'.DataCardValue199_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Periodo del Reembolso Del_DataCard5_8'.DataCardValue199_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Periodo del Reembolso Al_DataCard5_8'.DataCardValue200_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Periodo del Reembolso Al_DataCard5_8'.DataCardValue200_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Periodo del Reembolso Al_DataCard5_8'.DataCardValue200_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.Mes_DataCard14_8.DataCardValue201_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.Mes_DataCard14_8.DataCardValue201_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.Mes_DataCard14_8.DataCardValue201_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.Destino_DataCard5_8.DataCardValue202_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.Destino_DataCard5_8.DataCardValue202_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.Destino_DataCard5_8.DataCardValue202_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.Propósito_DataCard4_8.DataCardValue203_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.Propósito_DataCard4_8.DataCardValue203_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.Propósito_DataCard4_8.DataCardValue203_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.Anticipo_DataCard4_8.DataCardValue204_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.Anticipo_DataCard4_8.DataCardValue204_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.Anticipo_DataCard4_8.DataCardValue204_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard41_8.DatePicker5_10.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard41_8.DatePicker5_10.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.DataCard41_8.DatePicker5_10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'No. Consecutivo de Recibo_DataCard5_8'.DataCardValue209_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'No. Consecutivo de Recibo_DataCard5_8'.DataCardValue209_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'No. Consecutivo de Recibo_DataCard5_8'.DataCardValue209_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'No. De Factura / CFDI: Folio Fiscal_DataCard5_8'.DataCardValue210_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'No. De Factura / CFDI: Folio Fiscal_DataCard5_8'.DataCardValue210_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'No. De Factura / CFDI: Folio Fiscal_DataCard5_8'.DataCardValue210_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard43_8.Radio3_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard43_8.Radio3_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.DataCard43_8.Radio3_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard44_8.Icon20_24.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard44_8.Icon20_24.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.DataCard44_8.Icon20_24"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard44_8.Icon20_24.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard44_8.Icon20_24.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.DataCard44_8.Icon20_24"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard53_6.Icon20_25.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard53_6.Icon20_25.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.DataCard53_6.Icon20_25"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard53_6.Icon20_25.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard53_6.Icon20_25.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.DataCard53_6.Icon20_25"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Project ID_DataCard4_8'.DataCardValue211_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Project ID_DataCard4_8'.DataCardValue211_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Project ID_DataCard4_8'.DataCardValue211_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Mercuria Cycle_DataCard4_8'.DataCardValue212_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Mercuria Cycle_DataCard4_8'.DataCardValue212_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Mercuria Cycle_DataCard4_8'.DataCardValue212_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Project Name_DataCard4_8'.DataCardValue213_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Project Name_DataCard4_8'.DataCardValue213_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Project Name_DataCard4_8'.DataCardValue213_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Aggregation ID_DataCard4_8'.DataCardValue214_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Aggregation ID_DataCard4_8'.DataCardValue214_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Aggregation ID_DataCard4_8'.DataCardValue214_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard45_8.Icon20_26.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard45_8.Icon20_26.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.DataCard45_8.Icon20_26"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard45_8.Icon20_26.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard45_8.Icon20_26.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.DataCard45_8.Icon20_26"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Concepto (Ejido: CAPEX / OPEX)_DataCard4_8'.DataCardValue17_12.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Concepto (Ejido: CAPEX / OPEX)_DataCard4_8'.DataCardValue17_12.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Concepto (Ejido: CAPEX / OPEX)_DataCard4_8'.DataCardValue17_12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Cta (Ejido: CAPEX/ OPEX)_DataCard4_8'.DataCardValue194_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Cta (Ejido: CAPEX/ OPEX)_DataCard4_8'.DataCardValue194_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Cta (Ejido: CAPEX/ OPEX)_DataCard4_8'.DataCardValue194_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Cta. Contpaq (Ejido: CAPEX / OPEX)_DataCard4_8'.DataCardValue195_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Cta. Contpaq (Ejido: CAPEX / OPEX)_DataCard4_8'.DataCardValue195_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Cta. Contpaq (Ejido: CAPEX / OPEX)_DataCard4_8'.DataCardValue195_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard46_8.Icon20_27.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard46_8.Icon20_27.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.DataCard46_8.Icon20_27"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard46_8.Icon20_27.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard46_8.Icon20_27.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.DataCard46_8.Icon20_27"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Concepto (gastos generales)_DataCard4_8'.DataCardValue205_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Concepto (gastos generales)_DataCard4_8'.DataCardValue205_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Concepto (gastos generales)_DataCard4_8'.DataCardValue205_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Cta (gastos generales)_DataCard4_8'.DataCardValue206_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Cta (gastos generales)_DataCard4_8'.DataCardValue206_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Cta (gastos generales)_DataCard4_8'.DataCardValue206_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'CtaCompaq (gastos generales)_DataCard4_8'.DataCardValue207_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'CtaCompaq (gastos generales)_DataCard4_8'.DataCardValue207_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'CtaCompaq (gastos generales)_DataCard4_8'.DataCardValue207_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard49_8.Dropdown5_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard49_8.Dropdown5_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.DataCard49_8.Dropdown5_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Clasificación Viáticos_DataCard4_8'.DataCardValue215_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Clasificación Viáticos_DataCard4_8'.DataCardValue215_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Clasificación Viáticos_DataCard4_8'.DataCardValue215_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Detalle de gastos_DataCard4_8'.DataCardValue216_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Detalle de gastos_DataCard4_8'.DataCardValue216_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Detalle de gastos_DataCard4_8'.DataCardValue216_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Importe (Detalle Monto Factura)_DataCard2_8'.DataCardValue217_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Importe (Detalle Monto Factura)_DataCard2_8'.DataCardValue217_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Importe (Detalle Monto Factura)_DataCard2_8'.DataCardValue217_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'IVA (Detalle Monto Factura)_DataCard2_8'.DataCardValue218_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'IVA (Detalle Monto Factura)_DataCard2_8'.DataCardValue218_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'IVA (Detalle Monto Factura)_DataCard2_8'.DataCardValue218_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'ISH (Detalle Monto Factura)_DataCard2_8'.DataCardValue219_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'ISH (Detalle Monto Factura)_DataCard2_8'.DataCardValue219_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'ISH (Detalle Monto Factura)_DataCard2_8'.DataCardValue219_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.IEPS_DataCard4_8.DataCardValue225_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.IEPS_DataCard4_8.DataCardValue225_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.IEPS_DataCard4_8.DataCardValue225_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Ret IVA (Detalle Monto Factura)_DataCard2_8'.DataCardValue220_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Ret IVA (Detalle Monto Factura)_DataCard2_8'.DataCardValue220_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Ret IVA (Detalle Monto Factura)_DataCard2_8'.DataCardValue220_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Ret. ISR (Detalle Monto Factura)_DataCard2_8'.DataCardValue221_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Ret. ISR (Detalle Monto Factura)_DataCard2_8'.DataCardValue221_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Ret. ISR (Detalle Monto Factura)_DataCard2_8'.DataCardValue221_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Total (Detalle Monto Factura)_DataCard2_8'.DataCardValue222_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Total (Detalle Monto Factura)_DataCard2_8'.DataCardValue222_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Total (Detalle Monto Factura)_DataCard2_8'.DataCardValue222_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Tipo  de cambio_DataCard2_8'.DataCardValue223_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Tipo  de cambio_DataCard2_8'.DataCardValue223_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Tipo  de cambio_DataCard2_8'.DataCardValue223_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Total (MXN)_DataCard2_8'.DataCardValue224_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Total (MXN)_DataCard2_8'.DataCardValue224_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Total (MXN)_DataCard2_8'.DataCardValue224_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.Divisa_DataCard2_8.DataCardValue226_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.Divisa_DataCard2_8.DataCardValue226_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.Divisa_DataCard2_8.DataCardValue226_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard50_8.Dropdown6_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard50_8.Dropdown6_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.DataCard50_8.Dropdown6_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard51_8.Icon21_10.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard51_8.Icon21_10.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.DataCard51_8.Icon21_10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard51_8.Icon21_10.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard51_8.Icon21_10.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.DataCard51_8.Icon21_10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard52_8.TextInput17_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.DataCard52_8.TextInput17_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.DataCard52_8.TextInput17_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Importe (Prorrateo Factura)_DataCard4_8'.DataCardValue227_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Importe (Prorrateo Factura)_DataCard4_8'.DataCardValue227_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Importe (Prorrateo Factura)_DataCard4_8'.DataCardValue227_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'IVA (Prorrateo Factura)_DataCard4_8'.DataCardValue228_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'IVA (Prorrateo Factura)_DataCard4_8'.DataCardValue228_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'IVA (Prorrateo Factura)_DataCard4_8'.DataCardValue228_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'ISH (Prorrateo Factura)_DataCard4_8'.DataCardValue229_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'ISH (Prorrateo Factura)_DataCard4_8'.DataCardValue229_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'ISH (Prorrateo Factura)_DataCard4_8'.DataCardValue229_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'IESP (Prorrateo Factura)_DataCard6_1'.DataCardValue254_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'IESP (Prorrateo Factura)_DataCard6_1'.DataCardValue254_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'IESP (Prorrateo Factura)_DataCard6_1'.DataCardValue254_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Ret ISR (Prorrateo Factura)_DataCard4_8'.DataCardValue230_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Ret ISR (Prorrateo Factura)_DataCard4_8'.DataCardValue230_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Ret ISR (Prorrateo Factura)_DataCard4_8'.DataCardValue230_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Importe Prorrateo Factura_DataCard2_8'.DataCardValue231_8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Importe Prorrateo Factura_DataCard2_8'.DataCardValue231_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Importe Prorrateo Factura_DataCard2_8'.DataCardValue231_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Datos adjuntos_DataCard4_6'.DataCardValue17_13.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Datos adjuntos_DataCard4_6'.DataCardValue17_13.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Datos adjuntos_DataCard4_6'.DataCardValue17_13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Facturado a:_DataCard15_1'.DataCardValue251_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'Facturado a:_DataCard15_1'.DataCardValue251_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'Facturado a:_DataCard15_1'.DataCardValue251_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.VarGG"
                 }
               ],
@@ -46281,6 +49791,36 @@
                 "member": "Default",
                 "module": "Screen_Pago_Directo_Excel",
                 "type": "Screen_Pago_Directo_Excel.Form1_4.'IESP (Prorrateo Factura)_DataCard6'.DataCardValue254"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-InefficientDelayLoading",
+          "ruleIndex": 7
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'IESP (Prorrateo Factura)_DataCard6_1'.DataCardValue254_1.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'IESP (Prorrateo Factura)_DataCard6_1'.DataCardValue254_1.Default",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Default",
+                "module": "Screen_Pago_Directo_Excel",
+                "type": "Screen_Pago_Directo_Excel.Form1_6.'IESP (Prorrateo Factura)_DataCard6_1'.DataCardValue254_1"
               }
             }
           ],
