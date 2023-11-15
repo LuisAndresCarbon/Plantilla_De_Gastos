@@ -9,10 +9,10 @@ Screen_Pago_Directo_Excel As screen:
         Items: |-
             =Filter(
                 'Plantilla de Reembolsos de Gastos Final',
-                (Título = Label161_1.Text) &&
-                (Mes = Dropdown8.Selected.Value) &&
-                ('No. De Reembolso' = Dropdown7.Selected.Value) &&
-                ('Nombre del Colaborador' = Label163_1.Text)
+                (Título = Label161_5.Text) &&
+                (Mes = Dropdown8_4.Selected.Value) &&
+                ('No. De Reembolso' = Dropdown7_4.Selected.Value) &&
+                ('Nombre del Colaborador' = Label163_5.Text)
             )
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
@@ -491,16 +491,6 @@ Screen_Pago_Directo_Excel As screen:
                 Width: =45
                 ZIndex: =1
 
-    HtmlText1_6 As htmlViewer:
-        Height: =209
-        HtmlText: |-
-            =Concatenate("Estoy solicitando un </font></b>","<b><font color=blue>", Label161_5,"</font></b><br>","<b>No. Reembolso: </b>",Dropdown7_4.Selected.Value,"<br><b>Mes:</b> ",Dropdown8_4.Selected.Value,"<br><b>Destino:</b> ",ComboBox21_4.Selected.Value,"<br><b>Proposito:</b> ",TextInput19_4,"<br><b>Anticipo: $</b> ",Text(Value(TextInput18_4.Text),"[$-en-US]0,0.00"),"<br><b>Cantidad:</b> ","$ ",Text(Value(Text(Label56_14)),"[$-en-US]0,0.00"),"<br><b>Solicitado por:</b> ",Label163_5)
-        Visible: =false
-        Width: =442
-        X: =924
-        Y: =160
-        ZIndex: =5
-
     Label56_14 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -525,7 +515,7 @@ Screen_Pago_Directo_Excel As screen:
             )
         Visible: =false
         X: =515
-        ZIndex: =6
+        ZIndex: =5
 
     Label56_15 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -540,7 +530,7 @@ Screen_Pago_Directo_Excel As screen:
         Text: =Var_Revisión.Anticipo
         Visible: =false
         X: =688
-        ZIndex: =7
+        ZIndex: =6
 
     Label155_5 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -555,7 +545,7 @@ Screen_Pago_Directo_Excel As screen:
         Text: =LookUp(Col_Notificar,true).Anticipo
         X: =116
         Y: =104
-        ZIndex: =8
+        ZIndex: =7
 
     DataTable1_4 As dataTable.datatable:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -605,7 +595,7 @@ Screen_Pago_Directo_Excel As screen:
         Width: =1366
         X: =0
         Y: =322
-        ZIndex: =9
+        ZIndex: =8
 
         "'Fecha Doc._Columna1_4' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
@@ -1160,7 +1150,7 @@ Screen_Pago_Directo_Excel As screen:
         RadiusTopRight: =4
         Width: =1060
         Y: =55
-        ZIndex: =10
+        ZIndex: =9
 
         Label161_5 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -1222,7 +1212,7 @@ Screen_Pago_Directo_Excel As screen:
                 HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                 HoverColor: =RGBA(51, 51, 51, 1)
                 HoverFill: =RGBA(212, 212, 212, 1)
-                Items: =["1","2","3","4","5"]
+                Items: =["1","2","3","4","5","6","7","8","9","10"]
                 PaddingBottom: =5
                 PaddingLeft: =12
                 PaddingRight: =5
@@ -1626,7 +1616,7 @@ Screen_Pago_Directo_Excel As screen:
         Width: =1118
         X: =160
         Y: =167
-        ZIndex: =11
+        ZIndex: =10
 
         Título_DataCard7_6 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -7259,7 +7249,7 @@ Screen_Pago_Directo_Excel As screen:
         Width: =717
         X: =542
         Y: =353
-        ZIndex: =12
+        ZIndex: =11
 
         ComboBox26_8 As combobox:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -7503,7 +7493,7 @@ Screen_Pago_Directo_Excel As screen:
         Width: =717
         X: =542
         Y: =353
-        ZIndex: =13
+        ZIndex: =12
 
         ComboBox26_9 As combobox:
             BorderColor: =RGBA(166, 166, 166, 1)
@@ -7746,7 +7736,7 @@ Screen_Pago_Directo_Excel As screen:
         Width: =708
         X: =569
         Y: =376
-        ZIndex: =14
+        ZIndex: =13
 
         Container6_8 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.Light
@@ -8030,7 +8020,7 @@ Screen_Pago_Directo_Excel As screen:
         Width: =708
         X: =569
         Y: =376
-        ZIndex: =15
+        ZIndex: =14
 
         Container6_9 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.Light
@@ -8299,4 +8289,15 @@ Screen_Pago_Directo_Excel As screen:
                     X: =518
                     Y: =21
                     ZIndex: =7
+
+    HtmlText1_6 As htmlViewer:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =209
+        HtmlText: |-
+            =Concatenate("Estoy solicitando un </font></b>","<b><font color=blue>", Label161_5,"</font></b><br>","<b>No. Reembolso: </b>",Dropdown7_4.Selected.Value,"<br><b>Mes:</b> ",Dropdown8_4.Selected.Value,"<br><b>Destino:</b> ",ComboBox21_4.Selected.Value,"<br><b>Proposito:</b> ",TextInput19_4,"<br><b>Anticipo: $</b> ",Text(Value(TextInput18_4.Text),"[$-en-US]0,0.00"),"<br><b>Cantidad:</b> ","$ ",Text(Value(Text(Label56_14)),"[$-en-US]0,0.00"),"<br><b>Solicitado por:</b> ",Label163_5)
+        Visible: =false
+        Width: =442
+        X: =924
+        Y: =299
+        ZIndex: =15
 
