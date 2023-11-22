@@ -668,7 +668,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =7
+            Order: =8
             Text: =ThisItem.'Fecha Doc.'
             Width: =100
             X: =0
@@ -682,7 +682,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =8
+            Order: =9
             Text: =ThisItem.'No. Consecutivo de Recibo'
             Width: =100
             X: =0
@@ -697,7 +697,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =9
+            Order: =10
             Text: |-
                 =ThisItem.'No. De Factura / CFDI: Folio Fiscal'
             Width: =100
@@ -712,7 +712,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =10
+            Order: =11
             Text: =ThisItem.'Project ID'
             Width: =100
             X: =0
@@ -726,7 +726,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =11
+            Order: =12
             Text: =ThisItem.'Aggregation ID'
             Width: =100
             X: =0
@@ -740,7 +740,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =12
+            Order: =13
             Text: =ThisItem.'Mercuria Cycle'
             Width: =100
             X: =0
@@ -754,7 +754,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =13
+            Order: =14
             Text: =ThisItem.'Project Name'
             Width: =100
             X: =0
@@ -769,7 +769,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =14
+            Order: =15
             Text: |-
                 =ThisItem.'Concepto (Ejido: CAPEX / OPEX)'
             Width: =100
@@ -785,7 +785,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =15
+            Order: =16
             Text: |-
                 =ThisItem.'Cta (Ejido: CAPEX/ OPEX)'
             Width: =100
@@ -800,7 +800,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =16
+            Order: =18
             Text: =ThisItem.'Concepto (gastos generales)'
             Width: =100
             X: =0
@@ -814,7 +814,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =17
+            Order: =19
             Text: =ThisItem.'Cta (gastos generales)'
             Width: =100
             X: =0
@@ -828,7 +828,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =18
+            Order: =20
             Text: =ThisItem.'CtaCompaq (gastos generales)'
             Width: =100
             X: =0
@@ -842,7 +842,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =19
+            Order: =21
             Text: =ThisItem.'Clasificación Viáticos'
             Width: =100
             X: =0
@@ -856,7 +856,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =20
+            Order: =22
             Text: =ThisItem.'Detalle de gastos'
             Width: =100
             X: =0
@@ -870,7 +870,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =21
+            Order: =23
             Text: =ThisItem.'Importe (Prorrateo Factura)'
             Width: =100
             X: =0
@@ -884,7 +884,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =22
+            Order: =24
             Text: =ThisItem.'IVA (Prorrateo Factura)'
             Width: =100
             X: =0
@@ -898,7 +898,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =23
+            Order: =25
             Text: =ThisItem.'ISH (Prorrateo Factura)'
             Width: =100
             X: =0
@@ -912,7 +912,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =24
+            Order: =26
             Text: =ThisItem.'Ret ISR (Prorrateo Factura)'
             Width: =100
             X: =0
@@ -926,7 +926,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =25
+            Order: =27
             Text: =ThisItem.'Importe Prorrateo Factura'
             Width: =100
             X: =0
@@ -940,7 +940,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =26
+            Order: =28
             Text: =ThisItem.Divisa
             Width: =100
             X: =0
@@ -954,7 +954,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =27
+            Order: =29
             Text: =ThisItem.'Importe (Detalle Monto Factura)'
             Width: =100
             X: =0
@@ -968,7 +968,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =28
+            Order: =30
             Text: =ThisItem.'IVA (Detalle Monto Factura)'
             Width: =100
             X: =0
@@ -982,7 +982,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =29
+            Order: =31
             Text: =ThisItem.'ISH (Detalle Monto Factura)'
             Width: =100
             X: =0
@@ -996,7 +996,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =30
+            Order: =33
             Text: =ThisItem.'Ret IVA (Detalle Monto Factura)'
             Width: =100
             X: =0
@@ -1010,7 +1010,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =31
+            Order: =34
             Text: =ThisItem.'Ret. ISR (Detalle Monto Factura)'
             Width: =100
             X: =0
@@ -1024,7 +1024,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =32
+            Order: =35
             Text: =ThisItem.'Total (Detalle Monto Factura)'
             Width: =100
             X: =0
@@ -1038,7 +1038,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =33
+            Order: =36
             Text: =ThisItem.'Tipo  de cambio'
             Width: =100
             X: =0
@@ -1052,68 +1052,12 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =34
+            Order: =37
             Text: =ThisItem.'Total (MXN)'
             Width: =100
             X: =0
             Y: =0
             ZIndex: =49
-
-        Comentarios_Columna1 As dataTableColumn.textualColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Comentarios"
-            FieldName: ="Comentarios"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =35
-            Text: =ThisItem.Comentarios
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =50
-
-        "'Autorización Gerente_Columna1' As dataTableColumn.textualColumn":
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Autorización Gerente"
-            FieldName: ="Autorizaci_x00f3_nSupervisor"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =36
-            Text: =ThisItem.'Autorización Gerente'.Value
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =51
-
-        "'Autorización Finanzas_Columna1' As dataTableColumn.textualColumn":
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Autorización Finanzas"
-            FieldName: ="Autorizaci_x00f3_nCarlos"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =37
-            Text: =ThisItem.'Autorización Finanzas'.Value
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =52
-
-        "'No. De Reembolso_Columna1' As dataTableColumn.textualColumn":
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="No. De Reembolso"
-            FieldName: ="No_x002e_DeReembolso"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =38
-            Text: =ThisItem.'No. De Reembolso'
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =53
 
         "'Cta. Contpaq (Ejido: CAPEX / OPEX)_Columna1' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
@@ -1123,41 +1067,13 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =39
+            Order: =17
             Text: |-
                 =ThisItem.'Cta. Contpaq (Ejido: CAPEX / OPEX)'
             Width: =100
             X: =0
             Y: =0
             ZIndex: =54
-
-        "'Nombre del Colaborador_Columna1' As dataTableColumn.textualColumn":
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Nombre del Colaborador"
-            FieldName: ="NombredelColaborador"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =40
-            Text: =ThisItem.'Nombre del Colaborador'
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =55
-
-        Mes_Columna1 As dataTableColumn.textualColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Mes"
-            FieldName: ="Mes"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =41
-            Text: =ThisItem.Mes
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =56
 
         "'Facturado a:_Columna1' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
@@ -1167,27 +1083,13 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =42
+            Order: =7
             Text: |-
                 =ThisItem.'Facturado a:'
             Width: =100
             X: =0
             Y: =0
             ZIndex: =57
-
-        "'Registro Formato Compaq_Columna1' As dataTableColumn.textualColumn":
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Registro Formato Compaq"
-            FieldName: ="RegistroFormatoCompaq"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =43
-            Text: =ThisItem.'Registro Formato Compaq'.Value
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =58
 
         IEPS_Columna1 As dataTableColumn.textualColumn:
             DisplayMode: =DisplayMode.Edit
@@ -1196,7 +1098,7 @@ Screen_Reembolso_Excel As screen:
             FieldVariantName: ="textualColumn"
             Height: =Parent.Height
             LayoutHeight: =Parent.Height
-            Order: =44
+            Order: =32
             Text: =ThisItem.IEPS
             Width: =100
             X: =0
