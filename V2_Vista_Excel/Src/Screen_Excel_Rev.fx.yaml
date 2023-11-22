@@ -452,6 +452,20 @@ Screen_Excel_Rev As screen:
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
+            Visible: |-
+                =Switch(true,
+                User().FullName = "Carlos Alfredo Avila Alfonso", true,
+                User().FullName = "Miguel Pichardo", true,
+                User().FullName = "Jaqueline Reyes Garcia", true,
+                User().FullName = "Orlando Rojas Santoyo", true,
+                User().FullName = "Lourdes Maldonado", true,
+                User().FullName = "Lizette Hernandez", true,
+                User().FullName = "Dinosca Rondon", true,
+                User().FullName = "Santiago Mora", true,
+                User().FullName = "Roberto Vallejo", true,
+                User().FullName = "Miguel Angel Garcia", true,
+                User().FullName = "Jose Luis Castro Negrete", true
+                )
             Width: =160
             X: =949
             Y: =12
@@ -13817,7 +13831,7 @@ Screen_Excel_Rev As screen:
     Autorización_Rev As groupContainer.manualLayoutContainer:
         BorderThickness: =2
         DropShadow: =DropShadow.Light
-        Height: =220
+        Height: =236
         RadiusBottomLeft: =4
         RadiusBottomRight: =4
         RadiusTopLeft: =4
@@ -13897,9 +13911,635 @@ Screen_Excel_Rev As screen:
 
         Form4 As form:
             BorderColor: =RGBA(166, 166, 166, 1)
+            DataSource: ='Plantilla de Reembolsos de Gastos Final'
             Fill: =RGBA(204, 204, 204, 1)
-            Height: =Parent.Height-40
+            Height: =198
+            Item: =DataTable1_2.Selected
+            NumberOfColumns: =2
             Width: =Parent.Width
             Y: =38
             ZIndex: =2
+
+            "'Autorización Gerente_DataCard1' As typedDataCard.comboBoxEditCard":
+                BorderColor: =RGBA(166, 166, 166, 1)
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="Autorizaci_x00f3_nSupervisor"
+                Default: =ThisItem.'Autorización Gerente'
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'],DataSourceInfo.DisplayName,"Autorizaci_x00f3_nSupervisor")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =50
+                Required: =false
+                Update: =DataCardValue199.Selected
+                Visible: |-
+                    =Switch(true,
+                    User().FullName = "Orlando Rojas Santoyo", true,
+                    User().FullName = "Lourdes Maldonado", true,
+                    User().FullName = "Lizette Hernandez", true,
+                    User().FullName = "Dinosca Rondon", true,
+                    User().FullName = "Santiago Mora", true,
+                    User().FullName = "Roberto Vallejo", true,
+                    User().FullName = "Miguel Angel Garcia", true,
+                    User().FullName = "Jose Luis Castro Negrete", true
+                    )
+                Width: =422
+                X: =0
+                Y: =0
+                ZIndex: =1
+
+                DataCardKey199 As label:
+                    AutoHeight: =true
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =34
+                    PaddingLeft: =0
+                    Size: =13
+                    Text: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    Wrap: =false
+                    X: =30
+                    Y: =10
+                    ZIndex: =1
+
+                DataCardValue199 As combobox:
+                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    ChevronBackground: =RGBA(255, 255, 255, 1)
+                    ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+                    ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+                    ChevronFill: =RGBA(33, 33, 33, 1)
+                    ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+                    ChevronHoverFill: =RGBA(33, 33, 33, 1)
+                    Color: =RGBA(51, 51, 51, 1)
+                    DefaultSelectedItems: =Parent.Default
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    DisplayFields: =["Value"]
+                    DisplayMode: =Parent.DisplayMode
+                    Font: =Font.'Segoe UI'
+                    HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                    HoverColor: =RGBA(51, 51, 51, 1)
+                    HoverFill: =RGBA(212, 212, 212, 1)
+                    Items: =Choices([@'Plantilla de Reembolsos de Gastos Final'].Autorizaci_x00f3_nSupervisor)
+                    PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                    PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                    PressedColor: =RGBA(255, 255, 255, 1)
+                    PressedFill: =RGBA(73, 130, 5, 1)
+                    SearchFields: =["Value"]
+                    SearchItems: =Choices('Plantilla de Reembolsos de Gastos Final'.Autorizaci_x00f3_nSupervisor,DataCardValue199.SearchText)
+                    SelectionFill: =RGBA(73, 130, 5, 1)
+                    SelectMultiple: =false
+                    Size: =13
+                    Tooltip: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardKey199.Y + DataCardKey199.Height + 5
+                    ZIndex: =2
+
+                ErrorMessage198 As label:
+                    AutoHeight: =true
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(168, 0, 0, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(168, 0, 0, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =10
+                    Live: =Live.Assertive
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =13
+                    Text: =Parent.Error
+                    Visible: =Parent.DisplayMode=DisplayMode.Edit
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardValue199.Y + DataCardValue199.Height
+                    ZIndex: =3
+
+                StarVisible198 As label:
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =DataCardKey199.Height
+                    PaddingLeft: =0
+                    Size: =13
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    Wrap: =false
+                    Y: =DataCardKey199.Y
+                    ZIndex: =4
+
+            "'Comentario Gerente_DataCard1' As typedDataCard.textualEditCard":
+                BorderColor: =RGBA(166, 166, 166, 1)
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="Comentario_x0020_Gerente"
+                Default: =ThisItem.'Comentario Gerente'
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'],DataSourceInfo.DisplayName,"Comentario_x0020_Gerente")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =50
+                MaxLength: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'], DataSourceInfo.MaxLength, "Comentario_x0020_Gerente")
+                Required: =false
+                Update: =DataCardValue204.Text
+                Visible: |-
+                    =Switch(true,
+                    User().FullName = "Orlando Rojas Santoyo", true,
+                    User().FullName = "Lourdes Maldonado", true,
+                    User().FullName = "Lizette Hernandez", true,
+                    User().FullName = "Dinosca Rondon", true,
+                    User().FullName = "Santiago Mora", true,
+                    User().FullName = "Roberto Vallejo", true,
+                    User().FullName = "Miguel Angel Garcia", true,
+                    User().FullName = "Jose Luis Castro Negrete", true
+                    )
+                Width: =422
+                X: =1
+                Y: =0
+                ZIndex: =1
+
+                DataCardKey204 As label:
+                    AutoHeight: =true
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =34
+                    PaddingLeft: =0
+                    Size: =13
+                    Text: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    Wrap: =false
+                    X: =30
+                    Y: =10
+                    ZIndex: =1
+
+                DataCardValue204 As text:
+                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    Default: =Parent.Default
+                    DelayOutput: =true
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    DisplayMode: =Parent.DisplayMode
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                    HoverColor: =RGBA(51, 51, 51, 1)
+                    HoverFill: =RGBA(255, 255, 255, 1)
+                    MaxLength: =Parent.MaxLength
+                    PaddingLeft: =5
+                    PressedBorderColor: =RGBA(73, 130, 5, 1)
+                    PressedColor: =RGBA(51, 51, 51, 1)
+                    PressedFill: =RGBA(255, 255, 255, 1)
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Size: =13
+                    Tooltip: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardKey204.Y + DataCardKey204.Height + 5
+                    ZIndex: =2
+
+                ErrorMessage203 As label:
+                    AutoHeight: =true
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(168, 0, 0, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(168, 0, 0, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =10
+                    Live: =Live.Assertive
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =13
+                    Text: =Parent.Error
+                    Visible: =Parent.DisplayMode=DisplayMode.Edit
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardValue204.Y + DataCardValue204.Height
+                    ZIndex: =3
+
+                StarVisible203 As label:
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =DataCardKey204.Height
+                    PaddingLeft: =0
+                    Size: =13
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    Wrap: =false
+                    Y: =DataCardKey204.Y
+                    ZIndex: =4
+
+            "'Autorización Finanzas_DataCard1' As typedDataCard.comboBoxEditCard":
+                BorderColor: =RGBA(166, 166, 166, 1)
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="Autorizaci_x00f3_nCarlos"
+                Default: =ThisItem.'Autorización Finanzas'
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'],DataSourceInfo.DisplayName,"Autorizaci_x00f3_nCarlos")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =50
+                Required: =false
+                Update: =DataCardValue255.Selected
+                Visible: |-
+                    =Switch(true,
+                    User().FullName = "Carlos Alfredo Avila Alfonso", true,
+                    User().FullName = "Miguel Pichardo", true,
+                    User().FullName = "Jaqueline Reyes Garcia", true
+                    )
+                Width: =422
+                X: =0
+                Y: =1
+                ZIndex: =1
+
+                DataCardKey255 As label:
+                    AutoHeight: =true
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =34
+                    PaddingLeft: =0
+                    Size: =13
+                    Text: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    Wrap: =false
+                    X: =30
+                    Y: =10
+                    ZIndex: =1
+
+                DataCardValue255 As combobox:
+                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    ChevronBackground: =RGBA(255, 255, 255, 1)
+                    ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+                    ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+                    ChevronFill: =RGBA(33, 33, 33, 1)
+                    ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+                    ChevronHoverFill: =RGBA(33, 33, 33, 1)
+                    Color: =RGBA(51, 51, 51, 1)
+                    DefaultSelectedItems: =Parent.Default
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    DisplayFields: =["Value"]
+                    DisplayMode: =Parent.DisplayMode
+                    Font: =Font.'Segoe UI'
+                    HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                    HoverColor: =RGBA(51, 51, 51, 1)
+                    HoverFill: =RGBA(212, 212, 212, 1)
+                    Items: =Choices([@'Plantilla de Reembolsos de Gastos Final'].Autorizaci_x00f3_nCarlos)
+                    PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                    PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                    PressedColor: =RGBA(255, 255, 255, 1)
+                    PressedFill: =RGBA(73, 130, 5, 1)
+                    SearchFields: =["Value"]
+                    SearchItems: =Choices('Plantilla de Reembolsos de Gastos Final'.Autorizaci_x00f3_nCarlos,DataCardValue255.SearchText)
+                    SelectionFill: =RGBA(73, 130, 5, 1)
+                    SelectMultiple: =false
+                    Size: =13
+                    Tooltip: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardKey255.Y + DataCardKey255.Height + 5
+                    ZIndex: =2
+
+                ErrorMessage254 As label:
+                    AutoHeight: =true
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(168, 0, 0, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(168, 0, 0, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =10
+                    Live: =Live.Assertive
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =13
+                    Text: =Parent.Error
+                    Visible: =Parent.DisplayMode=DisplayMode.Edit
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardValue255.Y + DataCardValue255.Height
+                    ZIndex: =3
+
+                StarVisible254 As label:
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =DataCardKey255.Height
+                    PaddingLeft: =0
+                    Size: =13
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    Wrap: =false
+                    Y: =DataCardKey255.Y
+                    ZIndex: =4
+
+            Comentarios_DataCard2 As typedDataCard.textualEditCard:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="Comentarios"
+                Default: =ThisItem.Comentarios
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'],DataSourceInfo.DisplayName,"Comentarios")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =50
+                MaxLength: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'], DataSourceInfo.MaxLength, "Comentarios")
+                Required: =false
+                Update: =DataCardValue256.Text
+                Visible: |-
+                    =Switch(true,
+                    User().FullName = "Carlos Alfredo Avila Alfonso", true,
+                    User().FullName = "Miguel Pichardo", true,
+                    User().FullName = "Jaqueline Reyes Garcia", true
+                    )
+                Width: =422
+                X: =1
+                Y: =1
+                ZIndex: =1
+
+                DataCardKey256 As label:
+                    AutoHeight: =true
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =34
+                    PaddingLeft: =0
+                    Size: =13
+                    Text: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    Wrap: =false
+                    X: =30
+                    Y: =10
+                    ZIndex: =1
+
+                DataCardValue256 As text:
+                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    Default: =Parent.Default
+                    DelayOutput: =true
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    DisplayMode: =Parent.DisplayMode
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                    HoverColor: =RGBA(51, 51, 51, 1)
+                    HoverFill: =RGBA(255, 255, 255, 1)
+                    MaxLength: =Parent.MaxLength
+                    PaddingLeft: =5
+                    PressedBorderColor: =RGBA(73, 130, 5, 1)
+                    PressedColor: =RGBA(51, 51, 51, 1)
+                    PressedFill: =RGBA(255, 255, 255, 1)
+                    RadiusBottomLeft: =0
+                    RadiusBottomRight: =0
+                    RadiusTopLeft: =0
+                    RadiusTopRight: =0
+                    Size: =13
+                    Tooltip: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardKey256.Y + DataCardKey256.Height + 5
+                    ZIndex: =2
+
+                ErrorMessage255 As label:
+                    AutoHeight: =true
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(168, 0, 0, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(168, 0, 0, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =10
+                    Live: =Live.Assertive
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =13
+                    Text: =Parent.Error
+                    Visible: =Parent.DisplayMode=DisplayMode.Edit
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardValue256.Y + DataCardValue256.Height
+                    ZIndex: =3
+
+                StarVisible255 As label:
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =DataCardKey256.Height
+                    PaddingLeft: =0
+                    Size: =13
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    Wrap: =false
+                    Y: =DataCardKey256.Y
+                    ZIndex: =4
+
+            "'Corrección _DataCard2' As typedDataCard.comboBoxMultiSelectEditCard":
+                BorderColor: =RGBA(166, 166, 166, 1)
+                BorderStyle: =BorderStyle.Solid
+                DataField: ="Correcci_x00f3_n"
+                Default: =ThisItem.'Corrección '
+                DisplayMode: =Parent.DisplayMode
+                DisplayName: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'],DataSourceInfo.DisplayName,"Correcci_x00f3_n")
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =50
+                Required: =false
+                Update: =DataCardValue257.SelectedItems
+                Visible: |-
+                    =Switch(true,
+                    User().FullName = "Carlos Alfredo Avila Alfonso", true,
+                    User().FullName = "Miguel Pichardo", true,
+                    User().FullName = "Jaqueline Reyes Garcia", true
+                    )
+                Width: =422
+                X: =0
+                Y: =2
+                ZIndex: =1
+
+                DataCardKey257 As label:
+                    AutoHeight: =true
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =34
+                    PaddingLeft: =0
+                    Size: =13
+                    Text: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    Wrap: =false
+                    X: =30
+                    Y: =10
+                    ZIndex: =1
+
+                DataCardValue257 As combobox:
+                    BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                    ChevronBackground: =RGBA(255, 255, 255, 1)
+                    ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+                    ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+                    ChevronFill: =RGBA(33, 33, 33, 1)
+                    ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+                    ChevronHoverFill: =RGBA(33, 33, 33, 1)
+                    Color: =RGBA(51, 51, 51, 1)
+                    DefaultSelectedItems: =Parent.Default
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    DisabledFill: =RGBA(244, 244, 244, 1)
+                    DisplayFields: =["Value"]
+                    DisplayMode: =Parent.DisplayMode
+                    Font: =Font.'Segoe UI'
+                    HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                    HoverColor: =RGBA(51, 51, 51, 1)
+                    HoverFill: =RGBA(212, 212, 212, 1)
+                    Items: =Choices([@'Plantilla de Reembolsos de Gastos Final'].Correcci_x00f3_n)
+                    PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                    PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                    PressedColor: =RGBA(255, 255, 255, 1)
+                    PressedFill: =RGBA(73, 130, 5, 1)
+                    SearchFields: =["Value"]
+                    SearchItems: =Choices('Plantilla de Reembolsos de Gastos Final'.Correcci_x00f3_n,DataCardValue257.SearchText)
+                    SelectionFill: =RGBA(73, 130, 5, 1)
+                    Size: =13
+                    Tooltip: =Parent.DisplayName
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardKey257.Y + DataCardKey257.Height + 5
+                    ZIndex: =2
+
+                ErrorMessage256 As label:
+                    AutoHeight: =true
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(168, 0, 0, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(168, 0, 0, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =10
+                    Live: =Live.Assertive
+                    PaddingBottom: =0
+                    PaddingLeft: =0
+                    PaddingRight: =0
+                    PaddingTop: =0
+                    Size: =13
+                    Text: =Parent.Error
+                    Visible: =Parent.DisplayMode=DisplayMode.Edit
+                    Width: =Parent.Width - 60
+                    X: =30
+                    Y: =DataCardValue257.Y + DataCardValue257.Height
+                    ZIndex: =3
+
+                StarVisible256 As label:
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    Color: =RGBA(51, 51, 51, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(166, 166, 166, 1)
+                    FocusedBorderThickness: =4
+                    Font: =Font.'Segoe UI'
+                    FontWeight: =FontWeight.Semibold
+                    Height: =DataCardKey257.Height
+                    PaddingLeft: =0
+                    Size: =13
+                    Text: ="*"
+                    Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                    Width: =30
+                    Wrap: =false
+                    Y: =DataCardKey257.Y
+                    ZIndex: =4
 
