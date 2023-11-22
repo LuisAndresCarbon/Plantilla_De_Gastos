@@ -376,8 +376,9 @@ Screen_Excel_Rev As screen:
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
+            Visible: =User().FullName = Label163_3.Text
             Width: =216
-            X: =543
+            X: =538
             Y: =12
             ZIndex: =5
 
@@ -415,6 +416,7 @@ Screen_Excel_Rev As screen:
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
+            Visible: =User().FullName = Label163_3.Text
             Width: =160
             X: =774
             Y: =12
@@ -467,7 +469,7 @@ Screen_Excel_Rev As screen:
                 User().FullName = "Jose Luis Castro Negrete", true
                 )
             Width: =160
-            X: =949
+            X: =944
             Y: =12
             ZIndex: =7
 
@@ -560,8 +562,9 @@ Screen_Excel_Rev As screen:
             RadiusBottomRight: =4
             RadiusTopLeft: =4
             RadiusTopRight: =4
+            Visible: =User().FullName = Label163_3.Text
             Width: =150
-            X: =378
+            X: =954
             Y: =12
             ZIndex: =8
 
