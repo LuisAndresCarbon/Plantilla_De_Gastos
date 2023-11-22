@@ -1005,48 +1005,6 @@ Screen_Comprobación_Excel As screen:
             Y: =0
             ZIndex: =49
 
-        Comentarios_Columna1_3 As dataTableColumn.textualColumn:
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Comentarios"
-            FieldName: ="Comentarios"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =42
-            Text: =ThisItem.Comentarios
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =50
-
-        "'Autorización Gerente_Columna1_3' As dataTableColumn.textualColumn":
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Autorización Gerente"
-            FieldName: ="Autorizaci_x00f3_nSupervisor"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =39
-            Text: =ThisItem.'Autorización Gerente'.Value
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =51
-
-        "'Autorización Finanzas_Columna1_3' As dataTableColumn.textualColumn":
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Autorización Finanzas"
-            FieldName: ="Autorizaci_x00f3_nCarlos"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =41
-            Text: =ThisItem.'Autorización Finanzas'.Value
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =52
-
         "'Cta. Contpaq (Ejido: CAPEX / OPEX)_Columna1_3' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: |-
@@ -1092,20 +1050,6 @@ Screen_Comprobación_Excel As screen:
             X: =0
             Y: =0
             ZIndex: =59
-
-        "'Comentario Gerente_Columna3' As dataTableColumn.textualColumn":
-            DisplayMode: =DisplayMode.Edit
-            FieldDisplayName: ="Comentario Gerente"
-            FieldName: ="Comentario_x0020_Gerente"
-            FieldVariantName: ="textualColumn"
-            Height: =Parent.Height
-            LayoutHeight: =Parent.Height
-            Order: =40
-            Text: =ThisItem.'Comentario Gerente'
-            Width: =100
-            X: =0
-            Y: =0
-            ZIndex: =60
 
         "'IESP (Prorrateo Factura)_Columna3' As dataTableColumn.textualColumn":
             DisplayMode: =DisplayMode.Edit

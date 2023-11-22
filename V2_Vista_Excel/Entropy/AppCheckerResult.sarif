@@ -49009,6 +49009,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'IESP (Prorrateo Factura)_DataCard7'.DataCardValue197.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen_Reembolso_Excel.Form1_5.'IESP (Prorrateo Factura)_DataCard7'.DataCardValue197.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen_Reembolso_Excel",
+                "type": "Screen_Reembolso_Excel.Form1_5.'IESP (Prorrateo Factura)_DataCard7'.DataCardValue197"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.VarGG"
                 }
               ],
@@ -49733,36 +49763,6 @@
                 "member": "Default",
                 "module": "Screen_Pago_Directo_Excel",
                 "type": "Screen_Pago_Directo_Excel.Form1_4.'IESP (Prorrateo Factura)_DataCard6'.DataCardValue254"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 7
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'IESP (Prorrateo Factura)_DataCard6_1'.DataCardValue254_1.Default"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Screen_Pago_Directo_Excel.Form1_6.'IESP (Prorrateo Factura)_DataCard6_1'.DataCardValue254_1.Default",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Default",
-                "module": "Screen_Pago_Directo_Excel",
-                "type": "Screen_Pago_Directo_Excel.Form1_6.'IESP (Prorrateo Factura)_DataCard6_1'.DataCardValue254_1"
               }
             }
           ],
