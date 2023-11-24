@@ -12813,6 +12813,7 @@ Screen_Reembolso_Excel As screen:
             SearchItems: |-
                 =Search(Sort(ForAll(Distinct('Cuentas Capex y Opex',Cta), {Result: ThisRecord.Value}),Result,SortOrder.Ascending),ComboBox27_1.SearchText,"Result")
             SelectionFill: =RGBA(73, 130, 5, 1)
+            SelectMultiple: =false
             Size: =13
             X: =24
             Y: =66
@@ -12845,6 +12846,7 @@ Screen_Reembolso_Excel As screen:
             SearchItems: |-
                 =Search(Sort(ForAll(Distinct('Cuentas Capex y Opex',Concepto), {Result: ThisRecord.Value}),Result,SortOrder.Ascending),ComboBox28_1.SearchText,"Result")
             SelectionFill: =RGBA(73, 130, 5, 1)
+            SelectMultiple: =false
             Size: =13
             X: =380
             Y: =66
@@ -13096,6 +13098,7 @@ Screen_Reembolso_Excel As screen:
             SearchItems: |-
                 =Search(Sort(ForAll(Distinct('Cuentas de Gastos Generales',Titulo), {Result: ThisRecord.Value}),Result,SortOrder.Ascending),ComboBox27.SearchText,"Result")
             SelectionFill: =RGBA(73, 130, 5, 1)
+            SelectMultiple: =false
             Size: =13
             X: =24
             Y: =66
@@ -13128,6 +13131,7 @@ Screen_Reembolso_Excel As screen:
             SearchItems: |-
                 =Search(Sort(ForAll(Distinct('Cuentas de Gastos Generales',Concepto), {Result: ThisRecord.Value}),Result,SortOrder.Ascending),ComboBox28.SearchText,"Result")
             SelectionFill: =RGBA(73, 130, 5, 1)
+            SelectMultiple: =false
             Size: =13
             X: =380
             Y: =66

@@ -211,35 +211,14 @@ Inicio As screen:
         HoverColor: =RGBA(3, 115, 105, 1)
         HoverFill: =ColorFade(RGBA(0,0,0,0), -1%)
         OnSelect: |-
-            =If(
-                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May","Miguel Pichardo","Miguel Angel Garcia","Cesar Gonzalez","Alejandra Aguillon","Jaqueline Reyes Garcia","Carolina Martinez","Diana Laura Jimenez","Rosalba Diaz","Roberto Vallejo","Lizette Hernandez"],
-                Reset(TextInput19_1);
+            =    Reset(TextInput19_1);
                 Reset(TextInput18_1);
                 Reset(Dropdown8_1);
                 Reset(Dropdown7_1);
                 Reset(ComboBox21_1);
                 Set(Ver_Nuevo,Blank());
                 Set(Var_FCM,Blank());
-                Navigate(Screen_Anticipo_Excel,ScreenTransition.Cover),
-            //Pj
-            Reset(ComboBox23_1); Reset(ComboBox20);Reset(DatePicker1_1);Reset(DatePicker2_1);Reset(ComboBox22);Reset(TextInput5_24);Reset(TextInput5_25);
-            
-            //IF
-            Reset(DatePicker3_1);Reset(TextInput5_20);Reset(TextInput5_21);Reset(Radio2_1);Reset(TextInput5_26);Reset(TextInput5_27);Reset(TextInput5_28);Reset(TextInput9_1);Reset(TextInput5_29);Reset(TextInput5_30);Reset(TextInput5_32);Reset(Dropdown1_1);
-            
-            // IE
-            Set(Var_Erpa,Blank());Set(Var_sin_Erpa,Blank());
-            
-            //E:C/O
-            Set(Var_ECO,Blank());
-            
-            //GG
-            Set(Var_GG,Blank());
-            
-            //Gastos y Prorrateo
-            Reset(Dropdown2_1);Reset(TextInput4_26);Reset(TextInput2_1);
-            Set(varSM,0);Navigate(Screen_Anticipo,ScreenTransition.Cover)
-            )
+                Navigate(Screen_Anticipo_Excel,ScreenTransition.Cover)
         PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -5%)
         PressedColor: =RGBA(61, 184, 123, 1)
         PressedFill: =ColorFade(RGBA(0,0,0,0), -1%)
@@ -269,8 +248,7 @@ Inicio As screen:
         HoverColor: =RGBA(3, 115, 105, 1)
         HoverFill: =ColorFade(RGBA(0,0,0,0), -1%)
         OnSelect: |-
-            =If(
-                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May","Carlos Alfredo Avila Alfonso","Miguel Pichardo","Miguel Angel Garcia","Cesar Gonzalez","Alejandra Aguillon","Jaqueline Reyes Garcia","Carolina Martinez","Roberto Vallejo","Rosalba Diaz","Lizette Hernandez"],
+            =
                 Reset(Dropdown7);
                 Reset(Dropdown8);
                 Reset(TextInput19);
@@ -278,30 +256,7 @@ Inicio As screen:
                 Reset(ComboBox21);
                 Set(Ver_Nuevo,Blank());
                 Set(Var_FCM,Blank());
-                Navigate(Screen_Reembolso_Excel,ScreenTransition.Cover),
-            //Pj
-            Reset(ComboBox23_2); Reset(ComboBox20_2);Reset(DatePicker1);Reset(DatePicker2);Reset(ComboBox22_2);Reset(TextInput5_7);Reset(TextInput5_8);
-            //If - Comprobante
-            Reset(TextInput5_10);Reset(TextInput5_11);Reset(Radio2);
-            //Detalles de la Factura
-            Reset(TextInput5_12);Reset(TextInput5_13);Reset(TextInput5_14);Reset(TextInput9);Reset(TextInput5_15);Reset(TextInput5_16);Reset(TextInput5_18);Reset(Dropdown1);
-            
-            //IE 
-            Set(Var_Erpa,Blank());
-            Set(Var_sin_Erpa,Blank());
-            
-            //E:C/O
-            Set(Var_ECO,Blank());
-            
-            //GG
-            Set(Var_GG,Blank());
-            
-            //Gastos Generales y Proorrateo
-            Reset(Dropdown2);Reset(TextInput4_12);Reset(TextInput2);
-            
-            Set(varSM,0);
-            Navigate(Screen_Reembolso,ScreenTransition.Cover)
-            )
+                Navigate(Screen_Reembolso_Excel,ScreenTransition.Cover)
         PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -5%)
         PressedColor: =RGBA(61, 184, 123, 1)
         PressedFill: =ColorFade(RGBA(0,0,0,0), -1%)
@@ -333,8 +288,7 @@ Inicio As screen:
         HoverColor: =RGBA(3, 115, 105, 1)
         HoverFill: =ColorFade(RGBA(0,0,0,0), -1%)
         OnSelect: |-
-            =If(
-                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May","Miguel Pichardo","Miguel Angel Garcia","Cesar Gonzalez","Alejandra Aguillon","Jaqueline Reyes Garcia","Carolina Martinez","Rosalba Diaz","Lizette Hernandez","Daniel Matias Sosa"],
+            =
                 Reset(Dropdown7_4);
                 Reset(Dropdown8_4);
                 Reset(TextInput19_4);
@@ -342,24 +296,7 @@ Inicio As screen:
                 Reset(ComboBox21_4);
                 Set(Ver_Nuevo,Blank());
                 Set(Var_FCM,Blank());
-                Navigate(Screen_Pago_Directo_Excel),
-            //Pj
-            Reset(ComboBox23_3);Reset(ComboBox20_1);Reset(DatePicker1_2);Reset(DatePicker2_2);Reset(ComboBox22_1);Reset(TextInput5_41);Reset(TextInput5_42);
-            
-            //IF
-            Reset(DatePicker3_2);Reset(TextInput5_37);Reset(TextInput5_38);Reset(Radio2_2);Reset(TextInput5_43);Reset(TextInput5_44);Reset(TextInput5_45);Reset(TextInput9_2);Reset(TextInput5_46);Reset(TextInput5_47);Reset(TextInput5_49);Reset(Dropdown1_2);
-            
-            //IE
-            Set(Var_Erpa,Blank());Set(Var_sin_Erpa,Blank());
-            
-            //E:C/O
-            Set(Var_ECO,Blank());Set(Var_GG,Blank());
-            
-            //Gastos y Prorrateo
-            Reset(Dropdown2_2);Reset(TextInput4_41);Reset(TextInput2_2);
-            
-            Set(varSM,0); Navigate(Screen_Directo,ScreenTransition.Cover)
-            )
+                Navigate(Screen_Pago_Directo_Excel)
         PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -5%)
         PressedColor: =RGBA(61, 184, 123, 1)
         PressedFill: =ColorFade(RGBA(0,0,0,0), -1%)
@@ -448,19 +385,15 @@ Inicio As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(3, 115, 105, 1)
         HoverFill: =ColorFade(RGBA(0,0,0,0), -1%)
-        OnSelect: |
-            =If(
-                User().FullName in ["Yenisey Reyes", "Uriel Zavala Huerta", "Daniel Matias Sosa", "Egle May","Miguel Pichardo","Miguel Angel Garcia","Cesar Gonzalez","Carolina Martinez","Rosalba Diaz"],
-                Reset(Dropdown7_3);
-                Reset(Dropdown8_3);
-                Reset(TextInput19_3);
-                Reset(TextInput18_3);
-                Reset(ComboBox21_3);
-                Set(Ver_Nuevo,Blank());
-                Set(Var_FCM,Blank());
-                Navigate(Screen_Comprobación_Excel,ScreenTransition.Cover),
-            Set(varSM,0);Navigate(Screen_base_Anticipo,ScreenTransition.Cover)
-            )
+        OnSelect: |-
+            =Reset(Dropdown7_3);
+            Reset(Dropdown8_3);
+            Reset(TextInput19_3);
+            Reset(TextInput18_3);
+            Reset(ComboBox21_3);
+            Set(Ver_Nuevo,Blank());
+            Set(Var_FCM,Blank());
+            Navigate(Screen_Comprobación_Excel,ScreenTransition.Cover)
         PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -5%)
         PressedColor: =RGBA(61, 184, 123, 1)
         PressedFill: =ColorFade(RGBA(0,0,0,0), -1%)
