@@ -3,7 +3,7 @@
     "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
     "CdpRevision": {
       "BaseUrl": "/",
-      "LastChangedTimeString": "2023-09-25T18:17:57.4430000Z",
+      "LastChangedTimeString": "2023-11-01T17:23:23.7520000Z",
       "RevisionNumber": 1
     },
     "ConnectedDataSourceInfoNameMapping": {
@@ -239,6 +239,7 @@
       "ProjectIRR_x002e_": "Project IRR.",
       "ProjectName": "Project Name",
       "ProjectoType": "Project Type",
+      "Propiedadprivada": "Propiedad privada",
       "ProspectPriority": "Prospect Priority",
       "PublicaciondeResolucionPresidenc": "Publicacion de Resolucion Presidencial en DOF",
       "Registrationn": "Registration",
@@ -260,6 +261,7 @@
       "State": "State",
       "StatusSafeguards": "Status Safeguards",
       "Superficietotal": "Superficie total",
+      "TipodeNucleo": "Tipo de Nucleo",
       "Title": "Title",
       "Total_x0020_Ers_x0020_Risk_x0020": "Total Ers Risk Adj. (tCO2)",
       "TotalCERT10YRStCO2": "Total CERT 10 YRS tCO2",
