@@ -5575,11 +5575,11 @@ Screen_Revisar As screen:
                 true,
                 User().Email = "jaqueline@canopiacarbon918.onmicrosoft.com",
                 true,
-                User().FullName = "Jaqueline Reyes Garcia",
+                User().FullName = "Jaqueline Reyes",
                 true,
                 User().Email = "uriel@canopiacarbon918.onmicrosoft.com",
                 true,
-                User().FullName = "Uriel Zavala Huerta",
+                User().FullName = "Uriel Zavala",
                 true
             )
         X: =627
