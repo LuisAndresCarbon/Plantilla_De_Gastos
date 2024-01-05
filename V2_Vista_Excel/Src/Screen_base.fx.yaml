@@ -933,7 +933,7 @@ Screen_base As screen:
                     true,
                     User().FullName = "Miguel Pichardo",
                     true,
-                    User().FullName = "Jaqueline Reyes Garcia",
+                    User().FullName = "Jaqueline Reyes",
                     true,
                     // Si no hay coincidencias, devuelve falso (es decir, el usuario no tendrá acceso)
                     false
@@ -976,7 +976,7 @@ Screen_base As screen:
                     true,
                     User().FullName = "Miguel Pichardo",
                     true,
-                    User().FullName = "Jaqueline Reyes Garcia",
+                    User().FullName = "Jaqueline Reyes",
                     true,
                     // Si no hay coincidencias, devuelve falso (es decir, el usuario no tendrá acceso)
                     false
