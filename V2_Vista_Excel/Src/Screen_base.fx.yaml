@@ -838,7 +838,7 @@ Screen_base As screen:
                     User().Email = "santiago@canopiacarbon918.onmicrosoft.com",
                     true,
                     // Verificar también por nombre de usuario específico (por ejemplo, "usuario1")
-                    User().FullName = "Carlos Alfredo Avila Alfonso",
+                    User().FullName = "Carlos Avila",
                     true,
                     User().FullName = "Miguel Pichardo",
                     true,
@@ -1171,7 +1171,7 @@ Screen_base As screen:
                 true,
                 User().Email = "carlos@canopiacarbon918.onmicrosoft.com",
                 true,
-                User().FullName = "Carlos Alfredo Avila Alfonso",
+                User().FullName = "Carlos Avila",
                 true,
                 User().Email = "miguelp@canopiacarbon918.onmicrosoft.com",
                 true,
