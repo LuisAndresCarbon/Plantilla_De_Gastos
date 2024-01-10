@@ -13726,13 +13726,13 @@ Screen_Excel_Rev As screen:
                     HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                     HoverColor: =RGBA(51, 51, 51, 1)
                     HoverFill: =RGBA(212, 212, 212, 1)
-                    Items: =Choices([@'Plantilla de Reembolsos de Gastos Final'].Correcci_x00f3_n)
+                    Items: =Choices([@'Plantilla de Reembolsos de Gastos Final'].'Corrección ')
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                     PressedColor: =RGBA(255, 255, 255, 1)
                     PressedFill: =RGBA(73, 130, 5, 1)
                     SearchFields: =["Value"]
-                    SearchItems: =Choices('Plantilla de Reembolsos de Gastos Final'.Correcci_x00f3_n,DataCardValue198.SearchText)
+                    SearchItems: =Choices('Plantilla de Reembolsos de Gastos Final'.'Corrección ',DataCardValue198.SearchText)
                     SelectionFill: =RGBA(73, 130, 5, 1)
                     Size: =13
                     Width: =Parent.Width - 60
@@ -13990,13 +13990,13 @@ Screen_Excel_Rev As screen:
                     HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                     HoverColor: =RGBA(51, 51, 51, 1)
                     HoverFill: =RGBA(212, 212, 212, 1)
-                    Items: =Choices([@'Plantilla de Reembolsos de Gastos Final'].Autorizaci_x00f3_nSupervisor)
+                    Items: =Choices([@'Plantilla de Reembolsos de Gastos Final'].'Autorización Gerente')
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                     PressedColor: =RGBA(255, 255, 255, 1)
                     PressedFill: =RGBA(73, 130, 5, 1)
                     SearchFields: =["Value"]
-                    SearchItems: =Choices('Plantilla de Reembolsos de Gastos Final'.Autorizaci_x00f3_nSupervisor,DataCardValue199.SearchText)
+                    SearchItems: =Choices('Plantilla de Reembolsos de Gastos Final'.'Autorización Gerente',DataCardValue199.SearchText)
                     SelectionFill: =RGBA(73, 130, 5, 1)
                     SelectMultiple: =false
                     Size: =13
@@ -14240,13 +14240,13 @@ Screen_Excel_Rev As screen:
                     HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                     HoverColor: =RGBA(51, 51, 51, 1)
                     HoverFill: =RGBA(212, 212, 212, 1)
-                    Items: =Choices([@'Plantilla de Reembolsos de Gastos Final'].Autorizaci_x00f3_nCarlos)
+                    Items: =Choices([@'Plantilla de Reembolsos de Gastos Final'].'Autorización Finanzas')
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                     PressedColor: =RGBA(255, 255, 255, 1)
                     PressedFill: =RGBA(73, 130, 5, 1)
                     SearchFields: =["Value"]
-                    SearchItems: =Choices('Plantilla de Reembolsos de Gastos Final'.Autorizaci_x00f3_nCarlos,DataCardValue255.SearchText)
+                    SearchItems: =Choices('Plantilla de Reembolsos de Gastos Final'.'Autorización Finanzas',DataCardValue255.SearchText)
                     SelectionFill: =RGBA(73, 130, 5, 1)
                     SelectMultiple: =false
                     Size: =13
@@ -14485,13 +14485,13 @@ Screen_Excel_Rev As screen:
                     HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                     HoverColor: =RGBA(51, 51, 51, 1)
                     HoverFill: =RGBA(212, 212, 212, 1)
-                    Items: =Choices([@'Plantilla de Reembolsos de Gastos Final'].Correcci_x00f3_n)
+                    Items: =Choices([@'Plantilla de Reembolsos de Gastos Final'].'Corrección ')
                     PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                     PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
                     PressedColor: =RGBA(255, 255, 255, 1)
                     PressedFill: =RGBA(73, 130, 5, 1)
                     SearchFields: =["Value"]
-                    SearchItems: =Choices('Plantilla de Reembolsos de Gastos Final'.Correcci_x00f3_n,DataCardValue257.SearchText)
+                    SearchItems: =Choices('Plantilla de Reembolsos de Gastos Final'.'Corrección ',DataCardValue257.SearchText)
                     SelectionFill: =RGBA(73, 130, 5, 1)
                     Size: =13
                     Tooltip: =Parent.DisplayName
