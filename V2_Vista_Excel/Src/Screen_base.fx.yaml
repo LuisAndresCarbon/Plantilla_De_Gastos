@@ -99,92 +99,92 @@ Screen_base As screen:
             =If(
                 VarAdmi = "Lider Operaciones",
                 If(
-                    IsBlank(Operaciones.Selected.Value),
+                    IsBlank(Operaciones.Selected.Name),
                     Blank(),
                     Filter(
                         'Plantilla de Reembolsos de Gastos Final',
                         (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
                         (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                         ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
-                        ('Nombre del Colaborador' = Operaciones.Selected.Value || Operaciones.Selected.Value = Blank())
+                        ('Nombre del Colaborador' = Operaciones.Selected.Name || Operaciones.Selected.Name = Blank())
                     )
                 ),
                 If(
                     VarAdmi = "Lider SIG",
                     If(
-                        IsBlank(SIG.Selected.Value),
+                        IsBlank(SIG.Selected.Name),
                         Blank(),
                         Filter(
                             'Plantilla de Reembolsos de Gastos Final',
                             (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
                             (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                             ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
-                            ('Nombre del Colaborador' = SIG.Selected.Value || SIG.Selected.Value = Blank())
+                            ('Nombre del Colaborador' = SIG.Selected.Name || SIG.Selected.Name = Blank())
                         )
                     ),
                     If(
                         VarAdmi = "Lider Salvaguarda",
                         If(
-                            IsBlank(Salvaguarda.Selected.Value),
+                            IsBlank(Salvaguarda.Selected.Name),
                             Blank(),
                             Filter(
                                 'Plantilla de Reembolsos de Gastos Final',
                                 (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
                                 (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                                 ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
-                                ('Nombre del Colaborador' = Salvaguarda.Selected.Value || Salvaguarda.Selected.Value = Blank())
+                                ('Nombre del Colaborador' = Salvaguarda.Selected.Name || Salvaguarda.Selected.Name = Blank())
                             )
                         ),
                         If(
                             VarAdmi = "Lider Originacion",
                             If(
-                                IsBlank(Originacion.Selected.Value),
+                                IsBlank(Originacion.Selected.Name),
                                 Blank(),
                                 Filter(
                                     'Plantilla de Reembolsos de Gastos Final',
                                     (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
                                     (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                                     ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
-                                    ('Nombre del Colaborador' = Originacion.Selected.Value || Originacion.Selected.Value = Blank())
+                                    ('Nombre del Colaborador' = Originacion.Selected.Name || Originacion.Selected.Name = Blank())
                                 )
                             ),
                             If(
                                 VarAdmi = "Lider MRV",
                                 If(
-                                    IsBlank(MRV.Selected.Value),
+                                    IsBlank(MRV.Selected.Name),
                                     Blank(),
                                     Filter(
                                         'Plantilla de Reembolsos de Gastos Final',
                                         (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
                                         (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                                         ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
-                                        ('Nombre del Colaborador' = MRV.Selected.Value || MRV.Selected.Value = Blank())
+                                        ('Nombre del Colaborador' = MRV.Selected.Name || MRV.Selected.Name = Blank())
                                     )
                                 ),
                                 If(
                                     VarAdmi = "Lider Legal",
                                     If(
-                                        IsBlank(Legal.Selected.Value),
+                                        IsBlank(Legal.Selected.Name),
                                         Blank(),
                                         Filter(
                                             'Plantilla de Reembolsos de Gastos Final',
                                             (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
                                             (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                                             ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
-                                            ('Nombre del Colaborador' = Legal.Selected.Value)
+                                            ('Nombre del Colaborador' = Legal.Selected.Name)
                                         )
                                     ),
                                     If(
                                         VarAdmi = "Lider Desarrollo",
                                         If(
-                                            IsBlank(Desarrollo.Selected.Value),
+                                            IsBlank(Desarrollo.Selected.Name),
                                             Blank(),
                                             Filter(
                                                 'Plantilla de Reembolsos de Gastos Final',
                                                 (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
                                                 (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                                                 ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
-                                                ('Nombre del Colaborador' = Desarrollo.Selected.Value || Desarrollo.Selected.Value = Blank())
+                                                ('Nombre del Colaborador' = Desarrollo.Selected.Name || Desarrollo.Selected.Name = Blank())
                                             )
                                         ),
                                         If(
@@ -202,7 +202,7 @@ Screen_base As screen:
                                                 (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
                                                 (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                                                 ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
-                                                ('Nombre del Colaborador' = ComboBox1_3.Selected.Value || ComboBox1_3.Selected.Value = Blank())
+                                                ('Nombre del Colaborador' = ComboBox1_3.Selected.Name || ComboBox1_3.Selected.Name = Blank())
                                             ),
                                             Filter(
                                                 'Plantilla de Reembolsos de Gastos Final',
@@ -1188,7 +1188,7 @@ Screen_base As screen:
             )
         X: =1133
         Y: =90
-        ZIndex: =11
+        ZIndex: =10
 
     Label9 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -1215,7 +1215,7 @@ Screen_base As screen:
         Width: =290
         X: =659
         Y: =118
-        ZIndex: =12
+        ZIndex: =11
 
     Label9_1 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -1243,7 +1243,7 @@ Screen_base As screen:
         Width: =289
         X: =659
         Y: =92
-        ZIndex: =13
+        ZIndex: =12
 
     Label110 As label:
         Align: =Align.Center
@@ -1262,7 +1262,7 @@ Screen_base As screen:
         Width: =158
         X: =948
         Y: =90
-        ZIndex: =14
+        ZIndex: =13
 
     Label56 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -1279,7 +1279,7 @@ Screen_base As screen:
             Sum(Filter(Gallery11.AllItems,true),Value(Anticipo))
         Visible: =false
         X: =693
-        ZIndex: =15
+        ZIndex: =14
 
     Label56_1 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -1305,7 +1305,7 @@ Screen_base As screen:
             )
         Visible: =false
         X: =509
-        ZIndex: =16
+        ZIndex: =15
 
     ComboBox4 As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -1340,43 +1340,7 @@ Screen_base As screen:
         Width: =150
         X: =342
         Y: =100
-        ZIndex: =17
-
-    Desarrollo As combobox:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        ChevronBackground: =RGBA(255, 255, 255, 1)
-        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-        ChevronFill: =RGBA(33, 33, 33, 1)
-        ChevronHoverBackground: =RGBA(212, 212, 212, 1)
-        ChevronHoverFill: =RGBA(33, 33, 33, 1)
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayFields: =["Value"]
-        Font: =Font.'Segoe UI'
-        Height: =48
-        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        HoverColor: =RGBA(51, 51, 51, 1)
-        HoverFill: =RGBA(212, 212, 212, 1)
-        InputTextPlaceholder: ="Colaborador"
-        Items: =["Cesar Gonzalez", "Egle May", "Andres Sierra", "Montserrat Ramos", "Mario Ubaldo", "Adrian Morales","Lourdes Maldonado"]
-        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
-        PressedColor: =RGBA(255, 255, 255, 1)
-        PressedFill: =RGBA(73, 130, 5, 1)
-        SearchFields: =["Value"]
-        SearchItems: =Search(["Cesar Gonzalez", "Egle May", "Andres Sierra", "Montserrat Ramos", "Mario Ubaldo", "Adrian Morales","Lourdes Maldonado"],Desarrollo.SearchText,"Value")
-        SelectionFill: =RGBA(73, 130, 5, 1)
-        SelectMultiple: =false
-        Size: =13
-        Visible: |-
-            =Switch(true,
-            VarAdmi = "Lider Desarrollo", true)
-        Width: =150
-        X: =500
-        Y: =100
-        ZIndex: =18
+        ZIndex: =16
 
     Legal As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -1390,19 +1354,19 @@ Screen_base As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayFields: =["Value"]
+        DisplayFields: =["Name"]
         Font: =Font.'Segoe UI'
         Height: =48
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Colaborador"
-        Items: =["Daniel Garcia","Luisa Ortiz","Roberto May","Daniel Matias","Lizette Hernandez"]
+        Items: =Filter(Nombres_todos, Area = "Legal"||Area = "Gerente Legal").Name
         PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
-        SearchFields: =["Value"]
-        SearchItems: =Search(["Daniel Garcia","Luisa Ortiz","Roberto May","Daniel Matias","Lizette Hernandez"],Legal.SearchText,"Value")
+        SearchFields: =["Name"]
+        SearchItems: =Search(Filter(Nombres_todos, Area = "Legal"||Area="Gerente Legal").Name,Legal.SearchText,"Name")
         SelectionFill: =RGBA(73, 130, 5, 1)
         SelectMultiple: =false
         Size: =13
@@ -1412,7 +1376,7 @@ Screen_base As screen:
         Width: =150
         X: =500
         Y: =100
-        ZIndex: =19
+        ZIndex: =17
 
     MRV As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -1426,19 +1390,19 @@ Screen_base As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayFields: =["Value"]
+        DisplayFields: =["Name"]
         Font: =Font.'Segoe UI'
         Height: =48
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Colaborador"
-        Items: =["Leonardo Sanchez","Lorena Salas","Othón Morgado","Dinosca Rondon","Gerencia MRV"]
+        Items: =Filter(Nombres_todos, Area = "MRV"||Area = "Gerente MRV").Name
         PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
-        SearchFields: =["Value"]
-        SearchItems: =Search(["Leonardo Sanchez","Lorena Salas","Othón Morgado","Dinosca Rondon","Gerencia MRV"],MRV.SearchText,"Value")
+        SearchFields: =["Name"]
+        SearchItems: =Search(Filter(Nombres_todos, Area = "MRV"||Area="Gerente MRV").Name,MRV.SearchText,"Name")
         SelectionFill: =RGBA(73, 130, 5, 1)
         SelectMultiple: =false
         Size: =13
@@ -1449,7 +1413,7 @@ Screen_base As screen:
         Width: =150
         X: =500
         Y: =100
-        ZIndex: =20
+        ZIndex: =18
 
     Originacion As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -1463,19 +1427,19 @@ Screen_base As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayFields: =["Value"]
+        DisplayFields: =["Name"]
         Font: =Font.'Segoe UI'
         Height: =48
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Colaborador"
-        Items: =["Roberto Vallejo","Rosalba Diaz","Miguel Angel Garcia","Carolina Martinez","Alejandra Aguillon","Cristina Pech"]
+        Items: =Filter(Nombres_todos, Area = "Originacion"||Area = "Gerente Originacion"||Area = "Salvaguardas"||Area = "Gerente Salvaguardas").Name
         PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
-        SearchFields: =["Value"]
-        SearchItems: =Search(["Roberto Vallejo","Rosalba Diaz","Miguel Angel Garcia","Carolina Martinez","Alejandra Aguillon","Cristina Pech"],Originacion.SearchText,"Value")
+        SearchFields: =["Name"]
+        SearchItems: =Search(Filter(Nombres_todos, Area = "Originacion"||Area = "Gerente Originacion"||Area = "Salvaguardas"||Area = "Gerente Originacion").Name,Originacion.SearchText,"Name")
         SelectionFill: =RGBA(73, 130, 5, 1)
         SelectMultiple: =false
         Size: =13
@@ -1486,7 +1450,7 @@ Screen_base As screen:
         Width: =150
         X: =500
         Y: =100
-        ZIndex: =21
+        ZIndex: =19
 
     Salvaguarda As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -1500,19 +1464,19 @@ Screen_base As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayFields: =["Value"]
+        DisplayFields: =["Name"]
         Font: =Font.'Segoe UI'
         Height: =48
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Colaborador"
-        Items: =["Alejandra Aguillon","Cristina Pech","Carolina Martinez"]
+        Items: =Filter(Nombres_todos, Area = "Salvaguardas"||Area = "Gerente Salvaguardas").Name
         PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
-        SearchFields: =["Value"]
-        SearchItems: =Search(["Alejandra Aguillon","Cristina Pech","Carolina Martinez"],Salvaguarda.SearchText,"Value")
+        SearchFields: =["Name"]
+        SearchItems: =Search(Filter(Nombres_todos, Area = "Salvaguardas"||Area = "Gerente Salva").Name,Salvaguarda.SearchText,"Name")
         SelectionFill: =RGBA(73, 130, 5, 1)
         SelectMultiple: =false
         Size: =13
@@ -1523,7 +1487,7 @@ Screen_base As screen:
         Width: =150
         X: =500
         Y: =100
-        ZIndex: =22
+        ZIndex: =20
 
     SIG As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -1537,19 +1501,19 @@ Screen_base As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayFields: =["Value"]
+        DisplayFields: =["Name"]
         Font: =Font.'Segoe UI'
         Height: =48
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Colaborador"
-        Items: =["Diana Laura Jimenez","Ricardo Hidalgo Rodriguez","Santiago Mora"]
+        Items: =Filter(Nombres_todos, Area = "SIG"||Area = "Gerente SIG").Name
         PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
-        SearchFields: =["Value"]
-        SearchItems: =Search(["Diana Laura Jimenez","Ricardo Hidalgo Rodriguez","Santiago Mora"],SIG.SearchText,"Value")
+        SearchFields: =["Name"]
+        SearchItems: =Search(Filter(Nombres_todos, Area = "SIG"||Area = "Gerente SIG").Name,SIG.SearchText,"Name")
         SelectionFill: =RGBA(73, 130, 5, 1)
         SelectMultiple: =false
         Size: =13
@@ -1560,7 +1524,7 @@ Screen_base As screen:
         Width: =150
         X: =500
         Y: =100
-        ZIndex: =23
+        ZIndex: =21
 
     Operaciones As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -1574,19 +1538,19 @@ Screen_base As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayFields: =["Value"]
+        DisplayFields: =["Name"]
         Font: =Font.'Segoe UI'
         Height: =48
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Colaborador"
-        Items: =["Yenisey Reyes","Ana Ruth","Adolfo Mendez","Ivan", "Carlos Alfredo","Miguel Pichardo","Uriel Zavala","Jesus Manuel García Celaya","Luis Morales","Orlando Rojas Santoyo"]
+        Items: =Filter(Nombres_todos, Area = "Operaciones"||Area = "Gerente Operaciones"||Area = "Contador").Name
         PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
-        SearchFields: =["Value"]
-        SearchItems: =Search(["Yenisey Reyes","Ana Ruth","Adolfo Mendez","Ivan", "Carlos Alfredo","Miguel Pichardo","Uriel Zavala","Jesus Manuel García Celaya","Luis Morales","Orlando Rojas Santoyo"],Operaciones.SearchText,"Value")
+        SearchFields: =["Name"]
+        SearchItems: =Search(Filter(Nombres_todos, Area = "Operaciones"||Area = "Gerente Operaciones"||Area = "Contador").Name,Operaciones.SearchText,"Name")
         SelectionFill: =RGBA(73, 130, 5, 1)
         SelectMultiple: =false
         Size: =13
@@ -1596,7 +1560,7 @@ Screen_base As screen:
         Width: =150
         X: =500
         Y: =100
-        ZIndex: =24
+        ZIndex: =22
 
     ComboBox1_3 As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -1610,19 +1574,19 @@ Screen_base As screen:
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)
-        DisplayFields: =["Value"]
+        DisplayFields: =["Name"]
         Font: =Font.'Segoe UI'
         Height: =48
         HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
         HoverColor: =RGBA(51, 51, 51, 1)
         HoverFill: =RGBA(212, 212, 212, 1)
         InputTextPlaceholder: ="Colaborador"
-        Items: =["Adolfo Mendez", "Adrian Morales", "Alejandra Aguillon", "Ana Ruth", "Andres Sierra", "Carlos Avila","Carolina Martinez","Cesar Gonzalez", "Cristina Pech","Daniel Garcia", "Daniel Matias","Diana Laura Jimenez", "Dinosca Rondon", "Egle May", "Ivan", "Jaqueline Reyes Garcia", "Jesus Manuel García Celaya", "Jose Luis Castro Negrete", "Leonardo Sanchez", "Lizette Hernandez", "Lorena Salas", "Lourdes Maldonado", "Luis Morales", "Luisa Ortiz", "Mario Ubaldo", "Miguel Angel Garcia", "Miguel Pichardo", "Monica Barcenas", "Montserrat Ramos", "Orlando Rojas Santoyo", "Othón Morgado","Raúl Nava","Ricardo Hidalgo Rodriguez", "Roberto May","Roberto Vallejo", "Rosalba Diaz","Santiago Mora", "Uriel Zavala", "Yenisey Reyes"]
+        Items: =Nombres_todos.Name
         PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
-        SearchFields: =["Value"]
-        SearchItems: =Search(["Adolfo Mendez", "Adrian Morales", "Alejandra Aguillon", "Ana Ruth", "Andres Sierra", "Carlos Avila","Carolina Martinez","Cesar Gonzalez", "Cristina Pech","Daniel Garcia", "Daniel Matias","Diana Laura Jimenez", "Dinosca Rondon", "Egle May", "Ivan", "Jaqueline Reyes Garcia", "Jesus Manuel García Celaya", "Jose Luis Castro Negrete", "Leonardo Sanchez", "Lizette Hernandez", "Lorena Salas", "Lourdes Maldonado", "Luis Morales", "Luisa Ortiz", "Mario Ubaldo", "Miguel Angel Garcia", "Miguel Pichardo", "Monica Barcenas", "Montserrat Ramos", "Orlando Rojas Santoyo", "Othón Morgado","Raúl Nava","Ricardo Hidalgo Rodriguez", "Roberto May","Roberto Vallejo", "Rosalba Diaz","Santiago Mora", "Uriel Zavala", "Yenisey Reyes"],ComboBox1_3.SearchText,"Value")
+        SearchFields: =["Name"]
+        SearchItems: =Search(Nombres_todos.Name,ComboBox1_3.SearchText,"Name")
         SelectionFill: =RGBA(73, 130, 5, 1)
         SelectMultiple: =false
         Size: =13
@@ -1636,7 +1600,7 @@ Screen_base As screen:
         Width: =150
         X: =500
         Y: =100
-        ZIndex: =25
+        ZIndex: =23
 
     ComboBox29 As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -1669,5 +1633,41 @@ Screen_base As screen:
         Width: =150
         X: =177
         Y: =100
-        ZIndex: =27
+        ZIndex: =24
+
+    Desarrollo As combobox:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        ChevronBackground: =RGBA(255, 255, 255, 1)
+        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+        ChevronFill: =RGBA(33, 33, 33, 1)
+        ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+        ChevronHoverFill: =RGBA(33, 33, 33, 1)
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayFields: =["Name"]
+        Font: =Font.'Segoe UI'
+        Height: =48
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(212, 212, 212, 1)
+        InputTextPlaceholder: ="Colaborador"
+        Items: =Filter(Nombres_todos, Area = "Desarrollo"|| Area="Gerente Desarrollo").Name
+        PressedBorderColor: =ColorFade(RGBA(61,184,123,71), -50%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(73, 130, 5, 1)
+        SearchFields: =["Name"]
+        SearchItems: =Search(Filter(Nombres_todos, Area = "Desarrollo"|| Area="Gerente Desarrollo").Name,Desarrollo.SearchText,"Name")
+        SelectionFill: =RGBA(73, 130, 5, 1)
+        SelectMultiple: =false
+        Size: =13
+        Visible: |-
+            =Switch(true,
+            VarAdmi = "Lider Desarrollo", true)
+        Width: =150
+        X: =500
+        Y: =100
+        ZIndex: =25
 
