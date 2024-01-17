@@ -94,6 +94,50 @@ App As appinfo:
                 Name: "Revisar y subir Archivos",
                 Logo: Icon.DocumentPDF
             }
+        );
+        Set(
+            Nombres,
+            Concatenate(
+                "Adolfo Mendez",
+                "Adrian Morales",
+                "Alejandra Aguillon",
+                "Ana Ruth",
+                "Andres Sierra",
+                "Carlos Avila",
+                "Carolina Martinez",
+                "Cesar Gonzalez",
+                "Cristina Pech",
+                "Daniel Garcia",
+                "Daniel Matias",
+                "Diana Laura Jimenez",
+                "Dinosca Rondon",
+                "Egle May",
+                "Ivan",
+                "Jaqueline Reyes Garcia",
+                "Jesus Manuel García Celaya",
+                "Jose Luis Castro Negrete",
+                "Leonardo Sanchez",
+                "Lizette Hernandez",
+                "Lorena Salas",
+                "Lourdes Maldonado",
+                "Luis Morales",
+                "Luisa Ortiz",
+                "Mario Ubaldo",
+                "Miguel Angel Garcia",
+                "Miguel Pichardo",
+                "Monica Barcenas",
+                "Montserrat Ramos",
+                "Orlando Rojas Santoyo",
+                "Othón Morgado",
+                "Raúl Nava",
+                "Ricardo Hidalgo Rodriguez",
+                "Roberto May",
+                "Roberto Vallejo",
+                "Rosalba Diaz",
+                "Santiago Mora",
+                "Uriel Zavala",
+                "Yenisey Reyes"
+            )
         )
     Theme: =PowerAppsTheme
 

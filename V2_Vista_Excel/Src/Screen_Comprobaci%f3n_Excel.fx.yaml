@@ -259,7 +259,7 @@ Screen_Comprobación_Excel As screen:
                         "Gracias por mandar tus facturas, se revisaran lo antes posible",
                         NotificationType.Success,
                         4000
-                    )
+                    );
                 PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
