@@ -170,14 +170,8 @@
           "ERPA Activos Carlos": {
             "tableName": "861ce617-3d32-4418-a51d-ed1646679b68"
           },
-          "ERPA Activos Carlos_1": {
-            "tableName": "861ce617-3d32-4418-a51d-ed1646679b68"
-          },
           "Formato Compaq": {
             "tableName": "e1bcd251-19de-4a9b-bbc3-de9ae5c626d2"
-          },
-          "Perfil entrega de facturas": {
-            "tableName": "ea3c4f60-ff60-4de5-a365-2bd3b17dfbd6"
           },
           "Permisos": {
             "tableName": "2a2c56f3-1b67-4e80-8540-68e620e117a3"
@@ -192,27 +186,17 @@
             "tableName": "ec7d48cc-f260-471a-bc44-c78470f805b3"
           }
         }
-      },
-      "https://canopiacarbon918.sharepoint.com/sites/Legal": {
-        "dataSources": {
-          "BdContratosLegal": {
-            "tableName": "4d71be22-bcfc-41bb-835c-cc28ccc2e862"
-          }
-        }
       }
     },
     "dataSources": [
       "Permisos",
-      "Perfil entrega de facturas",
       "Cuentas Capex y Opex",
       "Plantilla de Reembolsos de Gastos Final",
       "Cuentas de Gastos Generales",
       "Portafolio",
       "Formato Compaq",
       "Portafolio Users",
-      "ERPA Activos Carlos_1",
-      "ERPA Activos Carlos",
-      "BdContratosLegal"
+      "ERPA Activos Carlos"
     ],
     "dependencies": {},
     "dependents": [
