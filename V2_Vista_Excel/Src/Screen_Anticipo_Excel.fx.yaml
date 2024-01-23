@@ -256,6 +256,7 @@ Screen_Anticipo_Excel As screen:
                         HtmlText1_3.HtmlText,
                         {Importance: "High"}
                     );
+                    Navigate(Inicio,ScreenTransition.CoverRight);
                     Notify(
                         "Gracias por mandar tu solicitd, se revisaran lo antes posible",
                         NotificationType.Success,

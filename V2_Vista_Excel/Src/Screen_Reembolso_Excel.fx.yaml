@@ -255,6 +255,7 @@ Screen_Reembolso_Excel As screen:
                         HtmlText1_2.HtmlText,
                         {Importance: "High"}
                     );
+                    Navigate(Inicio,ScreenTransition.CoverRight);
                     Notify(
                         "Gracias por mandar tus facturas, se revisaran lo antes posible",
                         NotificationType.Success,

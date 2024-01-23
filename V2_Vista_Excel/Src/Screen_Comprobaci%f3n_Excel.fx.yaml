@@ -255,6 +255,7 @@ Screen_Comprobación_Excel As screen:
                         HtmlText1_5.HtmlText,
                         {Importance: "High"}
                     );
+                    Navigate(Inicio,ScreenTransition.UnCoverRight);
                     Notify(
                         "Gracias por mandar tus facturas, se revisaran lo antes posible",
                         NotificationType.Success,

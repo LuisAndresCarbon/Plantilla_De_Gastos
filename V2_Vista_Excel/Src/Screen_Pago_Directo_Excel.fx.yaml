@@ -266,6 +266,7 @@ Screen_Pago_Directo_Excel As screen:
                         HtmlText1_6.HtmlText,
                         {Importance: "High"}
                     );
+                    Navigate(Inicio,ScreenTransition.CoverRight);
                     Notify(
                         "Gracias por mandar tus facturas, se revisaran lo antes posible",
                         NotificationType.Success,
