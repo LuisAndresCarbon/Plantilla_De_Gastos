@@ -5518,10 +5518,37 @@ Screen_Revisar As screen:
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
         OnSelect: |-
-            =
-            Navigate(Screen_base,ScreenTransition.CoverRight);SubmitForm(Form_revisión);NewForm(Form_revisión);
-            
-            Notify("Gracias por revisar la factura",NotificationType.Success,4000)
+            =If(
+                !IsBlank(DataCardValue134.Text),
+                Office365Outlook.SendEmailV2(
+                    "uriel@canopiacarbon.com",
+                    "Corregir plantilla",
+                    Notificación_revisar.HtmlText,
+                    {Importance: "High"}
+                );
+                Navigate(
+                    Screen_base,
+                    ScreenTransition.CoverRight
+                );
+                SubmitForm(Form_revisión);
+                NewForm(Form_revisión);
+                Notify(
+                    "Se mandaron tus comentarios para modificación",
+                    NotificationType.Success,
+                    4000
+                ),
+                Navigate(
+                    Screen_base,
+                    ScreenTransition.CoverRight
+                );//Si no tiene comentario solamente hace la revisión
+                SubmitForm(Form_revisión);
+                NewForm(Form_revisión);
+                Notify(
+                    "Gracias por revisar la factura",
+                    NotificationType.Success,
+                    4000
+                )
+            )
         PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =ColorFade(RGBA(73, 130, 5, 1), -30%)
@@ -8540,6 +8567,288 @@ Screen_Revisar As screen:
             X: =1249
             Y: =8
             ZIndex: =6
+
+    Notificación_revisar As htmlViewer:
+        HtmlText: |-
+            ="<!DOCTYPE html>
+            <html lang='pl'>
+            	<head>
+            		<meta charset='UTF-8' />
+            		<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+            		<meta http-equiv='X-UA-Compatible' content='ie=edge' />
+            		<title>Email</title>
+            
+            		<link href='https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap' rel='stylesheet' />
+            
+            		<style>
+            			.contra-body {
+            				display: block;
+            				padding: 0px;
+            				margin: 0px;
+            			}
+            
+            			.contra-wrapper {
+            				width: 100%;
+            				display: block;
+            				overflow: hidden;
+            				box-sizing: border-box;
+            				color: #222;
+            				background: #f2f2fd;
+            				font-size: 18px;
+            				font-weight: normal;
+            				font-family: 'Baloo 2', 'Open Sans', 'Roboto', 'Segoe UI', 'Helvetica Neue', Helvetica, Tahoma, Arial, monospace, sans-serif;
+            			}
+            
+            			.contra-table {
+            				border-collapse: collapse;
+            				border-spacing: 0;
+            				border: 0px;
+            				width: 640px;
+            				max-width: 90%;
+            				margin: 100px auto;
+            				box-shadow: 0px 20px 48px rgba(0, 0, 0, 0.2);
+            				border-radius: 10px;
+            				overflow: hidden;
+            			}
+            
+            			.contra-table tr {
+            				background: #ffffff;
+            			}
+            
+            			.contra-table td,
+            			.contra-table th {
+            				border: 0px;
+            				border-spacing: 0;
+            				border-collapse: collapse;
+            			}
+            
+            			.contra-table tr td {
+            				padding: 0px 40px;
+            				box-sizing: border-box;
+            			}
+            
+            			.contra-margin {
+            				float: left;
+            				width: 100%;
+            				overflow: hidden;
+            				height: 40px;
+            				padding-bottom: 0px;
+            				box-sizing: border-box;
+            			}
+            
+            			.contra-div {
+            				float: left;
+            				width: 100%;
+            				overflow: hidden;
+            				box-sizing: border-box;
+            			}
+            
+            			.contra-table h1,
+            			.contra-table h2,
+            			.contra-table h3,
+            			.contra-table h4 {
+            				float: left;
+            				width: 100%;
+            				margin: 0px 0px 20px 0px !important;
+            				padding: 0px;
+            			}
+            
+            			.contra-table h1 {
+            				font-size: 33px;
+            			}
+            
+            			.contra-table h2 {
+            				font-size: 26px;
+            			}
+            
+            			.contra-table h3 {
+            				font-size: 23px;
+            			}
+            
+            			.contra-table p {
+            				float: left;
+            				width: 100%;
+            				font-size: 18px;
+            				margin: 0px 0px 20px 0px !important;
+            			}
+            
+            			.contra-table h4 {
+            				font-size: 20px;
+            			}
+            
+            			.contra-table a {
+            				color: #6d49fc;
+            				font-weight: bold;
+            			}
+            
+            			.contra-table a:hover {
+            				color: #55cc55;
+            			}
+            
+            			.contra-table a:active {
+            				color: #ff6600;
+            			}
+            
+            			.contra-table a:visited {
+            				color: #ff00ff;
+            			}
+            
+            			.contra-table a.contra-link {
+            				display: inline-block;
+            				width: auto !important;
+            				outline: none !important;
+            				text-decoration: none !important;
+            			}
+            
+            			.contra-table img,
+            			.contra-table a img {
+            				display: block;
+            				max-width: 100%;
+            				margin-bottom: 20px;
+            				border: 0px;
+            				border-radius: 10px;
+            				overflow: hidden;
+            			}
+            
+            			.contra-table a.contra-button {
+            				display: inline-block;
+            				font-weight: bold;
+            				font-size: 17px;
+            				padding: 15px 40px;
+            				margin: 20px 0px;
+            				color: #ffffff !important;
+            				background: #6d49fc !important;
+            				border-radius: 10px;
+            				text-decoration: none;
+            				outline: none;
+            			}
+            
+            			.contra-table a.contra-button:hover {
+            				color: #ffffff !important;
+            				background: #55cc55 !important;
+            			}
+            
+            			.contra-code {
+            				float: left;
+            				width: 100%;
+            				overflow: hidden;
+            				box-sizing: border-box;
+            				padding: 15px 40px;
+            				margin: 20px 0px;
+            				border: 1px dashed #6d49fcaa;
+            				background: #6d49fc11;
+            				color: #6d49fc;
+            				font-weight: 700;
+            				font-size: 23px;
+            			}
+            
+            			.contra-flex {
+            				float: left;
+            				width: 100%;
+            				text-align: center;
+            			}
+            
+            			.contra-divider {
+            				float: left;
+            				width: 100%;
+            				overflow: hidden;
+            				margin: 20px 0px;
+            				border-top: 2px solid #f2f2fd;
+            			}
+            		</style>
+            
+            		<style>
+            			/* your style here */
+            			.contra-flex img {
+            				margin: 10px;
+            				max-width: 15%;
+            				width: 40px;
+            			}
+            		</style>
+            	</head>
+            
+            	<body class='contra-body'>
+            		<div class='contra-wrapper'>
+            			<table class='contra-table'>
+            				<tbody>
+            					<tr class='contra-tr'>
+            						<td class='contra-td' colspan='10' style=''>
+            							<div class='contra-margin'></div>
+            							<center>
+            								<h1>Modificación solicitada</h1>
+            								<img width='250' height='60'src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfkRFxZPnfzxqfkUL8bZ-IxhRfZdCIONdFZRnddZ9y&s'/>
+            							</center>
+            							<h2>Informacion:</h2>
+            							<p>
+            								"&Concatenate("Se solicita tu apoyo para modificar la siguiente comprobación","<br>","<br>",
+                                            "Tipo de solicitud: ",DataCardValue53.Text,"<br>",
+                                            "Mes: ",DataCardValue56.Text,"<br>",
+            								"Numero: " ,DataCardValue55.Text,"<br>",
+                                            "Comentario: ",DataCardValue134.Text)&"
+            							</p>
+            						</td>
+            					</tr>
+            					<tr class='contra-tr'>
+            						<td class='contra-td' colspan='10' style=''>
+            							<h2>Links</h2>
+            						</td>
+            					</tr>
+            
+            						<td class='contra-td' style='padding-left: 42px; width: 33%'>
+            							<a href='https://apps.powerapps.com/play/e/default-443ce54c-24bb-4b32-8795-1beae5de4545/a/5c0d2d79-2a49-4bf3-8890-8aefcbd6191a?tenantId=443ce54c-24bb-4b32-8795-1beae5de4545&source=curatedApps&hint=145d13a7-bce2-46b7-bf3f-78c98f4103c1&sourcetime=1706108567136' class='contra-link'>
+            								<img width='48' height='48' src='https://img.icons8.com/fluency/48/microsoft-power-apps.png' alt='microsoft-power-apps'/>
+            							</a>
+            						</td>
+            					</tr>
+            
+            					<tr class='contra-tr'>
+            						<td class='contra-td' colspan='10' style=''>
+            							<br />
+            							<h3>Solicitado por:</h3>
+            							<p>
+            								"&Concatenate(Label15_10.Text)&"
+            							</p>
+            						</td>
+            					</tr>
+            
+            					<tr class='contra-tr'>
+            						<td class='contra-td' colspan='10' style=''>
+            							<div class='contra-divider'></div>
+            							<center>
+            								<span style='color: #706d6b'> © 2023 Canopia Carbon</span>
+            							</center>
+            							<div class='contra-flex'>
+            								<a href='mailto:uriel@canopiacarbon.com' class='contra-link'>
+            									<img src='https://img.icons8.com/?size=64&id=LPcVDft9Isqt&format=png' alt='Image' />
+            								</a>
+            							</div>
+            							<div class='contra-margin'></div>
+            						</td>
+            					</tr>
+            				</tbody>
+            			</table>
+            		</div>
+            	</body>
+            </html>"
+        Visible: =false
+        X: =861
+        Y: =28
+        ZIndex: =34
+
+    Label13 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Size: =13
+        Text: =
+        X: =388
+        Y: =44
+        ZIndex: =35
 
     Revisión As group:
         Height: =5
