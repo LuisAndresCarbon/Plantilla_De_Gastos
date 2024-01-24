@@ -8835,21 +8835,6 @@ Screen_Revisar As screen:
         Y: =28
         ZIndex: =34
 
-    Label13 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(51, 51, 51, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        Font: =Font.'Segoe UI'
-        Size: =13
-        Text: =
-        X: =388
-        Y: =44
-        ZIndex: =35
-
     Revisión As group:
         Height: =5
         Width: =5
