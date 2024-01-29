@@ -5532,11 +5532,15 @@ Screen_Revisar As screen:
         OnSelect: |-
             =If(
                 !IsBlank(DataCardValue134.Text),
-                Office365Outlook.SendEmailV2(
-                    "uriel@canopiacarbon.com",
-                    "Corregir plantilla",
-                    Notificación_revisar.HtmlText,
-                    {Importance: "High"}
+                Set(destinoCorreo, LookUp(Nombres_todos, Name = DataCardValue54.Text).Correo),
+                If(
+                    !IsBlank(destinoCorreo),
+                    Office365Outlook.SendEmailV2(
+                        destinoCorreo,
+                        "Corregir plantilla",
+                        Notificación_revisar.HtmlText,
+                        {Importance: "High"}
+                    )
                 );
                 Navigate(
                     Screen_base,
@@ -8850,6 +8854,31 @@ Screen_Revisar As screen:
         X: =861
         Y: =28
         ZIndex: =34
+
+    TextInput11 As text:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        Default: =LookUp(Nombres_todos, Name = Label15_10.Text).Name
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =RGBA(73, 130, 5, 1)
+        PressedColor: =RGBA(51, 51, 51, 1)
+        PressedFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =13
+        X: =541
+        Y: =24
+        ZIndex: =35
 
     Revisión As group:
         Height: =5

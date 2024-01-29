@@ -14,88 +14,6 @@ App As appinfo:
             )
         );
         ClearCollect(
-            colMenu,
-            {
-                //Información general
-                ID: 0,
-                Name: "Project Info",
-                Logo: Icon.Folder
-            },
-            {
-                //Información EJIDO
-                ID: 1,
-                Name: "Información Factura",
-                Logo: Icon.ListScrollWatchlist
-            },
-            {
-                ID: 2,
-                Name: "Información EJIDO",
-                Logo: Icon.Database
-            },
-            {
-                //GASTOS GENERALES (Proyecto y/o Oficina)
-                ID: 3,
-                Name: "EJIDO: CAPEX/OPEX",
-                Logo: Icon.DetailList
-            },
-            {
-                ID: 4,
-                Name: "Gastos generales",
-                Logo: Icon.ListWatchlistRemind
-            },
-            {
-                ID: 5,
-                Name: "Detalle de Gastos y/o Prorrateo de gastos",
-                Logo: Icon.Calculator
-            },
-            {
-                ID: 6,
-                Name: "Archivos",
-                Logo: Icon.DocumentPDF
-            }
-        );
-        ClearCollect(
-            colMenu_edit,
-            {
-                //Información general
-                ID: 0,
-                Name: "Project Info",
-                Logo: Icon.Folder
-            },
-            {
-                //Información EJIDO
-                ID: 1,
-                Name: "Información Factura",
-                Logo: Icon.ListScrollWatchlist
-            },
-            {
-                ID: 2,
-                Name: "Información EJIDO",
-                Logo: Icon.Database
-            },
-            {
-                //GASTOS GENERALES (Proyecto y/o Oficina)
-                ID: 3,
-                Name: "EJIDO: CAPEX/OPEX",
-                Logo: Icon.DetailList
-            },
-            {
-                ID: 4,
-                Name: "Gastos generales",
-                Logo: Icon.ListWatchlistRemind
-            },
-            {
-                ID: 5,
-                Name: "Detalle de Gastos y/o Prorrateo de gastos",
-                Logo: Icon.Calculator
-            },
-            {
-                ID: 6,
-                Name: "Revisar y subir Archivos",
-                Logo: Icon.DocumentPDF
-            }
-        );
-        ClearCollect(
             Nombres_todos,
             {
                 ID:0,
@@ -280,7 +198,8 @@ App As appinfo:
              {
                 ID:36,
                 Name:"Uriel Zavala",
-                Area:"Programador"
+                Area:"Programador",
+                Correo:"uriel@canopiacarbon.com"
              },
              {
                 ID:37,
