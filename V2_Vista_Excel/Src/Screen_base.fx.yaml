@@ -1653,7 +1653,7 @@ Screen_base As screen:
         Y: =90
         ZIndex: =24
 
-    ComboBox3 As combobox:
+    Año As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
         ChevronBackground: =RGBA(255, 255, 255, 1)
         ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
@@ -1677,7 +1677,7 @@ Screen_base As screen:
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Value"]
-        SearchItems: =Search(["2023","2024","2025","2026","2027"],ComboBox3.SearchText,"Value")
+        SearchItems: =Search(["2023","2024","2025","2026","2027"],Año.SearchText,"Value")
         SelectionFill: =RGBA(73, 130, 5, 1)
         Size: =13
         Width: =140
