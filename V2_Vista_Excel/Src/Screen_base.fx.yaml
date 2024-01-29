@@ -209,7 +209,7 @@ Screen_base As screen:
             true
         Width: =1366
         Y: =158
-        ZIndex: =9
+        ZIndex: =8
 
         Label58 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -1059,6 +1059,33 @@ Screen_base As screen:
             Y: =140
             ZIndex: =36
 
+    Label9 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        FontWeight: =FontWeight.Semibold
+        Height: =33
+        Size: =15
+        Text: |-
+            ="Anticipo Total: " & "$" & Text(
+                Sum(
+                    Filter(
+                        Gallery11.AllItems,
+                        true
+                    ),
+                    Value(Anticipo)
+                ),
+                "[$-en-US]0,0.00"
+            )
+        Width: =290
+        X: =799
+        Y: =118
+        ZIndex: =9
+
     Encabezado_1 As group:
         Height: =5
         Width: =5
@@ -1133,72 +1160,6 @@ Screen_base As screen:
             Y: =8
             ZIndex: =5
 
-    Icon3 As icon.ChevronDown:
-        BorderColor: =RGBA(166, 166, 166, 1)
-        Color: =RGBA(73, 130, 5, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(220, 220, 220, 1)
-        DisabledFill: =RGBA(0, 0, 0, 0)
-        FocusedBorderThickness: =4
-        HoverBorderColor: =RGBA(0, 0, 0, 0)
-        HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        HoverFill: =RGBA(0, 0, 0, 0)
-        Icon: =Icon.Database
-        OnSelect: =Navigate(Screen_base_compaq,ScreenTransition.Cover)
-        PressedBorderColor: =RGBA(0, 0, 0, 0)
-        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
-        PressedFill: =RGBA(0, 0, 0, 0)
-        Visible: |-
-            =Switch(
-                true,
-                User().Email = "carlos@canopiacarbon918.onmicrosoft.com",
-                true,
-                User().FullName = "Carlos Avila",
-                true,
-                User().Email = "miguelp@canopiacarbon918.onmicrosoft.com",
-                true,
-                User().FullName = "Miguel Pichardo",
-                true,
-                User().Email = "uriel@canopiacarbon918.onmicrosoft.com",
-                true,
-                User().FullName = "Uriel Zavala",
-                true,
-                User().FullName = "Jaqueline Reyes",
-                true,
-                User().Email = "jaqueline@canopiacarbon918.onmicrosoft.com",
-                true
-            )
-        X: =1133
-        Y: =90
-        ZIndex: =10
-
-    Label9 As label:
-        BorderColor: =RGBA(0, 0, 0, 0)
-        BorderStyle: =BorderStyle.None
-        BorderThickness: =2
-        Color: =RGBA(0, 0, 0, 1)
-        DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(166, 166, 166, 1)
-        FocusedBorderThickness: =4
-        FontWeight: =FontWeight.Semibold
-        Height: =33
-        Size: =15
-        Text: |-
-            ="Anticipo Total: " & "$" & Text(
-                Sum(
-                    Filter(
-                        Gallery11.AllItems,
-                        true
-                    ),
-                    Value(Anticipo)
-                ),
-                "[$-en-US]0,0.00"
-            )
-        Width: =290
-        X: =659
-        Y: =118
-        ZIndex: =11
-
     Label9_1 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -1223,9 +1184,9 @@ Screen_base As screen:
                 )
             ),"[$-en-US]0,0.00")
         Width: =289
-        X: =659
+        X: =799
         Y: =92
-        ZIndex: =12
+        ZIndex: =10
 
     Label110 As label:
         Align: =Align.Center
@@ -1242,9 +1203,9 @@ Screen_base As screen:
         Text: |-
             ="Devolución: $" & Text(Sum(Label56 - Label56_1),"[$-en-US]0,0.00")
         Width: =158
-        X: =948
+        X: =1088
         Y: =90
-        ZIndex: =13
+        ZIndex: =11
 
     Label56 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -1261,7 +1222,7 @@ Screen_base As screen:
             Sum(Filter(Gallery11.AllItems,true),Value(Anticipo))
         Visible: =false
         X: =693
-        ZIndex: =14
+        ZIndex: =12
 
     Label56_1 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -1287,7 +1248,7 @@ Screen_base As screen:
             )
         Visible: =false
         X: =509
-        ZIndex: =15
+        ZIndex: =13
 
     ComboBox4 As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -1322,7 +1283,7 @@ Screen_base As screen:
         Width: =150
         X: =342
         Y: =100
-        ZIndex: =16
+        ZIndex: =14
 
     Legal As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -1358,7 +1319,7 @@ Screen_base As screen:
         Width: =150
         X: =500
         Y: =100
-        ZIndex: =17
+        ZIndex: =15
 
     MRV As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -1395,7 +1356,7 @@ Screen_base As screen:
         Width: =150
         X: =500
         Y: =100
-        ZIndex: =18
+        ZIndex: =16
 
     Originacion As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -1432,7 +1393,7 @@ Screen_base As screen:
         Width: =150
         X: =500
         Y: =100
-        ZIndex: =19
+        ZIndex: =17
 
     Salvaguarda As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -1469,7 +1430,7 @@ Screen_base As screen:
         Width: =150
         X: =500
         Y: =100
-        ZIndex: =20
+        ZIndex: =18
 
     SIG As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -1506,7 +1467,7 @@ Screen_base As screen:
         Width: =150
         X: =500
         Y: =100
-        ZIndex: =21
+        ZIndex: =19
 
     Operaciones As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -1542,7 +1503,7 @@ Screen_base As screen:
         Width: =150
         X: =500
         Y: =100
-        ZIndex: =22
+        ZIndex: =20
 
     ComboBox1_3 As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -1582,7 +1543,7 @@ Screen_base As screen:
         Width: =150
         X: =500
         Y: =100
-        ZIndex: =23
+        ZIndex: =21
 
     ComboBox29 As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -1615,7 +1576,7 @@ Screen_base As screen:
         Width: =150
         X: =177
         Y: =100
-        ZIndex: =24
+        ZIndex: =22
 
     Desarrollo As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
@@ -1651,5 +1612,105 @@ Screen_base As screen:
         Width: =150
         X: =500
         Y: =100
+        ZIndex: =23
+
+    Icon3 As icon.ChevronDown:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        Color: =RGBA(73, 130, 5, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Database
+        OnSelect: =Navigate(Screen_base_compaq,ScreenTransition.Cover)
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Visible: |-
+            =Switch(
+                true,
+                User().Email = "carlos@canopiacarbon918.onmicrosoft.com",
+                true,
+                User().FullName = "Carlos Avila",
+                true,
+                User().Email = "miguelp@canopiacarbon918.onmicrosoft.com",
+                true,
+                User().FullName = "Miguel Pichardo",
+                true,
+                User().Email = "uriel@canopiacarbon918.onmicrosoft.com",
+                true,
+                User().FullName = "Uriel Zavala",
+                true,
+                User().FullName = "Jaqueline Reyes",
+                true,
+                User().Email = "jaqueline@canopiacarbon918.onmicrosoft.com",
+                true
+            )
+        X: =1223
+        Y: =90
+        ZIndex: =24
+
+    ComboBox3 As combobox:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        ChevronBackground: =RGBA(255, 255, 255, 1)
+        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+        ChevronFill: =RGBA(33, 33, 33, 1)
+        ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+        ChevronHoverFill: =RGBA(33, 33, 33, 1)
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Font: =Font.'Segoe UI'
+        Height: =48
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(212, 212, 212, 1)
+        Items: |-
+            =ComboBoxSample
+            //
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(73, 130, 5, 1)
+        SearchItems: =Search(ComboBoxSample,ComboBox3.SearchText,"Value1")
+        SelectionFill: =RGBA(73, 130, 5, 1)
+        Size: =13
+        Width: =140
+        X: =659
+        Y: =100
         ZIndex: =25
+
+    ComboBox6 As combobox:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        ChevronBackground: =RGBA(255, 255, 255, 1)
+        ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
+        ChevronDisabledFill: =RGBA(166, 166, 166, 1)
+        ChevronFill: =RGBA(33, 33, 33, 1)
+        ChevronHoverBackground: =RGBA(212, 212, 212, 1)
+        ChevronHoverFill: =RGBA(33, 33, 33, 1)
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayFields: =["Value"]
+        Font: =Font.'Segoe UI'
+        HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        HoverColor: =RGBA(51, 51, 51, 1)
+        HoverFill: =RGBA(212, 212, 212, 1)
+        IsSearchable: =false
+        Items: =["2023","2024","2025","2026","2027"]
+        PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(73, 130, 5, 1)
+        SearchFields: =["Value"]
+        SearchItems: =[]
+        SelectionFill: =RGBA(73, 130, 5, 1)
+        Size: =13
+        X: =378
+        Y: =8
+        ZIndex: =26
 
