@@ -5152,10 +5152,16 @@ Screen_Revisar As screen:
             Required: =false
             Update: =DataCardValue136.Selected
             Visible: |-
-                =Switch(true,
-                VarAdmi = "Jefe", true,
-                VarAdmi = "Programador", true,
-                VarAdmi = "Contador", true
+                =Switch(
+                    true,
+                    VarAdmi = "Jefe",
+                    true,
+                    VarAdmi = "Programador",
+                    true,
+                    VarAdmi = "Contador",
+                    true,
+                    VarAdmi = "Lider Programador",
+                    true
                 )
             Width: =237
             X: =1
@@ -5276,10 +5282,16 @@ Screen_Revisar As screen:
             Required: =false
             Update: =DataCardValue173.Selected
             Visible: |-
-                =Switch(true,
-                VarAdmi = "Jefe", true,
-                VarAdmi = "Programador", true,
-                VarAdmi = "Contador", true
+                =Switch(
+                    true,
+                    VarAdmi = "Jefe",
+                    true,
+                    VarAdmi = "Programador",
+                    true,
+                    VarAdmi = "Contador",
+                    true,
+                    VarAdmi = "Lider Programador",
+                    true
                 )
             Width: =237
             X: =2
@@ -5607,6 +5619,10 @@ Screen_Revisar As screen:
                 User().Email = "uriel@canopiacarbon918.onmicrosoft.com",
                 true,
                 User().FullName = "Uriel Zavala",
+                true,
+                User().FullName = "Raúl Nava",
+                true,
+                User().FullName = "Luis Morales",
                 true
             )
         X: =627

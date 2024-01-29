@@ -88,7 +88,8 @@ Screen_base As screen:
                         (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
                         (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                         ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
-                        ('Nombre del Colaborador' = Operaciones.Selected.Name || Operaciones.Selected.Name = Blank())
+                        ('Nombre del Colaborador' = Operaciones.Selected.Name || Operaciones.Selected.Name = Blank()) &&
+                        (Año = Buscar_Año.Selected.Value || Buscar_Año.Selected.Value =Blank())
                     )
                 ),
                 If(
@@ -101,7 +102,8 @@ Screen_base As screen:
                             (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
                             (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                             ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
-                            ('Nombre del Colaborador' = SIG.Selected.Name || SIG.Selected.Name = Blank())
+                            ('Nombre del Colaborador' = SIG.Selected.Name || SIG.Selected.Name = Blank()) &&
+                            (Año = Buscar_Año.Selected.Value || Buscar_Año.Selected.Value =Blank())
                         )
                     ),
                     If(
@@ -114,7 +116,8 @@ Screen_base As screen:
                                 (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
                                 (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                                 ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
-                                ('Nombre del Colaborador' = Salvaguarda.Selected.Name || Salvaguarda.Selected.Name = Blank())
+                                ('Nombre del Colaborador' = Salvaguarda.Selected.Name || Salvaguarda.Selected.Name = Blank()) &&
+                                (Año = Buscar_Año.Selected.Value || Buscar_Año.Selected.Value =Blank())
                             )
                         ),
                         If(
@@ -127,7 +130,8 @@ Screen_base As screen:
                                     (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
                                     (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                                     ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
-                                    ('Nombre del Colaborador' = Originacion.Selected.Name || Originacion.Selected.Name = Blank())
+                                    ('Nombre del Colaborador' = Originacion.Selected.Name || Originacion.Selected.Name = Blank()) &&
+                                    (Año = Buscar_Año.Selected.Value || Buscar_Año.Selected.Value =Blank())
                                 )
                             ),
                             If(
@@ -140,7 +144,8 @@ Screen_base As screen:
                                         (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
                                         (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                                         ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
-                                        ('Nombre del Colaborador' = MRV.Selected.Name || MRV.Selected.Name = Blank())
+                                        ('Nombre del Colaborador' = MRV.Selected.Name || MRV.Selected.Name = Blank()) &&
+                                        (Año = Buscar_Año.Selected.Value || Buscar_Año.Selected.Value =Blank())
                                     )
                                 ),
                                 If(
@@ -153,7 +158,8 @@ Screen_base As screen:
                                             (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
                                             (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                                             ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
-                                            ('Nombre del Colaborador' = Legal.Selected.Name)
+                                            ('Nombre del Colaborador' = Legal.Selected.Name || Legal.Selected.Name = Blank()) &&
+                                            (Año = Buscar_Año.Selected.Value || Buscar_Año.Selected.Value =Blank())
                                         )
                                     ),
                                     If(
@@ -166,7 +172,8 @@ Screen_base As screen:
                                                 (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
                                                 (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                                                 ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
-                                                ('Nombre del Colaborador' = Desarrollo.Selected.Name || Desarrollo.Selected.Name = Blank())
+                                                ('Nombre del Colaborador' = Desarrollo.Selected.Name || Desarrollo.Selected.Name = Blank()) &&
+                                                (Año = Buscar_Año.Selected.Value || Buscar_Año.Selected.Value =Blank())
                                             )
                                         ),
                                         If(
@@ -177,6 +184,8 @@ Screen_base As screen:
                                                 VarAdmi = "Programador",
                                                 true,
                                                 VarAdmi = "Contador",
+                                                true,
+                                                VarAdmi = "Lider Programador",
                                                 true
                                             ),
                                             Filter(
@@ -184,14 +193,15 @@ Screen_base As screen:
                                                 (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
                                                 (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                                                 ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
-                                                ('Nombre del Colaborador' = ComboBox1_3.Selected.Name || ComboBox1_3.Selected.Name = Blank())
+                                                ('Nombre del Colaborador' = ComboBox1_3.Selected.Name || ComboBox1_3.Selected.Name = Blank()) &&                                   (Año = Buscar_Año.Selected.Value || Buscar_Año.Selected.Value =Blank())
                                             ),
                                             Filter(
                                                 'Plantilla de Reembolsos de Gastos Final',
                                                 (Título = ComboBox1.Selected.Result || ComboBox1.Selected.Result = Blank()) &&
                                                 (Mes = ComboBox29.Selected.Value || ComboBox29.Selected.Value = Blank()) &&
                                                 ('No. De Reembolso' = ComboBox4.Selected.Result || ComboBox4.Selected.Result = Blank()) &&
-                                                ('Nombre del Colaborador' = Label15_1.Text)
+                                                ('Nombre del Colaborador' = Label15_1.Text) &&
+                                                (Año = Buscar_Año.Selected.Value || Buscar_Año.Selected.Value =Blank())
                                             )
                                         )
                                     )
@@ -791,6 +801,8 @@ Screen_base As screen:
                     User().Email = "uriel@CanopiaCarbon918.onmicrosoft.com",
                     true,
                     User().Email = "luis@canopiacarbon918.onmicrosoft.com",
+                    true,
+                    User().Email = "raul@canopiacarbon918.onmicrosoft.com",
                     true,
                     // Jefe (por correo electrónico)
                     User().Email = "joseluiscastronegrete@canopiacarbon918.onmicrosoft.com",
@@ -1647,13 +1659,17 @@ Screen_base As screen:
                 User().FullName = "Jaqueline Reyes",
                 true,
                 User().Email = "jaqueline@canopiacarbon918.onmicrosoft.com",
+                true,
+                User().Email = "raul@canopiacarbon918.onmicrosoft.com",
+                true,
+                User().FullName = "Raúl Nava",
                 true
             )
         X: =1223
         Y: =90
         ZIndex: =24
 
-    Año As combobox:
+    Buscar_Año As combobox:
         BorderColor: =RGBA(166, 166, 166, 1)
         ChevronBackground: =RGBA(255, 255, 255, 1)
         ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
@@ -1677,7 +1693,7 @@ Screen_base As screen:
         PressedColor: =RGBA(255, 255, 255, 1)
         PressedFill: =RGBA(73, 130, 5, 1)
         SearchFields: =["Value"]
-        SearchItems: =Search(["2023","2024","2025","2026","2027"],Año.SearchText,"Value")
+        SearchItems: =Search(["2023","2024","2025","2026","2027"],Buscar_Año.SearchText,"Value")
         SelectionFill: =RGBA(73, 130, 5, 1)
         Size: =13
         Width: =140

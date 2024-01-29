@@ -113,10 +113,16 @@ Inicio As screen:
         Size: =15
         Text: ="Base de Datos"
         Visible: |-
-            =Switch(true,
-            VarAdmi = "Jefe", true,
-            VarAdmi = "Programador", true,
-            VarAdmi = "Contador", true
+            =Switch(
+                true,
+                VarAdmi = "Jefe",
+                true,
+                VarAdmi = "Programador",
+                true,
+                VarAdmi = "Contador",
+                true,
+                VarAdmi = "Lider Programador",
+                true
             )
             /*Switch(true,
             VarUsuario = "SOEL", true,
@@ -143,10 +149,16 @@ Inicio As screen:
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedFill: =RGBA(0, 0, 0, 0)
         Visible: |-
-            =Switch(true,
-            VarAdmi = "Jefe", true,
-            VarAdmi = "Programador", true,
-            VarAdmi = "Contador", true
+            =Switch(
+                true,
+                VarAdmi = "Jefe",
+                true,
+                VarAdmi = "Programador",
+                true,
+                VarAdmi = "Contador",
+                true,
+                VarAdmi = "Lider Programador",
+                true
             )
         Width: =50
         X: =909
@@ -471,10 +483,16 @@ Inicio As screen:
         Size: =13
         Text: ="Carga y edición de todas las bases de datos de la plantilla (EJIDOS con ERPA, Cuentas Capex/Opex y Cuentas Gastos Generales)"
         Visible: |-
-            =Switch(true,
-            VarAdmi = "Jefe", true,
-            VarAdmi = "Programador", true,
-            VarAdmi = "Contador", true
+            =Switch(
+                true,
+                VarAdmi = "Jefe",
+                true,
+                VarAdmi = "Programador",
+                true,
+                VarAdmi = "Contador",
+                true,
+                VarAdmi = "Lider Programador",
+                true
             )
         Width: =299
         X: =1049

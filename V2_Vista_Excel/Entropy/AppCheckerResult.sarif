@@ -37098,19 +37098,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen_base.Año.AccessibleLabel"
+                  "fullyQualifiedName": "Screen_base.Buscar_Año.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen_base.Año.AccessibleLabel",
+                  "fullyQualifiedName": "Screen_base.Buscar_Año.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Screen_base",
-                "type": "Screen_base.Año"
+                "type": "Screen_base.Buscar_Año"
               }
             }
           ],
