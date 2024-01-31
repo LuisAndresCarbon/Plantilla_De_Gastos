@@ -18,193 +18,236 @@ App As appinfo:
             {
                 ID:0,
                 Name:"Adolfo Mendez",
-                Area: "Programador"
+                Area: "Programador",
+                Correo: "adolfo@canopiacarbon.com"
             },
             {
                 ID:1,
                 Name:"Adrian Morales",
-                Area: "Desarrollo"
+                Area: "Desarrollo",
+                Correo: "adrian@canopiacarbon.com"
             },
             {
                 ID:2,
                 Name:"Alejandra Aguillon",
-                Area:"Originacion"
+                Area:"Originacion",
+                Correo: "alejandra@canopiacarbon.com"
              }, 
              {
                 ID:3,
-                Name:"Ana Ruth", 
-                Area:"Operaciones"
+                Name:"Ana Ponce", 
+                Area:"Operaciones",
+                Correo: "ana@canopiacarbon.com"
              },
              {
                 ID:4,
                 Name:"Andres Sierra",
-                Area:"Desarrollo"
+                Area:"Desarrollo",
+                Correo: "andres@canopiacarbon.com"
              },
              {
                 ID:5,
                 Name:"Carlos Avila",
-                Area:"Contador"
+                Area:"Contador",
+                Correo: "carlos@canopiacarbon.com"
              },
              {
                 ID:6,
                 Name:"Carolina Martinez",
-                Area:"Salvaguardas"
+                Area:"Salvaguardas",
+                Correo: "carolina@canopiacarbon.com"
              },
              {
                 ID:7,
                 Name:"Cesar Gonzalez",
-                Area:"Desarrollo"
+                Area:"Desarrollo",
+                Correo: "cesar@canopiacarbon.com"
              },
              {
                 ID:8,
                 Name:"Cristina Pech",
-                Area:"Originacion"
+                Area:"Originacion",
+                Correo: "cristina@canopiacarbon.com"
              },
              {
                 ID:9,
                 Name:"Daniel Garcia",
-                Area:"Legal"
+                Area:"Legal",
+                Correo: "daniel@canopiacarbon.com"
              },
              {
                 ID:10,
                 Name:"Daniel Matias",
-                Area:"Legal"
+                Area:"Legal",
+                Correo: "danielm@canopiacarbon.com"
              },
              {
                 ID:11,
-                Name:"Diana Laura Jimenez",
-                Area:"SIG"
+                Name:"Diana Jimenez",
+                Area:"SIG",
+                Correo: "diana@canopiacarbon.com"
              },
              {
                 ID:12,
                 Name:"Dinosca Rondon",
-                Area:"Gerente MRV"
+                Area:"Gerente MRV",
+                Correo: "dinosca@canopiacarbon.com"
              },
              {
                 ID:13,
                 Name:"Egle May",
-                Area:"Desarrollo"
+                Area:"Desarrollo",
+                Correo: "egle@canopiacarbon.com"
              }, 
              {
                 ID:14,
                 Name:"Ivan", 
-                Area:"Programador"
+                Area:"Programador",
+                Correo: "ivan@canopiacarbon.com"
              },
              {
                 ID:15,
-                Name:"Jaqueline Reyes Garcia",
-                Area:"Contador"
+                Name:"Jaqueline Reyes",
+                Area:"Contador",
+                Correo: "jaqueline@canopiacarbon.com"
              },
              {
                 ID:16,
                 Name:"Jose Luis Castro Negrete", 
-                Area:"Jefe"
+                Area:"Jefe",
+                Correo:"jose@canopiacarbon.com"
              },
              {
                 ID:17,
-                Name:"Leonardo Sanchez",
-                Area:"MRV"
+                Name:"Jose Pablo Salas Soto",
+                Area:"Salvaguardas",
+                Correo: "pablo@canopiacarbon.com"
              },
              {
                 ID:18,
-                Name:"Lizette Hernandez",
-                Area:"Gerente Legal"
+                Name:"Leonardo Sanchez",
+                Area:"MRV",
+                Correo: "leonardo@canopiacarbon.com"
              },
              {
                 ID:19,
-                Name:"Lorena Salas",
-                Area:"MRV"
+                Name:"Lizette Hernandez",
+                Area:"Gerente Legal",
+                Correo: "lizette@canopiacarbon.com"
              },
              {
                 ID:20,
-                Name:"Lourdes Maldonado",
-                Area:"Gerente Desarrollo"
+                Name:"Lorena Salas",
+                Area:"MRV",
+                Correo: "lorena@canopiacarbon.com"
              },
              {
                 ID:21,
-                Name:"Luis Morales",
-                Area:"Programador"
+                Name:"Lourdes Maldonado",
+                Area:"Gerente Desarrollo",
+                Correo: "lourdes@canopiacarbon.com"
              },
              {
                 ID:22,
-                Name:"Luisa Ortiz",
-                Area:"Legal"
+                Name:"Luis Morales",
+                Area:"Programador",
+                Correo: "luis@canopiacarbon.com"
              },
              {
                 ID:23,
-                Name:"Mario Ubaldo",
-                Area:"Desarrollo"
+                Name:"Luisa Ortiz",
+                Area:"Legal",
+                Correo: "luisa@canopiacarbon.com"
              },
              {
                 ID:24,
-                Name:"Miguel Angel Garcia", 
-                Area:"Gerente Originacion GeoV"
+                Name:"Mario Ubaldo",
+                Area:"Desarrollo",
+                Correo: "mario@canopiacarbon.com"
              },
              {
                 ID:25,
-                Name:"Miguel Pichardo",
-                Area:"Contador"
+                Name:"Miguel Angel Garcia", 
+                Area:"Gerente Originacion",
+                Correo: "miguel@canopiacarbon.com"
              },
              {
                 ID:26,
-                Name:"Monica Velasco",
-                Area:"Alianza estratégica"
+                Name:"Miguel Pichardo",
+                Area:"Contador",
+                Correo: "miguelp@canopiacarbon.com"
              },
              {
                 ID:27,
-                Name:"Montserrat Ramos",
-                Area:"Desarrollo"
+                Name:"Monica Velasco",
+                Area:"Alianza estratégica",
+                Correo: "monicav@canopiacarbon.com"
              },
              {
                 ID:28,
-                Name:"Orlando Rojas Santoyo",
-                Area:"Gerente Operaciones"
+                Name:"Montserrat Ramos",
+                Area:"Desarrollo",
+                Correo: "montserrat@canopiacarbon.com"
              },
              {
                 ID:29,
-                Name:"Othón Morgado",
-                Area:"MRV"
+                Name:"Orlando Rojas Santoyo",
+                Area:"Gerente Operaciones",
+                Correo: "orlando@canopiacarbon.com"
              },
              {
                 ID:30,
-                Name:"Raúl Nava",
-                Area:"Gerente Programador"
+                Name:"Othón Morgado",
+                Area:"MRV",
+                Correo: "othon@canopiacarbon.com"
              },
              {
                 ID:31,
-                Name:"Ricardo Hidalgo Rodriguez",
-                Area:"SIG"
+                Name:"Raúl Nava",
+                Area:"Gerente Programador",
+                Correo: "raul@canopiacarbon.com"
              },
              {
                 ID:32,
-                Name:"Roberto May",
-                Area:"Legal"
+                Name:"Ricardo Hidalgo Rodriguez",
+                Area:"SIG",
+                Correo: "ricardo@canopiacarbon.com"
              },
              {
                 ID:33,
-                Name:"Roberto Vallejo",
-                Area:"Gerente Originacion"
+                Name:"Roberto May",
+                Area:"Legal",
+                Correo: "robertom@canopiacarbon.com"
              },
              {
                 ID:34,
-                Name:"Rosalba Diaz",
-                Area:"Originacion"
+                Name:"Roberto Vallejo",
+                Area:"Gerente Originacion",
+                Correo: "roberto@canopiacarbon.com"
              },
              {
                 ID:35,
-                Name:"Santiago Mora",
-                Area:"Gerente SIG"
+                Name:"Rosalba Diaz",
+                Area:"Originacion",
+                Correo: "rosalba@canopiacarbon.com"
              },
              {
                 ID:36,
+                Name:"Santiago Mora",
+                Area:"Gerente SIG",
+                Correo: "santiago@canopiacarbon.com"
+             },
+             {
+                ID:37,
                 Name:"Uriel Zavala",
                 Area:"Programador",
                 Correo:"uriel@canopiacarbon.com"
              },
              {
-                ID:37,
+                ID:38,
                 Name:"Yenisey Reyes",
-                Area:"Operaciones"
+                Area:"Operaciones",
+                Correo: "yenisey@canopiacarbon.com"
              }
         )
     Theme: =PowerAppsTheme
