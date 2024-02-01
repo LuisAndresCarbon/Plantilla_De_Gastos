@@ -222,7 +222,7 @@
       "MetaDataIDKey": "",
       "Name": "Aggregation ID_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1000,7 +1000,7 @@
       "MetaDataIDKey": "",
       "Name": "Autorización Finanzas_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 34,
+      "ParentIndex": 30,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1094,7 +1094,7 @@
       "MetaDataIDKey": "",
       "Name": "Autorización Gerente_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 32,
+      "ParentIndex": 29,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3553,7 +3553,7 @@
       "MetaDataIDKey": "",
       "Name": "Clasificación Viáticos_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 14,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6720,7 +6720,7 @@
       "MetaDataIDKey": "",
       "Name": "Comentario Gerente_Columna2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 33,
+      "ParentIndex": 34,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6814,7 +6814,7 @@
       "MetaDataIDKey": "",
       "Name": "Comentarios_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 35,
+      "ParentIndex": 28,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6908,7 +6908,7 @@
       "MetaDataIDKey": "",
       "Name": "Concepto (Ejido: CAPEX / OPEX)_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 8,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7176,7 +7176,7 @@
       "MetaDataIDKey": "",
       "Name": "Concepto (gastos generales)_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 11,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9824,7 +9824,7 @@
       "MetaDataIDKey": "",
       "Name": "Cta (Ejido: CAPEX/ OPEX)_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 9,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10092,7 +10092,7 @@
       "MetaDataIDKey": "",
       "Name": "Cta (gastos generales)_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 12,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10360,7 +10360,7 @@
       "MetaDataIDKey": "",
       "Name": "Cta. Contpaq (Ejido: CAPEX / OPEX)_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 10,
+      "ParentIndex": 31,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10628,7 +10628,7 @@
       "MetaDataIDKey": "",
       "Name": "CtaCompaq (gastos generales)_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 13,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -40347,7 +40347,7 @@
       "MetaDataIDKey": "",
       "Name": "Detalle de gastos_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 15,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -40609,7 +40609,7 @@
       "MetaDataIDKey": "",
       "Name": "Divisa_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 22,
+      "ParentIndex": 19,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -54244,7 +54244,7 @@
       "MetaDataIDKey": "",
       "Name": "Facturado a:_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 32,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -54512,7 +54512,7 @@
       "MetaDataIDKey": "",
       "Name": "Fecha Doc._Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -58342,7 +58342,7 @@
       "MetaDataIDKey": "",
       "Name": "IEPS_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 26,
+      "ParentIndex": 33,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -58597,7 +58597,7 @@
       "MetaDataIDKey": "",
       "Name": "IESP (Prorrateo Factura)_Columna2",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 19,
+      "ParentIndex": 35,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -58901,7 +58901,7 @@
       "MetaDataIDKey": "",
       "Name": "Importe (Detalle Monto Factura)_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 23,
+      "ParentIndex": 20,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -59156,7 +59156,7 @@
       "MetaDataIDKey": "",
       "Name": "Importe (Prorrateo Factura)_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 16,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -59418,7 +59418,7 @@
       "MetaDataIDKey": "",
       "Name": "Importe Prorrateo Factura_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 21,
+      "ParentIndex": 18,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -59673,7 +59673,7 @@
       "MetaDataIDKey": "",
       "Name": "ISH (Detalle Monto Factura)_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 25,
+      "ParentIndex": 22,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -59928,7 +59928,7 @@
       "MetaDataIDKey": "",
       "Name": "ISH (Prorrateo Factura)_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 18,
+      "ParentIndex": 16,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -60183,7 +60183,7 @@
       "MetaDataIDKey": "",
       "Name": "IVA (Detalle Monto Factura)_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 24,
+      "ParentIndex": 21,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -60438,7 +60438,7 @@
       "MetaDataIDKey": "",
       "Name": "IVA (Prorrateo Factura)_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 17,
+      "ParentIndex": 15,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -77260,7 +77260,7 @@
       "MetaDataIDKey": "",
       "Name": "Mercuria Cycle_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -77897,7 +77897,7 @@
       "MetaDataIDKey": "",
       "Name": "No. Consecutivo de Recibo_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -78152,7 +78152,7 @@
       "MetaDataIDKey": "",
       "Name": "No. De Factura / CFDI: Folio Fiscal_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -79434,7 +79434,7 @@
       "MetaDataIDKey": "",
       "Name": "Project ID_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -79689,7 +79689,7 @@
       "MetaDataIDKey": "",
       "Name": "Project Name_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 7,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -80710,7 +80710,7 @@
       "MetaDataIDKey": "",
       "Name": "Ret ISR (Prorrateo Factura)_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 20,
+      "ParentIndex": 17,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -80965,7 +80965,7 @@
       "MetaDataIDKey": "",
       "Name": "Ret IVA (Detalle Monto Factura)_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 27,
+      "ParentIndex": 23,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -81220,7 +81220,7 @@
       "MetaDataIDKey": "",
       "Name": "Ret. ISR (Detalle Monto Factura)_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 28,
+      "ParentIndex": 24,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -94653,7 +94653,7 @@
       "MetaDataIDKey": "",
       "Name": "Tipo  de cambio_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 30,
+      "ParentIndex": 26,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -95321,7 +95321,7 @@
       "MetaDataIDKey": "",
       "Name": "Total (Detalle Monto Factura)_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 29,
+      "ParentIndex": 25,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -95576,7 +95576,7 @@
       "MetaDataIDKey": "",
       "Name": "Total (MXN)_Columna1_1",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 31,
+      "ParentIndex": 27,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

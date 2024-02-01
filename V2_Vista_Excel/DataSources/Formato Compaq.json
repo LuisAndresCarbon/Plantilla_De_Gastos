@@ -3,7 +3,7 @@
     "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
     "CdpRevision": {
       "BaseUrl": "/",
-      "LastChangedTimeString": "2023-09-25T18:17:57.4430000Z",
+      "LastChangedTimeString": "2024-01-31T18:23:53.1340000Z",
       "RevisionNumber": 1
     },
     "ConnectedDataSourceInfoNameMapping": {
@@ -23,6 +23,7 @@
       "{TriggerWindowEndToken}": "Token de fin de ventana de desencadenador",
       "{TriggerWindowStartToken}": "Token de inicio de ventana de desencadenador",
       "{VersionNumber}": "Número de versión",
+      "A_x00f1_o": "Año",
       "Ajuste": "Ajuste",
       "Author": "Creado por",
       "Author#Claims": "Creado por Claims",
