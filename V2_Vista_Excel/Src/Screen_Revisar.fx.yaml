@@ -37967,7 +37967,6 @@ Screen_Revisar As screen:
             RadiusTopRight: =0
             Size: =15
             Text: ="Reportar IEPS"
-            Visible: =Switch(DC,"IEPS", true,false)
             X: =983
             Y: =692
             ZIndex: =31
