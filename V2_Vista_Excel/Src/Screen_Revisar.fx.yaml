@@ -5533,14 +5533,10 @@ Screen_Revisar As screen:
             =If(
                 !IsBlank(DataCardValue134.Text),
                 // Si hay un comentario en el formulario
-                Set(
-                    destinoCorreo,
-                    LookUp(Nombres_todos, Name = DataCardValue54.Text, Correo)
-                ),
-            
+                Set(destinoCorreo, LookUp(Nombres_todos, Name = DataCardValue54.Text).Correo),
                 If(
                     !IsBlank(destinoCorreo),
-                    // Si hay un correo de destino válido, enviar el correo
+                    // Si hay un correo de destino válido; enviar el correo
                     Office365Outlook.SendEmailV2(
                         destinoCorreo,
                         "Corregir plantilla",
@@ -5555,22 +5551,27 @@ Screen_Revisar As screen:
                     )
                 )
             );
+            
             // Realizar acciones de formulario de revisión
             Navigate(Screen_base, ScreenTransition.CoverRight);
             SubmitForm(Form_revisión);
             NewForm(Form_revisión);
             
             // Notificar al usuario
-            Notify(
-                If(
-                    !IsBlank(DataCardValue134.Text),
-                    // Si hay un comentario en el formulario
+            If(
+                !IsBlank(DataCardValue134.Text),
+                // Si hay un comentario en el formulario
+                Notify(
                     "Se mandaron tus comentarios para modificación",
-                    // Si no hay comentario en el formulario
-                    "Gracias por revisar la factura"
+                    NotificationType.Success,
+                    4000
                 ),
-                NotificationType.Success,
-                4000
+                // Si no hay comentario en el formulario
+                Notify(
+                    "Gracias por revisar la factura",
+                    NotificationType.Success,
+                    4000
+                )
             )
         PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
@@ -5582,7 +5583,7 @@ Screen_Revisar As screen:
         Size: =15
         Text: ="Finalizar "
         X: =1165
-        Y: =692
+        Y: =694
         ZIndex: =8
 
     Dropdown3 As dropdown:
