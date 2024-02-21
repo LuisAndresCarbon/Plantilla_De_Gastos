@@ -248,6 +248,12 @@ App As appinfo:
                 Name:"Yenisey Reyes",
                 Area:"Operaciones",
                 Correo: "yenisey@canopiacarbon.com"
+             },
+              {
+                ID:39,
+                Name:"Antonio Lopez",
+                Area:"Gerente Originacion",
+                Correo: "antonio@canopiacarbon.com"
              }
         )
     Theme: =PowerAppsTheme
