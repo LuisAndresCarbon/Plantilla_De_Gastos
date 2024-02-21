@@ -5,7 +5,7 @@
       "DataflowAnalysisEnabled": false,
       "DataflowAnalysisFlagStateToggledByUser": false
     },
-    "DocVersion": "1.336",
+    "DocVersion": "1.337",
     "MinVersionToLoad": "1.331",
     "MSAppStructureVersion": "2.0"
   },
@@ -77,7 +77,7 @@
       "pdffunction": false,
       "powerfxdecimal": false,
       "powerfxv1": false,
-      "primaryoutputpropertycoerciondeprecated": false,
+      "primaryoutputpropertycoerciondeprecated": true,
       "projectionmapping": true,
       "reactformulabar": false,
       "reliableconcurrent": true,
@@ -115,7 +115,7 @@
     "FileID": "43778113-39ff-4de0-a202-48190a2445a8",
     "Id": "43778113-39ff-4de0-a202-48190a2445a8",
     "InstrumentationKey": "",
-    "LocalDatabaseReferences": "{}",
+    "LocalDatabaseReferences": "",
     "ManualOfflineProfileId": "",
     "Name": "Plantilla de Reembolso",
     "OriginatingVersion": "1.331",

@@ -6,7 +6,7 @@ Screen_Pago_Directo_Excel As screen:
         Fill: =RGBA(255, 255, 255, 1)
         Height: =209
         HtmlText: |-
-            =Concatenate("Estoy solicitando un </font></b>","<b><font color=blue>", Label161_5,"</font></b><br>","<b>No. Reembolso: </b>",Dropdown7_4.Selected.Value,"<br><b>Mes:</b> ",Dropdown8_4.Selected.Value,"<br><b>Destino:</b> ",ComboBox21_4.Selected.Value,"<br><b>Proposito:</b> ",TextInput19_4,"<br><b>Anticipo: $</b> ",Text(Value(TextInput18_4.Text),"[$-en-US]0,0.00"),"<br><b>Cantidad:</b> ","$ ",Text(Value(Text(Label56_14)),"[$-en-US]0,0.00"),"<br><b>Solicitado por:</b> ",Label163_5)
+            =Concatenate("Estoy solicitando un </font></b>","<b><font color=blue>", Label161_5.Text,"</font></b><br>","<b>No. Reembolso: </b>",Dropdown7_4.Selected.Value,"<br><b>Mes:</b> ",Dropdown8_4.Selected.Value,"<br><b>Destino:</b> ",ComboBox21_4.Selected.Value,"<br><b>Proposito:</b> ",TextInput19_4.Text,"<br><b>Anticipo: $</b> ",Text(Value(TextInput18_4.Text),"[$-en-US]0,0.00"),"<br><b>Cantidad:</b> ","$ ",Text(Value(Text(Label56_14.Text)),"[$-en-US]0,0.00"),"<br><b>Solicitado por:</b> ",Label163_5.Text)
         Visible: =false
         Width: =442
         X: =924
@@ -467,7 +467,7 @@ Screen_Pago_Directo_Excel As screen:
             FontWeight: =FontWeight.Bold
             Size: =15
             Text: |-
-                ="Devolución: $" & Text(Sum(TextInput18_4.Text - Label56_14),"[$-en-US]0,0.00")
+                ="Devolución: $" & Text(Sum(TextInput18_4.Text - Label56_14.Text),"[$-en-US]0,0.00")
             Width: =Parent.Width
             Y: =184
             ZIndex: =3
@@ -618,7 +618,7 @@ Screen_Pago_Directo_Excel As screen:
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         Size: =13
-        Text: =LookUp(Col_Notificar,true).Anticipo
+        Text: =LookUp(Col_Notificar,true).Anticipo.Text
         X: =116
         Y: =104
         ZIndex: =8
@@ -1639,7 +1639,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Label161_5
+                Default: =Label161_5.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1871,7 +1871,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Label163_5
+                Default: =Label163_5.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1987,7 +1987,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =DatePicker5_9
+                Default: =DatePicker5_9.SelectedDate
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -2602,7 +2602,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =TextInput19_4
+                Default: =TextInput19_4.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -2718,7 +2718,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =TextInput18_4
+                Default: =TextInput18_4.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -5640,7 +5640,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =DataCardValue217_6 + DataCardValue218_6 + DataCardValue219_6 + DataCardValue225_6 - DataCardValue220_6 - DataCardValue221_6
+                Default: =DataCardValue217_6.Text + DataCardValue218_6.Text + DataCardValue219_6.Text + DataCardValue225_6.Text - DataCardValue220_6.Text - DataCardValue221_6.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -5870,7 +5870,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =DataCardValue222_6 * DataCardValue223_6
+                Default: =DataCardValue222_6.Text * DataCardValue223_6.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -6229,7 +6229,7 @@ Screen_Pago_Directo_Excel As screen:
                 Font: =Font.'Segoe UI'
                 Size: =13
                 Text: |-
-                    =Value(Text(TextInput17_6)/100)
+                    =Value(Text(TextInput17_6.Text)/100)
                     //Value(Text(TextInput2)/100)
                 Visible: =false
                 X: =222
@@ -6279,7 +6279,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
                 Default: |-
-                    =Text(DataCardValue217_6 * Label172_12)
+                    =Text(DataCardValue217_6.Text * Label172_12.Text)
                     //Text(Value(Label59.Text) * Label50)
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -6396,7 +6396,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Text(DataCardValue218_6 * Label172_12)
+                Default: =Text(DataCardValue218_6.Text * Label172_12.Text)
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -6512,7 +6512,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Text(DataCardValue219_6 * Label172_12)
+                Default: =Text(DataCardValue219_6.Text * Label172_12.Text)
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -6628,7 +6628,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Text(DataCardValue225_6 * Label172_9)
+                Default: =Text(DataCardValue225_6.Text * Label172_9.Text)
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -6744,7 +6744,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Text(DataCardValue221_6 * Label172_12)
+                Default: =Text(DataCardValue221_6.Text * Label172_12.Text)
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -6860,7 +6860,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =DataCardValue227_6 + DataCardValue228_6 + DataCardValue229_6 + DataCardValue230_6
+                Default: =DataCardValue227_6.Text + DataCardValue228_6.Text + DataCardValue229_6.Text + DataCardValue230_6.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -8158,7 +8158,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Label161_5
+                Default: =Label161_5.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -8390,7 +8390,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Label163_5
+                Default: =Label163_5.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -8506,7 +8506,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =DatePicker5_10
+                Default: =DatePicker5_10.SelectedDate
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -9121,7 +9121,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =TextInput19_4
+                Default: =TextInput19_4.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -9237,7 +9237,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =TextInput18_4
+                Default: =TextInput18_4.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -12161,7 +12161,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =DataCardValue217_8 + DataCardValue218_8 + DataCardValue219_8 + DataCardValue225_8 - DataCardValue220_8 - DataCardValue221_8
+                Default: =DataCardValue217_8.Text + DataCardValue218_8.Text + DataCardValue219_8.Text + DataCardValue225_8.Text - DataCardValue220_8.Text - DataCardValue221_8.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -12391,7 +12391,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =DataCardValue222_8 * DataCardValue223_8
+                Default: =DataCardValue222_8.Text * DataCardValue223_8.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -12750,7 +12750,7 @@ Screen_Pago_Directo_Excel As screen:
                 Font: =Font.'Segoe UI'
                 Size: =13
                 Text: |-
-                    =Value(Text(TextInput17_8)/100)
+                    =Value(Text(TextInput17_8.Text)/100)
                     //Value(Text(TextInput2)/100)
                 Visible: =false
                 X: =222
@@ -12800,7 +12800,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
                 Default: |-
-                    =Text(DataCardValue217_8 * Label172_16)
+                    =Text(DataCardValue217_8.Text * Label172_16.Text)
                     //Text(Value(Label59.Text) * Label50)
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -12917,7 +12917,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Text(DataCardValue218_8 * Label172_16)
+                Default: =Text(DataCardValue218_8.Text * Label172_16.Text)
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -13033,7 +13033,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Text(DataCardValue219_8 * Label172_16)
+                Default: =Text(DataCardValue219_8.Text * Label172_16.Text)
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -13149,7 +13149,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Text(DataCardValue225_8 * Label172_16)
+                Default: =Text(DataCardValue225_8.Text * Label172_16.Text)
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -13265,7 +13265,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Text(DataCardValue221_8 * Label172_16)
+                Default: =Text(DataCardValue221_8.Text * Label172_16.Text)
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -13381,7 +13381,7 @@ Screen_Pago_Directo_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =DataCardValue227_8 + DataCardValue228_8 + DataCardValue229_8 + DataCardValue254_1 - DataCardValue230_8
+                Default: =DataCardValue227_8.Text + DataCardValue228_8.Text + DataCardValue229_8.Text + DataCardValue254_1.Text - DataCardValue230_8.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)

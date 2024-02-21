@@ -456,7 +456,7 @@ Screen_Reembolso_Excel As screen:
             FontWeight: =FontWeight.Bold
             Size: =15
             Text: |-
-                ="Devolución: $" & Text(Sum(TextInput18.Text - Label56_6),"[$-en-US]0,0.00")
+                ="Devolución: $" & Text(Sum(TextInput18.Text - Label56_6.Text),"[$-en-US]0,0.00")
             Width: =Parent.Width
             Y: =184
             ZIndex: =3
@@ -559,7 +559,7 @@ Screen_Reembolso_Excel As screen:
     HtmlText1_2 As htmlViewer:
         Height: =209
         HtmlText: |-
-            =Concatenate("Estoy solicitando un </font></b>","<b><font color=blue>", Label161_1,"</font></b><br>","<b>No. Reembolso: </b>",Dropdown7.Selected.Value,"<br><b>Mes:</b> ",Dropdown8.Selected.Value,"<br><b>Destino:</b> ",ComboBox21.Selected.Value,"<br><b>Proposito:</b> ",TextInput19,"<br><b>Anticipo: $</b> ",Text(Value(TextInput18.Text),"[$-en-US]0,0.00"),"<br><b>Cantidad:</b> ","$ ",Text(Value(Text(Label56_6)),"[$-en-US]0,0.00"),"<br><b>Solicitado por:</b> ",Label163_1)
+            =Concatenate("Estoy solicitando un </font></b>","<b><font color=blue>", Label161_1.Text,"</font></b><br>","<b>No. Reembolso: </b>",Dropdown7.Selected.Value,"<br><b>Mes:</b> ",Dropdown8.Selected.Value,"<br><b>Destino:</b> ",ComboBox21.Selected.Value,"<br><b>Proposito:</b> ",TextInput19.Text,"<br><b>Anticipo: $</b> ",Text(Value(TextInput18.Text),"[$-en-US]0,0.00"),"<br><b>Cantidad:</b> ","$ ",Text(Value(Text(Label56_6.Text)),"[$-en-US]0,0.00"),"<br><b>Solicitado por:</b> ",Label163_1.Text)
         Visible: =false
         Width: =442
         X: =924
@@ -617,7 +617,7 @@ Screen_Reembolso_Excel As screen:
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         Size: =13
-        Text: =LookUp(Col_Notificar,true).Anticipo
+        Text: =LookUp(Col_Notificar,true).Anticipo.Text
         X: =116
         Y: =104
         ZIndex: =8
@@ -1631,7 +1631,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Label161_1
+                Default: =Label161_1.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1863,7 +1863,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Label163_1
+                Default: =Label163_1.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -1979,7 +1979,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =DatePicker5_2
+                Default: =DatePicker5_2.SelectedDate
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -2594,7 +2594,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =TextInput19
+                Default: =TextInput19.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -2710,7 +2710,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =TextInput18
+                Default: =TextInput18.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -5632,7 +5632,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =DataCardValue217_2 + DataCardValue218_2 + DataCardValue219_2 + DataCardValue225_2 - DataCardValue220_2 - DataCardValue221_2
+                Default: =DataCardValue217_2.Text + DataCardValue218_2.Text + DataCardValue219_2.Text + DataCardValue225_2.Text - DataCardValue220_2.Text - DataCardValue221_2.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -5862,7 +5862,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =DataCardValue222_2 * DataCardValue223_2
+                Default: =DataCardValue222_2.Text * DataCardValue223_2.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -6221,7 +6221,7 @@ Screen_Reembolso_Excel As screen:
                 Font: =Font.'Segoe UI'
                 Size: =13
                 Text: |-
-                    =Value(Text(TextInput17_2)/100)
+                    =Value(Text(TextInput17_2.Text)/100)
                     //Value(Text(TextInput2)/100)
                 Visible: =false
                 X: =222
@@ -6271,7 +6271,7 @@ Screen_Reembolso_Excel As screen:
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
                 Default: |-
-                    =Text(DataCardValue217_2 * Label172_2)
+                    =Text(DataCardValue217_2.Text * Label172_2.Text)
                     //Text(Value(Label59.Text) * Label50)
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -6390,7 +6390,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Text(DataCardValue218_2 * Label172_2)
+                Default: =Text(DataCardValue218_2.Text * Label172_2.Text)
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -6506,7 +6506,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Text(DataCardValue219_2 * Label172_2)
+                Default: =Text(DataCardValue219_2.Text * Label172_2.Text)
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -6622,7 +6622,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Text(DataCardValue221_2 * Label172_2)
+                Default: =Text(DataCardValue221_2.Text * Label172_2.Text)
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -6738,7 +6738,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =DataCardValue227_2 + DataCardValue228_2 + DataCardValue229_2 + DataCardValue230_2
+                Default: =DataCardValue227_2.Text + DataCardValue228_2.Text + DataCardValue229_2.Text + DataCardValue230_2.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -7265,7 +7265,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Label161_1
+                Default: =Label161_1.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -7497,7 +7497,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Label163_1
+                Default: =Label163_1.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -7613,7 +7613,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =DatePicker5_4
+                Default: =DatePicker5_4.SelectedDate
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -8228,7 +8228,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =TextInput19
+                Default: =TextInput19.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -8344,7 +8344,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =TextInput18
+                Default: =TextInput18.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -11268,7 +11268,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =DataCardValue217_7 + DataCardValue218_7 + DataCardValue219_7 + DataCardValue225_7 - DataCardValue220_7 - DataCardValue221_7
+                Default: =DataCardValue217_7.Text + DataCardValue218_7.Text + DataCardValue219_7.Text + DataCardValue225_7.Text - DataCardValue220_7.Text - DataCardValue221_7.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -11498,7 +11498,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =DataCardValue222_7 * DataCardValue223_7
+                Default: =DataCardValue222_7.Text * DataCardValue223_7.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -11857,7 +11857,7 @@ Screen_Reembolso_Excel As screen:
                 Font: =Font.'Segoe UI'
                 Size: =13
                 Text: |-
-                    =Value(Text(TextInput17_7)/100)
+                    =Value(Text(TextInput17_7.Text)/100)
                     //Value(Text(TextInput2)/100)
                 Visible: =false
                 X: =222
@@ -11907,7 +11907,7 @@ Screen_Reembolso_Excel As screen:
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
                 Default: |-
-                    =Text(DataCardValue217_7 * Label172_15)
+                    =Text(DataCardValue217_7.Text * Label172_15.Text)
                     //Text(Value(Label59.Text) * Label50)
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -12024,7 +12024,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Text(DataCardValue218_7 * Label172_15)
+                Default: =Text(DataCardValue218_7.Text * Label172_15.Text)
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -12140,7 +12140,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Text(DataCardValue219_7 * Label172_15)
+                Default: =Text(DataCardValue219_7.Text * Label172_15.Text)
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -12255,7 +12255,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Text(DataCardValue225_7 * Label172_15)
+                Default: =Text(DataCardValue225_7.Text * Label172_15.Text)
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -12371,7 +12371,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =Text(DataCardValue220_7 * Label172_15)
+                Default: =Text(DataCardValue220_7.Text * Label172_15.Text)
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)
@@ -12487,7 +12487,7 @@ Screen_Reembolso_Excel As screen:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 BorderThickness: =2
                 Color: =RGBA(51, 51, 51, 1)
-                Default: =DataCardValue227_7 + DataCardValue228_7 + DataCardValue229_7 + DataCardValue197 - DataCardValue230_7
+                Default: =DataCardValue227_7.Text + DataCardValue228_7.Text + DataCardValue229_7.Text + DataCardValue197.Text - DataCardValue230_7.Text
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
                 DisabledColor: =RGBA(166, 166, 166, 1)

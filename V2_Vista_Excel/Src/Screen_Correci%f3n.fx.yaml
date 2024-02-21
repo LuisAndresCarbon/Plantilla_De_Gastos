@@ -1773,9 +1773,9 @@ Screen_Correción As screen:
                 Color: =RGBA(51, 51, 51, 1)
                 Default: |-
                     =If(
-                        IsBlank(TextInput7),
+                        IsBlank(TextInput7.Text),
                         Var_Editar.'Importe (Detalle Monto Factura)',
-                        TextInput7
+                        TextInput7.Text
                     )
                     /*If(
                         IsBlank(Modificación),
@@ -1899,9 +1899,9 @@ Screen_Correción As screen:
                 Color: =RGBA(51, 51, 51, 1)
                 Default: |-
                     =If(
-                        IsBlank(TextInput7_1),
+                        IsBlank(TextInput7_1.Text),
                         Var_Editar.'IVA (Detalle Monto Factura)',
-                        TextInput7_1
+                        TextInput7_1.Text
                     )
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -2019,9 +2019,9 @@ Screen_Correción As screen:
                 Color: =RGBA(51, 51, 51, 1)
                 Default: |-
                     =If(
-                        IsBlank(TextInput7_2),
+                        IsBlank(TextInput7_2.Text),
                         Var_Editar.'ISH (Detalle Monto Factura)',
-                        TextInput7_2
+                        TextInput7_2.Text
                     )
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -2254,9 +2254,9 @@ Screen_Correción As screen:
                 Color: =RGBA(51, 51, 51, 1)
                 Default: |-
                     =If(
-                        IsBlank(TextInput7_3),
+                        IsBlank(TextInput7_3.Text),
                         Var_Editar.'Ret IVA (Detalle Monto Factura)',
-                        TextInput7_3
+                        TextInput7_3.Text
                     )
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -2374,9 +2374,9 @@ Screen_Correción As screen:
                 Color: =RGBA(51, 51, 51, 1)
                 Default: |-
                     =If(
-                        IsBlank(TextInput7_4),
+                        IsBlank(TextInput7_4.Text),
                         Var_Editar.'Ret. ISR (Detalle Monto Factura)',
-                        TextInput7_4
+                        TextInput7_4.Text
                     )
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -4931,7 +4931,7 @@ Screen_Correción As screen:
                 Default: |
                     =If(
                         !IsBlank(TextInput1.Text),
-                        Value(DataCardValue26.Text * Label100),
+                        Value(DataCardValue26.Text * Label100.Text),
                         Var_Editar.'IVA (Prorrateo Factura)'
                     )
                 DelayOutput: =true
@@ -5014,7 +5014,7 @@ Screen_Correción As screen:
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'],DataSourceInfo.DisplayName,"ISH_x0028_ProrrateoFactura_x0029")
             Fill: =RGBA(0, 0, 0, 0)
-            Height: =Value(DataCardValue29.Text * Label100)
+            Height: =Value(DataCardValue29.Text * Label100.Text)
             MaxLength: =DataSourceInfo([@'Plantilla de Reembolsos de Gastos Final'], DataSourceInfo.MaxLength, "ISH_x0028_ProrrateoFactura_x0029")
             Required: =false
             Update: =DataCardValue160.Text
@@ -5051,7 +5051,7 @@ Screen_Correción As screen:
                 Default: |
                     =If(
                         !IsBlank(TextInput1.Text),
-                        Value(DataCardValue29.Text * Label100),
+                        Value(DataCardValue29.Text * Label100.Text),
                         Var_Editar.'ISH (Prorrateo Factura)'
                     )
                 DelayOutput: =true
@@ -5291,7 +5291,7 @@ Screen_Correción As screen:
                 Default: |-
                     =If(
                         !IsBlank(TextInput1.Text),
-                        Value(DataCardValue33.Text * Label100),
+                        Value(DataCardValue33.Text * Label100.Text),
                         Var_Editar.'Ret ISR (Prorrateo Factura)'
                     )
                 DelayOutput: =true
@@ -6382,7 +6382,7 @@ Screen_Correción As screen:
         BorderColor: =RGBA(166, 166, 166, 1)
         BorderThickness: =2
         Color: =RGBA(51, 51, 51, 1)
-        Default: =TextInput7_5 * TextInput7_6
+        Default: =TextInput7_5.Text * TextInput7_6.Text
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
         DisabledColor: =RGBA(166, 166, 166, 1)
         DisabledFill: =RGBA(244, 244, 244, 1)

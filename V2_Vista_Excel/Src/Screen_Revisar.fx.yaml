@@ -5529,41 +5529,48 @@ Screen_Revisar As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(73, 130, 5, 1), -10%)
-        OnSelect: |-
+        OnSelect: |
             =If(
                 !IsBlank(DataCardValue134.Text),
-                Set(destinoCorreo, LookUp(Nombres_todos, Name = DataCardValue54.Text).Correo),
+                // Si hay un comentario en el formulario
+                Set(
+                    destinoCorreo,
+                    LookUp(Nombres_todos, Name = DataCardValue54.Text, Correo)
+                ),
+            
                 If(
                     !IsBlank(destinoCorreo),
+                    // Si hay un correo de destino válido, enviar el correo
                     Office365Outlook.SendEmailV2(
                         destinoCorreo,
                         "Corregir plantilla",
                         Notificación_revisar.HtmlText,
                         {Importance: "High"}
+                    ),
+                    // Notificar al usuario
+                    Notify(
+                        "Se mandaron tus comentarios para modificación",
+                        NotificationType.Success,
+                        4000
                     )
-                );
-                Navigate(
-                    Screen_base,
-                    ScreenTransition.CoverRight
-                );
-                SubmitForm(Form_revisión);
-                NewForm(Form_revisión);
-                Notify(
-                    "Se mandaron tus comentarios para modificación",
-                    NotificationType.Success,
-                    4000
-                ),
-                Navigate(
-                    Screen_base,
-                    ScreenTransition.CoverRight
-                );//Si no tiene comentario solamente hace la revisión
-                SubmitForm(Form_revisión);
-                NewForm(Form_revisión);
-                Notify(
-                    "Gracias por revisar la factura",
-                    NotificationType.Success,
-                    4000
                 )
+            );
+            // Realizar acciones de formulario de revisión
+            Navigate(Screen_base, ScreenTransition.CoverRight);
+            SubmitForm(Form_revisión);
+            NewForm(Form_revisión);
+            
+            // Notificar al usuario
+            Notify(
+                If(
+                    !IsBlank(DataCardValue134.Text),
+                    // Si hay un comentario en el formulario
+                    "Se mandaron tus comentarios para modificación",
+                    // Si no hay comentario en el formulario
+                    "Gracias por revisar la factura"
+                ),
+                NotificationType.Success,
+                4000
             )
         PressedBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -50%)
         PressedColor: =RGBA(255, 255, 255, 1)
